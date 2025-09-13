@@ -1,0 +1,21 @@
+id,question,answer,context,ref_page
+1,Quel était le nombre d'étudiants inscrits dans la région Vatovavy Fitovinany (privé) en 2022 ?,270,"[""Some retrieved context""]",13
+2,Quel est le pourcentage d'étudiants inscrits dans le domaine des sciences de l'ingénieur (SI) en 2022 ?,9%,"[""Some retrieved context""]",10
+3,Quel était le taux de réussite en Doctorat (PUBLIC) en 2018 ?,85%,"[""Some retrieved context""]",23
+4,Combien d'étudiants doctorants étaient inscrits à Fianarantsoa en 2019 ?,87,"[""Some retrieved context""]",9
+5,Quel était le taux de réussite en M1 (PRIVÉ) en 2016 ?,93%,"[""Some retrieved context""]",23
+6,Quel était le nombre total d'étudiants féminins inscrits en ENSEMBLE en 2020 ?,78 492,"[""Some retrieved context""]",12
+7,Quel est le sujet de la Graphe 28 ?,Taux de répartition des enseignants par grade - année 2022,"[""Some retrieved context""]",3
+8,Quel domaine est représenté par la ligne verte foncée dans la Graphe 25 ?,STECH,"[""Some retrieved context""]",16
+9,Quelle est la source du Tableau 02 ?,Annuaire Statistique – SSP / DSSIP / MESUPRES,"[""Some retrieved context""]",5
+10,Que présente la Graphe 46 ?,Evolution de taux brut de scolarisation de 2017 à 2022,"[""Some retrieved context""]",3
+11,Combien d'étudiants étaient inscrits en M1 en 2022 ?,16 714,"[""Some retrieved context""]",12
+12,Quel était le nombre total d'étudiants étrangers inscrits dans le public en 2022 ?,485,"[""Some retrieved context""]",14
+13,Quel était le nombre total d'étudiants étrangers inscrits dans le privé en 2019 ?,2 214,"[""Some retrieved context""]",14
+14,Quel était le taux de réussite en L3 (PRIVÉ) en 2016 ?,95%,"[""Some retrieved context""]",23
+15,Combien d'enseignants permanents avaient entre 55 et 60 ans en 2019 ?,231,"[""Some retrieved context""]",18
+16,Que représente la Graphe 19 ?,Répartition par région des étudiants inscrits - année 2022,"[""Some retrieved context""]",3
+17,Combien d'enseignants permanents de grade P travaillaient en 2022 ?,138,"[""Some retrieved context""]",17
+18,Quel est le nombre d'étudiants boursiers masculins à Toliara en 2022 d'après la Graphe 24 ?,4 406,"[""Some retrieved context""]",16
+19,Quelle est la source du Tableau 18 ?,Service de la Statistique et de la Planification / DSSIP / MESUPRES,"[""Some retrieved context""]",16
+20,Quel était le nombre total d'étudiants féminins en ENSEMBLE en 2018 ?,70 185,"[""Some retrieved context""]",12
