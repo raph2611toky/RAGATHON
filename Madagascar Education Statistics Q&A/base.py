@@ -119,19 +119,20 @@ def get_gemini_response(query: str, context: str) -> str:
     genai.configure(api_key=os.environ["GEMINI_API_KEY"])
     q_type = classify_q(query)
     prompt = make_rag_prompt(query, context)
+    print(q_type, prompt)
     model = genai.GenerativeModel("gemini-2.5-flash-lite")
     max_retries = 3
-    retry_delay = 32  # Initial delay based on API suggestion
+    retry_delay = 32
     for attempt in range(max_retries):
         try:
             res = model.generate_content(prompt)
-            time.sleep(4)  # Ensure < 15 RPM (60s / 15 = 4s per request)
+            time.sleep(4) 
             return extract_num(res.text) if q_type in ["num", "pct", "success"] else res.text
         except google.api_core.exceptions.ResourceExhausted as e:
             if attempt < max_retries - 1:
                 print(f"Quota dépassé pour la question '{query}'. Réessai dans {retry_delay}s...")
                 time.sleep(retry_delay)
-                retry_delay *= 2  # Exponential backoff
+                retry_delay *= 2
             else:
                 raise e
     return "Erreur : Quota dépassé après plusieurs tentatives"
@@ -146,6 +147,7 @@ def process_questions_from_csv(db, csv_path: str, output_csv: str = 'submission_
             writer.writeheader()
     
     for _, row in df.iterrows():
+        print("="*20)
         qid = row["id"]
         question = row["question"]
         print(f"Traitement de la question ID {qid}: {question}")
@@ -170,6 +172,7 @@ def process_questions_from_csv(db, csv_path: str, output_csv: str = 'submission_
                 "ref_page": str(pg)
             })
         print(f"Résultat écrit dans {output_csv} pour ID {qid}")
+        print("="*20)
 
 #============================Main============================#
 data, metadata = load_pdf(file_path="./data/MESUPRES_en_chiffres_MAJ.pdf")
