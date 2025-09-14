@@ -107,7 +107,7 @@ def extract_num(ans: str) -> str:
 #============================RAG Prompt============================#
 def make_rag_prompt(query: str, context: str) -> str:
     return f"""
-    Expert en stats éducatives Madagascar. Répondez en français, basé sur le contexte. Soyez précis, concis, factuel. Pas d'info hors contexte. Pour nombres/pourcentages, donnez exactement comme dans le contexte.
+    Expert en stats éducatives Madagascar. Répondez en français, basé sur le contexte. Soyez précis, concis, factuel, brief possible. Pas d'info hors contexte. Pour nombres/pourcentages, donnez exactement comme dans le contexte, pour les reponses textuelles , donner uniquement la reponse attendue, et ne repeter pas tous les contenus du contexte dans la reponse.
 
     **Question**: {query}
     **Contexte**: {context}
@@ -119,7 +119,6 @@ def get_gemini_response(query: str, context: str) -> str:
     genai.configure(api_key=os.environ["GEMINI_API_KEY"])
     q_type = classify_q(query)
     prompt = make_rag_prompt(query, context)
-    print(q_type, prompt)
     model = genai.GenerativeModel("gemini-2.5-flash-lite")
     max_retries = 3
     retry_delay = 32
@@ -127,7 +126,8 @@ def get_gemini_response(query: str, context: str) -> str:
         try:
             res = model.generate_content(prompt)
             time.sleep(4) 
-            return extract_num(res.text) if q_type in ["num", "pct", "success"] else res.text
+            res = extract_num(res.text) if q_type in ["num", "pct", "success"] else res.text
+            return res + "%"if q_type=="pct" else res
         except google.api_core.exceptions.ResourceExhausted as e:
             if attempt < max_retries - 1:
                 print(f"Quota dépassé pour la question '{query}'. Réessai dans {retry_delay}s...")
@@ -141,16 +141,15 @@ def get_gemini_response(query: str, context: str) -> str:
 def process_questions_from_csv(db, csv_path: str, output_csv: str = 'submission_file.csv'):
     df = pd.read_csv(csv_path)
     # Write header if file doesn't exist
-    if not os.path.exists(output_csv):
-        with open(output_csv, mode="w", newline="", encoding="utf-8") as f:
-            writer = csv.DictWriter(f, fieldnames=["id", "question", "answer", "context", "ref_page"])
-            writer.writeheader()
+    # if not os.path.exists(output_csv):
+    with open(output_csv, mode="w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=["id", "question", "answer", "context", "ref_page"])
+        writer.writeheader()
     
     for _, row in df.iterrows():
         print("="*20)
         qid = row["id"]
         question = row["question"]
-        print(f"Traitement de la question ID {qid}: {question}")
         txt, meta = get_relevant_passage(question, db, n_results=3)
         if not txt:
             ans = "Info non trouvée"
@@ -158,10 +157,9 @@ def process_questions_from_csv(db, csv_path: str, output_csv: str = 'submission_
             pg = "N/A"
         else:
             ans = get_gemini_response(question, txt)
-            ctx = txt
+            ctx = '["'+txt.strip('"').replace('\n','\t')+'"]'
             pg = meta["page_number"]
-        print(f"Réponse générée: {ans}")
-        # Append result to CSV immediately
+        print(f"→ Réponse générée: {ans}")
         with open(output_csv, mode="a", newline="", encoding="utf-8") as f:
             writer = csv.DictWriter(f, fieldnames=["id", "question", "answer", "context", "ref_page"])
             writer.writerow({
