@@ -18,10 +18,16 @@ import google.api_core.exceptions
 #============================Config============================#
 warnings.filterwarnings("ignore", category=UserWarning)
 load_dotenv(find_dotenv())
-api_key = os.getenv("GEMINI_API_KEY")
-if api_key:
-    os.environ["GEMINI_API_KEY"] = api_key
-print(api_key)
+api_keys = [
+    os.getenv("GEMINI_API_KEY"),
+    os.getenv("GEMINI_API_KEY_SECOND"),
+    os.getenv("GEMINI_API_KEY_THIRD"),
+    os.getenv("GEMINI_API_KEY_FOURTH"),
+]
+api_keys = [key for key in api_keys if key]
+if not api_keys:
+    raise ValueError("No valid Gemini API keys found in environment variables")
+print("API keys loaded:", len(api_keys))
 
 #============================Load PDF============================#
 def load_pdf(file_path: str) -> Tuple[List[str], List[Dict]]:
@@ -107,7 +113,7 @@ def extract_num(ans: str) -> str:
 #============================RAG Prompt============================#
 def make_rag_prompt(query: str, context: str) -> str:
     return f"""
-    Expert en stats éducatives Madagascar. Répondez en français, basé sur le contexte. Soyez précis, concis, factuel, brief possible. Pas d'info hors contexte. Pour nombres/pourcentages, donnez exactement comme dans le contexte, pour les reponses textuelles , donner uniquement la reponse attendue, et ne repeter pas tous les contenus du contexte dans la reponse.
+    Expert en stats éducatives Madagascar. Répondez en français, basé sur le contexte. Soyez précis, concis, factuel, brief possible. Pas d'info hors contexte. Pour nombres/pourcentages, donnez exactement comme dans le contexte, pour les reponses textuelles , donner uniquement la reponse attendue, et ne repeter pas tous les contenus du contexte dans la reponse.Et n'afiche plus les calculs, mais directement la reponse finale.
 
     **Question**: {query}
     **Contexte**: {context}
@@ -116,32 +122,37 @@ def make_rag_prompt(query: str, context: str) -> str:
 
 #============================Gemini Response============================#
 def get_gemini_response(query: str, context: str) -> str:
-    genai.configure(api_key=os.environ["GEMINI_API_KEY"])
     q_type = classify_q(query)
     prompt = make_rag_prompt(query, context)
-    model = genai.GenerativeModel("gemini-2.5-flash-lite")
+    model = genai.GenerativeModel("gemini-2.5-flash")
     max_retries = 3
-    retry_delay = 32
-    for attempt in range(max_retries):
+    retry_delay = 5
+    for key_index, api_key in enumerate(api_keys):
         try:
-            res = model.generate_content(prompt)
-            time.sleep(4) 
-            res = extract_num(res.text) if q_type in ["num", "pct", "success"] else res.text
-            return res + "%"if q_type=="pct" else res
-        except google.api_core.exceptions.ResourceExhausted as e:
-            if attempt < max_retries - 1:
-                print(f"Quota dépassé pour la question '{query}'. Réessai dans {retry_delay}s...")
-                time.sleep(retry_delay)
-                retry_delay *= 2
-            else:
-                raise e
-    return "Erreur : Quota dépassé après plusieurs tentatives"
+            print(f"Utilisation de la clé API #{key_index + 1} pour la question '{query}'")
+            genai.configure(api_key=api_key)
+            for attempt in range(max_retries):
+                try:
+                    res = model.generate_content(prompt)
+                    time.sleep(0.5)
+                    res = extract_num(res.text) if q_type in ["num", "pct", "success"] else res.text
+                    return res + "%" if q_type == "pct" else res
+                except google.api_core.exceptions.ResourceExhausted as e:
+                    if attempt < max_retries - 1:
+                        print(f"Quota dépassé pour la clé #{key_index + 1}, tentative {attempt + 1}/{max_retries}. Réessai dans {retry_delay}s...")
+                        time.sleep(retry_delay)
+                        retry_delay *= 1.1
+                    else:
+                        print(f"Échec des tentatives pour la clé #{key_index + 1}. Passage à la clé suivante...")
+                        break
+        except Exception as e:
+            print(f"Erreur avec la clé #{key_index + 1}: {str(e)}. Passage à la clé suivante...")
+            continue
+    return "Erreur : Toutes les clés API ont dépassé leur quota ou ont échoué"
 
 #============================Process CSV============================#
 def process_questions_from_csv(db, csv_path: str, output_csv: str = 'submission_file.csv'):
     df = pd.read_csv(csv_path)
-    # Write header if file doesn't exist
-    # if not os.path.exists(output_csv):
     with open(output_csv, mode="w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=["id", "question", "answer", "context", "ref_page"])
         writer.writeheader()
@@ -157,7 +168,7 @@ def process_questions_from_csv(db, csv_path: str, output_csv: str = 'submission_
             pg = "N/A"
         else:
             ans = get_gemini_response(question, txt)
-            ctx = '["'+txt.strip('"').replace('\n','\t')+'"]'
+            ctx = '["'+txt.strip('"').replace('\n','\t').replace("\r","\t")+'"]'
             pg = meta["page_number"]
         print(f"→ Réponse générée: {ans}")
         with open(output_csv, mode="a", newline="", encoding="utf-8") as f:
@@ -169,7 +180,7 @@ def process_questions_from_csv(db, csv_path: str, output_csv: str = 'submission_
                 "context": str(ctx),
                 "ref_page": str(pg)
             })
-        print(f"Résultat écrit dans {output_csv} pour ID {qid}")
+        print(f"Résultat écrit dans {output_csv} for ID {qid}")
         print("="*20)
 
 #============================Main============================#
@@ -178,5 +189,4 @@ tbls = extract_tables(file="./data/MESUPRES_en_chiffres_MAJ.pdf")
 coll_name = 'rag'
 db = load_data(documents=data, metadatas=metadata, collection_name=coll_name, tables=tbls)
 process_questions_from_csv(db, './data/questions.csv')
-
 #============================Main============================#
