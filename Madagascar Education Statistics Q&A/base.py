@@ -1,7 +1,6 @@
 #============================Imports============================#
 from dotenv import load_dotenv, find_dotenv
 from typing import List, Tuple, Dict
-from pypdf import PdfReader
 import pdfplumber
 from tqdm import tqdm
 import google.generativeai as genai
@@ -9,20 +8,21 @@ import chromadb
 from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunction
 import pandas as pd
 import csv
-import re
+import re, logging
+import difflib
 import os
 import warnings
 import time
 import google.api_core.exceptions
-from PIL import Image
-import io
 
 #============================Config============================#
+logging.getLogger("pdfminer").setLevel(logging.ERROR)
 warnings.filterwarnings("ignore", category=UserWarning)
+
 load_dotenv(find_dotenv())
 api_keys = [
     os.getenv("GEMINI_API_KEY"),
-    os.getenv("GEMINI_API anyagrok_KEY_SECOND"),
+    os.getenv("GEMINI_API_KEY_SECOND"),
     os.getenv("GEMINI_API_KEY_THIRD"),
     os.getenv("GEMINI_API_KEY_FOURTH"),
 ]
@@ -32,17 +32,20 @@ if not api_keys:
 
 #============================Load PDF============================#
 def load_pdf(file_path: str) -> Tuple[List[str], List[Dict]]:
-    reader = PdfReader(file_path)
     docs = []
     meta = []
-    for num, page in enumerate(tqdm(reader.pages, desc=f"Lecture de {os.path.basename(file_path)}"), start=1):
-        text = page.extract_text()
-        if text and text.strip():
-            docs.append(text.strip().replace('\n', ' ').replace('\r', ' '))
-            meta.append({
-                "filename": os.path.basename(file_path),
-                "page_number": num
-            })
+    with pdfplumber.open(file_path) as pdf:
+        for num, page in enumerate(tqdm(pdf.pages, desc=f"Lecture de {os.path.basename(file_path)}"), start=1):
+            text = page.extract_text() or ""
+            if text:
+                # Clean text
+                text = re.sub(r'[^\w\s\-\.\,\;\:\!\?\(\)\[\]\{\}\'\"\«\»]', '', text)
+                text = re.sub(r'\s+', ' ', text).strip().replace('\n', ' ').replace('\r', ' ')
+                docs.append(text)
+                meta.append({
+                    "filename": os.path.basename(file_path),
+                    "page_number": num
+                })
     return docs, meta
 
 #============================Extract Tables============================#
@@ -58,39 +61,17 @@ def extract_tables(file: str) -> List[Dict]:
                 })
     return tbls
 
-#============================Extract Images============================#
-def extract_images(file: str) -> List[Dict]:
-    images = []
-    with pdfplumber.open(file) as pdf:
-        for pg, page in enumerate(tqdm(pdf.pages, desc="Extraction des images"), start=1):
-            imgs = page.images
-            for img in imgs:
-                images.append({
-                    "image": img,
-                    "page_num": pg
-                })
-    return images
-
-#============================Describe Image============================#
-def describe_image(image_dict: Dict, pdf_file: str) -> str:
-    with pdfplumber.open(pdf_file) as pdf:
-        page = pdf.pages[image_dict["page_num"] - 1]
-        genai.configure(api_key=api_keys[0])
-        model = genai.GenerativeModel("gemini-1.5-flash")
-        img_data = image_dict["image"]
-        x1, y1, x2, y2 = img_data["x0"], img_data["top"], img_data["x1"], img_data["bottom"]
-        img = page.crop((x1, y1, x2, y2)).to_image(resolution=300).original  # Get PIL.Image.Image
-        res = model.generate_content(["Décrivez ce graphe ou cette image en détail, en vous concentrant sur les données, les étiquettes et les tendances :", img])
-        return res.text.replace('\n', ' ').replace('\r', ' ')
-
 #============================Table to Text============================#
 def table_to_text(tbl: List[List[str]]) -> str:
-    return " ".join([" ".join(str(cell or "") for cell in row) for row in tbl if row])
+    formatted = "Tableau:\n"
+    for row in tbl:
+        formatted += " ".join(str(cell or "") for cell in row) + "\n"
+    return formatted.replace('\n', ' ').replace('\r', ' ')
 
 #============================Load Data============================#
-def load_data(documents: List[str], metadatas: List[Dict], collection_name: str, tables: List[Dict], images: List[Dict], pdf_file: str):
+def load_data(documents: List[str], metadatas: List[Dict], collection_name: str, tables: List[Dict]):
     client = chromadb.EphemeralClient()
-    embed = SentenceTransformerEmbeddingFunction(model_name="all-MiniLM-L6-v2")
+    embed = SentenceTransformerEmbeddingFunction(model_name="distiluse-base-multilingual-cased-v1")
     coll = client.create_collection(
         name=collection_name, embedding_function=embed
     )
@@ -101,13 +82,6 @@ def load_data(documents: List[str], metadatas: List[Dict], collection_name: str,
             "filename": "tableau",
             "page_number": tbl["page_num"]
         })
-    for img in tqdm(images, desc="Ajout des descriptions d'images à la collection"):
-        img_desc = describe_image(img, pdf_file)
-        documents.append(img_desc)
-        metadatas.append({
-            "filename": "graph",
-            "page_number": img["page_num"]
-        })
     coll.add(
         documents=documents,
         metadatas=metadatas,
@@ -116,13 +90,33 @@ def load_data(documents: List[str], metadatas: List[Dict], collection_name: str,
     return coll
 
 #============================Get Passage============================#
-def get_relevant_passage(query: str, db, n_results=1):
-    res = db.query(
-        query_texts=[query], n_results=n_results, include=["documents", "metadatas"]
-    )
-    ctx = " ".join(res['documents'][0])
-    meta = res['metadatas'][0][0]
-    return ctx, meta
+def tokenize(text: str):
+    text = re.sub(r'[^\w\s]', '', text.lower())
+    return text.split()
+
+def similarity_score(query: str, text: str) -> float:
+    q_tokens = tokenize(query)
+    t_tokens = tokenize(text)
+    seq_matcher = difflib.SequenceMatcher(None, q_tokens, t_tokens)
+    difflib_score = seq_matcher.ratio()
+    match = seq_matcher.find_longest_match(0, len(q_tokens), 0, len(t_tokens))
+    lcs = match.size if match.size > 0 else 0
+    common_words = len(set(q_tokens) & set(t_tokens)) / max(1, len(q_tokens))
+    final_score = (0.5 * difflib_score) + (0.3 * common_words) + (0.2 * (lcs / max(1, len(q_tokens))))
+    return final_score
+
+def get_relevant_passage(query: str, db, n_results=10):
+    print("Getting relevant passage...")
+    res = db.query(query_texts=[query], n_results=n_results, include=["documents", "metadatas"])
+    print(res)
+    candidates = res['documents'][0]
+    metas = res['metadatas'][0]
+
+    scored = [(similarity_score(query, doc), doc, meta) for doc, meta in zip(candidates, metas)]
+    scored.sort(key=lambda x: x[0], reverse=True)
+
+    best_score, best_doc, best_meta = scored[0]
+    return best_doc, best_meta
 
 #============================Classify Question============================#
 def classify_q(q: str) -> str:
@@ -188,14 +182,14 @@ def process_questions_from_csv(db, csv_path: str, output_csv: str = 'submission_
     for idx, row in enumerate(tqdm(df.iterrows(), total=total_questions, desc="Traitement des questions", unit="question")):
         qid = row[1]["id"]
         question = row[1]["question"]
-        txt, meta = get_relevant_passage(question, db, n_results=1)
+        txt, meta = get_relevant_passage(question, db, n_results=3)
         if not txt:
             ans = "Info non trouvée"
             ctx = "Aucun contexte extrait"
             pg = "N/A"
         else:
             ans = get_gemini_response(question, txt)
-            ctx = txt.replace('\n', ' ').replace('\r', ' ')
+            ctx = '["'+txt.replace('\n', ' ').replace('\r', ' ').strip('"')+'"]'
             pg = meta["page_number"]
         with open(output_csv, mode="a", newline="", encoding="utf-8") as f:
             writer = csv.DictWriter(f, fieldnames=["id", "question", "answer", "context", "ref_page"])
@@ -207,16 +201,19 @@ def process_questions_from_csv(db, csv_path: str, output_csv: str = 'submission_
                 "ref_page": str(pg)
             })
     with open(output_csv, 'rb+') as f:
-        f.seek(-1, os.SEEK_END)
-        if f.read(1) == b'\n':
-            f.seek(-1, os.SEEK_END)
-            f.truncate()
+        f.seek(0, os.SEEK_END)
+        size = f.tell()
+        if size > 0:
+            f.seek(size - 1)
+            last_char = f.read(1)
+            if last_char == b"\n":
+                f.seek(size - 1)
+                f.truncate()
 
 #============================Main============================#
 data, metadata = load_pdf(file_path="./data/MESUPRES_en_chiffres_MAJ.pdf")
 tbls = extract_tables(file="./data/MESUPRES_en_chiffres_MAJ.pdf")
-images = extract_images(file="./data/MESUPRES_en_chiffres_MAJ.pdf")
 coll_name = 'rag'
-db = load_data(documents=data, metadatas=metadata, collection_name=coll_name, tables=tbls, images=images, pdf_file="./data/MESUPRES_en_chiffres_MAJ.pdf")
+db = load_data(documents=data, metadatas=metadata, collection_name=coll_name, tables=tbls)
 process_questions_from_csv(db, './data/questions.csv')
 #============================Main============================#
