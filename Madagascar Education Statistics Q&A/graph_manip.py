@@ -10,7 +10,7 @@ fichier_pdf = os.path.abspath("./data/MESUPRES_en_chiffres_MAJ.pdf")
 dossier_sortie = os.path.abspath("./extracted_graphs")
 os.makedirs(dossier_sortie, exist_ok=True)
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'  # Update with your Tesseract path
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files (x86)\tesseract\tesseract-ocr-w64-setup-5.5.0.20241111.exe'
 
 def extraire_graphs(pdf_path, output_dir):
     pdf = fitz.open(pdf_path)

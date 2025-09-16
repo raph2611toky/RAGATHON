@@ -125,7 +125,7 @@ def similarity_score(query: str, text: str) -> float:
     final_score = (0.5 * difflib_score) + (0.3 * common_words) + (0.2 * (lcs / max(1, len(q_tokens))))
     return final_score
 
-def get_relevant_passage(query: str, db, n_results=5):  # Increased to 5 for better coverage
+def get_relevant_passage(query: str, db, n_results=5):
     res = db.query(query_texts=[query], n_results=n_results, include=["documents", "metadatas"])
     candidates = res['documents'][0]
     metas = res['metadatas'][0]
@@ -180,7 +180,7 @@ def extract_num(ans: str, q_type: str) -> str:
 
 #============================RAG Prompt============================#
 def make_rag_prompt(query: str, contexts: List[Tuple[str, Dict]]) -> str:
-    combined_context = "\n\n".join([doc for doc, _ in contexts])  # Combine documents for more context
+    combined_context = "\n\n".join([doc for doc, _ in contexts]) 
     q_type = classify_q(query)
     instructions = ""
     if q_type == "num":
@@ -192,6 +192,7 @@ def make_rag_prompt(query: str, contexts: List[Tuple[str, Dict]]) -> str:
     format = """{"answer":"<reponse>","relevant_context": {"document":"<document>", "metadata":{"physical_page":"<num_page>", "half":"<left|right>", "filename":"nom_du_fichier", "logical_page":"<num_page_logique>"}}}"""
     return f"""
     Expert en stats éducatives Madagascar. Analysez les contextes fournis pour répondre à la question. Retournez une réponse contenant 'answer' (réponse directe) et 'relevant_context' (le contexte exact qui répond à la question, y compris sa métadonnée). Soyez précis, concis, factuel. Pas d'info hors contexte. {instructions}
+    Choisissez le document le plus pertinent, pas une liste. Si pas de réponse précise, utilisez l'approximation si disponible (ex: 'jusqu'à 85%' ou 'entre 2016 à 2020' pour 2018), faites les calculs si besoin meme et donner directe le resultat.
     **Format attendu**: {format}
     **Question**: {query}
     **Contexts**: {combined_context}
@@ -292,6 +293,7 @@ def process_questions_from_csv(db, csv_path: str, output_csv: str = 'submission_
                 # print(f"Response for {qid}: {response}")
                 ans = response.get("answer", "Erreur de traitement")
                 relevant_ctx = response.get("relevant_context", {})
+                if isinstance(relevant_ctx, list):relevant_ctx=relevant_ctx[0]
                 ctx = json.dumps(relevant_ctx.get("document", "Aucun contexte pertinent")) if relevant_ctx else "Aucun contexte pertinent"
                 pg = str(relevant_ctx.get("metadata", {}).get("logical_page", "N/A")) if relevant_ctx and relevant_ctx.get("metadata") else "N/A"
                 q_type = classify_q(question)
@@ -299,8 +301,8 @@ def process_questions_from_csv(db, csv_path: str, output_csv: str = 'submission_
                     extracted_value = extract_num(ans, q_type)
                     if extracted_value:
                         ans = extracted_value
-                        if q_type == "pct" and not ans.endswith("%"):
-                            ans = f"{ans}%"
+                        # if q_type == "pct" and not ans.endswith("%"):
+                        #     ans = f"{ans}%"
             # print("ready to write answer...")
             # print(f"\n#{'='*25}#\n")
             with open(output_csv, mode="a", newline="", encoding="utf-8") as f:
