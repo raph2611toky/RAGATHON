@@ -157,6 +157,7 @@ def get_relevant_passage(query: str, db, n_results=10):
     scored.sort(key=lambda x: x[0], reverse=True)
 
     best_score, best_doc, best_meta = scored[0]
+    print(best_doc)
     return best_doc, best_meta
 
 #============================Classify Question============================#
@@ -177,10 +178,10 @@ def extract_num(ans: str) -> str:
 
 #============================Main============================#
 data, metadata = load_pdf(file_path="./data/MESUPRES_en_chiffres_MAJ.pdf")
-print("#"*25)
-print(*data, sep=f'\n{"="*25}\n', end="\n")
-print("\n"+"#"*25+"\n")
+# print("#"*25)
+# print(*data, sep=f'\n{"="*25}\n', end="\n")
+# print("\n"+"#"*25+"\n")
 coll_name = 'rag'
 db = load_data(documents=data, metadatas=metadata, collection_name=coll_name)
-print(get_relevant_passage("Quel était le nombre d'étudiants inscrits dans la région Vatovavy Fitovinany (privé) en 2022 ?", db, 3))
+print(get_relevant_passage("Quel était le nombre d'étudiants inscrits dans la région Vatovavy Fitovinany (privé) en 2022 ?", db, 2))
 #============================Main============================#

@@ -8,11 +8,12 @@ import chromadb
 from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunction
 import pandas as pd
 import csv
-import re, logging
+import re, logging, regex
 import difflib
 import os
 import warnings
 import time
+import json
 import google.api_core.exceptions
 
 #============================Config============================#
@@ -34,59 +35,78 @@ if not api_keys:
 def load_pdf(file_path: str) -> Tuple[List[str], List[Dict]]:
     docs = []
     meta = []
+    logical_page = 1
     with pdfplumber.open(file_path) as pdf:
-        for num, page in enumerate(tqdm(pdf.pages, desc=f"Lecture de {os.path.basename(file_path)}"), start=1):
-            text = page.extract_text() or ""
-            if text:
-                # Clean text
-                text = re.sub(r'[^\w\s\-\.\,\;\:\!\?\(\)\[\]\{\}\'\"\«\»]', '', text)
-                text = re.sub(r'\s+', ' ', text).strip().replace('\n', ' ').replace('\r', ' ')
-                docs.append(text)
-                meta.append({
-                    "filename": os.path.basename(file_path),
-                    "page_number": num
-                })
+        for phys_num, page in enumerate(tqdm(pdf.pages, desc=f"Lecture de {os.path.basename(file_path)}"), start=1):
+            width = page.width
+            height = page.height
+            for half_num, bbox in enumerate([(0, 0, width / 2, height), (width / 2, 0, width, height)]):
+                crop = page.crop(bbox)
+                content = []
+                tables = crop.find_tables()
+                table_positions = sorted(tables, key=lambda t: t.bbox[1])
+                prev_bottom = bbox[1]
+                for idx, table in enumerate(table_positions):
+                    rel_top = prev_bottom - bbox[1]
+                    rel_bottom = table.bbox[1] - bbox[1]
+                    if rel_bottom > rel_top:
+                        above_bbox_rel = (0, rel_top, crop.width, rel_bottom)
+                        above_crop = crop.crop(above_bbox_rel, relative=True)
+                        above_text = above_crop.extract_text() or ""
+                        if above_text.strip():
+                            above_text = re.sub(r'[^\w\s\-\.\,\;\:\!\?\(\)\[\]\{\}\'\"\Â«\Â»]', '', above_text)
+                            above_text = re.sub(r'\s+', ' ', above_text).strip().replace('\n', ' ').replace('\r', ' ')
+                            content.append(above_text)
+                    table_data = table.extract()
+                    table_str = table_to_text(table_data)
+                    if table_str:
+                        content.append(table_str)
+                    prev_bottom = table.bbox[3]
+                rel_top = prev_bottom - bbox[1]
+                rel_bottom = height - bbox[1]
+                if rel_bottom > rel_top:
+                    below_bbox_rel = (0, rel_top, crop.width, rel_bottom)
+                    below_crop = crop.crop(below_bbox_rel, relative=True)
+                    below_text = below_crop.extract_text() or ""
+                    if below_text.strip():
+                        below_text = re.sub(r'[^\w\s\-\.\,\;\:\!\?\(\)\[\]\{\}\'\"\Â«\Â»]', '', below_text)
+                        below_text = re.sub(r'\s+', ' ', below_text).strip().replace('\n', ' ').replace('\r', ' ')
+                        content.append(below_text)
+                if not table_positions:
+                    full_text = crop.extract_text() or ""
+                    if full_text.strip():
+                        full_text = re.sub(r'[^\w\s\-\.\,\;\:\!\?\(\)\[\]\{\}\'\"\Â«\Â»]', '', full_text)
+                        full_text = re.sub(r'\s+', ' ', full_text).strip().replace('\n', ' ').replace('\r', ' ')
+                        content.append(full_text)
+                combined = "\n\n".join(content).strip()
+                if combined:
+                    docs.append(combined)
+                    meta.append({
+                        "filename": os.path.basename(file_path),
+                        "physical_page": phys_num,
+                        "half": "left" if half_num == 0 else "right",
+                        "logical_page": logical_page
+                    })
+                    logical_page += 1
     return docs, meta
-
-#============================Extract Tables============================#
-def extract_tables(file: str) -> List[Dict]:
-    tbls = []
-    with pdfplumber.open(file) as pdf:
-        for pg, page in enumerate(tqdm(pdf.pages, desc="Extraction des tableaux"), start=1):
-            tables = page.extract_tables()
-            for tbl in tables:
-                tbls.append({
-                    "table": tbl,
-                    "page_num": pg
-                })
-    return tbls
 
 #============================Table to Text============================#
 def table_to_text(tbl: List[List[str]]) -> str:
-    formatted = "Tableau:\n"
-    for row in tbl:
-        formatted += " ".join(str(cell or "") for cell in row) + "\n"
-    return formatted.replace('\n', ' ').replace('\r', ' ')
+    if not tbl or all(all(not cell for cell in row) for row in tbl):
+        return ""
+    headers = tbl[0]
+    md = "| " + " | ".join(str(cell or "") for cell in headers) + " |\n"
+    md += "|---" * len(headers) + "|\n"
+    for row in tbl[1:]:
+        md += "| " + " | ".join(str(cell or "") for cell in row) + " |\n"
+    return "Tableau (format markdown):\n" + md
 
 #============================Load Data============================#
-def load_data(documents: List[str], metadatas: List[Dict], collection_name: str, tables: List[Dict]):
+def load_data(documents: List[str], metadatas: List[Dict], collection_name: str):
     client = chromadb.EphemeralClient()
     embed = SentenceTransformerEmbeddingFunction(model_name="distiluse-base-multilingual-cased-v1")
-    coll = client.create_collection(
-        name=collection_name, embedding_function=embed
-    )
-    for tbl in tqdm(tables, desc="Ajout des tableaux à la collection"):
-        tbl_text = table_to_text(tbl["table"])
-        documents.append(tbl_text)
-        metadatas.append({
-            "filename": "tableau",
-            "page_number": tbl["page_num"]
-        })
-    coll.add(
-        documents=documents,
-        metadatas=metadatas,
-        ids=[f"doc_{i}" for i in range(len(documents))]
-    )
+    coll = client.create_collection(name=collection_name, embedding_function=embed)
+    coll.add(documents=documents, metadatas=metadatas, ids=[f"doc_{i}" for i in range(len(documents))])
     return coll
 
 #============================Get Passage============================#
@@ -105,23 +125,19 @@ def similarity_score(query: str, text: str) -> float:
     final_score = (0.5 * difflib_score) + (0.3 * common_words) + (0.2 * (lcs / max(1, len(q_tokens))))
     return final_score
 
-def get_relevant_passage(query: str, db, n_results=10):
-    print("Getting relevant passage...")
+def get_relevant_passage(query: str, db, n_results=5):  # Increased to 5 for better coverage
     res = db.query(query_texts=[query], n_results=n_results, include=["documents", "metadatas"])
-    print(res)
     candidates = res['documents'][0]
     metas = res['metadatas'][0]
-
     scored = [(similarity_score(query, doc), doc, meta) for doc, meta in zip(candidates, metas)]
     scored.sort(key=lambda x: x[0], reverse=True)
-
-    best_score, best_doc, best_meta = scored[0]
-    return best_doc, best_meta
+    top_five = [(doc, meta) for _, doc, meta in scored[:5]]
+    return top_five
 
 #============================Classify Question============================#
 def classify_q(q: str) -> str:
     q = q.lower()
-    if "nombre" in q or "effectif" in q:
+    if "nombre" in q or "effectif" in q or "combien" in q:
         return "num"
     elif "pourcentage" in q or "%" in q:
         return "pct"
@@ -130,24 +146,63 @@ def classify_q(q: str) -> str:
     return "gen"
 
 #============================Extract Number============================#
-def extract_num(ans: str) -> str:
-    match = re.search(r'\b\d+\b|[\d.]+%|[\d,]+\b', ans)
-    return match.group(0) if match else ans
+def extract_num(ans: str, q_type: str) -> str:
+    # print("Extraction de nombre....", q_type, ans)
+    ans = ans.strip()
+    ans = re.sub(r'\s+', '', ans)
+    
+    if q_type == "num" and ans.isnumeric():
+        return ans
+    
+    cleaned_ans = ans.strip()
+    if (q_type in ["pct", "success"]) and cleaned_ans.isnumeric():
+        value = int(cleaned_ans)
+        if value > 100:
+            numbers = re.findall(r'\b\d+\b(?=%|\s)', ans)
+            valid_percentages = [num for num in numbers if int(num) <= 100]
+            return f"{valid_percentages[0]}%" if valid_percentages else ans
+        return f"{cleaned_ans}%"
+    
+    numbers = re.findall(r'\b\d+\b', re.sub(r'\s+', '', ans))
+    if not numbers:
+        return ans
+    
+    years = [num for num in numbers if len(num) == 4 and 1900 <= int(num) <= 2100]
+    non_years = [num for num in numbers if num not in years]
+    
+    if non_years:
+        if q_type == "num":
+            return non_years[0] if len(non_years) == 1 else non_years[-1]
+        elif q_type in ["pct", "success"]:
+            valid_values = [num for num in non_years if int(num) <= 100]
+            return f"{valid_values[0]}%" if valid_values else non_years[0]
+    return numbers[0] if numbers else ans
 
 #============================RAG Prompt============================#
-def make_rag_prompt(query: str, context: str) -> str:
+def make_rag_prompt(query: str, contexts: List[Tuple[str, Dict]]) -> str:
+    combined_context = "\n\n".join([doc for doc, _ in contexts])  # Combine documents for more context
+    q_type = classify_q(query)
+    instructions = ""
+    if q_type == "num":
+        instructions = "Si la réponse est un nombre, retournez uniquement le nombre exact (sans texte supplémentaire)."
+    elif q_type == "pct":
+        instructions = "Si la réponse est un pourcentage, retournez uniquement le pourcentage exact (sans texte supplémentaire, ex: '45%')."
+    elif q_type == "success":
+        instructions = "Si la réponse est un taux de réussite, retournez uniquement le taux exact (sans texte supplémentaire, ex: '85%')."
+    format = """{"answer":"<reponse>","relevant_context": {"document":"<document>", "metadata":{"physical_page":"<num_page>", "half":"<left|right>", "filename":"nom_du_fichier", "logical_page":"<num_page_logique>"}}}"""
     return f"""
-    Expert en stats éducatives Madagascar. Répondez en français, basé sur le contexte. Soyez précis, concis, factuel. Pas d'info hors contexte. Pour nombres/pourcentages, donnez exactement comme dans le contexte. Pour réponses textuelles, donnez uniquement la réponse attendue sans explication, sans calcul, sans phrase supplémentaire. Réponse directe seulement.
-
+    Expert en stats éducatives Madagascar. Analysez les contextes fournis pour répondre à la question. Retournez une réponse contenant 'answer' (réponse directe) et 'relevant_context' (le contexte exact qui répond à la question, y compris sa métadonnée). Soyez précis, concis, factuel. Pas d'info hors contexte. {instructions}
+    **Format attendu**: {format}
     **Question**: {query}
-    **Contexte**: {context}
+    **Contexts**: {combined_context}
     **Réponse**:
     """
 
 #============================Gemini Response============================#
-def get_gemini_response(query: str, context: str) -> str:
-    q_type = classify_q(query)
-    prompt = make_rag_prompt(query, context)
+def get_gemini_response(query: str, contexts: List[Tuple[str, Dict]]) -> Dict:
+    # print("Prepare to get gemini response...")
+    # print(contexts)
+    prompt = make_rag_prompt(query, contexts)
     model = genai.GenerativeModel("gemini-2.5-flash")
     max_retries = 3
     retry_delay = 5
@@ -158,62 +213,124 @@ def get_gemini_response(query: str, context: str) -> str:
                 try:
                     res = model.generate_content(prompt)
                     time.sleep(0.5)
-                    res = res.text.strip().replace('\n', ' ').replace('\r', ' ')
-                    res = extract_num(res) if q_type in ["num", "pct", "success"] else res
-                    return res + "%" if q_type == "pct" else res
-                except google.api_core.exceptions.ResourceExhausted as e:
+                    response_text = res.text.strip()
+                    # print("Gemini response....")
+                    # print(response_text)
+                    json_match = regex.search(r'\{(?:[^{}]|(?R))*\}', response_text, regex.DOTALL)
+                    if json_match:
+                        json_str = json_match.group(0)
+                        json_str = json_str.replace(",}", "}").replace(",]", "]")
+                        json_str = json_str.replace("\n", "  ")
+                        try:
+                            response_data = json.loads(json_str)
+                            # print("json response loaded...")
+                        except json.JSONDecodeError as e:
+                            # print(f"JSON parsing failed: {str(e)} - Raw JSON: {json_str}")
+                            answer_match = re.search(r'answer:?\s*([^\n]+)', response_text, re.IGNORECASE)
+                            context_match = re.search(r'relevant_context:?\s*([^\n]+)', response_text, re.IGNORECASE)
+                            response_data = {
+                                "answer": answer_match.group(1).strip() if answer_match else "Aucune réponse claire",
+                                "relevant_context": context_match.group(1).strip() if context_match else None
+                            }
+                            if "relevant_context" in response_data and response_data["relevant_context"]:
+                                try:
+                                    response_data["relevant_context"] = json.loads(response_data["relevant_context"])
+                                except json.JSONDecodeError:
+                                    response_data["relevant_context"] = {"document": response_data["relevant_context"], "metadata": None}
+                    else:
+                        # print("No JSON structure detected in response")
+                        answer_match = re.search(r'answer:?\s*([^\n]+)', response_text, re.IGNORECASE)
+                        context_match = re.search(r'relevant_context:?\s*([^\n]+)', response_text, re.IGNORECASE)
+                        response_data = {
+                            "answer": answer_match.group(1).strip() if answer_match else "Aucune réponse claire",
+                            "relevant_context": context_match.group(1).strip() if context_match else None
+                        }
+                        if "relevant_context" in response_data and response_data["relevant_context"]:
+                            try:
+                                response_data["relevant_context"] = json.loads(response_data["relevant_context"])
+                            except json.JSONDecodeError:
+                                response_data["relevant_context"] = {"document": response_data["relevant_context"], "metadata": None}
+                    q_type = classify_q(query)
+                    if q_type in ["num", "pct", "success"] and "answer" in response_data:
+                        extracted_value = extract_num(response_data["answer"], q_type)
+                        if extracted_value:
+                            response_data["answer"] = extracted_value
+                    # print("Gemini response success...✔")
+                    return response_data
+                except (google.api_core.exceptions.ResourceExhausted, json.JSONDecodeError) as e:
+                    # print(f"Attempt {attempt + 1} failed: {str(e)}")
                     if attempt < max_retries - 1:
                         time.sleep(retry_delay)
                         retry_delay *= 1.1
                     else:
                         break
-        except Exception:
+        except Exception as e:
+            # print(f"API configuration error: {str(e)}")
             continue
-    return "Erreur : Toutes les clés API ont dépassé leur quota ou ont échoué"
+    return {"answer": "Erreur : Toutes les clés API ont dépassé leur quota ou ont échoué", "relevant_context": None}
 
 #============================Process CSV============================#
 def process_questions_from_csv(db, csv_path: str, output_csv: str = 'submission_file.csv'):
-    df = pd.read_csv(csv_path)
-    total_questions = len(df)
-    with open(output_csv, mode="w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=["id", "question", "answer", "context", "ref_page"])
-        writer.writeheader()
-    
-    for idx, row in enumerate(tqdm(df.iterrows(), total=total_questions, desc="Traitement des questions", unit="question")):
-        qid = row[1]["id"]
-        question = row[1]["question"]
-        txt, meta = get_relevant_passage(question, db, n_results=3)
-        if not txt:
-            ans = "Info non trouvée"
-            ctx = "Aucun contexte extrait"
-            pg = "N/A"
-        else:
-            ans = get_gemini_response(question, txt)
-            ctx = '["'+txt.replace('\n', ' ').replace('\r', ' ').strip('"')+'"]'
-            pg = meta["page_number"]
-        with open(output_csv, mode="a", newline="", encoding="utf-8") as f:
+    try:
+        df = pd.read_csv(csv_path)
+        total_questions = len(df)
+        with open(output_csv, mode="w", newline="", encoding="utf-8") as f:
             writer = csv.DictWriter(f, fieldnames=["id", "question", "answer", "context", "ref_page"])
-            writer.writerow({
-                "id": qid,
-                "question": question,
-                "answer": ans,
-                "context": ctx,
-                "ref_page": str(pg)
-            })
-    with open(output_csv, 'rb+') as f:
-        f.seek(0, os.SEEK_END)
-        size = f.tell()
-        if size > 0:
-            f.seek(size - 1)
-            last_char = f.read(1)
-            if last_char == b"\n":
+            writer.writeheader()
+        for idx, row in enumerate(tqdm(df.iterrows(), total=total_questions, desc="Traitement des questions", unit="question")):
+            qid = row[1]["id"]
+            question = row[1]["question"]
+            # print(f"\n#{'='*25}#\n")
+            # print(f"Processing question {qid}: {question}")
+            passages = get_relevant_passage(question, db, n_results=5)
+            if not passages:
+                ans = "Info non trouvée"
+                ctx = "Aucun contexte extrait"
+                pg = "N/A"
+            else:
+                response = get_gemini_response(question, passages)
+                # print(f"Response for {qid}: {response}")
+                ans = response.get("answer", "Erreur de traitement")
+                relevant_ctx = response.get("relevant_context", {})
+                ctx = json.dumps(relevant_ctx.get("document", "Aucun contexte pertinent")) if relevant_ctx else "Aucun contexte pertinent"
+                pg = str(relevant_ctx.get("metadata", {}).get("logical_page", "N/A")) if relevant_ctx and relevant_ctx.get("metadata") else "N/A"
+                q_type = classify_q(question)
+                if q_type in ["num", "pct", "success"]:
+                    extracted_value = extract_num(ans, q_type)
+                    if extracted_value:
+                        ans = extracted_value
+                        if q_type == "pct" and not ans.endswith("%"):
+                            ans = f"{ans}%"
+            # print("ready to write answer...")
+            # print(f"\n#{'='*25}#\n")
+            with open(output_csv, mode="a", newline="", encoding="utf-8") as f:
+                writer = csv.DictWriter(f, fieldnames=["id", "question", "answer", "context", "ref_page"])
+                writer.writerow({
+                    "id": qid,
+                    "question": question,
+                    "answer": ans,
+                    "context": '["' + ctx.strip('"') + '"]',
+                    "ref_page": pg
+                })
+    except Exception as e:
+        print(f"Error in process_questions_from_csv: {str(e)}")
+    finally:
+        with open(output_csv, 'rb+') as f:
+            f.seek(0, os.SEEK_END)
+            size = f.tell()
+            if size > 0:
                 f.seek(size - 1)
-                f.truncate()
+                last_char = f.read(1)
+                if last_char == b"\n":
+                    f.seek(size - 1)
+                    f.truncate()
 
 #============================Main============================#
-data, metadata = load_pdf(file_path="./data/MESUPRES_en_chiffres_MAJ.pdf")
-tbls = extract_tables(file="./data/MESUPRES_en_chiffres_MAJ.pdf")
-coll_name = 'rag'
-db = load_data(documents=data, metadatas=metadata, collection_name=coll_name, tables=tbls)
-process_questions_from_csv(db, './data/questions.csv')
+try:
+    data, metadata = load_pdf(file_path="./data/MESUPRES_en_chiffres_MAJ.pdf")
+    coll_name = 'rag'
+    db = load_data(documents=data, metadatas=metadata, collection_name=coll_name)
+    process_questions_from_csv(db, './data/questions.csv')
+except Exception as e:
+    print(f"Main execution error: {str(e)}")
 #============================Main============================#
