@@ -12,7 +12,7 @@ fichier_pdf = os.path.abspath("./data/MESUPRES_en_chiffres_MAJ.pdf")
 dossier_sortie = os.path.abspath("./extracted_graphs")
 os.makedirs(dossier_sortie, exist_ok=True)
 
-# pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files (x86)\tesseract\tesseract.exe'
 
 def extraire_graphs(pdf_path, output_dir):
     graphs_info = []
@@ -81,7 +81,7 @@ def extraire_graphs(pdf_path, output_dir):
                         cv2.imwrite(cropped_path, cropped)
 
                         try:
-                            os.environ['TESSDATA_PREFIX'] = '/usr/share/tesseract-ocr/5/tessdata/'
+                            # os.environ['TESSDATA_PREFIX'] = '/usr/share/tesseract-ocr/5/tessdata/'
                             img_pil = Image.open(cropped_path)
                             ocr_text = pytesseract.image_to_string(img_pil, lang='fra')
                         except Exception as e:
