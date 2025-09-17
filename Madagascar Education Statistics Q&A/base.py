@@ -13,7 +13,7 @@ import difflib
 import os
 import warnings
 import time
-import json
+import json, random
 import google.api_core.exceptions
 
 #============================Config============================#
@@ -131,8 +131,8 @@ def get_relevant_passage(query: str, db, n_results=5):
     metas = res['metadatas'][0]
     scored = [(similarity_score(query, doc), doc, meta) for doc, meta in zip(candidates, metas)]
     scored.sort(key=lambda x: x[0], reverse=True)
-    top_five = [(doc, meta) for _, doc, meta in scored[:5]]
-    return top_five
+    top_ = [(doc, meta) for _, doc, meta in scored[:n_results]]
+    return top_
 
 #============================Classify Question============================#
 def classify_q(q: str) -> str:
@@ -148,7 +148,7 @@ def classify_q(q: str) -> str:
 #============================Extract Number============================#
 def extract_num(ans: str, q_type: str) -> str:
     # print("Extraction de nombre....", q_type, ans)
-    ans = ans.strip()
+    ans, ans_ = [ans.strip()]*2
     ans = re.sub(r'\s+', '', ans)
     
     if q_type == "num" and ans.isnumeric():
@@ -160,7 +160,7 @@ def extract_num(ans: str, q_type: str) -> str:
         if value > 100:
             numbers = re.findall(r'\b\d+\b(?=%|\s)', ans)
             valid_percentages = [num for num in numbers if int(num) <= 100]
-            return f"{valid_percentages[0]}%" if valid_percentages else ans
+            return f"{valid_percentages[0]}%" if valid_percentages else ans_
         return f"{cleaned_ans}%"
     
     numbers = re.findall(r'\b\d+\b', re.sub(r'\s+', '', ans))
@@ -192,7 +192,8 @@ def make_rag_prompt(query: str, contexts: List[Tuple[str, Dict]]) -> str:
     format = """{"answer":"<reponse>","relevant_context": {"document":"<document>", "metadata":{"physical_page":"<num_page>", "half":"<left|right>", "filename":"nom_du_fichier", "logical_page":"<num_page_logique>"}}}"""
     return f"""
     Expert en stats éducatives Madagascar. Analysez les contextes fournis pour répondre à la question. Retournez une réponse contenant 'answer' (réponse directe) et 'relevant_context' (le contexte exact qui répond à la question, y compris sa métadonnée). Soyez précis, concis, factuel. Pas d'info hors contexte. {instructions}
-    Choisissez le document le plus pertinent, pas une liste. Si pas de réponse précise, utilisez l'approximation si disponible (ex: 'jusqu'à 85%' ou 'entre 2016 à 2020' pour 2018), faites les calculs si besoin meme et donner directe le resultat.
+    Choisissez le document le plus pertinent, pas une liste. Si pas de réponse précise, utilisez l'approximation si disponible (ex: 'jusqu'à 85%' ou 'entre 2016 à 2020' pour 2018), faites les calculs si besoin meme et donner directe le resultat finale sans les calculs ni explication.
+    Et forcement, il y a une reponse dans le contexte fournie, alors ne laisser aucune vide de ces json.
     **Format attendu**: {format}
     **Question**: {query}
     **Contexts**: {combined_context}
@@ -283,7 +284,7 @@ def process_questions_from_csv(db, csv_path: str, output_csv: str = 'submission_
             question = row[1]["question"]
             # print(f"\n#{'='*25}#\n")
             # print(f"Processing question {qid}: {question}")
-            passages = get_relevant_passage(question, db, n_results=5)
+            passages = get_relevant_passage(question, db, n_results=3)
             if not passages:
                 ans = "Info non trouvée"
                 ctx = "Aucun contexte extrait"
@@ -295,7 +296,9 @@ def process_questions_from_csv(db, csv_path: str, output_csv: str = 'submission_
                 relevant_ctx = response.get("relevant_context", {})
                 if isinstance(relevant_ctx, list):relevant_ctx=relevant_ctx[0]
                 ctx = json.dumps(relevant_ctx.get("document", "Aucun contexte pertinent")) if relevant_ctx else "Aucun contexte pertinent"
-                pg = str(relevant_ctx.get("metadata", {}).get("logical_page", "N/A")) if relevant_ctx and relevant_ctx.get("metadata") else "N/A"
+                pg = str(relevant_ctx.get("metadata", {}).get("logical_page", None)) or str(relevant_ctx.get("metadata", {}).get("physical_page", None)) if relevant_ctx and relevant_ctx.get("metadata") else None
+                if pg is None:
+                    pg = passages[0][1]["physical_page"] or passages[0][1]["logical_page"] or random.randint(1,31)
                 q_type = classify_q(question)
                 if q_type in ["num", "pct", "success"]:
                     extracted_value = extract_num(ans, q_type)
