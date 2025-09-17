@@ -326,7 +326,7 @@ def process_questions_from_csv(db, csv_path: str, output_csv: str = 'submission_
             if size > 0:
                 f.seek(size - 1)
                 last_char = f.read(1)
-                if last_char == b"\n":
+                if last_char in [b"\n",b"\r"]:
                     f.seek(size - 1)
                     f.truncate()
 
