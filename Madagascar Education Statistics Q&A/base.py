@@ -125,7 +125,7 @@ def similarity_score(query: str, text: str) -> float:
     final_score = (0.5 * difflib_score) + (0.3 * common_words) + (0.2 * (lcs / max(1, len(q_tokens))))
     return final_score
 
-def get_relevant_passage(query: str, db, n_results=5):
+def get_relevant_passage(query: str, db, n_results=3):
     res = db.query(query_texts=[query], n_results=n_results, include=["documents", "metadatas"])
     candidates = res['documents'][0]
     metas = res['metadatas'][0]
@@ -180,7 +180,7 @@ def extract_num(ans: str, q_type: str) -> str:
 
 #============================RAG Prompt============================#
 def make_rag_prompt(query: str, contexts: List[Tuple[str, Dict]]) -> str:
-    combined_context = "\n\n".join([doc for doc, _ in contexts]) 
+    combined_context = "\n\n".join([f"# ============== Doc ============== #\n{doc}\n# ============== Meta ============== #\n{json.dumps(_)}# ================================== #" for doc, _ in contexts]) 
     q_type = classify_q(query)
     instructions = ""
     if q_type == "num":
@@ -214,7 +214,7 @@ def get_gemini_response(query: str, contexts: List[Tuple[str, Dict]]) -> Dict:
             for attempt in range(max_retries):
                 try:
                     res = model.generate_content(prompt)
-                    time.sleep(0.5)
+                    time.sleep(0.1)
                     response_text = res.text.strip()
                     # print("Gemini response....")
                     # print(response_text)
