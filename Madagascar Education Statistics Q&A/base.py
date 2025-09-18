@@ -205,7 +205,7 @@ def get_gemini_response(query: str, contexts: List[Tuple[str, Dict]]) -> Dict:
     # print("Prepare to get gemini response...")
     # print(contexts)
     prompt = make_rag_prompt(query, contexts)
-    model = genai.GenerativeModel("gemini-2.5-flash")
+    model = genai.GenerativeModel("gemini-2.5-flash-pro")
     max_retries = 3
     retry_delay = 5
     for key_index, api_key in enumerate(api_keys):
@@ -284,7 +284,7 @@ def process_questions_from_csv(db, csv_path: str, output_csv: str = 'submission_
             question = row[1]["question"]
             # print(f"\n#{'='*25}#\n")
             # print(f"Processing question {qid}: {question}")
-            passages = get_relevant_passage(question, db, n_results=2)
+            passages = get_relevant_passage(question, db, n_results=5)
             if not passages:
                 ans = "Info non trouvée"
                 ctx = "Aucun contexte extrait"
