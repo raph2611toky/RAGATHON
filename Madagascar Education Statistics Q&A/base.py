@@ -186,10 +186,10 @@ def make_rag_prompt(query: str, contexts: List[Tuple[str, Dict]]) -> str:
     if q_type == "num":
         instructions = "La reponse doit etre un nombre, trouve des similarité ou faite des calculs si ca n'existe pas mais ca doit etre un nombre (sans texte supplémentaire: ex: 1254)."
     elif q_type == "pct":
-        instructions = "La reponse est un pourcentage de nombre, caculs si ca n'existe pas ou trouve des similarité mais donne toujours un pourcentage valide (sans texte supplémentaire, ex: 45%)."
+        instructions = "La reponse est un pourcentage de nombre, caculs si ca n'existe pas en priorisant la vraie reponse mais donne toujours un pourcentage valide (sans texte supplémentaire, ex: 45%)."
     elif q_type == "success":
-        instructions = "La réponse est un taux de réussite, retournez uniquement le taux exact ou trouve des similarité ou faire des calculs (sans texte supplémentaire, ex: 85%)."
-    format = """{"answer":"<reponse>","relevant_context": {"doc_index":"0|1|2"}}"""
+        instructions = "La réponse est un taux de réussite, retournez uniquement le taux exact en priorisant la vraie reponse et si jamais, tu ne trouve pas de reonse exacte, trouve des similarité ou faire des calculs (sans texte supplémentaire, ex: 85%)."
+    format = """{"answer":"<reponse>","relevant_context": {"doc_index":"<nombre_entier_qui_indique_l_index_de_doc_entre_les_contextes_ou_le_plus_pertinent_jamais_null_par_defaut_c_est_0>"}}"""
     return f"""
     Expert en stats éducatives Madagascar. Analysez les contextes fournis pour répondre à la question. Retournez une réponse contenant 'answer' (réponse directe) et 'relevant_context' (le contexte exact qui répond à la question, y compris sa métadonnée). Soyez précis, concis, factuel. Pas d'info hors contexte. {instructions}
     Choisissez le document le plus pertinent, pas une liste. Si pas de réponse précise, utilisez l'approximation si disponible (ex: 'jusqu'à 85%' ou 'entre 2016 à 2020' pour 2018), faites les calculs si besoin meme et donner directe le resultat finale sans les calculs ni explication.
@@ -284,7 +284,7 @@ def process_questions_from_csv(db, csv_path: str, output_csv: str = 'submission_
             question = row[1]["question"]
             # print(f"\n#{'='*25}#\n")
             # print(f"Processing question {qid}: {question}")
-            passages = get_relevant_passage(question, db, n_results=3)
+            passages = get_relevant_passage(question, db, n_results=2)
             if not passages:
                 ans = "Info non trouvée"
                 ctx = "Aucun contexte extrait"
@@ -296,6 +296,7 @@ def process_questions_from_csv(db, csv_path: str, output_csv: str = 'submission_
                 relevant_ctx = response.get("relevant_context", {"doc_index":0})
                 if isinstance(relevant_ctx, list):relevant_ctx=relevant_ctx[0]
                 doc_index = relevant_ctx.get("doc_index",0)
+                doc_index = doc_index if doc_index.isnumeric() and int(doc_index)<len(passages) else 0
                 ctx = re.sub(r'[\r\n]+', '  ', passages[int(doc_index)][0])
                 meta = passages[int(doc_index)][1]
                 pg = meta.get("physical_page", 27)
