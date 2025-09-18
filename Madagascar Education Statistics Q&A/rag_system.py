@@ -188,7 +188,7 @@ def make_rag_prompt(query: str, relevant_passage: str) -> str:
 #============================Gemini Response============================#
 def get_gemini_response(query: str, passage: str) -> Dict:
     prompt = make_rag_prompt(query, passage)
-    model = genai.GenerativeModel("gemini-1.5-flash")
+    model = genai.GenerativeModel("gemini-2.5-flash")
     max_retries = 3
     retry_delay = 5
     for key_index, api_key in enumerate(api_keys):
@@ -240,7 +240,7 @@ def process_questions_from_csv(db, csv_path: str, output_csv: str = 'submission_
                     "id": qid,
                     "question": question,
                     "answer": ans,
-                    "context": re.sub(r'[\r\n]+', '  ', ctx),
+                    "context": '["' + re.sub(r'[\r\n]+', '  ', ctx) + '"]',
                     "ref_page": pg
                 })
     except Exception as e:

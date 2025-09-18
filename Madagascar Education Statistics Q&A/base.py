@@ -230,7 +230,7 @@ def get_gemini_response(query: str, contexts: List[Tuple[str, Dict]]) -> Dict:
                             context_match = re.search(r'"doc_index":?\s*([^\n]+)', response_text, re.IGNORECASE)
                             response_data = {
                                 "answer": answer_match.group(1).strip() if answer_match else "Aucune réponse claire",
-                                "doc_index": context_match.group(1).strip() if context_match else 0
+                                "doc_index": context_match.group(1).strip() if context_match else "0"
                             }
                     else:
                         # print("No JSON structure detected in response")
@@ -238,7 +238,7 @@ def get_gemini_response(query: str, contexts: List[Tuple[str, Dict]]) -> Dict:
                         context_match = re.search(r'doc_index:?\s*([^\n]+)', response_text, re.IGNORECASE)
                         response_data = {
                             "answer": answer_match.group(1).strip() if answer_match else "Aucune réponse claire",
-                            "doc_index": context_match.group(1).strip() if context_match else 0
+                            "doc_index": context_match.group(1).strip() if context_match else "0"
                         }
                     q_type = classify_q(query)
                     if q_type in ["num", "pct", "success"] and "answer" in response_data:
@@ -279,7 +279,7 @@ def process_questions_from_csv(db, csv_path: str, output_csv: str = 'submission_
                 pg = "N/A"
             else:
                 response = get_gemini_response(question, passages)
-                print(f"Response for {qid}: {response}")
+                # print(f"Response for {qid}: {response}")
                 ans = response.get("answer", "Erreur de traitement")
                 doc_index = response.get("doc_index", "0")
                 doc_index = doc_index if str(doc_index).isnumeric() and int(doc_index)<len(passages) else 0
