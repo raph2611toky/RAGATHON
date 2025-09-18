@@ -203,7 +203,7 @@ def get_gemini_response(query: str, contexts: List[Tuple[str, Dict]]) -> Dict:
     # print("Prepare to get gemini response...")
     # print(contexts)
     prompt = make_rag_prompt(query, contexts)
-    model = genai.GenerativeModel("gemini-2.5-flash-pro")
+    model = genai.GenerativeModel("gemini-1.5-flash")
     max_retries = 3
     retry_delay = 5
     for key_index, api_key in enumerate(api_keys):
@@ -255,7 +255,7 @@ def get_gemini_response(query: str, contexts: List[Tuple[str, Dict]]) -> Dict:
                     else:
                         break
         except Exception as e:
-            # print(f"API configuration error: {str(e)}")
+            print(f"API configuration error: {str(e)}")
             continue
     return {"answer": "Erreur : Toutes les clés API ont dépassé leur quota ou ont échoué", "relevant_context": None}
 
