@@ -291,12 +291,12 @@ def process_questions_from_csv(db, csv_path: str, output_csv: str = 'submission_
                 pg = "N/A"
             else:
                 response = get_gemini_response(question, passages)
-                # print(f"Response for {qid}: {response}")
+                print(f"Response for {qid}: {response}")
                 ans = response.get("answer", "Erreur de traitement")
-                relevant_ctx = response.get("relevant_context", {"doc_index":0})
+                relevant_ctx = response.get("relevant_context", {"doc_index":"0"})
                 if isinstance(relevant_ctx, list):relevant_ctx=relevant_ctx[0]
-                doc_index = relevant_ctx.get("doc_index",0)
-                doc_index = doc_index if doc_index.isnumeric() and int(doc_index)<len(passages) else 0
+                doc_index = relevant_ctx.get("doc_index","0")
+                doc_index = doc_index if str(doc_index).isnumeric() and int(doc_index)<len(passages) else 0
                 ctx = re.sub(r'[\r\n]+', '  ', passages[int(doc_index)][0])
                 meta = passages[int(doc_index)][1]
                 pg = meta.get("physical_page", 27)
