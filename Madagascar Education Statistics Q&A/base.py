@@ -9,7 +9,7 @@ from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunct
 import pandas as pd
 import csv
 import re, logging, regex
-import difflib
+import difflib, traceback
 import os
 import warnings
 import time
@@ -293,7 +293,7 @@ def process_questions_from_csv(db, csv_path: str, output_csv: str = 'submission_
                 response = get_gemini_response(question, passages)
                 # print(f"Response for {qid}: {response}")
                 ans = response.get("answer", "Erreur de traitement")
-                relevant_ctx = response.get("relevant_context", {})
+                relevant_ctx = response.get("relevant_context", {"doc_index":0})
                 if isinstance(relevant_ctx, list):relevant_ctx=relevant_ctx[0]
                 doc_index = relevant_ctx.get("doc_index",0)
                 ctx = re.sub(r'[\r\n]+', '  ', passages[int(doc_index)][0])
@@ -319,6 +319,7 @@ def process_questions_from_csv(db, csv_path: str, output_csv: str = 'submission_
                 })
     except Exception as e:
         print(f"Error in process_questions_from_csv: {str(e)}")
+        print(traceback.format_exc())
     finally:
         with open(output_csv, 'rb+') as f:
             f.seek(0, os.SEEK_END)
