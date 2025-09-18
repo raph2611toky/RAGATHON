@@ -23,7 +23,7 @@ warnings.filterwarnings("ignore", category=UserWarning)
 load_dotenv(find_dotenv())
 api_keys = [
     os.getenv("GEMINI_API_KEY"),
-    os.getenv("GEMINI_API_KEY_SECOND"),
+    os.getenv("GEMINI_API_KEY_SECOND")
 ]
 api_keys = [key for key in api_keys if key]
 if not api_keys:
@@ -187,9 +187,9 @@ def make_rag_prompt(query: str, contexts: List[Tuple[str, Dict]]) -> str:
         instructions = "La reponse est un pourcentage de nombre, caculs si ca n'existe pas en priorisant la vraie reponse mais donne toujours un pourcentage valide (sans texte supplémentaire, ex: 45%)."
     elif q_type == "success":
         instructions = "La réponse est un taux de réussite, retournez uniquement le taux exact en priorisant la vraie reponse et si jamais, tu ne trouve pas de reonse exacte, trouve des similarité ou faire des calculs (sans texte supplémentaire, ex: 85%)."
-    format = """{"answer":"<reponse>","doc_index":<nombre_entier_qui_indique_l_index_de_doc_entre_les_contextes_ou_le_plus_pertinent_jamais_null_par_defaut_c_est_0>}"""
+    format = """{"answer":"<reponse>","doc_index":<nombre_entier>}"""
     return f"""
-    Expert en stats éducatives Madagascar. Analysez les contextes fournis pour répondre à la question. Retournez une réponse contenant 'answer' (réponse directe) et 'relevant_context' (le contexte exact qui répond à la question, y compris sa métadonnée). Soyez précis, concis, factuel. Pas d'info hors contexte. {instructions}
+    Expert en stats éducatives Madagascar. Analysez les contextes fournis pour répondre à la question. Retournez une réponse contenant 'answer' (réponse directe) et 'doc_index' (nombre d'index de la document dans le contexte). Soyez précis, concis, factuel. Pas d'info hors contexte. {instructions}
     Choisissez le document le plus pertinent, pas une liste. Si pas de réponse précise, utilisez l'approximation si disponible (ex: 'jusqu'à 85%' ou 'entre 2016 à 2020' pour 2018), faites les calculs si besoin meme et donner directe le resultat finale sans les calculs ni explication.
     Et forcement, il y a une reponse dans le contexte fournie, alors ne laisser aucune vide de ces json.
     **Format attendu**: {format}
