@@ -24,8 +24,6 @@ load_dotenv(find_dotenv())
 api_keys = [
     os.getenv("GEMINI_API_KEY"),
     os.getenv("GEMINI_API_KEY_SECOND"),
-    os.getenv("GEMINI_API_KEY_THIRD"),
-    os.getenv("GEMINI_API_KEY_FOURTH"),
 ]
 api_keys = [key for key in api_keys if key]
 if not api_keys:
