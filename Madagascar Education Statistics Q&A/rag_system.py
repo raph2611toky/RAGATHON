@@ -240,7 +240,7 @@ def process_questions_from_csv(db, csv_path: str, output_csv: str = 'submission_
                     "id": qid,
                     "question": question,
                     "answer": ans,
-                    "context": ctx,
+                    "context": re.sub(r'[\r\n]+', '  ', ctx),
                     "ref_page": pg
                 })
     except Exception as e:
