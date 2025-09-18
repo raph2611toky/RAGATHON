@@ -189,7 +189,7 @@ def make_rag_prompt(query: str, contexts: List[Tuple[str, Dict]]) -> str:
         instructions = "La reponse est un pourcentage de nombre, caculs si ca n'existe pas ou trouve des similarité mais donne toujours un pourcentage valide (sans texte supplémentaire, ex: 45%)."
     elif q_type == "success":
         instructions = "La réponse est un taux de réussite, retournez uniquement le taux exact ou trouve des similarité ou faire des calculs (sans texte supplémentaire, ex: 85%)."
-    format = """{"answer":"<reponse>","relevant_context": {"document":"<document>", "doc_index":"0|1|2"}}"""
+    format = """{"answer":"<reponse>","relevant_context": {"doc_index":"0|1|2"}}"""
     return f"""
     Expert en stats éducatives Madagascar. Analysez les contextes fournis pour répondre à la question. Retournez une réponse contenant 'answer' (réponse directe) et 'relevant_context' (le contexte exact qui répond à la question, y compris sa métadonnée). Soyez précis, concis, factuel. Pas d'info hors contexte. {instructions}
     Choisissez le document le plus pertinent, pas une liste. Si pas de réponse précise, utilisez l'approximation si disponible (ex: 'jusqu'à 85%' ou 'entre 2016 à 2020' pour 2018), faites les calculs si besoin meme et donner directe le resultat finale sans les calculs ni explication.
@@ -295,9 +295,9 @@ def process_questions_from_csv(db, csv_path: str, output_csv: str = 'submission_
                 ans = response.get("answer", "Erreur de traitement")
                 relevant_ctx = response.get("relevant_context", {})
                 if isinstance(relevant_ctx, list):relevant_ctx=relevant_ctx[0]
-                ctx = json.dumps(relevant_ctx.get("document", "Aucun contexte pertinent")) if relevant_ctx else "Aucun contexte pertinent"
                 doc_index = relevant_ctx.get("doc_index",0)
-                meta = passages[doc_index][1]
+                ctx = re.sub(r'[\r\n]+', '  ', passages[int(doc_index)][0])
+                meta = passages[int(doc_index)][1]
                 pg = meta.get("physical_page", 27)
                 q_type = classify_q(question)
                 if q_type in ["num", "pct", "success"]:
