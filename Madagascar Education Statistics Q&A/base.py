@@ -180,16 +180,16 @@ def extract_num(ans: str, q_type: str) -> str:
 
 #============================RAG Prompt============================#
 def make_rag_prompt(query: str, contexts: List[Tuple[str, Dict]]) -> str:
-    combined_context = "\n\n".join([f"# ============== Doc ============== #\n{doc}\n# ============== Meta ============== #\n{json.dumps(_)}# ================================== #" for doc, _ in contexts]) 
+    combined_context = "\n\n".join([f"# ============== Doc {doci} ============== #\n{contexts[doci][0]}\n# ================================== #" for doci in range(len(contexts))]) 
     q_type = classify_q(query)
     instructions = ""
     if q_type == "num":
-        instructions = "Si la réponse est un nombre, retournez uniquement le nombre exact (sans texte supplémentaire)."
+        instructions = "La reponse doit etre un nombre, trouve des similarité ou faite des calculs si ca n'existe pas mais ca doit etre un nombre (sans texte supplémentaire: ex: 1254)."
     elif q_type == "pct":
-        instructions = "Si la réponse est un pourcentage, retournez uniquement le pourcentage exact (sans texte supplémentaire, ex: '45%')."
+        instructions = "La reponse est un pourcentage de nombre, caculs si ca n'existe pas ou trouve des similarité mais donne toujours un pourcentage valide (sans texte supplémentaire, ex: 45%)."
     elif q_type == "success":
-        instructions = "Si la réponse est un taux de réussite, retournez uniquement le taux exact (sans texte supplémentaire, ex: '85%')."
-    format = """{"answer":"<reponse>","relevant_context": {"document":"<document>", "metadata":{"physical_page":"<num_page>", "half":"<left|right>", "filename":"nom_du_fichier", "logical_page":"<num_page_logique>"}}}"""
+        instructions = "La réponse est un taux de réussite, retournez uniquement le taux exact ou trouve des similarité ou faire des calculs (sans texte supplémentaire, ex: 85%)."
+    format = """{"answer":"<reponse>","relevant_context": {"document":"<document>", "doc_index":"0|1|2"}}"""
     return f"""
     Expert en stats éducatives Madagascar. Analysez les contextes fournis pour répondre à la question. Retournez une réponse contenant 'answer' (réponse directe) et 'relevant_context' (le contexte exact qui répond à la question, y compris sa métadonnée). Soyez précis, concis, factuel. Pas d'info hors contexte. {instructions}
     Choisissez le document le plus pertinent, pas une liste. Si pas de réponse précise, utilisez l'approximation si disponible (ex: 'jusqu'à 85%' ou 'entre 2016 à 2020' pour 2018), faites les calculs si besoin meme et donner directe le resultat finale sans les calculs ni explication.
@@ -296,9 +296,9 @@ def process_questions_from_csv(db, csv_path: str, output_csv: str = 'submission_
                 relevant_ctx = response.get("relevant_context", {})
                 if isinstance(relevant_ctx, list):relevant_ctx=relevant_ctx[0]
                 ctx = json.dumps(relevant_ctx.get("document", "Aucun contexte pertinent")) if relevant_ctx else "Aucun contexte pertinent"
-                pg = str(relevant_ctx.get("metadata", {}).get("logical_page", None)) or str(relevant_ctx.get("metadata", {}).get("physical_page", None)) if relevant_ctx and relevant_ctx.get("metadata") else None
-                if pg is None:
-                    pg = passages[0][1]["physical_page"] or passages[0][1]["logical_page"] or random.randint(1,31)
+                doc_index = relevant_ctx.get("doc_index",0)
+                meta = passages[doc_index][1]
+                pg = meta.get("physical_page", 27)
                 q_type = classify_q(question)
                 if q_type in ["num", "pct", "success"]:
                     extracted_value = extract_num(ans, q_type)
