@@ -164,13 +164,56 @@ def similarity_score(query: str, text: str) -> float:
     final_score = (0.5 * difflib_score) + (0.3 * common_words) + (0.2 * (lcs / max(1, len(q_tokens))))
     return final_score
 
-def get_relevant_passage(query: str, db, n_results=3):
-    res = db.query(query_texts=[query], n_results=n_results, include=["documents", "metadatas"])
+def get_relevant_passage(query: str, db, n_results=1):
+    # Récupérer les candidats via ChromaDB (top 5 pour re-ranking, mais on retourne seulement 1 final)
+    res = db.query(query_texts=[query], n_results=5, include=["documents", "metadatas"])
     candidates = res['documents'][0]
     metas = res['metadatas'][0]
-    scored = [(similarity_score(query, doc), doc, meta) for doc, meta in zip(candidates, metas)]
-    scored.sort(key=lambda x: x[0], reverse=True)
-    top_ = [(doc, meta) for _, doc, meta in scored[:n_results]]
+
+    # Utiliser Gemini 1.5-flash pour sélectionner le meilleur passage parmi les candidats
+    # Préparer le prompt pour le re-ranking
+    combined_candidates = "\n\n".join([f"# Doc {i}: {candidates[i]}" for i in range(len(candidates))])
+    rerank_prompt = f"""
+    Vous êtes un expert en sélection de passages pertinents. Analysez les candidats suivants et sélectionnez l'index du document le plus pertinent pour la question : '{query}'.
+    Choisissez uniquement l'index (un nombre entre 0 et {len(candidates)-1}) du document qui contient la réponse exacte ou la plus proche.
+    Si aucun n'est pertinent, choisissez 0.
+    Format de réponse : {{"best_index": <nombre>}}
+    Candidats :
+    {combined_candidates}
+    """
+
+    model = genai.GenerativeModel("gemini-1.5-flash")
+    max_retries = 3
+    retry_delay = 5
+    best_index = 0  # Default
+    for key_index, api_key in enumerate(api_keys):
+        try:
+            genai.configure(api_key=api_key)
+            for attempt in range(max_retries):
+                try:
+                    res = model.generate_content(rerank_prompt)
+                    time.sleep(0.1)
+                    response_text = res.text.strip()
+                    json_match = regex.search(r'\{(?:[^{}]|(?R))*\}', response_text, regex.DOTALL)
+                    if json_match:
+                        json_str = json_match.group(0).replace(",}", "}").replace(",]", "]").replace("\n", "  ")
+                        rerank_data = json.loads(json_str)
+                        best_index = int(rerank_data.get("best_index", 0))
+                        if best_index >= len(candidates):
+                            best_index = 0
+                    break
+                except (google.api_core.exceptions.ResourceExhausted, json.JSONDecodeError) as e:
+                    if attempt < max_retries - 1:
+                        time.sleep(retry_delay)
+                        retry_delay *= 1.1
+                    else:
+                        break
+            break
+        except Exception as e:
+            continue
+
+    # Retourner seulement le meilleur passage (n_results=1)
+    top_ = [(candidates[best_index], metas[best_index])]
     return top_
 
 #============================Classify Question============================#
@@ -188,8 +231,10 @@ def classify_q(q: str) -> str:
 
 #============================Extract Number============================#
 def extract_num(ans: str, q_type: str) -> str:
-    # print("Extraction de nombre....", q_type, ans)
-    ans, ans_ = [ans.strip()]*2
+    # Assurer que ans est une string
+    ans = str(ans)
+    ans_ = ans  # Copie originale
+
     ans = re.sub(r'\s+', '', ans)
     
     if q_type == "num" and ans.isnumeric():
@@ -243,10 +288,8 @@ def make_rag_prompt(query: str, contexts: List[Tuple[str, Dict]]) -> str:
 
 #============================Gemini Response============================#
 def get_gemini_response(query: str, contexts: List[Tuple[str, Dict]]) -> Dict:
-    # print("Prepare to get gemini response...")
-    # print(contexts)
     prompt = make_rag_prompt(query, contexts)
-    model = genai.GenerativeModel("gemini-2.5-flash")
+    model = genai.GenerativeModel("gemini-1.5-flash")  # Changé à gemini-1.5-flash pour la précision
     max_retries = 3
     retry_delay = 5
     for key_index, api_key in enumerate(api_keys):
@@ -257,8 +300,6 @@ def get_gemini_response(query: str, contexts: List[Tuple[str, Dict]]) -> Dict:
                     res = model.generate_content(prompt)
                     time.sleep(0.1)
                     response_text = res.text.strip()
-                    # print("Gemini response....")
-                    # print(response_text)
                     json_match = regex.search(r'\{(?:[^{}]|(?R))*\}', response_text, regex.DOTALL)
                     if json_match:
                         json_str = json_match.group(0)
@@ -266,32 +307,32 @@ def get_gemini_response(query: str, contexts: List[Tuple[str, Dict]]) -> Dict:
                         json_str = json_str.replace("\n", "  ")
                         try:
                             response_data = json.loads(json_str)
-                            # print("json response loaded...")
+                            # Convertir en strings pour éviter les erreurs d'attribut
+                            if "answer" in response_data:
+                                response_data["answer"] = str(response_data["answer"])
+                            if "doc_index" in response_data:
+                                response_data["doc_index"] = str(response_data["doc_index"])
                         except json.JSONDecodeError as e:
-                            # print(f"JSON parsing failed: {str(e)} - Raw JSON: {json_str}")
                             answer_match = re.search(r'answer:?\s*([^\n]+)', response_text, re.IGNORECASE)
                             context_match = re.search(r'"doc_index":?\s*([^\n]+)', response_text, re.IGNORECASE)
                             response_data = {
-                                "answer": answer_match.group(1).strip() if answer_match else "Aucune réponse claire",
-                                "doc_index": context_match.group(1).strip() if context_match else "0"
+                                "answer": str(answer_match.group(1).strip()) if answer_match else "Aucune réponse claire",
+                                "doc_index": str(context_match.group(1).strip()) if context_match else "0"
                             }
                     else:
-                        # print("No JSON structure detected in response")
                         answer_match = re.search(r'answer:?\s*([^\n]+)', response_text, re.IGNORECASE)
                         context_match = re.search(r'doc_index:?\s*([^\n]+)', response_text, re.IGNORECASE)
                         response_data = {
-                            "answer": answer_match.group(1).strip() if answer_match else "Aucune réponse claire",
-                            "doc_index": context_match.group(1).strip() if context_match else "0"
+                            "answer": str(answer_match.group(1).strip()) if answer_match else "Aucune réponse claire",
+                            "doc_index": str(context_match.group(1).strip()) if context_match else "0"
                         }
                     q_type = classify_q(query)
                     if q_type in ["num", "pct", "success"] and "answer" in response_data:
                         extracted_value = extract_num(response_data["answer"], q_type)
                         if extracted_value:
                             response_data["answer"] = extracted_value
-                    # print("Gemini response success...✔")
                     return response_data
                 except (google.api_core.exceptions.ResourceExhausted, json.JSONDecodeError) as e:
-                    # print(f"Attempt {attempt + 1} failed: {str(e)}")
                     if attempt < max_retries - 1:
                         time.sleep(retry_delay)
                         retry_delay *= 1.1
@@ -313,16 +354,13 @@ def process_questions_from_csv(db, csv_path: str, output_csv: str = '../submissi
         for idx, row in enumerate(tqdm(df.iterrows(), total=total_questions, desc="Traitement des questions", unit="question")):
             qid = row[1]["id"]
             question = row[1]["question"]
-            # print(f"\n#{'='*25}#\n")
-            # print(f"Processing question {qid}: {question}")
-            passages = get_relevant_passage(question, db, n_results=5)
+            passages = get_relevant_passage(question, db, n_results=1)  # Changé à n_results=1 comme indiqué
             if not passages:
                 ans = "Info non trouvée"
                 ctx = "Aucun contexte extrait"
                 pg = "N/A"
             else:
                 response = get_gemini_response(question, passages)
-                # print(f"Response for {qid}: {response}")
                 ans = response.get("answer", "Erreur de traitement")
                 doc_index = response.get("doc_index", "0")
                 doc_index = doc_index if str(doc_index).isnumeric() and int(doc_index)<len(passages) else 0
@@ -334,10 +372,6 @@ def process_questions_from_csv(db, csv_path: str, output_csv: str = '../submissi
                     extracted_value = extract_num(ans, q_type)
                     if extracted_value:
                         ans = extracted_value
-                        # if q_type == "pct" and not ans.endswith("%"):
-                        #     ans = f"{ans}%"
-            # print("ready to write answer...")
-            # print(f"\n#{'='*25}#\n")
             with open(output_csv, mode="a", newline="", encoding="utf-8") as f:
                 writer = csv.DictWriter(f, fieldnames=["id", "question", "answer", "context", "ref_page"])
                 writer.writerow({

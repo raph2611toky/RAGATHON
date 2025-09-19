@@ -12,7 +12,7 @@ fichier_pdf = os.path.abspath("./data/MESUPRES_en_chiffres_MAJ.pdf")
 dossier_sortie = os.path.abspath("./extracted_graphs")
 os.makedirs(dossier_sortie, exist_ok=True)
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'C:\Programmes\tesseract-OCR\tesseract.exe'
 
 def extraire_graphs(pdf_path, output_dir):
     graphs_info = []

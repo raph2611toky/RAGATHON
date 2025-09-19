@@ -28,16 +28,31 @@ os.makedirs("../submissions", exist_ok=True)
 # ============================ Table to Text (ancien code) ============================ #
 def table_to_text(tbl: List[List[str]]) -> str:
     """
-    Convertit un tableau en markdown (ancienne version).
+    Convertit un tableau en markdown, avec largeur uniforme par colonne.
     """
     if not tbl or all(all(not cell for cell in row) for row in tbl):
         return ""
-    headers = tbl[0]
-    md = "| " + " | ".join(str(cell or "") for cell in headers) + " |\n"
-    md += "|---" * len(headers) + "|\n"
-    for row in tbl[1:]:
-        md += "| " + " | ".join(str(cell or "") for cell in row) + " |\n"
+
+    cleaned_tbl = [[str(cell or "").replace("\n", " ").strip() for cell in row] for row in tbl]
+
+    num_cols = max(len(row) for row in cleaned_tbl)
+    col_widths = [0] * num_cols
+    for row in cleaned_tbl:
+        for i, cell in enumerate(row):
+            col_widths[i] = max(col_widths[i], len(cell))
+
+    headers = cleaned_tbl[0]
+    md = "| " + " | ".join(headers[i].ljust(col_widths[i]) for i in range(len(headers))) + " |\n"
+    md += "| " + " | ".join("-" * col_widths[i] for i in range(len(headers))) + " |\n"
+
+    for row in cleaned_tbl[1:]:
+        padded_cells = [
+            (row[i] if i < len(row) else "").ljust(col_widths[i]) for i in range(num_cols)
+        ]
+        md += "| " + " | ".join(padded_cells) + " |\n"
+
     return "Tableau (format markdown):\n" + md
+
 
 
 # ============================ Texte (nouvelle version) ============================ #
