@@ -29,6 +29,8 @@ api_keys = [key for key in api_keys if key]
 if not api_keys:
     raise ValueError("No valid Gemini API keys found in environment variables")
 
+os.makedirs("../submissions", exist_ok=True)
+
 #============================Load PDF============================#
 def load_pdf(file_path: str) -> Tuple[List[str], List[Dict]]:
     docs = []
@@ -141,6 +143,8 @@ def classify_q(q: str) -> str:
         return "pct"
     elif "taux de réussite" in q:
         return "success"
+    elif "total" in q:
+        return "num"
     return "gen"
 
 #============================Extract Number============================#
@@ -260,7 +264,7 @@ def get_gemini_response(query: str, contexts: List[Tuple[str, Dict]]) -> Dict:
     return {"answer": "Erreur : Toutes les clés API ont dépassé leur quota ou ont échoué", "relevant_context": None}
 
 #============================Process CSV============================#
-def process_questions_from_csv(db, csv_path: str, output_csv: str = 'submission_file.csv'):
+def process_questions_from_csv(db, csv_path: str, output_csv: str = './submissions/submission_file.csv'):
     try:
         df = pd.read_csv(csv_path)
         total_questions = len(df)
@@ -320,10 +324,10 @@ def process_questions_from_csv(db, csv_path: str, output_csv: str = 'submission_
 
 #============================Main============================#
 try:
-    data, metadata = load_pdf(file_path="./data/MESUPRES_en_chiffres_MAJ.pdf")
+    data, metadata = load_pdf(file_path="../data/MESUPRES_en_chiffres_MAJ.pdf")
     coll_name = 'rag'
     db = load_data(documents=data, metadatas=metadata, collection_name=coll_name)
-    process_questions_from_csv(db, './data/questions.csv')
+    process_questions_from_csv(db, '../data/questions.csv')
 except Exception as e:
     print(f"Main execution error: {str(e)}")
 #============================Main============================#
