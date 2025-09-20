@@ -275,7 +275,7 @@ def make_rag_prompt(query: str, contexts: List[Tuple[str, Dict]]) -> str:
 #============================Gemini Response============================#
 def get_gemini_response(query: str, contexts: List[Tuple[str, Dict]]) -> Dict:
     prompt = make_rag_prompt(query, contexts)
-    model = genai.GenerativeModel("gemini-1.5-flash")  # Utiliser 1.5-flash pour cohérence
+    model = genai.GenerativeModel("gemini-1.5-flash")
     max_retries = 3
     retry_delay = 5
     for key_index, api_key in enumerate(api_keys):
@@ -335,7 +335,7 @@ def get_gemini_response(query: str, contexts: List[Tuple[str, Dict]]) -> Dict:
     return {"answer": "Information non trouvée", "doc_index": "0"}
 
 #============================Process CSV============================#
-def process_questions_from_csv(db, csv_path: str, output_csv: str = '../submissions/submission_file.csv'):
+def process_questions_from_csv(db, csv_path: str, output_csv: str = '../submissions/submission_file_base.csv'):
     try:
         df = pd.read_csv(csv_path)
         total_questions = len(df)
