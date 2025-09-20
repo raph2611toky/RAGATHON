@@ -211,61 +211,68 @@ def similarity_score(query: str, text: str) -> float:
     final_score = (0.5 * difflib_score) + (0.3 * common_words) + (0.2 * (lcs / max(1, len(q_tokens))))
     return final_score
 
-def get_relevant_passage(query: str, db, n_results=3):
-    # Récupérer les candidats via ChromaDB (top 10 pour re-ranking, mais on retourne les top n_results après re-ranking)
-    res = db.query(query_texts=[query], n_results=5, include=["documents", "metadatas"])
-    candidates = res['documents'][0]
-    metas = res['metadatas'][0]
-
-    if not candidates:
-        return []
-
-    # Utiliser Gemini 1.5-flash pour re-ranker et sélectionner les meilleurs indices
-    # Préparer le prompt pour le re-ranking
-    combined_candidates = "\n\n".join([f"# Doc {i}: {candidates[i]}" for i in range(len(candidates))])
-    rerank_prompt = f"""
-    Vous êtes un expert en sélection de passages pertinents. Analysez les candidats suivants et sélectionnez les {n_results} indices des documents les plus pertinents pour la question : '{query}'.
-    Choisissez les indices (nombres entre 0 et {len(candidates)-1}) des documents qui contiennent la réponse exacte ou la plus proche.
-    Si moins de {n_results} sont pertinents, retournez seulement ceux qui le sont.
-    Format de réponse : {{"best_indices": [<nombre1>, <nombre2>, ...]}}
-    Candidats :
-    {combined_candidates}
-    """
-
-    model = genai.GenerativeModel("gemini-1.5-flash")
-    max_retries = 3
-    retry_delay = 5
-    best_indices = [0]  # Default
-    for key_index, api_key in enumerate(api_keys):
-        try:
-            genai.configure(api_key=api_key)
-            for attempt in range(max_retries):
-                try:
-                    res = model.generate_content(rerank_prompt)
-                    time.sleep(0.1)
-                    response_text = res.text.strip() if res.text else ""
-                    if not response_text:
-                        raise ValueError("Empty response text")
-                    json_match = regex.search(r'\{(?:[^{}]|(?R))*\}', response_text, regex.DOTALL)
-                    if json_match:
-                        json_str = json_match.group(0).replace(",}", "}").replace(",]", "]").replace("\n", "  ")
-                        rerank_data = json.loads(json_str)
-                        best_indices = rerank_data.get("best_indices", [0])
-                        best_indices = [int(idx) for idx in best_indices if idx < len(candidates)]
-                    break
-                except (google.api_core.exceptions.ResourceExhausted, json.JSONDecodeError, ValueError) as e:
-                    if attempt < max_retries - 1:
-                        time.sleep(retry_delay)
-                        retry_delay *= 1.1
-                    else:
-                        break
-            break
-        except Exception as e:
-            continue
-
-    # Retourner les top n_results (ou moins si pas assez)
-    top_ = [(candidates[idx], metas[idx]) for idx in best_indices[:n_results]]
+def get_relevant_passage(query: str, db, n_results=1):
+    # print("=======================================\n")
+    # print("Getting relevant passage...")
+    # print(query, end="\n__________________________\n")
+    results = db.query(query_texts=[query], n_results=n_results, include=["documents", "metadatas"])
+    top_ = [(d,m) for d, m in zip(results['documents'][0], results['metadatas'][0]) ]
+    # print(top_, end="="*45 + "\n")
     return top_
+# def get_relevant_passage(query: str, db, n_results=3):
+#     res = db.query(query_texts=[query], n_results=5, include=["documents", "metadatas"])
+#     candidates = res['documents'][0]
+#     metas = res['metadatas'][0]
+
+#     if not candidates:
+#         return []
+
+#     # Utiliser Gemini 1.5-flash pour re-ranker et sélectionner les meilleurs indices
+#     # Préparer le prompt pour le re-ranking
+#     combined_candidates = "\n\n".join([f"# Doc {i}: {candidates[i]}" for i in range(len(candidates))])
+#     rerank_prompt = f"""
+#     Vous êtes un expert en sélection de passages pertinents. Analysez les candidats suivants et sélectionnez les {n_results} indices des documents les plus pertinents pour la question : '{query}'.
+#     Choisissez les indices (nombres entre 0 et {len(candidates)-1}) des documents qui contiennent la réponse exacte ou la plus proche.
+#     Si moins de {n_results} sont pertinents, retournez seulement ceux qui le sont.
+#     Format de réponse : {{"best_indices": [<nombre1>, <nombre2>, ...]}}
+#     Candidats :
+#     {combined_candidates}
+#     """
+
+#     model = genai.GenerativeModel("gemini-1.5-flash")
+#     max_retries = 3
+#     retry_delay = 5
+#     best_indices = [0]  # Default
+#     for key_index, api_key in enumerate(api_keys):
+#         try:
+#             genai.configure(api_key=api_key)
+#             for attempt in range(max_retries):
+#                 try:
+#                     res = model.generate_content(rerank_prompt)
+#                     time.sleep(0.1)
+#                     response_text = res.text.strip() if res.text else ""
+#                     if not response_text:
+#                         raise ValueError("Empty response text")
+#                     json_match = regex.search(r'\{(?:[^{}]|(?R))*\}', response_text, regex.DOTALL)
+#                     if json_match:
+#                         json_str = json_match.group(0).replace(",}", "}").replace(",]", "]").replace("\n", "  ")
+#                         rerank_data = json.loads(json_str)
+#                         best_indices = rerank_data.get("best_indices", [0])
+#                         best_indices = [int(idx) for idx in best_indices if idx < len(candidates)]
+#                     break
+#                 except (google.api_core.exceptions.ResourceExhausted, json.JSONDecodeError, ValueError) as e:
+#                     if attempt < max_retries - 1:
+#                         time.sleep(retry_delay)
+#                         retry_delay *= 1.1
+#                     else:
+#                         break
+#             break
+#         except Exception as e:
+#             continue
+
+#     # Retourner les top n_results (ou moins si pas assez)
+#     top_ = [(candidates[idx], metas[idx]) for idx in best_indices[:n_results]]
+#     return top_
 
 #============================Classify Question============================#
 def classify_q(q: str) -> str:
@@ -324,11 +331,11 @@ def make_rag_prompt(query: str, contexts: List[Tuple[str, Dict]]) -> str:
     q_type = classify_q(query)
     instructions = ""
     if q_type == "num":
-        instructions = "La reponse doit etre un nombre, trouve des similarité ou faite des calculs si ca n'existe pas mais ca doit etre un nombre (sans texte supplémentaire: ex: 1254)."
+        instructions = "La reponse doit etre un nombre,faite des calculs si ca n'existe pas mais ca doit etre un nombre (sans texte supplémentaire: ex: 1254)."
     elif q_type == "pct":
-        instructions = "La reponse est un pourcentage de nombre, caculs si ca n'existe pas en priorisant la vraie reponse mais donne toujours un pourcentage valide (sans texte supplémentaire, ex: 45%)."
+        instructions = "La reponse est un pourcentage de nombre, caculs si ca n'existe pas (sans texte supplémentaire, ex: 45%)."
     elif q_type == "success":
-        instructions = "La réponse est un taux de réussite, retournez uniquement le taux exact en priorisant la vraie reponse et si jamais, tu ne trouve pas de reonse exacte, trouve des similarité ou faire des calculs (sans texte supplémentaire, ex: 85%)."
+        instructions = "La réponse est un taux de réussite, retournez uniquement le taux exact (sans texte supplémentaire, ex: 85%)."
     format = """{"answer":"<reponse>","doc_index":<nombre_entier>}"""
     return f"""
     Expert en stats éducatives Madagascar. Analysez les contextes fournis pour répondre à la question. Retournez une réponse contenant 'answer' (réponse directe) et 'doc_index' (nombre d'index de la document dans le contexte). Soyez précis, concis, factuel. Pas d'info hors contexte. {instructions}
@@ -343,7 +350,7 @@ def make_rag_prompt(query: str, contexts: List[Tuple[str, Dict]]) -> str:
 #============================Gemini Response============================#
 def get_gemini_response(query: str, contexts: List[Tuple[str, Dict]]) -> Dict:
     prompt = make_rag_prompt(query, contexts)
-    model = genai.GenerativeModel("gemini-1.5-flash")
+    model = genai.GenerativeModel("gemini-2.5-flash")
     max_retries = 3
     retry_delay = 5
     for key_index, api_key in enumerate(api_keys):
