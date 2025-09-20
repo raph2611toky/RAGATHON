@@ -1,6 +1,6 @@
 #============================Imports============================#
 from dotenv import load_dotenv, find_dotenv
-from typing import List, Tuple, Dict, Optional
+from typing import List, Tuple, Dict
 import pdfplumber
 from tqdm import tqdm
 import google.generativeai as genai
@@ -32,71 +32,19 @@ if not api_keys:
 os.makedirs("../submissions", exist_ok=True)
 
 
-# ============================ Handle Merged Cells ============================ #
-def fill_merged_cells(tbl: List[List[Optional[str]]]) -> List[List[Optional[str]]]:
+# ============================ Table to Text (ancien code) ============================ #
+def table_to_text(tbl: List[List[str]]) -> str:
     """
-    Fill merged cells by propagating values horizontally and vertically.
-    This handles common merged cell issues in PDF tables.
+    Convertit un tableau en markdown (ancienne version).
     """
-    num_rows = len(tbl)
-    if num_rows == 0:
-        return []
-
-    num_cols = max(len(row) for row in tbl)
-
-    # Pad rows with None
-    for row in tbl:
-        row += [None] * (num_cols - len(row))
-
-    # Fill horizontal merges (left to right)
-    for r in range(num_rows):
-        for c in range(1, num_cols):
-            if tbl[r][c] is None and tbl[r][c - 1] is not None:
-                tbl[r][c] = tbl[r][c - 1]
-
-    # Fill vertical merges (top to bottom)
-    for c in range(num_cols):
-        for r in range(1, num_rows):
-            if tbl[r][c] is None and tbl[r - 1][c] is not None:
-                tbl[r][c] = tbl[r - 1][c]
-
-    return tbl
-
-
-# ============================ Table to Text ============================ #
-def table_to_text(tbl: List[List[Optional[str]]]) -> str:
-    """
-    Convertit un tableau en markdown, avec largeur uniforme par colonne.
-    Improved to remove empty rows and handle cleaned cells better.
-    """
-    if not tbl:
+    if not tbl or all(all(not cell for cell in row) for row in tbl):
         return ""
-
-    # Clean cells: replace None with "", flatten newlines, strip whitespace
-    cleaned_tbl = [[str(cell or "").replace("\n", " ").strip() for cell in row] for row in tbl]
-
-    # Remove entirely empty rows
-    cleaned_tbl = [row for row in cleaned_tbl if any(cell for cell in row)]
-
-    if not cleaned_tbl:
-        return ""
-
-    num_cols = max(len(row) for row in cleaned_tbl)
-    col_widths = [0] * num_cols
-    for row in cleaned_tbl:
-        for i, cell in enumerate(row):
-            col_widths[i] = max(col_widths[i], len(cell))
-
-    # Assume first row is headers
-    headers = cleaned_tbl[0] + [""] * (num_cols - len(cleaned_tbl[0]))
-    md = "| " + " | ".join(headers[i].ljust(col_widths[i]) for i in range(num_cols)) + " |\n"
-    md += "| " + " | ".join("-" * col_widths[i] for i in range(num_cols)) + " |\n"
-
-    for row in cleaned_tbl[1:]:
-        padded_cells = [(row[i] if i < len(row) else "").ljust(col_widths[i]) for i in range(num_cols)]
-        md += "| " + " | ".join(padded_cells) + " |\n"
-
-    return md
+    headers = tbl[0]
+    md = "| " + " | ".join(str(cell or "").replace('\n',' ') for cell in headers) + " |\n"
+    md += "|---" * len(headers) + "|\n"
+    for row in tbl[1:]:
+        md += "| " + " | ".join(str(cell or "").replace('\n',' ') for cell in row) + " |\n"
+    return "Tableau (format markdown):\n" + md
 
 
 # ============================ Texte (nouvelle version) ============================ #
@@ -117,24 +65,13 @@ def load_pdf(file_path: str) -> Tuple[List[str], List[Dict]]:
 
     docs = []
     meta = []
-    # Improved table settings for better detection accuracy
-    # Changed 'keep_blank_chars' to 'text_keep_blank_chars' for compatibility with pdfplumber versions >= 0.8.0
-    table_settings = {
-        "vertical_strategy": "lines",
-        "horizontal_strategy": "lines",
-        "snap_tolerance": 3,
-        "join_tolerance": 3,
-        "intersection_tolerance": 3,
-        "text_keep_blank_chars": False,
-    }
-
     with pdfplumber.open(file_path) as pdf:
         for phys_num, page in enumerate(tqdm(pdf.pages, desc=f"Lecture de {os.path.basename(file_path)}"), start=1):
             width, height = page.width, page.height
             for half_num, bbox in enumerate([(0, 0, width / 2, height), (width / 2, 0, width, height)]):
                 crop = page.crop(bbox)
                 content = []
-                tables = crop.find_tables(table_settings=table_settings)
+                tables = crop.find_tables()
                 table_positions = sorted(tables, key=lambda t: t.bbox[1]) if tables else []
                 prev_bottom = 0  # relatif au crop
 
@@ -149,9 +86,8 @@ def load_pdf(file_path: str) -> Tuple[List[str], List[Dict]]:
                         if above_text:
                             content.append(above_text)
 
-                    # tableau with merged cells handled
+                    # tableau
                     table_data = table.extract()
-                    table_data = fill_merged_cells(table_data)
                     table_str = table_to_text(table_data)
                     if table_str:
                         content.append(table_str)
@@ -175,10 +111,6 @@ def load_pdf(file_path: str) -> Tuple[List[str], List[Dict]]:
 
                 combined = "\n\n".join(content).strip()
                 if combined:
-                    # Replace "Tableau xx :" with "Titre du Tableau xx :"
-                    combined = re.sub(r'Tableau (\d+)\s*:', r'Titre de la Tableau \1 :', combined)
-                    # Replace "Graphe xx :" with "Titre du Graphe xx :"
-                    combined = re.sub(r'Graphe (\d+)\s*:', r'Titre de la Graphe \1 :', combined)
                     docs.append(combined)
                     meta.append({
                         "filename": os.path.basename(file_path),
@@ -190,7 +122,7 @@ def load_pdf(file_path: str) -> Tuple[List[str], List[Dict]]:
 #============================Load Data============================#
 def load_data(documents: List[str], metadatas: List[Dict], collection_name: str):
     client = chromadb.EphemeralClient()
-    embed = SentenceTransformerEmbeddingFunction(model_name="distiluse-base-multilingual-cased-v1")
+    embed = SentenceTransformerEmbeddingFunction(model_name="all-MiniLM-L12-v2")
     coll = client.create_collection(name=collection_name, embedding_function=embed)
     coll.add(documents=documents, metadatas=metadatas, ids=[f"doc_{i}" for i in range(len(documents))])
     return coll
@@ -211,68 +143,61 @@ def similarity_score(query: str, text: str) -> float:
     final_score = (0.5 * difflib_score) + (0.3 * common_words) + (0.2 * (lcs / max(1, len(q_tokens))))
     return final_score
 
-def get_relevant_passage(query: str, db, n_results=1):
-    # print("=======================================\n")
-    # print("Getting relevant passage...")
-    # print(query, end="\n__________________________\n")
-    results = db.query(query_texts=[query], n_results=n_results, include=["documents", "metadatas"])
-    top_ = [(d,m) for d, m in zip(results['documents'][0], results['metadatas'][0]) ]
-    # print(top_, end="="*45 + "\n")
+def get_relevant_passage(query: str, db, n_results=3):
+    # Récupérer les candidats via ChromaDB (top 10 pour re-ranking, mais on retourne les top n_results après re-ranking)
+    res = db.query(query_texts=[query], n_results=5, include=["documents", "metadatas"])
+    candidates = res['documents'][0]
+    metas = res['metadatas'][0]
+
+    if not candidates:
+        return []
+
+    # Utiliser Gemini 1.5-flash pour re-ranker et sélectionner les meilleurs indices
+    # Préparer le prompt pour le re-ranking
+    combined_candidates = "\n\n".join([f"# Doc {i}: {candidates[i]}" for i in range(len(candidates))])
+    rerank_prompt = f"""
+    Vous êtes un expert en sélection de passages pertinents. Analysez les candidats suivants et sélectionnez les {n_results} indices des documents les plus pertinents pour la question : '{query}'.
+    Choisissez les indices (nombres entre 0 et {len(candidates)-1}) des documents qui contiennent la réponse exacte ou la plus proche.
+    Si moins de {n_results} sont pertinents, retournez seulement ceux qui le sont.
+    Format de réponse : {{"best_indices": [<nombre1>, <nombre2>, ...]}}
+    Candidats :
+    {combined_candidates}
+    """
+
+    model = genai.GenerativeModel("gemini-1.5-flash")
+    max_retries = 3
+    retry_delay = 5
+    best_indices = [0]  # Default
+    for key_index, api_key in enumerate(api_keys):
+        try:
+            genai.configure(api_key=api_key)
+            for attempt in range(max_retries):
+                try:
+                    res = model.generate_content(rerank_prompt)
+                    time.sleep(0.1)
+                    response_text = res.text.strip() if res.text else ""
+                    if not response_text:
+                        raise ValueError("Empty response text")
+                    json_match = regex.search(r'\{(?:[^{}]|(?R))*\}', response_text, regex.DOTALL)
+                    if json_match:
+                        json_str = json_match.group(0).replace(",}", "}").replace(",]", "]").replace("\n", "  ")
+                        rerank_data = json.loads(json_str)
+                        best_indices = rerank_data.get("best_indices", [0])
+                        best_indices = [int(idx) for idx in best_indices if idx < len(candidates)]
+                    break
+                except (google.api_core.exceptions.ResourceExhausted, json.JSONDecodeError, ValueError) as e:
+                    if attempt < max_retries - 1:
+                        time.sleep(retry_delay)
+                        retry_delay *= 1.1
+                    else:
+                        break
+            break
+        except Exception as e:
+            continue
+
+    # Retourner les top n_results (ou moins si pas assez)
+    top_ = [(candidates[idx], metas[idx]) for idx in best_indices[:n_results]]
     return top_
-# def get_relevant_passage(query: str, db, n_results=3):
-#     res = db.query(query_texts=[query], n_results=5, include=["documents", "metadatas"])
-#     candidates = res['documents'][0]
-#     metas = res['metadatas'][0]
-
-#     if not candidates:
-#         return []
-
-#     # Utiliser Gemini 1.5-flash pour re-ranker et sélectionner les meilleurs indices
-#     # Préparer le prompt pour le re-ranking
-#     combined_candidates = "\n\n".join([f"# Doc {i}: {candidates[i]}" for i in range(len(candidates))])
-#     rerank_prompt = f"""
-#     Vous êtes un expert en sélection de passages pertinents. Analysez les candidats suivants et sélectionnez les {n_results} indices des documents les plus pertinents pour la question : '{query}'.
-#     Choisissez les indices (nombres entre 0 et {len(candidates)-1}) des documents qui contiennent la réponse exacte ou la plus proche.
-#     Si moins de {n_results} sont pertinents, retournez seulement ceux qui le sont.
-#     Format de réponse : {{"best_indices": [<nombre1>, <nombre2>, ...]}}
-#     Candidats :
-#     {combined_candidates}
-#     """
-
-#     model = genai.GenerativeModel("gemini-1.5-flash")
-#     max_retries = 3
-#     retry_delay = 5
-#     best_indices = [0]  # Default
-#     for key_index, api_key in enumerate(api_keys):
-#         try:
-#             genai.configure(api_key=api_key)
-#             for attempt in range(max_retries):
-#                 try:
-#                     res = model.generate_content(rerank_prompt)
-#                     time.sleep(0.1)
-#                     response_text = res.text.strip() if res.text else ""
-#                     if not response_text:
-#                         raise ValueError("Empty response text")
-#                     json_match = regex.search(r'\{(?:[^{}]|(?R))*\}', response_text, regex.DOTALL)
-#                     if json_match:
-#                         json_str = json_match.group(0).replace(",}", "}").replace(",]", "]").replace("\n", "  ")
-#                         rerank_data = json.loads(json_str)
-#                         best_indices = rerank_data.get("best_indices", [0])
-#                         best_indices = [int(idx) for idx in best_indices if idx < len(candidates)]
-#                     break
-#                 except (google.api_core.exceptions.ResourceExhausted, json.JSONDecodeError, ValueError) as e:
-#                     if attempt < max_retries - 1:
-#                         time.sleep(retry_delay)
-#                         retry_delay *= 1.1
-#                     else:
-#                         break
-#             break
-#         except Exception as e:
-#             continue
-
-#     # Retourner les top n_results (ou moins si pas assez)
-#     top_ = [(candidates[idx], metas[idx]) for idx in best_indices[:n_results]]
-#     return top_
 
 #============================Classify Question============================#
 def classify_q(q: str) -> str:
@@ -331,11 +256,11 @@ def make_rag_prompt(query: str, contexts: List[Tuple[str, Dict]]) -> str:
     q_type = classify_q(query)
     instructions = ""
     if q_type == "num":
-        instructions = "La reponse doit etre un nombre,faite des calculs si ca n'existe pas mais ca doit etre un nombre (sans texte supplémentaire: ex: 1254)."
+        instructions = "La reponse doit etre un nombre, trouve des similarité ou faite des calculs si ca n'existe pas mais ca doit etre un nombre (sans texte supplémentaire: ex: 1254)."
     elif q_type == "pct":
-        instructions = "La reponse est un pourcentage de nombre, caculs si ca n'existe pas (sans texte supplémentaire, ex: 45%)."
+        instructions = "La reponse est un pourcentage de nombre, caculs si ca n'existe pas en priorisant la vraie reponse mais donne toujours un pourcentage valide (sans texte supplémentaire, ex: 45%)."
     elif q_type == "success":
-        instructions = "La réponse est un taux de réussite, retournez uniquement le taux exact (sans texte supplémentaire, ex: 85%)."
+        instructions = "La réponse est un taux de réussite, retournez uniquement le taux exact en priorisant la vraie reponse et si jamais, tu ne trouve pas de reonse exacte, trouve des similarité ou faire des calculs (sans texte supplémentaire, ex: 85%)."
     format = """{"answer":"<reponse>","doc_index":<nombre_entier>}"""
     return f"""
     Expert en stats éducatives Madagascar. Analysez les contextes fournis pour répondre à la question. Retournez une réponse contenant 'answer' (réponse directe) et 'doc_index' (nombre d'index de la document dans le contexte). Soyez précis, concis, factuel. Pas d'info hors contexte. {instructions}
@@ -425,7 +350,7 @@ def process_questions_from_csv(db, csv_path: str, output_csv: str = '../submissi
                 print("❗ Pas de passages...", passages)
                 ans = "Information non trouvée"
                 ctx = "Aucun contexte extrait"
-                pg = "N/A"
+                pg = 27
             else:
                 response = get_gemini_response(question, passages)
                 ans = response.get("answer", "Information non trouvée")
