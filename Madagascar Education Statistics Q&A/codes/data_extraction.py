@@ -90,7 +90,7 @@ def table_to_text(tbl: List[List[Optional[str]]]) -> str:
         padded_cells = [(row[i] if i < len(row) else "").ljust(col_widths[i]) for i in range(num_cols)]
         md += "| " + " | ".join(padded_cells) + " |\n"
 
-    return "Tableau (format markdown):\n" + md
+    return md
 
 
 # ============================ Texte (nouvelle version) ============================ #
@@ -169,6 +169,10 @@ def load_pdf(file_path: str) -> Tuple[List[str], List[Dict]]:
 
                 combined = "\n\n".join(content).strip()
                 if combined:
+                    # Replace "Tableau xx :" with "Titre du Tableau xx :"
+                    combined = re.sub(r'Tableau (\d+)\s*:', r'Titre du Tableau \1 :', combined)
+                    # Replace "Graphe xx :" with "Titre du Graphe xx :"
+                    combined = re.sub(r'Graphe (\d+)\s*:', r'Titre du Graphe \1 :', combined)
                     docs.append(combined)
                     meta.append({
                         "filename": os.path.basename(file_path),

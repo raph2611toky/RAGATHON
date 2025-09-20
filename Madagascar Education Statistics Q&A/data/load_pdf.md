@@ -14,30 +14,30 @@ Tableau (format markdown):
 |  | ------------------ |  |
 
 
-Tableau 01 : EVOLUTION DES INSCRITS ET ADMIS AU BACCALAUREAT DE 2018 A 2022 2
-Graphe 01 : Evolution des effectifs des inscrits et admis au baccalauréat de 2018 à 2022 2
-Tableau 02 : EVOLUTION DES INSCRITS ET ADMIS AU BACCALAUREAT PAR SERIE DE 2018
+Titre du Tableau 01 : EVOLUTION DES INSCRITS ET ADMIS AU BACCALAUREAT DE 2018 A 2022 2
+Titre du Graphe 01 : Evolution des effectifs des inscrits et admis au baccalauréat de 2018 à 2022 2
+Titre du Tableau 02 : EVOLUTION DES INSCRITS ET ADMIS AU BACCALAUREAT PAR SERIE DE 2018
 3
 A 2022
-Graphe 02 : Taux de répartition des admis au baccalauréat par série en 2022 3
-Tableau 03 : EVOLUTION DE TAUX DES ADMIS AU BACCALAUREAT PAR SERIE DE 2018 A
+Titre du Graphe 02 : Taux de répartition des admis au baccalauréat par série en 2022 3
+Titre du Tableau 03 : EVOLUTION DE TAUX DES ADMIS AU BACCALAUREAT PAR SERIE DE 2018 A
 4
 2022
-Graphe 03 : Taux d’évolution des admis au baccalauréat par série de 2018 à 2022 4
-Tableau 04 : EVOLUTION DE TAUX DES ADMIS AU BACCALAUREAT PAR PROVINCE DE
+Titre du Graphe 03 : Taux d’évolution des admis au baccalauréat par série de 2018 à 2022 4
+Titre du Tableau 04 : EVOLUTION DE TAUX DES ADMIS AU BACCALAUREAT PAR PROVINCE DE
 5
 2018 A 2022
-Graphe 04 : Répartition des inscrits et admis au Baccalauréat - année 2022 5
+Titre du Graphe 04 : Répartition des inscrits et admis au Baccalauréat - année 2022 5
 
 Tableau (format markdown):
 |  | 2 – LA TRANSITION DE NOUVEAUX BACHELIERS |  |
 |  | ---------------------------------------- |  |
 
 
-Tableau 05 : EVOLUTION DES TAUX DE TRANSITION DE NOUVEAUX BACHELIERS DE 2016
+Titre du Tableau 05 : EVOLUTION DES TAUX DE TRANSITION DE NOUVEAUX BACHELIERS DE 2016
 6
 A 2020
-Graphe 05 : Evolution de taux des nouveaux bacheliers entrant en 1ère universitaire année
+Titre du Graphe 05 : Evolution de taux des nouveaux bacheliers entrant en 1ère universitaire année
 6
 de 2016 à 2020
 
@@ -46,67 +46,67 @@ Tableau (format markdown):
 |  | ---------------- |  |
 
 
-Tableau 06 : EVOLUTION DES EFFECTIFS DES ETUDIANTS POUR 100 000 HABITANTS DE
+Titre du Tableau 06 : EVOLUTION DES EFFECTIFS DES ETUDIANTS POUR 100 000 HABITANTS DE
 7
 2017 A 2022
-Graphe 06 : Evolution des étudiants pour 100 000 habitants à l'ESUP de 2017 à 2022 8
-Tableau 07 : EVOLUTION DES EFFECTIFS DES ETUDIANTS INSCRITS DE 2017 A 2022 8
-Graphe 07 : Taux de Répartition des inscrits à l'ESUP de 2017 à 2022 9
-Graphe 08 : Taux de répartition des effectifs des étudiants inscrits : dans les 6 universités -
+Titre du Graphe 06 : Evolution des étudiants pour 100 000 habitants à l'ESUP de 2017 à 2022 8
+Titre du Tableau 07 : EVOLUTION DES EFFECTIFS DES ETUDIANTS INSCRITS DE 2017 A 2022 8
+Titre du Graphe 07 : Taux de Répartition des inscrits à l'ESUP de 2017 à 2022 9
+Titre du Graphe 08 : Taux de répartition des effectifs des étudiants inscrits : dans les 6 universités -
 9
 année 2022
-Tableau 08 : EVOLUTION DES EFFECTIFS DES ETUDIANTS DOCTORANTS DE 2017 A 2022 10
-Graphe 09 : Evolution des effectifs des doctorants aux 6 universités de 2017 à 2022 10
-Graphe 10 : Taux de répartition des doctorants aux 6 universités - année 2022 11
-Tableau 09 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR DOMAINE DE 2017 A 2022 11
-Graphe 11 : Taux de répartition par domaine des étudiants dans les 6 universités - année
+Titre du Tableau 08 : EVOLUTION DES EFFECTIFS DES ETUDIANTS DOCTORANTS DE 2017 A 2022 10
+Titre du Graphe 09 : Evolution des effectifs des doctorants aux 6 universités de 2017 à 2022 10
+Titre du Graphe 10 : Taux de répartition des doctorants aux 6 universités - année 2022 11
+Titre du Tableau 09 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR DOMAINE DE 2017 A 2022 11
+Titre du Graphe 11 : Taux de répartition par domaine des étudiants dans les 6 universités - année
 12
 2022
-Graphe 12 : Evolution des inscrits par domaine à l'ESUP de 2017 à 2022 12
-Graphe 13 : Taux de répartition par domaine des étudiants année 2022 13
-Tableau 10 : EVOLUTION ET REPARTITION PAR AGE DES ETUDIANTS A L’ENSEIGNEMENT
+Titre du Graphe 12 : Evolution des inscrits par domaine à l'ESUP de 2017 à 2022 12
+Titre du Graphe 13 : Taux de répartition par domaine des étudiants année 2022 13
+Titre du Tableau 10 : EVOLUTION ET REPARTITION PAR AGE DES ETUDIANTS A L’ENSEIGNEMENT
 14
 SUPERIEUR DE 2017 A 2022
-Graphe 14 : Répartition par âge des étudiants à l'ESUP – année 2021-2022 15
-Tableau 11 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR TYPE D'ETABLISSEMENT DE
+Titre du Graphe 14 : Répartition par âge des étudiants à l'ESUP – année 2021-2022 15
+Titre du Tableau 11 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR TYPE D'ETABLISSEMENT DE
 15
 2017 A 2022
-Graphe 15 : Evolution et répartition des étudiants par type d'établissement à l'ESUP 16
+Titre du Graphe 15 : Evolution et répartition des étudiants par type d'établissement à l'ESUP 16
 ---
-Tableau 12 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR GENRE A L’ENSEIGNEMENT 16
+Titre du Tableau 12 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR GENRE A L’ENSEIGNEMENT 16
 SUPERIEUR DE 2017 A 2022
-Graphe 16 : Taux de répartition par genre des étudiants dans les 6 universités : année 2022 17
-Tableau 13 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR NIVEAU D’ETUDES A
+Titre du Graphe 16 : Taux de répartition par genre des étudiants dans les 6 universités : année 2022 17
+Titre du Tableau 13 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR NIVEAU D’ETUDES A
 17
 L’ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
-Graphe 17 : Evolution de taux des effectifs des étudiants inscrits par niveau d'études de
+Titre du Graphe 17 : Evolution de taux des effectifs des étudiants inscrits par niveau d'études de
 18
 2017 à 2022
-Graphe 18 : Répartition des étudiants par année d'études - année 2022 18
-Tableau 14 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR REGION A L’ENSEIGNEMENT
+Titre du Graphe 18 : Répartition des étudiants par année d'études - année 2022 18
+Titre du Tableau 14 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR REGION A L’ENSEIGNEMENT
 19
 SUPERIEUR DE 2017 A 2022
-Graphe 19 : Répartition par région des étudiants inscrits - année 2022 20
-Tableau 15 : EVOLUTION DES EFFECTIFS DES ETUDIANTS ETRANGERS A L'ENSEIGNEMENT
+Titre du Graphe 19 : Répartition par région des étudiants inscrits - année 2022 20
+Titre du Tableau 15 : EVOLUTION DES EFFECTIFS DES ETUDIANTS ETRANGERS A L'ENSEIGNEMENT
 20
 SUPERIEUR DE 2017 A 2022
-Graphe 20 : Evolution des effectifs des étudiants étrangers à l'ESUP de 2016 à 2022 21
-Tableau 16 : EVOLUTION DES ETUDIANTS ETRANGERS PAR NATIONALITE A
+Titre du Graphe 20 : Evolution des effectifs des étudiants étrangers à l'ESUP de 2016 à 2022 21
+Titre du Tableau 16 : EVOLUTION DES ETUDIANTS ETRANGERS PAR NATIONALITE A
 21
 L’ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
-Graphe 21 : Taux de répartition des étudiants étrangers à l'ESUP - année 2021-2022 22
+Titre du Graphe 21 : Taux de répartition des étudiants étrangers à l'ESUP - année 2021-2022 22
 
 Tableau (format markdown):
 |  | 4- LES BOURSIERS |  |
 |  | ---------------- |  |
 
 
-Tableau 17 : EVOLUTION DES EFFECTIFS DES ETUDIANTS BOURSIERS A L’ENSEIGNEMENT
+Titre du Tableau 17 : EVOLUTION DES EFFECTIFS DES ETUDIANTS BOURSIERS A L’ENSEIGNEMENT
 22
 SUPERIEUR DE 2017 A 2022
-Graphe 22 : Taux de Répartition des étudiants boursiers dans les 6 universités - année 2022 23
-Graphe 23 : Evolution des étudiants boursiers à l'ESUP de 2017 à 2022 23
-Graphe 24 : Répartition par genre des étudiants boursiers dans les 6 universités - année
+Titre du Graphe 22 : Taux de Répartition des étudiants boursiers dans les 6 universités - année 2022 23
+Titre du Graphe 23 : Evolution des étudiants boursiers à l'ESUP de 2017 à 2022 23
+Titre du Graphe 24 : Répartition par genre des étudiants boursiers dans les 6 universités - année
 24
 2022
 
@@ -115,55 +115,55 @@ Tableau (format markdown):
 |  | ----------------------------- |  |
 
 
-Tableau 18 : EVOLUTION DES EFFECTIFS DES ENSEIGNANTS PERMANENTS PAR DOMAINE
+Titre du Tableau 18 : EVOLUTION DES EFFECTIFS DES ENSEIGNANTS PERMANENTS PAR DOMAINE
 24
 DE 2017 A 2022
-Graphe 25 : Evolution des effectifs des enseignants par domaine à l'ESUP de 2017 à 2022 25
-Graphe 26 : Répartition par genre et par domaine des enseignants - année 2022 26
-Tableau 19 : EVOLUTION DES EFFECTIFS DES ENSEIGNANTS PERMANENTS PAR GRADE DE
+Titre du Graphe 25 : Evolution des effectifs des enseignants par domaine à l'ESUP de 2017 à 2022 25
+Titre du Graphe 26 : Répartition par genre et par domaine des enseignants - année 2022 26
+Titre du Tableau 19 : EVOLUTION DES EFFECTIFS DES ENSEIGNANTS PERMANENTS PAR GRADE DE
 26
 2017 A 2022 (6 UNIVERSITES ET 3 IST)
-Graphe 27 : Evolution et répartition par grade des enseignants permanents de 2017 à 2022 27
-Graphe 28 : Taux de répartition des enseignants par grade - année 2022 27
-Tableau 20 : EVOLUTION ET REPARTITION DES ENSEIGNANTS PAR AGE DE 2017 A 2022 28
-Graphe 29 : Répartition par âge des enseignants - année 2022 29
-Graphe 30 : Répartition par âge et par genre des Enseignants permanents - année 2022 29
-Tableau 21 : EVOLUTION DE NOMBRE D’ENSEIGNANTS A L’ENSEIGNEMENT SUPERIEUR
+Titre du Graphe 27 : Evolution et répartition par grade des enseignants permanents de 2017 à 2022 27
+Titre du Graphe 28 : Taux de répartition des enseignants par grade - année 2022 27
+Titre du Tableau 20 : EVOLUTION ET REPARTITION DES ENSEIGNANTS PAR AGE DE 2017 A 2022 28
+Titre du Graphe 29 : Répartition par âge des enseignants - année 2022 29
+Titre du Graphe 30 : Répartition par âge et par genre des Enseignants permanents - année 2022 29
+Titre du Tableau 21 : EVOLUTION DE NOMBRE D’ENSEIGNANTS A L’ENSEIGNEMENT SUPERIEUR
 30
 PUBLIC DE 2017 A 2022
-Graphe 31 : Répartition des enseignants dans les 6 universités - année 2022 30
-Graphe 32 : Evolution de taux des effectifs des enseignants aux 3 IST de 2017 à 2022 31
+Titre du Graphe 31 : Répartition des enseignants dans les 6 universités - année 2022 30
+Titre du Graphe 32 : Evolution de taux des effectifs des enseignants aux 3 IST de 2017 à 2022 31
 
 Tableau (format markdown):
 |  | 6- LES ENSEIGNANTS VACATAIRES |  |
 |  | ----------------------------- |  |
 
 
-Tableau 22 : EVOLUTION DES EFFECTIFS DES ENSEIGNANTS VACATAIRES PAR GENRE A
+Titre du Tableau 22 : EVOLUTION DES EFFECTIFS DES ENSEIGNANTS VACATAIRES PAR GENRE A
 32
 L’ENSEIGNEMENT SUPERIEUR DE 2019 A 2022
 ---
-Graphe 33 : Taux de répartition des enseignants vacataires aux 6 universités - année 2022 33
-Graphe 34 : Répartition par genre des enseignants vacataires à l'ESUP - année 2022 33
+Titre du Graphe 33 : Taux de répartition des enseignants vacataires aux 6 universités - année 2022 33
+Titre du Graphe 34 : Répartition par genre des enseignants vacataires à l'ESUP - année 2022 33
 
 Tableau (format markdown):
 |  | 7 – LE PERSONNEL ADMINISTRATIF ET TECHNIQUE (PAT) |  |
 |  | ------------------------------------------------- |  |
 
 
-Tableau 23 : EVOLUTION DES EFFECTIFS DE PERSONNEL ADMINISTRATIF ET TECHNIQUE A
+Titre du Tableau 23 : EVOLUTION DES EFFECTIFS DE PERSONNEL ADMINISTRATIF ET TECHNIQUE A
 34
 L’ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
-Graphe 35 : Evolution des effectifs de PAT à l'ESUP de 2017 à 2022 34
-Graphe 36 : Taux de répartition de PAT dans les 6 Universités - année 2022 35
-Graphe 37 : Evolution des effectifs de PAT par genre à l'ESUP de 2017 à 2022 36
-Tableau 24 : REPARTITION PAR GENRE DE PERSONNEL ADMINISTRATIF ET TECHNIQUE A
+Titre du Graphe 35 : Evolution des effectifs de PAT à l'ESUP de 2017 à 2022 34
+Titre du Graphe 36 : Taux de répartition de PAT dans les 6 Universités - année 2022 35
+Titre du Graphe 37 : Evolution des effectifs de PAT par genre à l'ESUP de 2017 à 2022 36
+Titre du Tableau 24 : REPARTITION PAR GENRE DE PERSONNEL ADMINISTRATIF ET TECHNIQUE A
 36
 L’ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
-Tableau 25 : EFFECTIF DE PERSONNEL ADMINISTRATIF ET TECHNIQUE PAR CATEGORIE A
+Titre du Tableau 25 : EFFECTIF DE PERSONNEL ADMINISTRATIF ET TECHNIQUE PAR CATEGORIE A
 37
 L'IES PUBLIC - ANNEE 2022
-Graphe 38 : Répartition par catégorie de PAT à l'IES Public - année 2022 37
+Titre du Graphe 38 : Répartition par catégorie de PAT à l'IES Public - année 2022 37
 
 Tableau (format markdown):
 |  | 8- L’EFFICACITE INTERNE |  |
@@ -171,64 +171,64 @@ Tableau (format markdown):
 
 
 RESULTATS DES EXAMENS
-Graphe 39 : Evolution de taux de réussite aux examens à l'ESUP de 2016 à 2020 38
-Graphe 40 : Répartition de taux de réussite à l'examen aux 6 universités - année 2020 39
-Tableau 26 : EVOLUTION DES RESULTATS DES EXAMENS PAR NIVEAU D’ETUDES DE 2016 A
+Titre du Graphe 39 : Evolution de taux de réussite aux examens à l'ESUP de 2016 à 2020 38
+Titre du Graphe 40 : Répartition de taux de réussite à l'examen aux 6 universités - année 2020 39
+Titre du Tableau 26 : EVOLUTION DES RESULTATS DES EXAMENS PAR NIVEAU D’ETUDES DE 2016 A
 39
 2020
-Graphe 41 : Evolution de taux de réussite aux examens à l'ESUP - année 2020 40
+Titre du Graphe 41 : Evolution de taux de réussite aux examens à l'ESUP - année 2020 40
 DIPLOMES
-Tableau 27 : EVOLUTION PAR TYPE DE DIPLOMES A L’ENSEIGNEMENT SUPERIEUR DE 2016
+Titre du Tableau 27 : EVOLUTION PAR TYPE DE DIPLOMES A L’ENSEIGNEMENT SUPERIEUR DE 2016
 41
 A 2020
-Graphe 42 : Evolution des effectifs des diplômés à l'ESUP 41
-Graphe 43 : Répartition des diplômés à l'ESUP - année 2020 42
+Titre du Graphe 42 : Evolution des effectifs des diplômés à l'ESUP 41
+Titre du Graphe 43 : Répartition des diplômés à l'ESUP - année 2020 42
 
 Tableau (format markdown):
 |  | 9 – LES TAUX DE FLUX |  |
 |  | -------------------- |  |
 
 
-Tableau 28 : EVOLUTION DE TAUX DE FLUX A L’INSTITUT SUPERIEUR PUBLIC DE 2016 A
+Titre du Tableau 28 : EVOLUTION DE TAUX DE FLUX A L’INSTITUT SUPERIEUR PUBLIC DE 2016 A
 42
 2020
-Graphe 44 : Evolution de taux de flux à l'ESUP Public 43
-Graphe 45 : Taux de flux dans les 6 universités - année 2020 43
+Titre du Graphe 44 : Evolution de taux de flux à l'ESUP Public 43
+Titre du Graphe 45 : Taux de flux dans les 6 universités - année 2020 43
 10- LES TAUX DE SCOLARISATION
-Tableau 29 : EVOLUTION DE TAUX DE SCOLARISATION A L’ENSEIGNEMENT SUPERIEUR DE
+Titre du Tableau 29 : EVOLUTION DE TAUX DE SCOLARISATION A L’ENSEIGNEMENT SUPERIEUR DE
 44
 2017 A 2022
-Graphe 46 : Evolution de taux brut de scolarisation de 2017 à 2022 44
+Titre du Graphe 46 : Evolution de taux brut de scolarisation de 2017 à 2022 44
 
 Tableau (format markdown):
 |  | 11- LES RATIOS |  |
 |  | -------------- |  |
 
 
-Tableau 30 : EVOLUTION DE RATIOS ETUDIANTS / PE, PAT A L’ENSEIGNEMENT SUPERIEUR
+Titre du Tableau 30 : EVOLUTION DE RATIOS ETUDIANTS / PE, PAT A L’ENSEIGNEMENT SUPERIEUR
 45
 DE 2017 A 2022
-Graphe 47 : Evolution de ratios à l'Enseignement Supérieur : Public et Privé 45
-Graphe 48 : Evolution de ratio à l'Enseignement Supérieur 46
-Tableau 31 : EVOLUTION DE RATIOS ETUDIANTS / PE PAR DOMAINE A L’ENSEIGNEMENT
+Titre du Graphe 47 : Evolution de ratios à l'Enseignement Supérieur : Public et Privé 45
+Titre du Graphe 48 : Evolution de ratio à l'Enseignement Supérieur 46
+Titre du Tableau 31 : EVOLUTION DE RATIOS ETUDIANTS / PE PAR DOMAINE A L’ENSEIGNEMENT
 46
 SUPERIEUR PUBLIC DE 2017 A 2022
-Graphe 49 : Répartition de ratio étudiants/enseignant par domaine à l'IES Public - année
+Titre du Graphe 49 : Répartition de ratio étudiants/enseignant par domaine à l'IES Public - année
 47
 2022
 ---
 12 – LES CHERCHEURS ENSEIGNANTS
-Graphe 50 : Répartition par genre des Chercheurs Enseignants - année 2022 47
-Graphe 51 : Taux de répartition des chercheurs enseignants - année 2022 48
+Titre du Graphe 50 : Répartition par genre des Chercheurs Enseignants - année 2022 47
+Titre du Graphe 51 : Taux de répartition des chercheurs enseignants - année 2022 48
 
 Tableau (format markdown):
 |  | 13 – LE BUDGET |  |
 |  | -------------- |  |
 
 
-Graphe 52 : Taux d'évolution par programme de budget du MESUPRES 48
-Graphe 53 : Taux de répartition de budget par rubrique à l'ESUP - année 2022 49
-Graphe 54 : Taux d'évolution de budget par mission à l'Enseignement Supérieur 49
+Titre du Graphe 52 : Taux d'évolution par programme de budget du MESUPRES 48
+Titre du Graphe 53 : Taux de répartition de budget par rubrique à l'ESUP - année 2022 49
+Titre du Graphe 54 : Taux d'évolution de budget par mission à l'Enseignement Supérieur 49
 ANNEXE : LISTE DES ETABLISSEMENTS PUBLICS ET PRIVES 51 - 53
 CARTOGRAPHIE DES INSTITUTIONS D’ENSEIGNEMENT SUPERIEUR PUBLIQUES ET PRIVEES 54 - 55
 ---
@@ -325,7 +325,7 @@ TR : Taux de Redoublement
 1
 ---
 1 - LES BACHELIERS
-Tableau 01 : EVOLUTION DES INSCRITS ET ADMIS AU BACCALAUREAT DE 2018 A 2022
+Titre du Tableau 01 : EVOLUTION DES INSCRITS ET ADMIS AU BACCALAUREAT DE 2018 A 2022
 
 Tableau (format markdown):
 | Année | INSCRITS | ADMIS   | %      |
@@ -338,7 +338,7 @@ Tableau (format markdown):
 
 
 Source : Service du Baccalauréat / DES / MESUPRES
-Graphe 01 : Evolution des effectifs des inscrits
+Titre du Graphe 01 : Evolution des effectifs des inscrits
 et admis au baccalauréat de 2018 à 2022
 350 000
 300 000
@@ -359,7 +359,7 @@ passant de 184 807 à 162 953. Parallèlement, le nombre d'admis a connu une aug
 de 7% de 2018 à 2019, puis de 6% de 2019 à 2020.
 2
 ---
-Tableau 02 : EVOLUTION DES INSCRITS ET ADMIS AU BACCALAUREAT PAR SERIE DE 2018 A
+Titre du Tableau 02 : EVOLUTION DES INSCRITS ET ADMIS AU BACCALAUREAT PAR SERIE DE 2018 A
 2022
 
 Tableau (format markdown):
@@ -378,7 +378,7 @@ Tableau (format markdown):
 
 
 Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
-Graphe 02 : Tauxde répartition des admis au baccalauréat par série en 2022
+Titre du Graphe 02 : Tauxde répartition des admis au baccalauréat par série en 2022
 technique
 OSE 9%
 S 4%
@@ -393,7 +393,7 @@ Entre 2018 et 2020, près de 90% des diplômés du baccalauréat proviennent des
 générales (séries A, C et D), tandis que les séries techniques représentent environ 10%
 3
 ---
-Tableau 03 : EVOLUTION DE TAUX DES ADMIS AU BACCALAUREAT PAR SERIE DE 2018 A
+Titre du Tableau 03 : EVOLUTION DE TAUX DES ADMIS AU BACCALAUREAT PAR SERIE DE 2018 A
 2022
 
 Tableau (format markdown):
@@ -410,7 +410,7 @@ Tableau (format markdown):
 
 Source : Annuaire Statistique - SSP / DSSIP /
 MESUPRES
-Graphe 03 : Taux d'Evolution des admis au
+Titre du Graphe 03 : Taux d'Evolution des admis au
 baccalauréat par série
 80% A
 C
@@ -428,7 +428,7 @@ Entre 2018 et 2022, la série A affiche un taux moyen d'admission au baccalauré
 ---
 variant de 2% à 4%. Pendant cette période, la proportion des bacheliers issus des séries
 techniques reste en moyenne autour de 7%
-Tableau 04 : EVOLUTION DE TAUX DES ADMIS AU BACCALAUREAT PAR PROVINCE DE 2018
+Titre du Tableau 04 : EVOLUTION DE TAUX DES ADMIS AU BACCALAUREAT PAR PROVINCE DE 2018
 A 2022
 
 Tableau (format markdown):
@@ -444,7 +444,7 @@ Tableau (format markdown):
 
 Source : Annuaire Statistique – SSP / DSSIP/
 MESUPRES
-Graphe 04 : Répartition des inscrits etadmis au
+Titre du Graphe 04 : Répartition des inscrits etadmis au
 Baccalauréat -année 2022
 80 000
 
@@ -454,7 +454,7 @@ Faritany d’Antananarivo, tandis que les 60% restants proviennent des cinq autr
 5
 ---
 2 - LA TRANSITION DES NOUVEAUX BACHELIERS
-Tableau 05 : EVOLUTION DES TAUX DE TRANSITION DE NOUVEAUX BACHELIERS DE 2016 A
+Titre du Tableau 05 : EVOLUTION DES TAUX DE TRANSITION DE NOUVEAUX BACHELIERS DE 2016 A
 2020
 
 Tableau (format markdown):
@@ -469,7 +469,7 @@ Tableau (format markdown):
 
 
 Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
-Graphe 05 : Evolution de taux des nouveaux
+Titre du Graphe 05 : Evolution de taux des nouveaux
 bacheliers entrant en 1ère année universitaire
 
 Tableau (format markdown):
@@ -491,7 +491,7 @@ Supérieur, ce taux se situe entre 51% et 75% au cours de cette période. Il con
 de noter qu'il existe des nouveaux bacheliers qui n'accèdent pas à l'enseignement supérieur,
 avec un taux variant entre 25% et 49%.
 3 - LES ETUDIANTS
-Tableau 06 : EVOLUTION DES EFFECTIFS DES ETUDIANTS POUR 100 000 HABITANTS DE
+Titre du Tableau 06 : EVOLUTION DES EFFECTIFS DES ETUDIANTS POUR 100 000 HABITANTS DE
 2017 A 2022
 
 Tableau (format markdown):
@@ -518,7 +518,7 @@ des pays africains présentant un niveau de développement similaire à celui de
 laquelle est de 642 pour 100 000 habitants.
 7
 ---
-Graphe 06 : Evolution des étudiants pour 100
+Titre du Graphe 06 : Evolution des étudiants pour 100
 000 habitants à l'ESUP de 2017 à 2022
 200 000 700
 
@@ -530,7 +530,7 @@ avec un taux d'augmentation de 5,3%. Cette croissance se répartit à hauteur de
 institutions supérieures publiques et de 3,8% pour les institutions privées. Dans le secteur de
 l'enseignement supérieur, 75% des étudiants inscrits sont concentrés dans les institutions
 publiques et 25% se trouvent dans les institutions privées.
-Tableau 07 : EVOLUTION DES EFFECTIFS DES ETUDIANTS INSCRITS DE 2017 A 2022
+Titre du Tableau 07 : EVOLUTION DES EFFECTIFS DES ETUDIANTS INSCRITS DE 2017 A 2022
 
 Tableau (format markdown):
 | UNIVERSITES         | 2017    | 2018    | 2019    | 2020    | 2022    |
@@ -556,7 +556,7 @@ Tableau (format markdown):
 Source : Service de la Statistique et de la Planification / DSSIP/ ME SUPRES
 8
 ---
-Graphe 07 : Taux de Répartition des inscrits à l'ESUP
+Titre du Graphe 07 : Taux de Répartition des inscrits à l'ESUP
 de 2017 à 2022
 100%
 80%
@@ -578,7 +578,7 @@ De 2017 à 2022, le nombre des étudiants inscrits ne cesse d’augmenter. Il va
 178 665 avec un taux d’accroissement de 5.3%.
 Les étudiants à l’IES Public atteignent les 75% des étudiants inscrits tandis que 25% sont
 inscrits à l’IES privé.
-Graphe 08 : Tauxde répartition des effectifs des
+Titre du Graphe 08 : Tauxde répartition des effectifs des
 étudiants inscrits : dans les 6 universités -année2022
 Toliara; 10%
 Toamasina;
@@ -594,7 +594,7 @@ En 2022, la répartition des étudiants inscrits se présente comme suit : 32% s
 d'Antananarivo, suivis par 25% à l'Université de Fianarantsoa. Les universités de Toamasina et
 Mahajanga accueillent respectivement 12% chacune, tandis que les 19% restants se
 répartissent entre l'Université d'Antsiranana et celle de Toliara.
-Tableau 08 : EVOLUTION DES EFFECTIFS DES ETUDIANTS DOCTORANTS DE 2017 A 2022
+Titre du Tableau 08 : EVOLUTION DES EFFECTIFS DES ETUDIANTS DOCTORANTS DE 2017 A 2022
 
 Tableau (format markdown):
 | Universités  | Universités  | Universités  | 2017        | 2018        | 2019        | 2020        | 2022        |
@@ -610,7 +610,7 @@ Tableau (format markdown):
 
 
 Source : Service de la Statistique et de la Planification – DSSIP / MESUPRES
-Graphe 09 : Evolution des effectifs des doctorants aux
+Titre du Graphe 09 : Evolution des effectifs des doctorants aux
 6 universités de 2017 à 2022
 2 275
 2 500
@@ -626,7 +626,7 @@ De 2017 à 2010, le nombre des doctorants diminue de 17% et commence à augmente
 2019 à 2022, soit de 1396 à 2275.
 10
 ---
-Graphe 10 : Taux de répartition des doctorants aux
+Titre du Graphe 10 : Taux de répartition des doctorants aux
 6 universités -année 2022
 4%
 5%
@@ -640,7 +640,7 @@ plusieurs écoles doctorales. Les 25% restants se répartissent dans les cinq au
 universités, avec 12% à l'Université de Mahajanga, 5% et 4% respectivement aux
 universités de Toliara et Toamasina, et 2% et 1% respectivement aux universités de
 Fianarantsoa et d'Antsiranana.
-Tableau 09 : EVOLUTION DES EFFECTIFS DES ETUDIANTS A L’ENSEIGNEMENT SUPERIEUR,
+Titre du Tableau 09 : EVOLUTION DES EFFECTIFS DES ETUDIANTS A L’ENSEIGNEMENT SUPERIEUR,
 PAR DOMAINE DE 2017 A 2022
 
 Tableau (format markdown):
@@ -675,7 +675,7 @@ des sciences et technologies avec 21%, 18% dans le domaine des Arts, Lettres, Sc
 Humaines (ALSH), 9% respectivement dans les sciences de l'ingénieur et les sciences de la
 santé. Le domaine des sciences de l'éducation affiche le taux le plus bas, ne représentant que
 5%.
-Graphe 12 : Evolution des inscrits par domaine à
+Titre du Graphe 12 : Evolution des inscrits par domaine à
 l'ESUP de 2017 à 2022
 100 000
 50 000
@@ -702,7 +702,7 @@ des sciences et technologies avec 21%, 18% dans le domaine des Arts, Lettres, Sc
 Humaines (ALSH), 9% respectivement dans les sciences de l'ingénieur et les sciences de la
 santé. Le domaine des sciences de l'éducation affiche le taux le plus bas, ne représentant que
 5%.
-Graphe 12 : Evolution des inscrits par domaine à
+Titre du Graphe 12 : Evolution des inscrits par domaine à
 l'ESUP de 2017 à 2022
 100 000
 50 000
@@ -716,7 +716,7 @@ plus de 80 000 en 2022. En revanche, pour les autres domaines, le nombre d'étud
 approximativement entre 13 000 et 30 000 au cours de cette période. Les étudiants dans le
 domaine de l'éducation enregistrent la plus faible augmentation, se situant entre 5 000 et un
 peu plus de 6 000 seulement.
-Graphe 13 : Taux de répartition par domaine des
+Titre du Graphe 13 : Taux de répartition par domaine des
 étudiants année 2022
 50%
 45%
@@ -736,7 +736,7 @@ sciences de la santé comptent chacun 13%. Les sciences de l'ingénieur constitu
 sciences de l'éducation enregistrent le taux le plus bas, s'élevant à seulement 3%.
 13
 ---
-Tableau 10 : EVOLUTION ET REPARTITION PAR AGE DES ETUDIANTS A L’ENSEIGNEMENT
+Titre du Tableau 10 : EVOLUTION ET REPARTITION PAR AGE DES ETUDIANTS A L’ENSEIGNEMENT
 SUPERIEUR DE 2017 A 2022
 
 Tableau (format markdown):
@@ -761,7 +761,7 @@ Tableau (format markdown):
 
 14
 ---
-Graphe 14 : Répartition par âge des étudiants à
+Titre du Graphe 14 : Répartition par âge des étudiants à
 l'ESUP -année 2021-2022
 40%
 20%
@@ -773,7 +773,7 @@ suit les intervalles du tableau. Jusqu'à l'âge de 20 à 21 ans, la participati
 Public. Cependant, à partir de l'âge de 22 ans, on observe une diminution du nombre
 d'étudiants à l'Enseignement Supérieur Privé par rapport à l'Enseignement Supérieur
 Public pour la poursuite des études supérieures.
-Tableau 11 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR TYPE D'ETABLISSEMENT DE
+Titre du Tableau 11 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR TYPE D'ETABLISSEMENT DE
 2017 A 2022
 
 Tableau (format markdown):
@@ -799,7 +799,7 @@ Tableau (format markdown):
 Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES
 15
 ---
-Graphe 15 : Evolution et répartition des étudiants par
+Titre du Graphe 15 : Evolution et répartition des étudiants par
 type d'établissement à l'ESUP
 50%
 40% Facultés
@@ -813,7 +813,7 @@ Dans l'enseignement supérieur, la majorité des étudiants intègrent les facul
 représentant jusqu'à 44%. Ensuite, les étudiants admis dans les instituts se situent dans une
 fourchette de 29% à 32%, tandis que le taux d'étudiants intégrant les écoles et les centres
 varie entre 10% et 15%.
-Tableau 12 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR GENRE A L’ENSEIGNEMENT
+Titre du Tableau 12 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR GENRE A L’ENSEIGNEMENT
 SUPERIEUR DE 2017 A 2022
 
 Tableau (format markdown):
@@ -831,7 +831,7 @@ Tableau (format markdown):
 Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
 16
 ---
-Graphe 16 : Taux de répartition par genre des
+Titre du Graphe 16 : Taux de répartition par genre des
 étudiants dans les 6 universités : année 2022
 60%
 50%
@@ -854,7 +854,7 @@ Tableau (format markdown):
 Au sein des universités, la proportion d'étudiants de genre masculin est plus élevée que celle
 du sexe féminin, se situant entre 50% et 60%. Par contre, à l'Université d'Antananarivo, cette
 répartition est équivalente, avec un taux de 50% pour chaque genre.
-Tableau 13 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR NIVEAU D’ETUDES A
+Titre du Tableau 13 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR NIVEAU D’ETUDES A
 L’ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
 
 Tableau (format markdown):
@@ -875,7 +875,7 @@ Tableau (format markdown):
 Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
 17
 ---
-Graphe 17 : Evolution de taux des effectifs des étudiants
+Titre du Graphe 17 : Evolution de taux des effectifs des étudiants
 inscrits par niveau d'études de 2017 à 2022
 45%
 40%
@@ -892,7 +892,7 @@ L1 L2 L3 M1 M2 6 et plus
 En moyenne, plus de 60% des étudiants inscrits à l'Enseignement Supérieur se trouvent au
 premier cycle universitaire, tandis que 35% sont au second cycle, et le reste est inscrit au
 troisième cycle.
-Graphe 18 : Répartition des étudiants par année d'études
+Titre du Graphe 18 : Répartition des étudiants par année d'études
 -année 2022
 6 et plus
 M2
@@ -908,7 +908,7 @@ L2
 23%
 18
 
-Graphe 17 : Evolution de taux des effectifs des étudiants
+Titre du Graphe 17 : Evolution de taux des effectifs des étudiants
 inscrits par niveau d'études de 2017 à 2022
 45%
 40%
@@ -925,7 +925,7 @@ L1 L2 L3 M1 M2 6 et plus
 En moyenne, plus de 60% des étudiants inscrits à l'Enseignement Supérieur se trouvent au
 premier cycle universitaire, tandis que 35% sont au second cycle, et le reste est inscrit au
 troisième cycle.
-Graphe 18 : Répartition des étudiants par année d'études
+Titre du Graphe 18 : Répartition des étudiants par année d'études
 -année 2022
 6 et plus
 M2
@@ -944,7 +944,7 @@ L2
 Pour l’année universitaire 2021-2022, 41% des étudiants inscrits sont en L1, 23% en L2, 18%
 en L3, 9% en M1, 7% en M2 et 2% pour les plus de 6ème année. On constate que plus le niveau
 d’étude est élevé, le nombre des inscrits devient de plus en plus faible.
-Tableau 14 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR REGION A L’ENSEIGNEMENT
+Titre du Tableau 14 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR REGION A L’ENSEIGNEMENT
 SUPERIEUR DE 2017 A 2022
 
 Tableau (format markdown):
@@ -982,7 +982,7 @@ Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
 Les 22 régions de Madagascar ont toutes des étudiants inscrits dans l'enseignement
 supérieur. En revanche, au niveau des régions de Betsiboka et Melaky, les étudiants inscrits
 dans l'enseignement supérieur privé ne sont pas recensés.
-Tableau 15 : EVOLUTION DES EFFECTIFS DES ETUDIANTS ETRANGERS A L'ENSEIGNEMENT
+Titre du Tableau 15 : EVOLUTION DES EFFECTIFS DES ETUDIANTS ETRANGERS A L'ENSEIGNEMENT
 SUPERIEUR DE 2017 A 2022
 
 Tableau (format markdown):
@@ -1005,7 +1005,7 @@ Tableau (format markdown):
 Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
 20
 ---
-Graphe 20 : Evolution des effectifs des étudiants
+Titre du Graphe 20 : Evolution des effectifs des étudiants
 étrangers à l'ESUP de 2017 à 2022
 2 500
 
@@ -1017,7 +1017,7 @@ nationalités, représentant de 0,6% à 1,9% des étudiants inscrits. Globalemen
 d'étudiants étrangers a connu une baisse continue de 2 436 à 988 au cours de la période 2017-
 2022. Cette diminution est plus prononcée dans l'Enseignement Supérieur Public que dans le
 secteur privé.
-Tableau 16 : EVOLUTION DES EFFECTIFS DES ETUDIANTS ETRANGERS PAR NATIONALITE A
+Titre du Tableau 16 : EVOLUTION DES EFFECTIFS DES ETUDIANTS ETRANGERS PAR NATIONALITE A
 L’ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
 
 Tableau (format markdown):
@@ -1034,7 +1034,7 @@ Tableau (format markdown):
 Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES
 21
 ---
-Graphe 21 : Taux de répartition des étudiants
+Titre du Graphe 21 : Taux de répartition des étudiants
 étrangers à l'ESUP -année 2021-2022
 3% 7%
 1%
@@ -1044,7 +1044,7 @@ Africains Asiatiques Comoriens Européens Autres
 L’année 2022, plus de 70 % des étudiants étrangers sont des comoriens, 12% des africains,
 4% des européens et asiatiques. Il reste les 7% pour les étudiants étrangers non identifiés.
 4 - LES BOURSIERS
-Tableau 17 : EVOLUTION DES EFFECTIFS DES ETUDIANTS BOURSIERS A L’ENSEIGNEMENT
+Titre du Tableau 17 : EVOLUTION DES EFFECTIFS DES ETUDIANTS BOURSIERS A L’ENSEIGNEMENT
 SUPERIEUR DE 2017 A 2022
 
 Tableau (format markdown):
@@ -1067,7 +1067,7 @@ Tableau (format markdown):
 Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
 22
 ---
-Graphe 22 : Taux de Répartition des étudiants
+Titre du Graphe 22 : Taux de Répartition des étudiants
 boursiers dans les 6 universités -année 2022
 13% 8%
 12%
@@ -1076,7 +1076,7 @@ boursiers dans les 6 universités -année 2022
 10%
 Antananarivo Antsiranana Fianarantsoa
 Mahajanga Toamasina Toliara
-Graphe 23 : Evolution des effectifs des étudiants boursiers
+Titre du Graphe 23 : Evolution des effectifs des étudiants boursiers
 à l'ESUP de 2017 à 2022
 150000
 
@@ -1094,7 +1094,7 @@ l'évolution du nombre total d'étudiants inscrits. Alors que le taux d'augmenta
 étudiants bénéficiaires de bourses atteint environ 10,1%.
 23
 ---
-Graphe 24 : Répartition par genre des étudiants
+Titre du Graphe 24 : Répartition par genre des étudiants
 boursiers dans les 6 universités -année 2022
 18 000
 16 000
@@ -1121,7 +1121,7 @@ d'étudiants boursiers est plus élevée chez les hommes que chez les femmes. En
 revanche, à l'Université d'Antananarivo, on observe une répartition égale entre
 hommes et femmes bénéficiant de bourses
 5 - LES ENSEIGNANTS PERMANENTS
-Tableau 18 : EVOLUTION DES EFFECTIFS DES ENSEGNANTS PERMANENTS PAR DOMAINE
+Titre du Tableau 18 : EVOLUTION DES EFFECTIFS DES ENSEGNANTS PERMANENTS PAR DOMAINE
 DE 2017 A 2022
 
 Tableau (format markdown):
@@ -1146,7 +1146,7 @@ plus élevées d'enseignants sont enregistrées dans le domaine des sciences et 
 société, des Arts, Lettres et Sciences Humaines concentrent respectivement 15% et 14%,
 tandis que le domaine des sciences de l'éducation affiche le taux le plus bas, avec seulement
 6%.
-Graphe 25 : Evolution des effectifs des enseignants par
+Titre du Graphe 25 : Evolution des effectifs des enseignants par
 domaine à l'ESUP de 2017 à 2022
 2000
 1800
@@ -1172,7 +1172,7 @@ plus élevées d'enseignants sont enregistrées dans le domaine des sciences et 
 société, des Arts, Lettres et Sciences Humaines concentrent respectivement 15% et 14%,
 tandis que le domaine des sciences de l'éducation affiche le taux le plus bas, avec seulement
 6%.
-Graphe 25 : Evolution des effectifs des enseignants par
+Titre du Graphe 25 : Evolution des effectifs des enseignants par
 domaine à l'ESUP de 2017 à 2022
 2000
 1800
@@ -1191,7 +1191,7 @@ ALSH
 2017 2018 2019 2020 2022
 25
 ---
-Graphe 26 : Répartition par genre et par domaine des
+Titre du Graphe 26 : Répartition par genre et par domaine des
 enseignants -année 2022
 80%
 70%
@@ -1215,7 +1215,7 @@ Tableau (format markdown):
 Plus de la moitié des enseignants sont de genre masculin dans tous les domaines, à savoir
 les taux plus élevés se trouve dans les domaines de sciences de l’ingénieur et sciences de la
 technologie (respectivement 72% et 73%). La participation féminine est de 27% à 45%.
-Tableau 19 : EVOLUTION DES EFFECTIFS DES ENSEIGNANTS PERMANENTS PAR GRADE DE
+Titre du Tableau 19 : EVOLUTION DES EFFECTIFS DES ENSEIGNANTS PERMANENTS PAR GRADE DE
 2017 A 2022 (6 UNIVERSITES ET 3 IST)
 
 Tableau (format markdown):
@@ -1231,7 +1231,7 @@ Tableau (format markdown):
 Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
 26
 ---
-Graphe 27 : Evolution et répartition par grade des
+Titre du Graphe 27 : Evolution et répartition par grade des
 enseignants permanents de 2017 à 2022
 900
 800
@@ -1255,7 +1255,7 @@ Tableau (format markdown):
 
 De 2017 à 2022, 16% à 19% des enseignants permanents sont des Professeurs, 45% à 47%
 sont des Maîtres de Conférence et 34% à 39% sont des Assistants.
-Graphe 28 : Taux de répartition des enseignants par grade -
+Titre du Graphe 28 : Taux de répartition des enseignants par grade -
 année 2022
 9%
 PT
@@ -1267,7 +1267,7 @@ MC
 A
 27
 ---
-Tableau 20 : EVOLUTION ET REPARTITION DES EFFECTIFS DES ENSEIGNANTS PAR AGE DE
+Titre du Tableau 20 : EVOLUTION ET REPARTITION DES EFFECTIFS DES ENSEIGNANTS PAR AGE DE
 2017 A 2022
 
 Tableau (format markdown):
@@ -1291,7 +1291,7 @@ environ 11% à 16 % des enseignants. Les enseignants de moins de 30 ans affichen
 taux le plus bas, soit environ 1 % seulement.
 28
 ---
-Graphe 29 : Répartition par âge des enseignants -
+Titre du Graphe 29 : Répartition par âge des enseignants -
 année 2022
 4%
 1%
@@ -1307,7 +1307,7 @@ Moins de 30 ans
 [45 - 50[
 [50 - 55[
 [55 - 60[
-Graphe 30 : Répartition par âge et par genre des
+Titre du Graphe 30 : Répartition par âge et par genre des
 Enseignants permanents -année 2022
 450 M
 400
@@ -1329,7 +1329,7 @@ taux les plus bas concernent les enseignants âgés de moins de 35 ans, oscillan
 4%.
 29
 
-Graphe 29 : Répartition par âge des enseignants -
+Titre du Graphe 29 : Répartition par âge des enseignants -
 année 2022
 4%
 1%
@@ -1345,7 +1345,7 @@ Moins de 30 ans
 [45 - 50[
 [50 - 55[
 [55 - 60[
-Graphe 30 : Répartition par âge et par genre des
+Titre du Graphe 30 : Répartition par âge et par genre des
 Enseignants permanents -année 2022
 450 M
 400
@@ -1367,7 +1367,7 @@ taux les plus bas concernent les enseignants âgés de moins de 35 ans, oscillan
 4%.
 29
 ---
-Tableau 21 : EVOLUTION DE NOMBRE D’ENSEIGNANTS A L’ENSEIGNEMENT SUPERIEUR
+Titre du Tableau 21 : EVOLUTION DE NOMBRE D’ENSEIGNANTS A L’ENSEIGNEMENT SUPERIEUR
 PUBLIC DE 2017 A 2022
 
 Tableau (format markdown):
@@ -1388,7 +1388,7 @@ Tableau (format markdown):
 
 
 Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
-Graphe 31 : Répartition des enseignants dans les 6
+Titre du Graphe 31 : Répartition des enseignants dans les 6
 universités -année 2022
 12%
 Antananarivo
@@ -1406,7 +1406,7 @@ Toliara
 En 2022, plus de la moitié des enseignants universitaires se trouvent à l'Université
 d'Antananarivo, représentant 52% de l'ensemble. Les autres enseignants sont répartis entre
 les universités de Toliara, Mahajanga, Fianarantsoa, Antsiranana et Toamasina.
-Graphe 32 : Evolution de taux des effectifs des
+Titre du Graphe 32 : Evolution de taux des effectifs des
 enseignants aux 3 IST de 2017 à 2022
 60%
 50%
@@ -1433,7 +1433,7 @@ légère augmentation du nombre d'enseignants à l'IST de Diégo.
 31
 ---
 6 - LES ENSEIGNANTS VACATAIRES
-Tableau 22 : EVOLUTION DES EFFECTIFS DES ENSEIGNANTS VACATAIRES PAR GENRE A
+Titre du Tableau 22 : EVOLUTION DES EFFECTIFS DES ENSEIGNANTS VACATAIRES PAR GENRE A
 L’ENSEIGNEMENT SUPERIEUR DE 2019 A 2022
 
 Tableau (format markdown):
@@ -1465,7 +1465,7 @@ que les universités de Toamasina et de Fianarantsoa présentent des taux compri
 et 11%.
 32
 ---
-Graphe 33 : Taux de répartition des enseignants
+Titre du Graphe 33 : Taux de répartition des enseignants
 vacataires aux 6 universités -année 2022
 12%
 10% 36%
@@ -1474,7 +1474,7 @@ vacataires aux 6 universités -année 2022
 11%
 Antananarivo Diégo Fianarantsoa
 Mahajanga Toamasina Toliara
-Graphe 34 : Répartition par genre des enseignants
+Titre du Graphe 34 : Répartition par genre des enseignants
 vacataires à l'ESUP -année 2022
 3 500
 M
@@ -1492,7 +1492,7 @@ nombreux que les féminins. On constate qu’à l’IES Privé, plus de 52% sont
 que plus de 43% pour les IES Publics.
 33
 
-Graphe 33 : Taux de répartition des enseignants
+Titre du Graphe 33 : Taux de répartition des enseignants
 vacataires aux 6 universités -année 2022
 12%
 10% 36%
@@ -1501,7 +1501,7 @@ vacataires aux 6 universités -année 2022
 11%
 Antananarivo Diégo Fianarantsoa
 Mahajanga Toamasina Toliara
-Graphe 34 : Répartition par genre des enseignants
+Titre du Graphe 34 : Répartition par genre des enseignants
 vacataires à l'ESUP -année 2022
 3 500
 M
@@ -1520,7 +1520,7 @@ que plus de 43% pour les IES Publics.
 33
 ---
 7 - LE PERSONNEL ADMINISTRATIF ET TECHNIQUE (PAT)
-Tableau 23 : EVOLUTION DES EFFECTIFS DE PERSONNEL ADMINISTRATIF ET TECHNIQUE A
+Titre du Tableau 23 : EVOLUTION DES EFFECTIFS DE PERSONNEL ADMINISTRATIF ET TECHNIQUE A
 L’ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
 
 Tableau (format markdown):
@@ -1541,7 +1541,7 @@ Tableau (format markdown):
 
 
 Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
-Graphe 35 : Evolution des effectifs de PAT à
+Titre du Graphe 35 : Evolution des effectifs de PAT à
 l'ESUP de 2017 à 2022
 5 000
 4 000
@@ -1563,7 +1563,7 @@ Les effectifs du personnel administratif et technique (PAT) dans l'Enseignement 
 montrent une tendance à la hausse de 2017 à 2018, mais connaissent une légère diminution
 de 2019 à 2020. En revanche, dans l'Enseignement Privé, le taux d'effectifs du PAT tend à
 diminuer de 2019 à 2022.
-Graphe 36 : Tauxde répartition de PAT dans les 6
+Titre du Graphe 36 : Tauxde répartition de PAT dans les 6
 Universités -année 2022
 1 Antananarivo
 13%
@@ -1585,7 +1585,7 @@ Les effectifs du personnel administratif et technique (PAT) dans l'Enseignement 
 montrent une tendance à la hausse de 2017 à 2018, mais connaissent une légère diminution
 de 2019 à 2020. En revanche, dans l'Enseignement Privé, le taux d'effectifs du PAT tend à
 diminuer de 2019 à 2022.
-Graphe 36 : Tauxde répartition de PAT dans les 6
+Titre du Graphe 36 : Tauxde répartition de PAT dans les 6
 Universités -année 2022
 1 Antananarivo
 13%
@@ -1603,7 +1603,7 @@ l'Université d’Antsiranana présente le taux le plus bas, avec seulement 7%. 
 universités affichent des taux situés autour de 11% à 15%.
 35
 ---
-Graphe 37 : Evolution des effectifs de PAT par genre à l'ESUP
+Titre du Graphe 37 : Evolution des effectifs de PAT par genre à l'ESUP
 de 2017 à 2022
 2500
 2000 public
@@ -1613,7 +1613,7 @@ de 2017 à 2022
 0
 M F M F M F M F M F
 2017 2018 2019 2020 2022
-Tableau 24 : REPARTITION PAR GENRE DE PERSONNEL ADMINISTRATIF ET
+Titre du Tableau 24 : REPARTITION PAR GENRE DE PERSONNEL ADMINISTRATIF ET
 TECHNIQUE A L’ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
 
 Tableau (format markdown):
@@ -1643,7 +1643,7 @@ Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
 De manière générale, le personnel administratif et technique (PAT) de genre masculin est plus
 représenté que celui de genre féminin dans l'enseignement supérieur. Le taux masculin atteint
 jusqu'à 56%, tandis que celui des femmes s'élève à 44%.
-Tableau 25 : EFFECTIF DE PERSONNEL ADMINISTRATIF ET TECHNIQUE PAR CATEGORIE A
+Titre du Tableau 25 : EFFECTIF DE PERSONNEL ADMINISTRATIF ET TECHNIQUE PAR CATEGORIE A
 L'IES PUBLIC - ANNEE 2022
 
 Tableau (format markdown):
@@ -1665,7 +1665,7 @@ Tableau (format markdown):
 
 
 Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
-Graphe 38 : Répartition par catégorie de PAT à l'IES Public -
+Titre du Graphe 38 : Répartition par catégorie de PAT à l'IES Public -
 année 2022
 1200
 1000
@@ -1689,7 +1689,7 @@ constitué des catégories EFA, ELD et ECD. Les 48% restants sont attribués au 
 catégories I à X. On observe que plus la catégorie est élevée, plus il y a moins de PAT.
 8 - L’EFFICACITE INTERNE
 RESULTAT DES EXAMENS :
-Graphe 39 : Evolution de taux de réussite aux examens à
+Titre du Graphe 39 : Evolution de taux de réussite aux examens à
 l'ESUP de 2016 à 2020
 100%
 90%
@@ -1716,7 +1716,7 @@ de réussite se situe entre 57% et 67%, tandis qu'il dépasse les 90% pour les I
 une légère diminution de 2019 à 2020.
 38
 ---
-Graphe 40 : Répartition de taux de réussite à
+Titre du Graphe 40 : Répartition de taux de réussite à
 l'examen aux 6 universités -année 2020
 75%
 70%
@@ -1727,7 +1727,7 @@ l'examen aux 6 universités -année 2020
 En 2020, le taux de réussite aux examens pour les universités d'Antsiranana, Fianarantsoa et
 Toamasina dépasse les 70%. Pour les universités de Toliara, Antananarivo et Mahajanga, ce
 taux se situe entre 63% et 67%.
-Tableau 26 : EVOLUTION DES RESULTATS DES EXAMENS PAR NIVEAU D’ETUDES DE 2016 A
+Titre du Tableau 26 : EVOLUTION DES RESULTATS DES EXAMENS PAR NIVEAU D’ETUDES DE 2016 A
 2020
 
 Tableau (format markdown):
@@ -1757,7 +1757,7 @@ que le niveau d'études s'élève. Pour les institutions d'enseignement supérie
 le taux de réussite en première année (L1) varie entre environ 42% et 53%, atteignant jusqu'à
 95% pour les résultats aux doctorats. Quant aux IES privées, le taux de réussite en première
 année (L1) se situe autour de 88% à 94%, atteignant 100% aux doctorats.
-Graphe 41 : Evolution de taux de réussite aux
+Titre du Graphe 41 : Evolution de taux de réussite aux
 examens à l'ESUP -année 2020
 120%
 100%
@@ -1784,7 +1784,7 @@ d'enseignement supérieur (IES) privées, le taux de réussite oscille entre 88%
 40
 ---
 DIPLOMES
-Tableau 27 : EVOLUTION PAR TYPE DE DIPLOME A L’ENSEIGNEMENT SUPERIEUR DE 2016 A
+Titre du Tableau 27 : EVOLUTION PAR TYPE DE DIPLOME A L’ENSEIGNEMENT SUPERIEUR DE 2016 A
 2020
 
 Tableau (format markdown):
@@ -1806,11 +1806,11 @@ Tableau (format markdown):
 
 
 Tableau (format markdown):
-| Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 |
+| Titre du Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Titre du Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Titre du Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Titre du Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Titre du Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Titre du Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Titre du Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | 2016                                                                                                                                                                                                                    | 2017                                                                                                                                                                                                                    | 2018                                                                                                                                                                                                                    | 2019                                                                                                                                                                                                                    | 2020                                                                                                                                                                                                                    |
-| Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | privé                                                                                                                                                                                                                   | 10 370                                                                                                                                                                                                                  | 11 088                                                                                                                                                                                                                  | 11 620                                                                                                                                                                                                                  | 12 006                                                                                                                                                                                                                  | 12 070                                                                                                                                                                                                                  |
-| Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | public                                                                                                                                                                                                                  | 14 873                                                                                                                                                                                                                  | 13 888                                                                                                                                                                                                                  | 14 925                                                                                                                                                                                                                  | 16 722                                                                                                                                                                                                                  | 17 883                                                                                                                                                                                                                  |
+| Titre du Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Titre du Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | 2016                                                                                                                                                                                                                    | 2017                                                                                                                                                                                                                    | 2018                                                                                                                                                                                                                    | 2019                                                                                                                                                                                                                    | 2020                                                                                                                                                                                                                    |
+| Titre du Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | privé                                                                                                                                                                                                                   | 10 370                                                                                                                                                                                                                  | 11 088                                                                                                                                                                                                                  | 11 620                                                                                                                                                                                                                  | 12 006                                                                                                                                                                                                                  | 12 070                                                                                                                                                                                                                  |
+| Titre du Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | public                                                                                                                                                                                                                  | 14 873                                                                                                                                                                                                                  | 13 888                                                                                                                                                                                                                  | 14 925                                                                                                                                                                                                                  | 16 722                                                                                                                                                                                                                  | 17 883                                                                                                                                                                                                                  |
 
 
 Le nombre des diplômés à l’ESUP passe de 25 243 à 29 982 de 2016 à 2020 avec un taux
@@ -1818,7 +1818,7 @@ d’accroissement de 3,5%. A l’IES Public, il passe de 13 888 à 17 883. Cet e
 10 370 à 12 099 à l’IES Privé.
 41
 ---
-Graphe 43 : Répartition des diplômés à l'ESUP -
+Titre du Graphe 43 : Répartition des diplômés à l'ESUP -
 année 2020
 D; 1%
 M; 22%
@@ -1826,7 +1826,7 @@ L; 76%
 Pour l’année 2020, le diplôme de grade Licence occupe la plus grande proportion avec un
 taux de 76%, 22% de grade Master et le 1% restant est de grade de Doctorat.
 9 – LES TAUX DE FLUX
-Tableau 28 : EVOLUTION DE TAUX DE FLUX A L’INSTITUT SUPERIEUR PUBLIC DE 2016 A
+Titre du Tableau 28 : EVOLUTION DE TAUX DE FLUX A L’INSTITUT SUPERIEUR PUBLIC DE 2016 A
 2020
 
 Tableau (format markdown):
@@ -1849,7 +1849,7 @@ Tableau (format markdown):
 Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES
 42
 ---
-Graphe 44 : Evolution de taux de flux à l'ESUP
+Titre du Graphe 44 : Evolution de taux de flux à l'ESUP
 Public
 80%
 60%
@@ -1864,7 +1864,7 @@ Technologie affichent un taux de réussite plus élevé, avec 68 à 73 étudiant
 inscrits, tandis que le taux de redoublement se situe entre 1% et 6%. Au niveau du CNTEMAD,
 les taux de réussite et d'abandon sont assez similaires, variant respectivement de 35% à 50%
 et de 36% à 42%.
-Graphe 45 : Taux de flux dans les 6 universités -
+Titre du Graphe 45 : Taux de flux dans les 6 universités -
 année 2020
 29%
 61%
@@ -1872,7 +1872,7 @@ année 2020
 TP TR TA
 43
 
-Graphe 44 : Evolution de taux de flux à l'ESUP
+Titre du Graphe 44 : Evolution de taux de flux à l'ESUP
 Public
 80%
 60%
@@ -1887,7 +1887,7 @@ Technologie affichent un taux de réussite plus élevé, avec 68 à 73 étudiant
 inscrits, tandis que le taux de redoublement se situe entre 1% et 6%. Au niveau du CNTEMAD,
 les taux de réussite et d'abandon sont assez similaires, variant respectivement de 35% à 50%
 et de 36% à 42%.
-Graphe 45 : Taux de flux dans les 6 universités -
+Titre du Graphe 45 : Taux de flux dans les 6 universités -
 année 2020
 29%
 61%
@@ -1898,7 +1898,7 @@ TP TR TA
 En 2020 dans les 6 universités, 61% sont des promus, 10% des redoublants et les 29% sont
 ceux qui abandonnent.
 10 – LES TAUX DE SCOLARISATION
-Tableau 29 : EVOLUTION DE TAUX DE SCOLARISATION A L’ENSEIGNEMENT SUPERIEUR DE
+Titre du Tableau 29 : EVOLUTION DE TAUX DE SCOLARISATION A L’ENSEIGNEMENT SUPERIEUR DE
 2017 A 2022
 
 Tableau (format markdown):
@@ -1910,7 +1910,7 @@ Tableau (format markdown):
 
 
 Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES
-Graphe 46 : Evolution de taux brut de
+Titre du Graphe 46 : Evolution de taux brut de
 scolarisation de 2017 à 2022
 6,2%
 6,0%
@@ -1928,7 +1928,7 @@ d'inscrits par rapport à la population officiellement scolarisable, généralem
 la tranche d'âge de 18 à 22 ans, pour une année universitaire donnée. Ce taux a varié de 5,3%
 à 6,1% au cours de la période allant de 2016 à 2022.
 11 – LES RATIOS
-Tableau 30 : EVOLUTION DE RATIOS ETUDIANTS / PE, PAT A L’ENSEIGNEMENT SUPERIEUR
+Titre du Tableau 30 : EVOLUTION DE RATIOS ETUDIANTS / PE, PAT A L’ENSEIGNEMENT SUPERIEUR
 DE 2017 A 2022
 
 Tableau (format markdown):
@@ -1943,7 +1943,7 @@ Tableau (format markdown):
 
 
 Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES
-Graphe 47 : Evolution de ratios à l'Enseignement
+Titre du Graphe 47 : Evolution de ratios à l'Enseignement
 Supérieur : Public et Privé
 80
 
@@ -1957,14 +1957,14 @@ Le rapport Etudiants/Personnel Enseignant à l'Enseignement Supérieur (ESUP) os
 Technique (PAT) se situe entre 23 et 30 étudiants par personnel administratif et technique.
 Notons que ces deux ratios sont plus élevés dans les institutions d'enseignement supérieur
 public que dans celles du secteur privé.
-Graphe 48 : Evolution de ratio à l'Enseignement
+Titre du Graphe 48 : Evolution de ratio à l'Enseignement
 Supérieur
 70
 
 0
 2 016 2 018 2 020 2 022 2 024
 année
-Tableau 31 : EVOLUTION DE RATIOS ETUDIANTS / PE PAR DOMAINE A L’ENSEIGNEMENT
+Titre du Tableau 31 : EVOLUTION DE RATIOS ETUDIANTS / PE PAR DOMAINE A L’ENSEIGNEMENT
 SUPERIEUR PUBLIC DE 2017 A 2022
 
 Tableau (format markdown):
@@ -1988,7 +1988,7 @@ enseignant et les sciences de la santé avec 70 étudiants pour un enseignant.
 Le domaine de Sciences de l’Ingénieur a un ratio de 32 étudiants par enseignant, et dans le
 domaine des Sciences et Technologies ainsi que les Sciences de l’Education, 43 à 46 étudiants
 sont encadrés par un enseignant.
-Graphe 49 : Répartition de ratio
+Titre du Graphe 49 : Répartition de ratio
 étudiants/enseignant par domaine à l'IES
 Public -année 2022
 43 79 46
@@ -2014,7 +2014,7 @@ Tableau (format markdown):
 Pour le CNARP, le CNRE, le CNRIT, le CNRO, PBZT, INSTN et l’Administration, il y a plus de
 chercheurs masculins que de féminins. Les femmes sont majoritaires au CIDST, au FOFIFA et
 IMVAVET.
-Graphe 51 : Taux de répartition des chercheurs
+Titre du Graphe 51 : Taux de répartition des chercheurs
 enseignants -année 2022
 INSTN Administr CIDST CNARP
 7% ation 7%
@@ -2031,7 +2031,7 @@ représentant un pourcentage allant de 13 à 23 %. En revanche, pour les cherche
 CNRO, du CIDST, du CNARP, de l’INSTN et de l'administration, leur proportion est plus modeste, ne
 représentant que 4% à 7% du total des chercheurs.
 13 - LE BUDGET
-Graphe 52 : Taux d'évolution par programme de
+Titre du Graphe 52 : Taux d'évolution par programme de
 budget du MESUPRES
 120,0%
 100,0%
@@ -2055,7 +2055,7 @@ Tableau (format markdown):
 Le Programme 028 est le plus remarquable avec un taux plus élevé, jusqu’à 95,3% et diminue
 à 82,8% en 2022. Le Programme 311 a un taux le plus faible de l’ordre de 0.1 et 0.2%
 seulement.
-Graphe 53 : Taux de répartititon de budget par rubrique à
+Titre du Graphe 53 : Taux de répartititon de budget par rubrique à
 l'ESUP -année 2022
 80,0%
 60,0%
@@ -2073,7 +2073,7 @@ Tableau (format markdown):
 Le taux le plus élevé (65,3 %) est attribué aux dépenses de salaires ou Solde, suivi du Transfert
 qui est de 27,9% ; le reste qui s’élève à 6,8% est réparti dans les 3 autres rubriques,
 notamment les PIP (interne et externe) 4,6%, Biens et Services 2,1% et Indemnité 0,1%.
-Graphe 54 : Taux d'évolution de budget par mission à
+Titre du Graphe 54 : Taux d'évolution de budget par mission à
 l'Enseignement Supérieur
 99% 99%
 100% 88%
