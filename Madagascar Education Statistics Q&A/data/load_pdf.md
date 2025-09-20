@@ -11,7 +11,7 @@ LISTE DES ABREVIATIONS 1
 
 Tableau (format markdown):
 |  | 1 - LES BACHELIERS |  |
-|---|---|---|
+|  | ------------------ |  |
 
 
 Tableau 01 : EVOLUTION DES INSCRITS ET ADMIS AU BACCALAUREAT DE 2018 A 2022 2
@@ -31,7 +31,7 @@ Graphe 04 : Répartition des inscrits et admis au Baccalauréat - année 2022 5
 
 Tableau (format markdown):
 |  | 2 – LA TRANSITION DE NOUVEAUX BACHELIERS |  |
-|---|---|---|
+|  | ---------------------------------------- |  |
 
 
 Tableau 05 : EVOLUTION DES TAUX DE TRANSITION DE NOUVEAUX BACHELIERS DE 2016
@@ -43,7 +43,7 @@ de 2016 à 2020
 
 Tableau (format markdown):
 |  | 3- LES ETUDIANTS |  |
-|---|---|---|
+|  | ---------------- |  |
 
 
 Tableau 06 : EVOLUTION DES EFFECTIFS DES ETUDIANTS POUR 100 000 HABITANTS DE
@@ -98,7 +98,7 @@ Graphe 21 : Taux de répartition des étudiants étrangers à l'ESUP - année 20
 
 Tableau (format markdown):
 |  | 4- LES BOURSIERS |  |
-|---|---|---|
+|  | ---------------- |  |
 
 
 Tableau 17 : EVOLUTION DES EFFECTIFS DES ETUDIANTS BOURSIERS A L’ENSEIGNEMENT
@@ -112,7 +112,7 @@ Graphe 24 : Répartition par genre des étudiants boursiers dans les 6 universit
 
 Tableau (format markdown):
 |  | 5- LES ENSEIGNANTS PERMANENTS |  |
-|---|---|---|
+|  | ----------------------------- |  |
 
 
 Tableau 18 : EVOLUTION DES EFFECTIFS DES ENSEIGNANTS PERMANENTS PAR DOMAINE
@@ -136,7 +136,7 @@ Graphe 32 : Evolution de taux des effectifs des enseignants aux 3 IST de 2017 à
 
 Tableau (format markdown):
 |  | 6- LES ENSEIGNANTS VACATAIRES |  |
-|---|---|---|
+|  | ----------------------------- |  |
 
 
 Tableau 22 : EVOLUTION DES EFFECTIFS DES ENSEIGNANTS VACATAIRES PAR GENRE A
@@ -148,7 +148,7 @@ Graphe 34 : Répartition par genre des enseignants vacataires à l'ESUP - année
 
 Tableau (format markdown):
 |  | 7 – LE PERSONNEL ADMINISTRATIF ET TECHNIQUE (PAT) |  |
-|---|---|---|
+|  | ------------------------------------------------- |  |
 
 
 Tableau 23 : EVOLUTION DES EFFECTIFS DE PERSONNEL ADMINISTRATIF ET TECHNIQUE A
@@ -167,7 +167,7 @@ Graphe 38 : Répartition par catégorie de PAT à l'IES Public - année 2022 37
 
 Tableau (format markdown):
 |  | 8- L’EFFICACITE INTERNE |  |
-|---|---|---|
+|  | ----------------------- |  |
 
 
 RESULTATS DES EXAMENS
@@ -186,7 +186,7 @@ Graphe 43 : Répartition des diplômés à l'ESUP - année 2020 42
 
 Tableau (format markdown):
 |  | 9 – LES TAUX DE FLUX |  |
-|---|---|---|
+|  | -------------------- |  |
 
 
 Tableau 28 : EVOLUTION DE TAUX DE FLUX A L’INSTITUT SUPERIEUR PUBLIC DE 2016 A
@@ -202,7 +202,7 @@ Graphe 46 : Evolution de taux brut de scolarisation de 2017 à 2022 44
 
 Tableau (format markdown):
 |  | 11- LES RATIOS |  |
-|---|---|---|
+|  | -------------- |  |
 
 
 Tableau 30 : EVOLUTION DE RATIOS ETUDIANTS / PE, PAT A L’ENSEIGNEMENT SUPERIEUR
@@ -223,7 +223,7 @@ Graphe 51 : Taux de répartition des chercheurs enseignants - année 2022 48
 
 Tableau (format markdown):
 |  | 13 – LE BUDGET |  |
-|---|---|---|
+|  | -------------- |  |
 
 
 Graphe 52 : Taux d'évolution par programme de budget du MESUPRES 48
@@ -328,13 +328,13 @@ TR : Taux de Redoublement
 Tableau 01 : EVOLUTION DES INSCRITS ET ADMIS AU BACCALAUREAT DE 2018 A 2022
 
 Tableau (format markdown):
-| Année | INSCRITS | ADMIS | % |
-|---|---|---|---|
-| 2018 | 184 807 | 84 005 | 45,46% |
-| 2019 | 174 822 | 91 745 | 52,48% |
-| 2020 | 162 953 | 75 856 | 46,55% |
-| 2021 | 196 448 | 109 755 | 55,87% |
-| 2022 | 192 444 | 93 733 | 48,71% |
+| Année | INSCRITS | ADMIS   | %      |
+| ----- | -------- | ------- | ------ |
+| 2018  | 184 807  | 84 005  | 45,46% |
+| 2019  | 174 822  | 91 745  | 52,48% |
+| 2020  | 162 953  | 75 856  | 46,55% |
+| 2021  | 196 448  | 109 755 | 55,87% |
+| 2022  | 192 444  | 93 733  | 48,71% |
 
 
 Source : Service du Baccalauréat / DES / MESUPRES
@@ -363,18 +363,18 @@ Tableau 02 : EVOLUTION DES INSCRITS ET ADMIS AU BACCALAUREAT PAR SERIE DE 2018 A
 2022
 
 Tableau (format markdown):
-| série | 2018 |  | 2019 |  | 2020 |  | 2021 |  | 2022 |  |
-|---|---|---|---|---|---|---|---|---|---|---|
-|  | Inscrits | Admis | Inscrits | Admis | Inscrits | Admis | Inscrits | Admis | Inscrits | Admis |
-| A | 133 426 | 57 806 | 125 196 | 64 492 | 117 011 | 54 051 | 134 996 | 75 387 | 125 061 | 57 757 |
-| C | 4 874 | 2 927 | 4 290 | 2 387 | 4 168 | 2 139 | 3 836 | 2 309 | 2 039 | 1 022 |
-| D | 37 323 | 18 318 | 35 611 | 19 288 | 33 076 | 14 631 | 36 296 | 20 967 | 27 662 | 12 315 |
-| L |  |  |  |  |  |  | 4 185 | 2 089 | 10 331 | 6 492 |
-| S |  |  |  |  |  |  | 3 461 | 1 101 | 9 465 | 4 320 |
-| OSE |  |  |  |  |  |  | 2 757 | 1 178 | 6 253 | 3 560 |
-| technique | 9 184 | 4 954 | 9 725 | 5 604 | 10 141 | 6 281 | 10 943 | 6 886 | 11 633 | 8 267 |
-| TOTAL | 184 807 | 84 005 | 174 822 | 91 771 | 164 396 | 77 102 | 196 474 | 109 917 | 192 444 | 93 733 |
-| % | 45% |  | 52% |  | 47% |  | 56% |  | 49% |  |
+| série     | 2018     | 2018   | 2019     | 2019   | 2020     | 2020   | 2021     | 2021    | 2022     | 2022   |
+| --------- | -------- | ------ | -------- | ------ | -------- | ------ | -------- | ------- | -------- | ------ |
+| série     | Inscrits | Admis  | Inscrits | Admis  | Inscrits | Admis  | Inscrits | Admis   | Inscrits | Admis  |
+| A         | 133 426  | 57 806 | 125 196  | 64 492 | 117 011  | 54 051 | 134 996  | 75 387  | 125 061  | 57 757 |
+| C         | 4 874    | 2 927  | 4 290    | 2 387  | 4 168    | 2 139  | 3 836    | 2 309   | 2 039    | 1 022  |
+| D         | 37 323   | 18 318 | 35 611   | 19 288 | 33 076   | 14 631 | 36 296   | 20 967  | 27 662   | 12 315 |
+| L         |          |        |          |        |          |        | 4 185    | 2 089   | 10 331   | 6 492  |
+| S         |          |        |          |        |          |        | 3 461    | 1 101   | 9 465    | 4 320  |
+| OSE       |          |        |          |        |          |        | 2 757    | 1 178   | 6 253    | 3 560  |
+| technique | 9 184    | 4 954  | 9 725    | 5 604  | 10 141   | 6 281  | 10 943   | 6 886   | 11 633   | 8 267  |
+| TOTAL     | 184 807  | 84 005 | 174 822  | 91 771 | 164 396  | 77 102 | 196 474  | 109 917 | 192 444  | 93 733 |
+| %         | 45%      | 45%    | 52%      | 52%    | 47%      | 47%    | 56%      | 56%     | 49%      | 49%    |
 
 
 Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
@@ -397,15 +397,15 @@ Tableau 03 : EVOLUTION DE TAUX DES ADMIS AU BACCALAUREAT PAR SERIE DE 2018 A
 2022
 
 Tableau (format markdown):
-| série | 2018 | 2019 | 2020 | 2021 | 2022 |
-|---|---|---|---|---|---|
-| A | 69% | 70% | 70% | 69% | 62% |
-| C | 3% | 3% | 3% | 2% | 1% |
-| D | 22% | 21% | 19% | 19% | 13% |
-| L |  |  |  | 2% | 7% |
-| S |  |  |  | 1% | 5% |
-| OSE |  |  |  | 1% | 4% |
-| technique | 6% | 6% | 8% | 6% | 9% |
+| série     | 2018 | 2019 | 2020 | 2021 | 2022 |
+| --------- | ---- | ---- | ---- | ---- | ---- |
+| A         | 69%  | 70%  | 70%  | 69%  | 62%  |
+| C         | 3%   | 3%   | 3%   | 2%   | 1%   |
+| D         | 22%  | 21%  | 19%  | 19%  | 13%  |
+| L         |      |      |      | 2%   | 7%   |
+| S         |      |      |      | 1%   | 5%   |
+| OSE       |      |      |      | 1%   | 4%   |
+| technique | 6%   | 6%   | 8%   | 6%   | 9%   |
 
 
 Source : Annuaire Statistique - SSP / DSSIP /
@@ -432,14 +432,14 @@ Tableau 04 : EVOLUTION DE TAUX DES ADMIS AU BACCALAUREAT PAR PROVINCE DE 2018
 A 2022
 
 Tableau (format markdown):
-| PROVINCE | 2018 | 2019 | 2020 | 2021 | 2022 |
-|---|---|---|---|---|---|
-| ANTANANARIVO | 42% | 41% | 47% | 42% | 35% |
-| DIEGO | 8% | 8% | 7% | 9% | 10% |
-| FIANARANTSOA | 17% | 18% | 14% | 17% | 14% |
-| MAHAJANGA | 10% | 10% | 9% | 10% | 10% |
-| TOAMASINA | 13% | 13% | 14% | 11% | 20% |
-| TOLIARA | 9% | 10% | 9% | 10% | 12% |
+| PROVINCE     | 2018 | 2019 | 2020 | 2021 | 2022 |
+| ------------ | ---- | ---- | ---- | ---- | ---- |
+| ANTANANARIVO | 42%  | 41%  | 47%  | 42%  | 35%  |
+| DIEGO        | 8%   | 8%   | 7%   | 9%   | 10%  |
+| FIANARANTSOA | 17%  | 18%  | 14%  | 17%  | 14%  |
+| MAHAJANGA    | 10%  | 10%  | 9%   | 10%  | 10%  |
+| TOAMASINA    | 13%  | 13%  | 14%  | 11%  | 20%  |
+| TOLIARA      | 9%   | 10%  | 9%   | 10%  | 12%  |
 
 
 Source : Annuaire Statistique – SSP / DSSIP/
@@ -458,18 +458,14 @@ Tableau 05 : EVOLUTION DES TAUX DE TRANSITION DE NOUVEAUX BACHELIERS DE 2016 A
 2020
 
 Tableau (format markdown):
-| Désignation | 2016 | 2017 | 2018 | 2019 | 2020 |
-|---|---|---|---|---|---|
-| Bacheliers année n-1 | 57 071 | 79 910 | 84 005 | 91 771 | 75 856 |
-| Nouveaux Bacheliers
-entrant en première
-année publique | 31 783 | 30 873 | 33 053 | 31 403 | 42 954 |
-| Universités | 26 534 | 26 063 | 28 890 | 27 831 | 37 494 |
-| IST | 880 | 978 | 821 | 734 | 956 |
-| CNTEMAD | 4 369 | 3 832 | 3 342 | 2 838 | 4 504 |
-| Nouveaux Bacheliers
-entrant en première
-année privée | 11 204 | 10 657 | 13 308 | 11 373 | 10 385 |
+| Désignation                                            | 2016   | 2017   | 2018   | 2019   | 2020   |
+| ------------------------------------------------------ | ------ | ------ | ------ | ------ | ------ |
+| Bacheliers année n-1                                   | 57 071 | 79 910 | 84 005 | 91 771 | 75 856 |
+| Nouveaux Bacheliers entrant en première année publique | 31 783 | 30 873 | 33 053 | 31 403 | 42 954 |
+| Universités                                            | 26 534 | 26 063 | 28 890 | 27 831 | 37 494 |
+| IST                                                    | 880    | 978    | 821    | 734    | 956    |
+| CNTEMAD                                                | 4 369  | 3 832  | 3 342  | 2 838  | 4 504  |
+| Nouveaux Bacheliers entrant en première année privée   | 11 204 | 10 657 | 13 308 | 11 373 | 10 385 |
 
 
 Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
@@ -477,13 +473,12 @@ Graphe 05 : Evolution de taux des nouveaux
 bacheliers entrant en 1ère année universitaire
 
 Tableau (format markdown):
-|  |  | 51% |  |
-|---|---|---|---|
-|  | 37% |  |  |
-|  | 39% |  |  |
-|  | 39% |  |  |
-|  |  |  | 56% |
-|  |  |  |  |
+|  |     | 51% | 51% |
+|  | --- | --- | --- |
+|  | 37% | 37% | 37% |
+|  | 39% | 39% | 39% |
+|  | 39% | 39% | 39% |
+|  |     |     | 56% |
 
 
 public privé reste
@@ -500,19 +495,19 @@ Tableau 06 : EVOLUTION DES EFFECTIFS DES ETUDIANTS POUR 100 000 HABITANTS DE
 2017 A 2022
 
 Tableau (format markdown):
-| UNIVERSITES |  |  | 2017 |  |  | 2018 |  |  | 2019 |  |  | 2020 |  |  | 2022 |  |  |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 6 UNIVERSITES |  |  | 80 767 |  |  | 83 384 |  |  | 91 479 |  |  | 100 362 |  |  | 115 466 |  |  |
-| IST |  |  | 2 952 |  |  | 2 977 |  |  | 2 598 |  |  | 2 730 |  |  | 2 963 |  |  |
-| CNTEMAD |  |  | 17 513 |  |  | 17 967 |  |  | 16 412 |  |  | 14 432 |  |  | 16 045 |  |  |
-|  | Ensemble PUBLICS |  |  | 101 232 |  |  | 104 328 |  |  | 110 489 |  |  | 117 524 |  |  | 134 474 |  |
-|  | Ensemble PRIVES |  |  | 36 662 |  |  | 39 431 |  |  | 42 354 |  |  | 41 774 |  |  | 44 191 |  |
-|  | ENSEMBLE |  | 137 894 |  |  | 143 759 |  |  | 152 843 |  |  | 159 298 |  |  | 178 665 |  |  |
-|  | SYSTEME |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-|  | POPULATION |  | 25 571 483 |  |  | 26 263 039 |  |  | 26 969 583 |  |  | 27 690 797 |  |  | 29 175 508 |  |  |
-|  | TOTALE |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-|  | ETUDIANTS POUR |  | 539 |  |  | 547 |  |  | 567 |  |  | 575 |  |  | 612 |  |  |
-|  | 100 000 HABITANTS |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| UNIVERSITES   | UNIVERSITES       | UNIVERSITES       | 2017              | 2017              | 2017              | 2018              | 2018              | 2018              | 2019              | 2019              | 2019              | 2020              | 2020              | 2020              | 2022              | 2022              | 2022              |
+| ------------- | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- |
+| 6 UNIVERSITES | 6 UNIVERSITES     | 6 UNIVERSITES     | 80 767            | 80 767            | 80 767            | 83 384            | 83 384            | 83 384            | 91 479            | 91 479            | 91 479            | 100 362           | 100 362           | 100 362           | 115 466           | 115 466           | 115 466           |
+| IST           | IST               | IST               | 2 952             | 2 952             | 2 952             | 2 977             | 2 977             | 2 977             | 2 598             | 2 598             | 2 598             | 2 730             | 2 730             | 2 730             | 2 963             | 2 963             | 2 963             |
+| CNTEMAD       | CNTEMAD           | CNTEMAD           | 17 513            | 17 513            | 17 513            | 17 967            | 17 967            | 17 967            | 16 412            | 16 412            | 16 412            | 14 432            | 14 432            | 14 432            | 16 045            | 16 045            | 16 045            |
+|               | Ensemble PUBLICS  |                   |                   | 101 232           |                   |                   | 104 328           |                   |                   | 110 489           |                   |                   | 117 524           |                   |                   | 134 474           |                   |
+|               | Ensemble PRIVES   |                   |                   | 36 662            |                   |                   | 39 431            |                   |                   | 42 354            |                   |                   | 41 774            |                   |                   | 44 191            |                   |
+|               | ENSEMBLE          |                   | 137 894           | 137 894           | 137 894           | 143 759           | 143 759           | 143 759           | 152 843           | 152 843           | 152 843           | 159 298           | 159 298           | 159 298           | 178 665           | 178 665           | 178 665           |
+|               | SYSTEME           | SYSTEME           | SYSTEME           | SYSTEME           | SYSTEME           | SYSTEME           | SYSTEME           | SYSTEME           | SYSTEME           | SYSTEME           | SYSTEME           | SYSTEME           | SYSTEME           | SYSTEME           | SYSTEME           | SYSTEME           | SYSTEME           |
+|               | POPULATION        |                   | 25 571 483        | 25 571 483        | 25 571 483        | 26 263 039        | 26 263 039        | 26 263 039        | 26 969 583        | 26 969 583        | 26 969 583        | 27 690 797        | 27 690 797        | 27 690 797        | 29 175 508        | 29 175 508        | 29 175 508        |
+|               | TOTALE            | TOTALE            | TOTALE            | TOTALE            | TOTALE            | TOTALE            | TOTALE            | TOTALE            | TOTALE            | TOTALE            | TOTALE            | TOTALE            | TOTALE            | TOTALE            | TOTALE            | TOTALE            | TOTALE            |
+|               | ETUDIANTS POUR    |                   | 539               | 539               | 539               | 547               | 547               | 547               | 567               | 567               | 567               | 575               | 575               | 575               | 612               | 612               | 612               |
+|               | 100 000 HABITANTS | 100 000 HABITANTS | 100 000 HABITANTS | 100 000 HABITANTS | 100 000 HABITANTS | 100 000 HABITANTS | 100 000 HABITANTS | 100 000 HABITANTS | 100 000 HABITANTS | 100 000 HABITANTS | 100 000 HABITANTS | 100 000 HABITANTS | 100 000 HABITANTS | 100 000 HABITANTS | 100 000 HABITANTS | 100 000 HABITANTS | 100 000 HABITANTS |
 
 
 Source : Service de la Statistique et de la Planification – DSSIP / MESUPRES
@@ -538,24 +533,24 @@ publiques et 25% se trouvent dans les institutions privées.
 Tableau 07 : EVOLUTION DES EFFECTIFS DES ETUDIANTS INSCRITS DE 2017 A 2022
 
 Tableau (format markdown):
-| UNIVERSITES | 2017 | 2018 | 2019 | 2020 | 2022 |
-|---|---|---|---|---|---|
-| Antananarivo | 34 845 | 34 221 | 37 406 | 37 914 | 37 390 |
-| Antsiranana | 5 640 | 6 073 | 7 282 | 8 675 | 10 246 |
-| Fianarantsoa | 17 383 | 19 854 | 21 603 | 22 707 | 28 920 |
-| Mahajanga | 7 238 | 7 650 | 8 216 | 11 359 | 13 739 |
-| Toamasina | 8 415 | 7 872 | 8 405 | 10 561 | 13 342 |
-| Toliara | 7 246 | 7 714 | 8 567 | 9 146 | 11 829 |
-| Total 6 universités | 80 767 | 83 384 | 91 479 | 100 362 | 115 466 |
-| IST |  |  |  |  |  |
-| Antananarivo | 1 443 | 1 473 | 1 448 | 1 561 | 1 538 |
-| Antsiranana | 716 | 800 | 797 | 815 | 698 |
-| Ambositra | 793 | 704 | 353 | 354 | 727 |
-| Total IST | 2 952 | 2 977 | 2 598 | 2 730 | 2 963 |
-| Total CNTEMAD | 17 513 | 17 967 | 16 412 | 14 432 | 16 045 |
-| Ensemble PUBLICS | 101 232 | 104 328 | 110 489 | 117 524 | 134 474 |
-| Ensemble PRIVES | 36 662 | 39 431 | 42 354 | 41 774 | 44 191 |
-| ENSEMBLE SYSTEME | 137 894 | 143 759 | 152 843 | 159 298 | 178 665 |
+| UNIVERSITES         | 2017    | 2018    | 2019    | 2020    | 2022    |
+| ------------------- | ------- | ------- | ------- | ------- | ------- |
+| Antananarivo        | 34 845  | 34 221  | 37 406  | 37 914  | 37 390  |
+| Antsiranana         | 5 640   | 6 073   | 7 282   | 8 675   | 10 246  |
+| Fianarantsoa        | 17 383  | 19 854  | 21 603  | 22 707  | 28 920  |
+| Mahajanga           | 7 238   | 7 650   | 8 216   | 11 359  | 13 739  |
+| Toamasina           | 8 415   | 7 872   | 8 405   | 10 561  | 13 342  |
+| Toliara             | 7 246   | 7 714   | 8 567   | 9 146   | 11 829  |
+| Total 6 universités | 80 767  | 83 384  | 91 479  | 100 362 | 115 466 |
+| IST                 |         |         |         |         |         |
+| Antananarivo        | 1 443   | 1 473   | 1 448   | 1 561   | 1 538   |
+| Antsiranana         | 716     | 800     | 797     | 815     | 698     |
+| Ambositra           | 793     | 704     | 353     | 354     | 727     |
+| Total IST           | 2 952   | 2 977   | 2 598   | 2 730   | 2 963   |
+| Total CNTEMAD       | 17 513  | 17 967  | 16 412  | 14 432  | 16 045  |
+| Ensemble PUBLICS    | 101 232 | 104 328 | 110 489 | 117 524 | 134 474 |
+| Ensemble PRIVES     | 36 662  | 39 431  | 42 354  | 41 774  | 44 191  |
+| ENSEMBLE SYSTEME    | 137 894 | 143 759 | 152 843 | 159 298 | 178 665 |
 
 
 Source : Service de la Statistique et de la Planification / DSSIP/ ME SUPRES
@@ -574,8 +569,8 @@ PUBLIQUES
 2017 2018 2019 2020 2022
 
 Tableau (format markdown):
-| PRIVEES | 27% | 27% | 28% | 26% | 25% |
-|---|---|---|---|---|---|
+| PRIVEES   | 27% | 27% | 28% | 26% | 25% |
+| --------- | --- | --- | --- | --- | --- |
 | PUBLIQUES | 73% | 73% | 72% | 74% | 75% |
 
 
@@ -602,16 +597,16 @@ répartissent entre l'Université d'Antsiranana et celle de Toliara.
 Tableau 08 : EVOLUTION DES EFFECTIFS DES ETUDIANTS DOCTORANTS DE 2017 A 2022
 
 Tableau (format markdown):
-| Universités |  |  | 2017 | 2018 | 2019 | 2020 | 2022 |
-|---|---|---|---|---|---|---|---|
-| Antananarivo |  |  | 1 451 | 1 065 | 1 041 | 1 453 | 1 744 |
-| Antsiranana |  |  | 23 | 46 | 50 | 37 | 22 |
-| Fianarantsoa |  |  | 5 | 73 | 87 | 62 | 35 |
-| Mahajanga |  |  | 35 | 44 | 51 | 144 | 268 |
-| Toamasina |  |  | 67 | 101 | 72 | 68 | 93 |
-| Toliara |  |  | 92 | 52 | 95 | 52 | 113 |
-|  | Ensemble 6 |  | 1 673 | 1 381 | 1 396 | 1 816 | 2 275 |
-|  | universités |  |  |  |  |  |  |
+| Universités  | Universités  | Universités  | 2017        | 2018        | 2019        | 2020        | 2022        |
+| ------------ | ------------ | ------------ | ----------- | ----------- | ----------- | ----------- | ----------- |
+| Antananarivo | Antananarivo | Antananarivo | 1 451       | 1 065       | 1 041       | 1 453       | 1 744       |
+| Antsiranana  | Antsiranana  | Antsiranana  | 23          | 46          | 50          | 37          | 22          |
+| Fianarantsoa | Fianarantsoa | Fianarantsoa | 5           | 73          | 87          | 62          | 35          |
+| Mahajanga    | Mahajanga    | Mahajanga    | 35          | 44          | 51          | 144         | 268         |
+| Toamasina    | Toamasina    | Toamasina    | 67          | 101         | 72          | 68          | 93          |
+| Toliara      | Toliara      | Toliara      | 92          | 52          | 95          | 52          | 113         |
+|              | Ensemble 6   |              | 1 673       | 1 381       | 1 396       | 1 816       | 2 275       |
+|              | universités  | universités  | universités | universités | universités | universités | universités |
 
 
 Source : Service de la Statistique et de la Planification – DSSIP / MESUPRES
@@ -649,15 +644,15 @@ Tableau 09 : EVOLUTION DES EFFECTIFS DES ETUDIANTS A L’ENSEIGNEMENT SUPERIEUR,
 PAR DOMAINE DE 2017 A 2022
 
 Tableau (format markdown):
-| DOMAINE | 2017 | 2018 | 2019 | 2020 | 2022 |
-|---|---|---|---|---|---|
-| SE | 5 262 | 6 020 | 6 163 | 5 362 | 5 274 |
-| ALSH | 14 075 | 16 358 | 17 766 | 19 478 | 23 154 |
-| SSTE | 65 181 | 65 854 | 70 829 | 70 985 | 80 622 |
-| STECH | 19 483 | 20 737 | 23 252 | 27 129 | 30 405 |
-| SI | 13 027 | 13 139 | 13 415 | 13 998 | 16 478 |
-| SSANTE | 20 866 | 21 651 | 21 418 | 22 346 | 22 732 |
-| TOTAL | 137 894 | 143 759 | 152 843 | 159 298 | 178 665 |
+| DOMAINE | 2017    | 2018    | 2019    | 2020    | 2022    |
+| ------- | ------- | ------- | ------- | ------- | ------- |
+| SE      | 5 262   | 6 020   | 6 163   | 5 362   | 5 274   |
+| ALSH    | 14 075  | 16 358  | 17 766  | 19 478  | 23 154  |
+| SSTE    | 65 181  | 65 854  | 70 829  | 70 985  | 80 622  |
+| STECH   | 19 483  | 20 737  | 23 252  | 27 129  | 30 405  |
+| SI      | 13 027  | 13 139  | 13 415  | 13 998  | 16 478  |
+| SSANTE  | 20 866  | 21 651  | 21 418  | 22 346  | 22 732  |
+| TOTAL   | 137 894 | 143 759 | 152 843 | 159 298 | 178 665 |
 
 
 Source : Service de la Statistique et de la Planification / DSSIP/
@@ -728,9 +723,9 @@ Graphe 13 : Taux de répartition par domaine des
 45%
 
 Tableau (format markdown):
-|  | SE | ALSH | SSTE | STECH | SI | SSANTE |
-|---|---|---|---|---|---|---|
-| Pourcentage 2022 | 3% | 13% | 45% | 17% | 9% | 13% |
+|                  | SE | ALSH | SSTE | STECH | SI | SSANTE |
+| ---------------- | -- | ---- | ---- | ----- | -- | ------ |
+| Pourcentage 2022 | 3% | 13%  | 45%  | 17%   | 9% | 13%    |
 
 
 En examinant la répartition des étudiants par domaine, on observe que les sciences de la
@@ -745,26 +740,23 @@ Tableau 10 : EVOLUTION ET REPARTITION PAR AGE DES ETUDIANTS A L’ENSEIGNEMENT
 SUPERIEUR DE 2017 A 2022
 
 Tableau (format markdown):
-| Tranches
-d'âge | 2016-2017 |  | 2017-2018 |  | 2018-2019 |  | 2019-2020 |  | 2021-2022 |  |
-|---|---|---|---|---|---|---|---|---|---|---|
-|  | public | privé | public | privé | public | privé | public | privé | public | privé |
-| Moins de 18
-ans | 3 069 | 1 425 | 2 755 | 1 642 | 3 015 | 1 929 | 2 567 | 1 502 | 1 626 | 1 404 |
-| 18 à 19 ans | 16 816 | 7 286 | 18 341 | 8 408 | 20 767 | 8 751 | 20 536 | 8 322 | 15 643 | 8 328 |
-| 20 à 21 ans | 26 232 | 10 495 | 28 717 | 11 513 | 31 284 | 12 229 | 34 573 | 12 533 | 36 362 | 13 245 |
-| 22 à 23 ans | 22 647 | 8 672 | 23 537 | 8 812 | 25 297 | 9 351 | 28 185 | 9 637 | 36 424 | 10 428 |
-| 24 à 25 ans | 14 977 | 4 580 | 14 580 | 4 629 | 15 102 | 5 130 | 16 354 | 4 897 | 22 988 | 5 155 |
-| 26 à 27 ans | 8 028 | 2 016 | 7 418 | 2 114 | 7 215 | 2 395 | 7 442 | 2 262 | 10 616 | 2 292 |
-| 28 à 29 ans | 3 649 | 883 | 3 297 | 850 | 3 076 | 978 | 3 050 | 980 | 4 486 | 1 063 |
-| 30 à 31 ans | 1 701 | 448 | 1 645 | 482 | 1 369 | 491 | 1 343 | 493 | 1 807 | 602 |
-| 32 à 33 ans | 1 059 | 237 | 953 | 294 | 763 | 320 | 865 | 323 | 1 033 | 470 |
-| 34 à 35 ans | 767 | 186 | 656 | 235 | 586 | 261 | 670 | 251 | 749 | 342 |
-| 36 à 39 ans | 1 087 | 199 | 1 199 | 195 | 1 096 | 224 | 866 | 242 | 1 174 | 447 |
-| 40 ans et
-plus | 1 200 | 235 | 1 230 | 257 | 919 | 295 | 1 073 | 332 | 1 566 | 415 |
-| Ensemble | 101 232 | 36 662 | 104 328 | 39 431 | 110 489 | 42 354 | 117 524 | 41 774 | 134 474 | 44 191 |
-| Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES |  |  |  |  |  |  |  |  |  |  |
+| Tranches d'âge                                        | 2016-2017                                             | 2016-2017                                             | 2017-2018                                             | 2017-2018                                             | 2018-2019                                             | 2018-2019                                             | 2019-2020 | 2019-2020 | 2021-2022 | 2021-2022 |
+| ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | --------- | --------- | --------- | --------- |
+| Tranches d'âge                                        | public                                                | privé                                                 | public                                                | privé                                                 | public                                                | privé                                                 | public    | privé     | public    | privé     |
+| Moins de 18 ans                                       | 3 069                                                 | 1 425                                                 | 2 755                                                 | 1 642                                                 | 3 015                                                 | 1 929                                                 | 2 567     | 1 502     | 1 626     | 1 404     |
+| 18 à 19 ans                                           | 16 816                                                | 7 286                                                 | 18 341                                                | 8 408                                                 | 20 767                                                | 8 751                                                 | 20 536    | 8 322     | 15 643    | 8 328     |
+| 20 à 21 ans                                           | 26 232                                                | 10 495                                                | 28 717                                                | 11 513                                                | 31 284                                                | 12 229                                                | 34 573    | 12 533    | 36 362    | 13 245    |
+| 22 à 23 ans                                           | 22 647                                                | 8 672                                                 | 23 537                                                | 8 812                                                 | 25 297                                                | 9 351                                                 | 28 185    | 9 637     | 36 424    | 10 428    |
+| 24 à 25 ans                                           | 14 977                                                | 4 580                                                 | 14 580                                                | 4 629                                                 | 15 102                                                | 5 130                                                 | 16 354    | 4 897     | 22 988    | 5 155     |
+| 26 à 27 ans                                           | 8 028                                                 | 2 016                                                 | 7 418                                                 | 2 114                                                 | 7 215                                                 | 2 395                                                 | 7 442     | 2 262     | 10 616    | 2 292     |
+| 28 à 29 ans                                           | 3 649                                                 | 883                                                   | 3 297                                                 | 850                                                   | 3 076                                                 | 978                                                   | 3 050     | 980       | 4 486     | 1 063     |
+| 30 à 31 ans                                           | 1 701                                                 | 448                                                   | 1 645                                                 | 482                                                   | 1 369                                                 | 491                                                   | 1 343     | 493       | 1 807     | 602       |
+| 32 à 33 ans                                           | 1 059                                                 | 237                                                   | 953                                                   | 294                                                   | 763                                                   | 320                                                   | 865       | 323       | 1 033     | 470       |
+| 34 à 35 ans                                           | 767                                                   | 186                                                   | 656                                                   | 235                                                   | 586                                                   | 261                                                   | 670       | 251       | 749       | 342       |
+| 36 à 39 ans                                           | 1 087                                                 | 199                                                   | 1 199                                                 | 195                                                   | 1 096                                                 | 224                                                   | 866       | 242       | 1 174     | 447       |
+| 40 ans et plus                                        | 1 200                                                 | 235                                                   | 1 230                                                 | 257                                                   | 919                                                   | 295                                                   | 1 073     | 332       | 1 566     | 415       |
+| Ensemble                                              | 101 232                                               | 36 662                                                | 104 328                                               | 39 431                                                | 110 489                                               | 42 354                                                | 117 524   | 41 774    | 134 474   | 44 191    |
+| Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES | Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES | Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES | Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES | Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES | Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES | Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES |           |           |           |           |
 
 
 14
@@ -785,23 +777,23 @@ Tableau 11 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR TYPE D'ETABLISSEMENT DE
 2017 A 2022
 
 Tableau (format markdown):
-| type | 2017 | 2018 | 2019 | 2020 | 2022 |
-|---|---|---|---|---|---|
-| Facultés | 61 075 | 60 713 | 65 058 | 69 383 | 76 102 |
-| Ecoles | 12 941 | 14 182 | 14 794 | 15 362 | 20 568 |
-| Instituts | 9 703 | 11 466 | 14 091 | 17 691 | 20 412 |
-| Centre | 17 513 | 17 967 | 16 546 | 15 088 | 17 392 |
+| type         | 2017    | 2018    | 2019    | 2020    | 2022    |
+| ------------ | ------- | ------- | ------- | ------- | ------- |
+| Facultés     | 61 075  | 60 713  | 65 058  | 69 383  | 76 102  |
+| Ecoles       | 12 941  | 14 182  | 14 794  | 15 362  | 20 568  |
+| Instituts    | 9 703   | 11 466  | 14 091  | 17 691  | 20 412  |
+| Centre       | 17 513  | 17 967  | 16 546  | 15 088  | 17 392  |
 | total PUBLIC | 101 232 | 104 328 | 110 489 | 117 524 | 134 474 |
-| Facultés |  |  |  |  |  |
-| Ecoles | 5 623 | 5 615 | 6 616 | 6 860 | 6 345 |
-| Instituts | 30 495 | 33 273 | 35 106 | 33 998 | 36 103 |
-| Centre | 544 | 543 | 632 | 916 | 1 743 |
-| total PRIVE | 36 662 | 39 431 | 42 354 | 41 774 | 44 191 |
-| Facultés | 61 075 | 60 713 | 65 058 | 69 383 | 76 102 |
-| Ecoles | 18 564 | 19 797 | 21 410 | 22 222 | 26 913 |
-| Instituts | 40 198 | 44 739 | 49 197 | 51 689 | 56 515 |
-| Centre | 18 057 | 18 510 | 17 178 | 16 004 | 19 135 |
-| ensemble | 137 894 | 143 759 | 152 843 | 159 298 | 178 665 |
+| Facultés     |         |         |         |         |         |
+| Ecoles       | 5 623   | 5 615   | 6 616   | 6 860   | 6 345   |
+| Instituts    | 30 495  | 33 273  | 35 106  | 33 998  | 36 103  |
+| Centre       | 544     | 543     | 632     | 916     | 1 743   |
+| total PRIVE  | 36 662  | 39 431  | 42 354  | 41 774  | 44 191  |
+| Facultés     | 61 075  | 60 713  | 65 058  | 69 383  | 76 102  |
+| Ecoles       | 18 564  | 19 797  | 21 410  | 22 222  | 26 913  |
+| Instituts    | 40 198  | 44 739  | 49 197  | 51 689  | 56 515  |
+| Centre       | 18 057  | 18 510  | 17 178  | 16 004  | 19 135  |
+| ensemble     | 137 894 | 143 759 | 152 843 | 159 298 | 178 665 |
 
 
 Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES
@@ -825,16 +817,15 @@ Tableau 12 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR GENRE A L’ENSEIGNEMENT
 SUPERIEUR DE 2017 A 2022
 
 Tableau (format markdown):
-| ETABLISSE
-MENT | 2 017 |  | 2 018 |  | 2 019 |  | 2 020 |  | 2 022 |  |
-|---|---|---|---|---|---|---|---|---|---|---|
-|  | M | F | M | F | M | F | M | F | M | F |
-| universités | 44 508 | 36 259 | 45 511 | 37 873 | 49 379 | 42 100 | 54 210 | 46 152 | 61 003 | 54 463 |
-| IST | 1 820 | 1 132 | 1 857 | 1 120 | 1 581 | 1 017 | 1 686 | 1 044 | 1 757 | 1 206 |
-| CNTEMAD | 8 399 | 9 114 | 8 325 | 9 642 | 7 329 | 9 083 | 6 168 | 8 264 | 7 114 | 8 931 |
-| S/T public | 54 727 | 46 505 | 55 693 | 48 635 | 58 289 | 52 200 | 62 064 | 55 460 | 69 874 | 64 600 |
-| S/T privé | 16 516 | 20 146 | 17 881 | 21 550 | 19 304 | 23 050 | 18 742 | 23 032 | 19 154 | 25 037 |
-| ENSEMBLE | 71 243 | 66 651 | 73 574 | 70 185 | 77 593 | 75 250 | 80 806 | 78 492 | 89 028 | 89 637 |
+| ETABLISSE MENT | 2 017  | 2 017  | 2 018  | 2 018  | 2 019  | 2 019  | 2 020  | 2 020  | 2 022  | 2 022  |
+| -------------- | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| ETABLISSE MENT | M      | F      | M      | F      | M      | F      | M      | F      | M      | F      |
+| universités    | 44 508 | 36 259 | 45 511 | 37 873 | 49 379 | 42 100 | 54 210 | 46 152 | 61 003 | 54 463 |
+| IST            | 1 820  | 1 132  | 1 857  | 1 120  | 1 581  | 1 017  | 1 686  | 1 044  | 1 757  | 1 206  |
+| CNTEMAD        | 8 399  | 9 114  | 8 325  | 9 642  | 7 329  | 9 083  | 6 168  | 8 264  | 7 114  | 8 931  |
+| S/T public     | 54 727 | 46 505 | 55 693 | 48 635 | 58 289 | 52 200 | 62 064 | 55 460 | 69 874 | 64 600 |
+| S/T privé      | 16 516 | 20 146 | 17 881 | 21 550 | 19 304 | 23 050 | 18 742 | 23 032 | 19 154 | 25 037 |
+| ENSEMBLE       | 71 243 | 66 651 | 73 574 | 70 185 | 77 593 | 75 250 | 80 806 | 78 492 | 89 028 | 89 637 |
 
 
 Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
@@ -856,7 +847,7 @@ narivo nana ntsoa anga sina
 
 Tableau (format markdown):
 | M | 50% | 60% | 52% | 55% | 52% | 56% |
-|---|---|---|---|---|---|---|
+| - | --- | --- | --- | --- | --- | --- |
 | F | 50% | 40% | 48% | 45% | 48% | 44% |
 
 
@@ -867,18 +858,18 @@ Tableau 13 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR NIVEAU D’ETUDES A
 L’ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
 
 Tableau (format markdown):
-| Niveau d'études | 2017 | 2018 | 2019 | 2020 | 2022 |
-|---|---|---|---|---|---|
-| L1 | 56 842 | 58 605 | 60 777 | 60 869 | 73 118 |
-| L2 | 31 300 | 33 441 | 35 442 | 38 673 | 40 737 |
-| L3 | 24 851 | 27 458 | 29 562 | 30 970 | 32 837 |
-| M1 | 13 195 | 13 144 | 14 219 | 15 138 | 16 714 |
-| M2 | 9 483 | 9 002 | 10 807 | 11 062 | 12 189 |
-| 6 | 547 | 704 | 637 | 718 | 795 |
-| 7 | 331 | 352 | 471 | 360 | 526 |
-| 8 | 288 | 409 | 335 | 367 | 334 |
-| Doctorat | 1 057 | 644 | 593 | 1 141 | 1 415 |
-| total | 137 894 | 143 759 | 152 843 | 159 298 | 178 665 |
+| Niveau d'études | 2017    | 2018    | 2019    | 2020    | 2022    |
+| --------------- | ------- | ------- | ------- | ------- | ------- |
+| L1              | 56 842  | 58 605  | 60 777  | 60 869  | 73 118  |
+| L2              | 31 300  | 33 441  | 35 442  | 38 673  | 40 737  |
+| L3              | 24 851  | 27 458  | 29 562  | 30 970  | 32 837  |
+| M1              | 13 195  | 13 144  | 14 219  | 15 138  | 16 714  |
+| M2              | 9 483   | 9 002   | 10 807  | 11 062  | 12 189  |
+| 6               | 547     | 704     | 637     | 718     | 795     |
+| 7               | 331     | 352     | 471     | 360     | 526     |
+| 8               | 288     | 409     | 335     | 367     | 334     |
+| Doctorat        | 1 057   | 644     | 593     | 1 141   | 1 415   |
+| total           | 137 894 | 143 759 | 152 843 | 159 298 | 178 665 |
 
 
 Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
@@ -957,32 +948,32 @@ Tableau 14 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR REGION A L’ENSEIGNEMENT
 SUPERIEUR DE 2017 A 2022
 
 Tableau (format markdown):
-| REGIONS | 2017 |  | 2018 |  | 2019 |  | 2020 |  | 2022 |  |  |
-|---|---|---|---|---|---|---|---|---|---|---|---|
-|  | PUBLIC | PRIVE | PUBLIC | PRIVE | PUBLIC | PRIVE | PUBLIC | PRIVE | PUBLIC | PRIVE |  |
-| Alaotra Mangoro | 389 | 217 | 917 | 315 | 834 | 311 | 992 | 389 | 1344 | 3 29 |  |
-| Amoron'i Mania | 1076 | 353 | 987 | 227 | 638 | 237 | 605 | 211 | 1036 | 2 04 |  |
-| Analanjirofo | 115 | 235 | 119 | 209 | 427 | 317 | 530 | 217 | 704 | 6 7 |  |
-| Analamanga | 48263 | 24705 | 47197 | 26461 | 47 811 | 29 494 | 46483 | 29256 | 46473 | 3 0 906 |  |
-| Androy | 7 | 0 | 9 | 0 | 393 | 0 | 197 | 0 | 455 | 1 04 |  |
-| Anosy | 113 | 268 | 133 | 258 | 351 | 258 | 423 | 223 | 448 | 1 82 |  |
-| Atsimo Andrefana | 7541 | 748 | 8018 | 494 | 8 250 | 589 | 8777 | 580 | 11177 | 5 69 |  |
-| Atsimo Atsinanana | 78 | 272 | 85 | 158 | 82 | 158 | 72 | 158 | 211 | 1 58 |  |
-| Atsinanana | 9089 | 915 | 8137 | 946 | 8 381 | 966 | 10061 | 997 | 12309 | 7 22 |  |
-| Betsiboka | 36 | 0 | 47 | 0 | 32 | 0 | 80 | 0 | 118 | 0 |  |
-| Boeny | 7676 | 1656 | 8011 | 1888 | 8 572 | 1 852 | 10673 | 2263 | 12548 | 2 361 |  |
-| Bongolova | 168 | 260 | 147 | 281 | 146 | 294 | 128 | 123 | 136 | 1 96 |  |
-| DIANA | 6765 | 557 | 7325 | 878 | 8 499 | 795 | 9421 | 848 | 10712 | 6 44 |  |
-| Haute Matsiatra | 18036 | 1574 | 20445 | 1453 | 22 111 | 1 535 | 23059 | 1241 | 29184 | 2 330 |  |
-| Ihorombe | 60 | 77 | 68 | 91 | 60 | 99 | 53 | 98 | 84 | 1 18 |  |
-| Itasy | 315 | 196 | 819 | 205 | 1 009 | 185 | 1204 | 190 | 1657 | 2 89 |  |
-| Melaky | 45 | 0 | 36 | 0 | 43 | 0 | 38 | 0 | 63 | - |  |
-| Menabe | 81 | 320 | 88 | 297 | 71 | 293 | 186 | 224 | 302 | 8 0 |  |
-| SAVA | 140 | 626 | 152 | 853 | 123 | 361 | 570 | 177 | 988 | 1 64 |  |
-| Sofia | 186 | 506 | 264 | 534 | 160 | 542 | 1088 | 641 | 1562 | 4 34 |  |
-| Vakinankaratra | 912 | 3177 | 1169 | 3602 | 2 363 | 3 761 | 2633 | 3668 | 2730 | 4 064 |  |
-| Vatovavy Fitovinany | 141 | 0 | 155 | 281 | 133 | 307 | 212 | 270 | 233 | 270 |  |
-| TOTAL | 101 232 | 36 662 | 104 328 | 39 431 | 110 489 | 42 354 | 117 485 | 41 774 | 134 474 | 44 191 |  |
+| REGIONS             | 2017    | 2017   | 2018    | 2018   | 2019    | 2019   | 2020    | 2020   | 2022    | 2022    |         |
+| ------------------- | ------- | ------ | ------- | ------ | ------- | ------ | ------- | ------ | ------- | ------- | ------- |
+| REGIONS             | PUBLIC  | PRIVE  | PUBLIC  | PRIVE  | PUBLIC  | PRIVE  | PUBLIC  | PRIVE  | PUBLIC  | PRIVE   | PRIVE   |
+| Alaotra Mangoro     | 389     | 217    | 917     | 315    | 834     | 311    | 992     | 389    | 1344    | 3 29    | 3 29    |
+| Amoron'i Mania      | 1076    | 353    | 987     | 227    | 638     | 237    | 605     | 211    | 1036    | 2 04    | 2 04    |
+| Analanjirofo        | 115     | 235    | 119     | 209    | 427     | 317    | 530     | 217    | 704     | 6 7     | 6 7     |
+| Analamanga          | 48263   | 24705  | 47197   | 26461  | 47 811  | 29 494 | 46483   | 29256  | 46473   | 3 0 906 | 3 0 906 |
+| Androy              | 7       | 0      | 9       | 0      | 393     | 0      | 197     | 0      | 455     | 1 04    | 1 04    |
+| Anosy               | 113     | 268    | 133     | 258    | 351     | 258    | 423     | 223    | 448     | 1 82    | 1 82    |
+| Atsimo Andrefana    | 7541    | 748    | 8018    | 494    | 8 250   | 589    | 8777    | 580    | 11177   | 5 69    | 5 69    |
+| Atsimo Atsinanana   | 78      | 272    | 85      | 158    | 82      | 158    | 72      | 158    | 211     | 1 58    | 1 58    |
+| Atsinanana          | 9089    | 915    | 8137    | 946    | 8 381   | 966    | 10061   | 997    | 12309   | 7 22    | 7 22    |
+| Betsiboka           | 36      | 0      | 47      | 0      | 32      | 0      | 80      | 0      | 118     | 0       | 0       |
+| Boeny               | 7676    | 1656   | 8011    | 1888   | 8 572   | 1 852  | 10673   | 2263   | 12548   | 2 361   | 2 361   |
+| Bongolova           | 168     | 260    | 147     | 281    | 146     | 294    | 128     | 123    | 136     | 1 96    | 1 96    |
+| DIANA               | 6765    | 557    | 7325    | 878    | 8 499   | 795    | 9421    | 848    | 10712   | 6 44    |         |
+| Haute Matsiatra     | 18036   | 1574   | 20445   | 1453   | 22 111  | 1 535  | 23059   | 1241   | 29184   | 2 330   |         |
+| Ihorombe            | 60      | 77     | 68      | 91     | 60      | 99     | 53      | 98     | 84      | 1 18    | 1 18    |
+| Itasy               | 315     | 196    | 819     | 205    | 1 009   | 185    | 1204    | 190    | 1657    | 2 89    | 2 89    |
+| Melaky              | 45      | 0      | 36      | 0      | 43      | 0      | 38      | 0      | 63      | -       | -       |
+| Menabe              | 81      | 320    | 88      | 297    | 71      | 293    | 186     | 224    | 302     | 8 0     | 8 0     |
+| SAVA                | 140     | 626    | 152     | 853    | 123     | 361    | 570     | 177    | 988     | 1 64    | 1 64    |
+| Sofia               | 186     | 506    | 264     | 534    | 160     | 542    | 1088    | 641    | 1562    | 4 34    | 4 34    |
+| Vakinankaratra      | 912     | 3177   | 1169    | 3602   | 2 363   | 3 761  | 2633    | 3668   | 2730    | 4 064   | 4 064   |
+| Vatovavy Fitovinany | 141     | 0      | 155     | 281    | 133     | 307    | 212     | 270    | 233     | 270     | 270     |
+| TOTAL               | 101 232 | 36 662 | 104 328 | 39 431 | 110 489 | 42 354 | 117 485 | 41 774 | 134 474 | 44 191  |         |
 
 
 Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
@@ -995,20 +986,20 @@ Tableau 15 : EVOLUTION DES EFFECTIFS DES ETUDIANTS ETRANGERS A L'ENSEIGNEMENT
 SUPERIEUR DE 2017 A 2022
 
 Tableau (format markdown):
-| Universités |  |  | 2017 |  |  | 2018 |  |  | 2019 |  |  | 2020 |  |  | 2022 |  |  |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Antananarivo |  |  | 372 |  |  | 194 |  |  | 297 |  |  | 138 |  |  | 243 |  |  |
-| Antsiranana |  |  | 48 |  |  | 52 |  |  | 48 |  |  | 43 |  |  | 42 |  |  |
-| Fianarantsoa |  |  | 56 |  |  | 66 |  |  | 52 |  |  | 38 |  |  | 36 |  |  |
-| Mahajanga |  |  | 161 |  |  | 134 |  |  | 116 |  |  | 113 |  |  | 105 |  |  |
-| Toamasina |  |  | 94 |  |  | 51 |  |  | 50 |  |  | 27 |  |  | 32 |  |  |
-| Toliara |  |  | 149 |  |  | 123 |  |  | 124 |  |  | 56 |  |  | 16 |  |  |
-| TOTAL 6 Universités |  |  | 880 |  |  | 620 |  |  | 687 |  |  | 415 |  |  | 474 |  |  |
-| 3 IST |  |  |  |  |  | 2 |  |  |  |  |  | 3 |  |  | 3 |  |  |
-| CNTEMAD |  |  | 25 |  |  | 30 |  |  | 16 |  |  | 11 |  |  | 8 |  |  |
-|  | Total PUBLIC |  |  | 905 |  |  | 652 |  |  | 703 |  |  | 429 |  |  | 485 |  |
-|  | Total PRIVE |  |  | 1 531 |  |  | 1 325 |  |  | 2 214 |  |  | 968 |  |  | 503 |  |
-|  | ENSEMBLE |  |  | 2 436 |  |  | 1 977 |  |  | 2 917 |  |  | 1 397 |  |  | 988 |  |
+| Universités         | Universités         | Universités         | 2017 | 2017  | 2017 | 2018 | 2018  | 2018 | 2019 | 2019  | 2019 | 2020 | 2020  | 2020 | 2022 | 2022 | 2022 |
+| ------------------- | ------------------- | ------------------- | ---- | ----- | ---- | ---- | ----- | ---- | ---- | ----- | ---- | ---- | ----- | ---- | ---- | ---- | ---- |
+| Antananarivo        | Antananarivo        | Antananarivo        | 372  | 372   | 372  | 194  | 194   | 194  | 297  | 297   | 297  | 138  | 138   | 138  | 243  | 243  | 243  |
+| Antsiranana         | Antsiranana         | Antsiranana         | 48   | 48    | 48   | 52   | 52    | 52   | 48   | 48    | 48   | 43   | 43    | 43   | 42   | 42   | 42   |
+| Fianarantsoa        | Fianarantsoa        | Fianarantsoa        | 56   | 56    | 56   | 66   | 66    | 66   | 52   | 52    | 52   | 38   | 38    | 38   | 36   | 36   | 36   |
+| Mahajanga           | Mahajanga           | Mahajanga           | 161  | 161   | 161  | 134  | 134   | 134  | 116  | 116   | 116  | 113  | 113   | 113  | 105  | 105  | 105  |
+| Toamasina           | Toamasina           | Toamasina           | 94   | 94    | 94   | 51   | 51    | 51   | 50   | 50    | 50   | 27   | 27    | 27   | 32   | 32   | 32   |
+| Toliara             | Toliara             | Toliara             | 149  | 149   | 149  | 123  | 123   | 123  | 124  | 124   | 124  | 56   | 56    | 56   | 16   | 16   | 16   |
+| TOTAL 6 Universités | TOTAL 6 Universités | TOTAL 6 Universités | 880  | 880   | 880  | 620  | 620   | 620  | 687  | 687   | 687  | 415  | 415   | 415  | 474  | 474  | 474  |
+| 3 IST               | 3 IST               | 3 IST               |      |       |      | 2    | 2     | 2    |      |       |      | 3    | 3     | 3    | 3    | 3    | 3    |
+| CNTEMAD             | CNTEMAD             | CNTEMAD             | 25   | 25    | 25   | 30   | 30    | 30   | 16   | 16    | 16   | 11   | 11    | 11   | 8    | 8    | 8    |
+|                     | Total PUBLIC        |                     |      | 905   |      |      | 652   |      |      | 703   |      |      | 429   |      |      | 485  |      |
+|                     | Total PRIVE         |                     |      | 1 531 |      |      | 1 325 |      |      | 2 214 |      |      | 968   |      |      | 503  |      |
+|                     | ENSEMBLE            |                     |      | 2 436 |      |      | 1 977 |      |      | 2 917 |      |      | 1 397 |      |      | 988  |      |
 
 
 Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
@@ -1030,14 +1021,14 @@ Tableau 16 : EVOLUTION DES EFFECTIFS DES ETUDIANTS ETRANGERS PAR NATIONALITE A
 L’ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
 
 Tableau (format markdown):
-| Nationalité | 2017 | 2018 | 2019 | 2020 | 2022 |
-|---|---|---|---|---|---|
-| Africains | 128 | 323 | 1 307 | 129 | 120 |
-| Asiatiques | 6 | 0 | 0 | 3 | 8 |
-| Comoriens | 2 254 | 1 601 | 1 560 | 1 149 | 761 |
-| Européens | 16 | 9 | 10 | 20 | 34 |
-| Autres | 27 | 44 | 40 | 93 | 65 |
-| total | 2 431 | 1 977 | 2 917 | 1 394 | 988 |
+| Nationalité | 2017  | 2018  | 2019  | 2020  | 2022 |
+| ----------- | ----- | ----- | ----- | ----- | ---- |
+| Africains   | 128   | 323   | 1 307 | 129   | 120  |
+| Asiatiques  | 6     | 0     | 0     | 3     | 8    |
+| Comoriens   | 2 254 | 1 601 | 1 560 | 1 149 | 761  |
+| Européens   | 16    | 9     | 10    | 20    | 34   |
+| Autres      | 27    | 44    | 40    | 93    | 65   |
+| total       | 2 431 | 1 977 | 2 917 | 1 394 | 988  |
 
 
 Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES
@@ -1057,20 +1048,20 @@ Tableau 17 : EVOLUTION DES EFFECTIFS DES ETUDIANTS BOURSIERS A L’ENSEIGNEMENT
 SUPERIEUR DE 2017 A 2022
 
 Tableau (format markdown):
-| Universités |  |  | 2017 |  |  | 2018 |  |  | 2019 |  |  | 2020 |  |  | 2022 |  |  |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Antananarivo |  |  | 29 114 |  |  | 28 514 |  |  | 33 755 |  |  | 29 507 |  |  | 32 178 |  |  |
-| Antsiranana |  |  | 5 352 |  |  | 5 952 |  |  | 7 799 |  |  | 8 153 |  |  | 9 994 |  |  |
-| Fianarantsoa |  |  | 10 904 |  |  | 12 956 |  |  | 14 182 |  |  | 20 312 |  |  | 25 699 |  |  |
-| Mahajanga |  |  | 5 103 |  |  | 6 231 |  |  | 6 531 |  |  | 9 356 |  |  | 11 879 |  |  |
-| Toamasina |  |  | 6 476 |  |  | 5 573 |  |  | 6 164 |  |  | 9 887 |  |  | 12 715 |  |  |
-| Toliara |  |  | 5 456 |  |  | 5 767 |  |  | 7 334 |  |  | 7 474 |  |  | 7 665 |  |  |
-|  | 6 UNIV |  |  | 62 405 |  |  | 64 993 |  |  | 75 765 |  |  | 84 689 |  |  | 100 130 |  |
-| Antananarivo |  |  | 923 |  |  | 918 |  |  | 894 |  |  | 909 |  |  | 932 |  |  |
-| Antsiranana |  |  | 697 |  |  | 778 |  |  | 645 |  |  | 815 |  |  | 692 |  |  |
-| Ambositra |  |  | 769 |  |  | 553 |  |  | 619 |  |  | 354 |  |  | 727 |  |  |
-|  | IST |  |  | 2 389 |  |  | 2 249 |  |  | 2 158 |  |  | 2 078 |  |  | 2 351 |  |
-|  | ENSEMBLE |  |  | 64 794 |  |  | 67 242 |  |  | 77 923 |  |  | 86 767 |  |  | 102 481 |  |
+| Universités  | Universités  | Universités  | 2017   | 2017   | 2017   | 2018   | 2018   | 2018   | 2019   | 2019   | 2019   | 2020   | 2020   | 2020   | 2022   | 2022    | 2022   |
+| ------------ | ------------ | ------------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------- | ------ |
+| Antananarivo | Antananarivo | Antananarivo | 29 114 | 29 114 | 29 114 | 28 514 | 28 514 | 28 514 | 33 755 | 33 755 | 33 755 | 29 507 | 29 507 | 29 507 | 32 178 | 32 178  | 32 178 |
+| Antsiranana  | Antsiranana  | Antsiranana  | 5 352  | 5 352  | 5 352  | 5 952  | 5 952  | 5 952  | 7 799  | 7 799  | 7 799  | 8 153  | 8 153  | 8 153  | 9 994  | 9 994   | 9 994  |
+| Fianarantsoa | Fianarantsoa | Fianarantsoa | 10 904 | 10 904 | 10 904 | 12 956 | 12 956 | 12 956 | 14 182 | 14 182 | 14 182 | 20 312 | 20 312 | 20 312 | 25 699 | 25 699  | 25 699 |
+| Mahajanga    | Mahajanga    | Mahajanga    | 5 103  | 5 103  | 5 103  | 6 231  | 6 231  | 6 231  | 6 531  | 6 531  | 6 531  | 9 356  | 9 356  | 9 356  | 11 879 | 11 879  | 11 879 |
+| Toamasina    | Toamasina    | Toamasina    | 6 476  | 6 476  | 6 476  | 5 573  | 5 573  | 5 573  | 6 164  | 6 164  | 6 164  | 9 887  | 9 887  | 9 887  | 12 715 | 12 715  | 12 715 |
+| Toliara      | Toliara      | Toliara      | 5 456  | 5 456  | 5 456  | 5 767  | 5 767  | 5 767  | 7 334  | 7 334  | 7 334  | 7 474  | 7 474  | 7 474  | 7 665  | 7 665   | 7 665  |
+|              | 6 UNIV       |              |        | 62 405 |        |        | 64 993 |        |        | 75 765 |        |        | 84 689 |        |        | 100 130 |        |
+| Antananarivo | Antananarivo | Antananarivo | 923    | 923    | 923    | 918    | 918    | 918    | 894    | 894    | 894    | 909    | 909    | 909    | 932    | 932     | 932    |
+| Antsiranana  | Antsiranana  | Antsiranana  | 697    | 697    | 697    | 778    | 778    | 778    | 645    | 645    | 645    | 815    | 815    | 815    | 692    | 692     | 692    |
+| Ambositra    | Ambositra    | Ambositra    | 769    | 769    | 769    | 553    | 553    | 553    | 619    | 619    | 619    | 354    | 354    | 354    | 727    | 727     | 727    |
+|              | IST          |              |        | 2 389  |        |        | 2 249  |        |        | 2 158  |        |        | 2 078  |        |        | 2 351   |        |
+|              | ENSEMBLE     |              |        | 64 794 |        |        | 67 242 |        |        | 77 923 |        |        | 86 767 |        |        | 102 481 |        |
 
 
 Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
@@ -1090,10 +1081,10 @@ Graphe 23 : Evolution des effectifs des étudiants boursiers
 150000
 
 Tableau (format markdown):
-|  | 2017 | 2018 | 2019 | 2020 | 2022 |
-|---|---|---|---|---|---|
+|           | 2017   | 2018   | 2019   | 2020   | 2022   |
+| --------- | ------ | ------ | ------ | ------ | ------ |
 | ETUDIANTS | 101232 | 104328 | 110489 | 117485 | 134474 |
-| BOURSIERS | 64794 | 67242 | 77923 | 86767 | 105036 |
+| BOURSIERS | 64794  | 67242  | 77923  | 86767  | 105036 |
 
 
 ETUDIANTS BOURSIERS
@@ -1121,7 +1112,7 @@ arivo tsoa nga na
 
 Tableau (format markdown):
 | M | 16 101 | 5 973 | 13 377 | 6 617 | 6 552 | 4 406 |
-|---|---|---|---|---|---|---|
+| - | ------ | ----- | ------ | ----- | ----- | ----- |
 | F | 16 077 | 4 021 | 12 322 | 5 262 | 6 163 | 3 259 |
 
 
@@ -1135,14 +1126,14 @@ DE 2017 A 2022
 
 Tableau (format markdown):
 | Domaine | 2017 | 2018 | 2019 | 2020 | 2022 |
-|---|---|---|---|---|---|
-| ALSH | 263 | 260 | 248 | 235 | 256 |
-| SE | 126 | 127 | 120 | 108 | 109 |
-| SI | 396 | 416 | 411 | 402 | 428 |
-| SSANTE | 162 | 164 | 159 | 154 | 163 |
-| SSTE | 254 | 268 | 277 | 245 | 265 |
-| STECH | 581 | 593 | 616 | 558 | 589 |
-| Total | 1782 | 1828 | 1831 | 1702 | 1810 |
+| ------- | ---- | ---- | ---- | ---- | ---- |
+| ALSH    | 263  | 260  | 248  | 235  | 256  |
+| SE      | 126  | 127  | 120  | 108  | 109  |
+| SI      | 396  | 416  | 411  | 402  | 428  |
+| SSANTE  | 162  | 164  | 159  | 154  | 163  |
+| SSTE    | 254  | 268  | 277  | 245  | 265  |
+| STECH   | 581  | 593  | 616  | 558  | 589  |
+| Total   | 1782 | 1828 | 1831 | 1702 | 1810 |
 
 
 Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES
@@ -1217,7 +1208,7 @@ E
 
 Tableau (format markdown):
 | M | 64% | 55% | 72% | 65% | 73% | 67% |
-|---|---|---|---|---|---|---|
+| - | --- | --- | --- | --- | --- | --- |
 | F | 36% | 45% | 28% | 35% | 27% | 33% |
 
 
@@ -1228,12 +1219,12 @@ Tableau 19 : EVOLUTION DES EFFECTIFS DES ENSEIGNANTS PERMANENTS PAR GRADE DE
 2017 A 2022 (6 UNIVERSITES ET 3 IST)
 
 Tableau (format markdown):
-| Grade | 2017 | 2018 | 2019 | 2020 | 2022 |
-|---|---|---|---|---|---|
-| PT | 144 | 171 | 188 | 185 | 169 |
-| P | 155 | 127 | 118 | 141 | 138 |
-| MC | 805 | 822 | 839 | 799 | 856 |
-| A | 678 | 708 | 686 | 577 | 647 |
+| Grade | 2017  | 2018  | 2019  | 2020  | 2022  |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| PT    | 144   | 171   | 188   | 185   | 169   |
+| P     | 155   | 127   | 118   | 141   | 138   |
+| MC    | 805   | 822   | 839   | 799   | 856   |
+| A     | 678   | 708   | 686   | 577   | 647   |
 | total | 1 782 | 1 828 | 1 831 | 1 702 | 1 810 |
 
 
@@ -1256,10 +1247,10 @@ enseignants permanents de 2017 à 2022
 
 Tableau (format markdown):
 | PT | 144 | 171 | 188 | 185 | 169 |
-|---|---|---|---|---|---|
-| P | 155 | 127 | 118 | 141 | 138 |
+| -- | --- | --- | --- | --- | --- |
+| P  | 155 | 127 | 118 | 141 | 138 |
 | MC | 805 | 822 | 839 | 799 | 856 |
-| A | 678 | 708 | 686 | 577 | 647 |
+| A  | 678 | 708 | 686 | 577 | 647 |
 
 
 De 2017 à 2022, 16% à 19% des enseignants permanents sont des Professeurs, 45% à 47%
@@ -1280,17 +1271,17 @@ Tableau 20 : EVOLUTION ET REPARTITION DES EFFECTIFS DES ENSEIGNANTS PAR AGE DE
 2017 A 2022
 
 Tableau (format markdown):
-| Tranche d'âge | 2017 | 2018 | 2019 | 2020 | 2022 |
-|---|---|---|---|---|---|
-| Moins de 30 ans | 25 | 18 | 15 | 13 | 18 |
-| [30 - 35[ | 120 | 100 | 102 | 71 | 69 |
-| [35- 40[ | 223 | 219 | 199 | 195 | 182 |
-| [40 - 45[ | 194 | 221 | 235 | 249 | 297 |
-| [45 - 50[ | 189 | 225 | 215 | 206 | 253 |
-| [50 - 55[ | 203 | 205 | 198 | 191 | 197 |
-| [55 - 60[ | 233 | 220 | 231 | 201 | 208 |
-| Plus de 60 ans | 595 | 620 | 636 | 576 | 586 |
-| TOTAL | 1 782 | 1 828 | 1 831 | 1 702 | 1 810 |
+| Tranche d'âge   | 2017  | 2018  | 2019  | 2020  | 2022  |
+| --------------- | ----- | ----- | ----- | ----- | ----- |
+| Moins de 30 ans | 25    | 18    | 15    | 13    | 18    |
+| [30 - 35[       | 120   | 100   | 102   | 71    | 69    |
+| [35- 40[        | 223   | 219   | 199   | 195   | 182   |
+| [40 - 45[       | 194   | 221   | 235   | 249   | 297   |
+| [45 - 50[       | 189   | 225   | 215   | 206   | 253   |
+| [50 - 55[       | 203   | 205   | 198   | 191   | 197   |
+| [55 - 60[       | 233   | 220   | 231   | 201   | 208   |
+| Plus de 60 ans  | 595   | 620   | 636   | 576   | 586   |
+| TOTAL           | 1 782 | 1 828 | 1 831 | 1 702 | 1 810 |
 
 
 Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES
@@ -1380,20 +1371,20 @@ Tableau 21 : EVOLUTION DE NOMBRE D’ENSEIGNANTS A L’ENSEIGNEMENT SUPERIEUR
 PUBLIC DE 2017 A 2022
 
 Tableau (format markdown):
-| Universités |  | 2017 | 2018 |  | 2019 |  |  | 2020 |  |  | 2022 |  |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Antananarivo |  | 912 | 915 |  |  | 890 |  |  | 854 |  | 870 |  |
-| Antsiranana |  | 135 | 145 |  |  | 142 |  |  | 130 |  | 151 |  |
-| Fianarantsoa |  | 151 | 155 |  |  | 155 |  |  | 150 |  | 164 |  |
-| Mahajanga |  | 166 | 176 |  |  | 188 |  |  | 161 |  | 191 |  |
-| Toamasina |  | 100 | 104 |  |  | 104 |  |  | 71 |  | 79 |  |
-| Toliara |  | 181 | 189 |  |  | 203 |  |  | 207 |  | 206 |  |
-| S/T |  | 1 645 | 1 684 |  |  | 1 682 |  |  | 1 573 |  |  | 1 661 |
-| IST TANA |  | 72 | 72 |  | 75 |  |  | 72 |  |  | 72 |  |
-| IST DIEGO |  | 24 | 29 |  | 29 |  |  | 31 |  |  | 36 |  |
-| IST AMBOSITRA |  | 41 | 43 |  | 45 |  |  | 26 |  |  | 41 |  |
-| S/T |  | 137 | 144 |  |  | 149 |  |  | 129 |  |  | 149 |
-| ENSEMBLE |  | 1 782 | 1 828 |  |  | 1 831 |  |  | 1 702 |  |  | 1 810 |
+| Universités   | Universités   | 2017  | 2018  | 2018 | 2019 | 2019  | 2019 | 2020 | 2020  | 2020 | 2022 | 2022  |
+| ------------- | ------------- | ----- | ----- | ---- | ---- | ----- | ---- | ---- | ----- | ---- | ---- | ----- |
+| Antananarivo  | Antananarivo  | 912   | 915   | 915  |      | 890   |      |      | 854   |      | 870  | 870   |
+| Antsiranana   | Antsiranana   | 135   | 145   | 145  |      | 142   |      |      | 130   |      | 151  | 151   |
+| Fianarantsoa  | Fianarantsoa  | 151   | 155   | 155  |      | 155   |      |      | 150   |      | 164  | 164   |
+| Mahajanga     | Mahajanga     | 166   | 176   | 176  |      | 188   |      |      | 161   |      | 191  | 191   |
+| Toamasina     | Toamasina     | 100   | 104   | 104  |      | 104   |      |      | 71    |      | 79   | 79    |
+| Toliara       | Toliara       | 181   | 189   | 189  |      | 203   |      |      | 207   |      | 206  | 206   |
+| S/T           |               | 1 645 | 1 684 |      |      | 1 682 |      |      | 1 573 |      |      | 1 661 |
+| IST TANA      | IST TANA      | 72    | 72    | 72   | 75   | 75    | 75   | 72   | 72    | 72   | 72   | 72    |
+| IST DIEGO     | IST DIEGO     | 24    | 29    | 29   | 29   | 29    | 29   | 31   | 31    | 31   | 36   | 36    |
+| IST AMBOSITRA | IST AMBOSITRA | 41    | 43    | 43   | 45   | 45    | 45   | 26   | 26    | 26   | 41   | 41    |
+| S/T           |               | 137   | 144   |      |      | 149   |      |      | 129   |      |      | 149   |
+| ENSEMBLE      |               | 1 782 | 1 828 |      |      | 1 831 |      |      | 1 702 |      |      | 1 810 |
 
 
 Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
@@ -1426,11 +1417,11 @@ enseignants aux 3 IST de 2017 à 2022
 0%
 
 Tableau (format markdown):
-|  | 2017 | 2018 | 2019 | 2020 | 2022 |
-|---|---|---|---|---|---|
-| IST TANA | 53% | 50% | 50% | 56% | 48% |
-| IST DIEGO | 18% | 20% | 19% | 24% | 24% |
-| IST AMBOSITRA | 30% | 30% | 30% | 20% | 28% |
+|               | 2017 | 2018 | 2019 | 2020 | 2022 |
+| ------------- | ---- | ---- | ---- | ---- | ---- |
+| IST TANA      | 53%  | 50%  | 50%  | 56%  | 48%  |
+| IST DIEGO     | 18%  | 20%  | 19%  | 24%  | 24%  |
+| IST AMBOSITRA | 30%  | 30%  | 30%  | 20%  | 28%  |
 
 
 L'IST d'Antananarivo compte généralement plus de la moitié des enseignants, tandis que l'IST
@@ -1446,24 +1437,24 @@ Tableau 22 : EVOLUTION DES EFFECTIFS DES ENSEIGNANTS VACATAIRES PAR GENRE A
 L’ENSEIGNEMENT SUPERIEUR DE 2019 A 2022
 
 Tableau (format markdown):
-| UNIVERSITE |  |  | 2019 |  |  |  |  |  |  |  |  | 2020 |  |  |  |  |  |  |  |  | 2022 |  |  |  |  |  |  |  |  |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|  |  |  | M |  |  | F |  |  | S/T |  |  | M |  |  | F |  |  | S/T |  |  | M |  |  | F |  |  | S/T |  |  |
-| Antananarivo |  |  | 930 |  |  | 597 |  |  | 1 527 |  |  | 905 |  |  | 593 |  |  | 1 498 |  |  | 904 |  |  | 593 |  |  | 1 497 |  |  |
-| Diégo |  |  | 345 |  |  | 124 |  |  | 469 |  |  | 344 |  |  | 149 |  |  | 493 |  |  | 332 |  |  | 150 |  |  | 482 |  |  |
-| Fianarantsoa |  |  | 297 |  |  | 154 |  |  | 451 |  |  | 235 |  |  | 133 |  |  | 368 |  |  | 301 |  |  | 156 |  |  | 457 |  |  |
-| Mahajanga |  |  | 446 |  |  | 200 |  |  | 646 |  |  | 520 |  |  | 247 |  |  | 767 |  |  | 538 |  |  | 257 |  |  | 795 |  |  |
-| Toamasina |  |  | 293 |  |  | 100 |  |  | 393 |  |  | 246 |  |  | 110 |  |  | 356 |  |  | 296 |  |  | 114 |  |  | 410 |  |  |
-| Toliara |  |  | 331 |  |  | 137 |  |  | 468 |  |  | 306 |  |  | 153 |  |  | 459 |  |  | 349 |  |  | 167 |  |  | 516 |  |  |
-|  | TOTAL 6 |  | 2 642 |  |  | 1 312 |  |  | 3 954 |  |  | 2 556 |  |  | 1 385 |  |  | 3 941 |  |  | 2 720 |  |  | 1 437 |  |  | 4 157 |  |  |
-|  | UNIVERSITES |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| IST TANA |  |  | 49 |  |  | 28 |  |  | 77 |  |  | 49 |  |  | 27 |  |  | 76 |  |  | 49 |  |  | 28 |  |  | 77 |  |  |
-| IST DIEGO |  |  | 72 |  |  | 20 |  |  | 92 |  |  | 72 |  |  | 20 |  |  | 92 |  |  | 118 |  |  | 29 |  |  | 147 |  |  |
-| IST AMBOSTRA |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |  |  | 0 |  |  | 15 |  |  | 7 |  |  | 22 |  |  |
-|  | TOTAL IST |  |  | 121 |  |  | 48 |  |  | 169 |  |  | 121 |  |  | 47 |  |  | 168 |  |  | 182 |  |  | 64 |  |  | 246 |  |
-|  | TOTAL CNTEMAD |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 138 |  |  | 40 |  |  | 178 |  |
-|  | TOTAL ISP PRIVE |  |  | 3610 |  |  | 1821 |  |  | 5431 |  |  | 3350 |  |  | 1814 |  |  | 5164 |  |  | 3300 |  |  | 1820 |  |  | 5120 |  |
-| ENSEMBLE |  |  | 6 373 |  |  | 3 181 |  |  | 9 554 |  |  | 6 027 |  |  | 3 246 |  |  | 9 273 |  |  | 6 340 |  |  | 3 361 |  |  | 9 701 |  |  |
+| UNIVERSITE   | UNIVERSITE      | UNIVERSITE   | 2019        | 2019        | 2019        | 2019        | 2019        | 2019        | 2019        | 2019        | 2019        | 2020        | 2020        | 2020        | 2020        | 2020        | 2020        | 2020        | 2020        | 2020        | 2022        | 2022        | 2022        | 2022        | 2022        | 2022        | 2022        | 2022        | 2022        |
+| ------------ | --------------- | ------------ | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| UNIVERSITE   | UNIVERSITE      | UNIVERSITE   | M           | M           | M           | F           | F           | F           | S/T         | S/T         | S/T         | M           | M           | M           | F           | F           | F           | S/T         | S/T         | S/T         | M           | M           | M           | F           | F           | F           | S/T         | S/T         | S/T         |
+| Antananarivo | Antananarivo    | Antananarivo | 930         | 930         | 930         | 597         | 597         | 597         | 1 527       | 1 527       | 1 527       | 905         | 905         | 905         | 593         | 593         | 593         | 1 498       | 1 498       | 1 498       | 904         | 904         | 904         | 593         | 593         | 593         | 1 497       | 1 497       | 1 497       |
+| Diégo        | Diégo           | Diégo        | 345         | 345         | 345         | 124         | 124         | 124         | 469         | 469         | 469         | 344         | 344         | 344         | 149         | 149         | 149         | 493         | 493         | 493         | 332         | 332         | 332         | 150         | 150         | 150         | 482         | 482         | 482         |
+| Fianarantsoa | Fianarantsoa    | Fianarantsoa | 297         | 297         | 297         | 154         | 154         | 154         | 451         | 451         | 451         | 235         | 235         | 235         | 133         | 133         | 133         | 368         | 368         | 368         | 301         | 301         | 301         | 156         | 156         | 156         | 457         | 457         | 457         |
+| Mahajanga    | Mahajanga       | Mahajanga    | 446         | 446         | 446         | 200         | 200         | 200         | 646         | 646         | 646         | 520         | 520         | 520         | 247         | 247         | 247         | 767         | 767         | 767         | 538         | 538         | 538         | 257         | 257         | 257         | 795         | 795         | 795         |
+| Toamasina    | Toamasina       | Toamasina    | 293         | 293         | 293         | 100         | 100         | 100         | 393         | 393         | 393         | 246         | 246         | 246         | 110         | 110         | 110         | 356         | 356         | 356         | 296         | 296         | 296         | 114         | 114         | 114         | 410         | 410         | 410         |
+| Toliara      | Toliara         | Toliara      | 331         | 331         | 331         | 137         | 137         | 137         | 468         | 468         | 468         | 306         | 306         | 306         | 153         | 153         | 153         | 459         | 459         | 459         | 349         | 349         | 349         | 167         | 167         | 167         | 516         | 516         | 516         |
+|              | TOTAL 6         |              | 2 642       | 2 642       | 2 642       | 1 312       | 1 312       | 1 312       | 3 954       | 3 954       | 3 954       | 2 556       | 2 556       | 2 556       | 1 385       | 1 385       | 1 385       | 3 941       | 3 941       | 3 941       | 2 720       | 2 720       | 2 720       | 1 437       | 1 437       | 1 437       | 4 157       | 4 157       | 4 157       |
+|              | UNIVERSITES     | UNIVERSITES  | UNIVERSITES | UNIVERSITES | UNIVERSITES | UNIVERSITES | UNIVERSITES | UNIVERSITES | UNIVERSITES | UNIVERSITES | UNIVERSITES | UNIVERSITES | UNIVERSITES | UNIVERSITES | UNIVERSITES | UNIVERSITES | UNIVERSITES | UNIVERSITES | UNIVERSITES | UNIVERSITES | UNIVERSITES | UNIVERSITES | UNIVERSITES | UNIVERSITES | UNIVERSITES | UNIVERSITES | UNIVERSITES | UNIVERSITES | UNIVERSITES |
+| IST TANA     | IST TANA        | IST TANA     | 49          | 49          | 49          | 28          | 28          | 28          | 77          | 77          | 77          | 49          | 49          | 49          | 27          | 27          | 27          | 76          | 76          | 76          | 49          | 49          | 49          | 28          | 28          | 28          | 77          | 77          | 77          |
+| IST DIEGO    | IST DIEGO       | IST DIEGO    | 72          | 72          | 72          | 20          | 20          | 20          | 92          | 92          | 92          | 72          | 72          | 72          | 20          | 20          | 20          | 92          | 92          | 92          | 118         | 118         | 118         | 29          | 29          | 29          | 147         | 147         | 147         |
+| IST AMBOSTRA | IST AMBOSTRA    | IST AMBOSTRA |             |             |             |             |             |             | 0           | 0           | 0           |             |             |             |             |             |             | 0           | 0           | 0           | 15          | 15          | 15          | 7           | 7           | 7           | 22          | 22          | 22          |
+|              | TOTAL IST       |              |             | 121         |             |             | 48          |             |             | 169         |             |             | 121         |             |             | 47          |             |             | 168         |             |             | 182         |             |             | 64          |             |             | 246         |             |
+|              | TOTAL CNTEMAD   |              |             |             |             |             |             |             |             |             |             |             |             |             |             |             |             |             |             |             |             | 138         |             |             | 40          |             |             | 178         |             |
+|              | TOTAL ISP PRIVE |              |             | 3610        |             |             | 1821        |             |             | 5431        |             |             | 3350        |             |             | 1814        |             |             | 5164        |             |             | 3300        |             |             | 1820        |             |             | 5120        |             |
+| ENSEMBLE     | ENSEMBLE        | ENSEMBLE     | 6 373       | 6 373       | 6 373       | 3 181       | 3 181       | 3 181       | 9 554       | 9 554       | 9 554       | 6 027       | 6 027       | 6 027       | 3 246       | 3 246       | 3 246       | 9 273       | 9 273       | 9 273       | 6 340       | 6 340       | 6 340       | 3 361       | 3 361       | 3 361       | 9 701       | 9 701       | 9 701       |
 
 
 Le taux le plus élevé d'enseignants vacataires se trouve Source : Annuaire Statistique – SSP /
@@ -1533,20 +1524,20 @@ Tableau 23 : EVOLUTION DES EFFECTIFS DE PERSONNEL ADMINISTRATIF ET TECHNIQUE A
 L’ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
 
 Tableau (format markdown):
-| Universités |  | 2017 |  | 2018 |  |  | 2019 |  | 2020 |  |  | 2022 |  |  |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Antananarivo |  |  | 1 749 | 1 701 |  |  | 1 585 |  |  | 1 501 |  | 1 497 |  |  |
-| Antsiranana |  |  | 285 | 288 |  |  | 297 |  |  | 260 |  | 259 |  |  |
-| Fianarantsoa |  |  | 455 | 445 |  |  | 463 |  |  | 469 |  | 437 |  |  |
-| Mahajanga |  |  | 498 | 593 |  |  | 593 |  |  | 588 |  | 571 |  |  |
-| Toamasina |  |  | 299 | 520 |  |  | 593 |  |  | 452 |  | 576 |  |  |
-| Toliara |  |  | 386 | 401 |  |  | 399 |  |  | 516 |  | 496 |  |  |
-| Ensemble 6 UNIV |  | 3 672 |  | 3 948 |  |  | 3 930 |  | 3 786 |  |  | 3 836 |  |  |
-| IST |  | 159 |  | 159 |  |  | 169 |  | 170 |  |  | 165 |  |  |
-| CNTEMAD |  | 132 |  | 132 |  |  | 120 |  | 166 |  |  | 198 |  |  |
-|  | ENSEMBLE PUBLICS |  | 3 963 |  | 4 239 |  | 4 219 |  |  | 4 122 |  |  | 4 199 |  |
-|  | ENSEMBLE PRIVES |  | 1 926 |  | 2 005 |  | 2 051 |  |  | 1 977 |  |  | 1 805 |  |
-|  | PUB + PRIVES |  | 5 889 |  | 6 244 |  | 6 270 |  |  | 6 099 |  |  | 6 004 |  |
+| Universités     | Universités      | 2017  | 2017  | 2018  | 2018  | 2018  | 2019  | 2019  | 2020  | 2020  | 2020  | 2022  | 2022  | 2022  |
+| --------------- | ---------------- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| Antananarivo    | Antananarivo     |       | 1 749 | 1 701 | 1 701 | 1 701 | 1 585 |       |       | 1 501 |       | 1 497 | 1 497 | 1 497 |
+| Antsiranana     | Antsiranana      |       | 285   | 288   | 288   | 288   | 297   |       |       | 260   |       | 259   | 259   | 259   |
+| Fianarantsoa    | Fianarantsoa     |       | 455   | 445   | 445   | 445   | 463   |       |       | 469   |       | 437   | 437   | 437   |
+| Mahajanga       | Mahajanga        |       | 498   | 593   | 593   | 593   | 593   |       |       | 588   |       | 571   | 571   | 571   |
+| Toamasina       | Toamasina        |       | 299   | 520   | 520   | 520   | 593   |       |       | 452   |       | 576   | 576   | 576   |
+| Toliara         | Toliara          |       | 386   | 401   | 401   | 401   | 399   |       |       | 516   |       | 496   | 496   | 496   |
+| Ensemble 6 UNIV | Ensemble 6 UNIV  | 3 672 | 3 672 | 3 948 | 3 948 | 3 948 | 3 930 | 3 930 | 3 786 | 3 786 | 3 786 | 3 836 | 3 836 | 3 836 |
+| IST             | IST              | 159   | 159   | 159   | 159   | 159   | 169   | 169   | 170   | 170   | 170   | 165   | 165   | 165   |
+| CNTEMAD         | CNTEMAD          | 132   | 132   | 132   | 132   | 132   | 120   | 120   | 166   | 166   | 166   | 198   | 198   | 198   |
+|                 | ENSEMBLE PUBLICS |       | 3 963 |       | 4 239 |       | 4 219 |       |       | 4 122 |       |       | 4 199 |       |
+|                 | ENSEMBLE PRIVES  |       | 1 926 |       | 2 005 |       | 2 051 |       |       | 1 977 |       |       | 1 805 |       |
+|                 | PUB + PRIVES     |       | 5 889 |       | 6 244 |       | 6 270 |       |       | 6 099 |       |       | 6 004 |       |
 
 
 Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
@@ -1560,10 +1551,10 @@ l'ESUP de 2017 à 2022
 0
 
 Tableau (format markdown):
-|  | 2017 | 2018 | 2019 | 2020 | 2022 |
-|---|---|---|---|---|---|
+|        | 2017  | 2018  | 2019  | 2020  | 2022  |
+| ------ | ----- | ----- | ----- | ----- | ----- |
 | PUBLIC | 3 963 | 4 239 | 4 219 | 4 122 | 4 199 |
-| PRIVE | 1 926 | 2 005 | 2 051 | 1 977 | 1 805 |
+| PRIVE  | 1 926 | 2 005 | 2 051 | 1 977 | 1 805 |
 
 
 34
@@ -1626,24 +1617,24 @@ Tableau 24 : REPARTITION PAR GENRE DE PERSONNEL ADMINISTRATIF ET
 TECHNIQUE A L’ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
 
 Tableau (format markdown):
-| Universités | 2017 |  | 2018 |  | 2019 |  | 2020 |  | 2022 |  |
-|---|---|---|---|---|---|---|---|---|---|---|
-|  | M | F | M | F | M | F | M | F | M | F |
-| Antananarivo | 1 116 | 633 | 1 080 | 621 | 1 008 | 577 | 943 | 558 | 943 | 554 |
-| Antsiranana | 166 | 119 | 171 | 117 | 167 | 130 | 153 | 107 | 151 | 108 |
-| Fianarantsoa | 259 | 196 | 259 | 186 | 262 | 201 | 274 | 195 | 248 | 189 |
-| Mahajanga | 235 | 263 | 275 | 318 | 276 | 317 | 275 | 313 | 265 | 306 |
-| Toamasina | 154 | 145 | 335 | 185 | 353 | 240 | 285 | 167 | 352 | 224 |
-| Toliara | 192 | 194 | 195 | 206 | 195 | 204 | 249 | 267 | 235 | 261 |
+| Universités         | 2017  | 2017  | 2018  | 2018  | 2019  | 2019  | 2020  | 2020  | 2022  | 2022  |
+| ------------------- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| Universités         | M     | F     | M     | F     | M     | F     | M     | F     | M     | F     |
+| Antananarivo        | 1 116 | 633   | 1 080 | 621   | 1 008 | 577   | 943   | 558   | 943   | 554   |
+| Antsiranana         | 166   | 119   | 171   | 117   | 167   | 130   | 153   | 107   | 151   | 108   |
+| Fianarantsoa        | 259   | 196   | 259   | 186   | 262   | 201   | 274   | 195   | 248   | 189   |
+| Mahajanga           | 235   | 263   | 275   | 318   | 276   | 317   | 275   | 313   | 265   | 306   |
+| Toamasina           | 154   | 145   | 335   | 185   | 353   | 240   | 285   | 167   | 352   | 224   |
+| Toliara             | 192   | 194   | 195   | 206   | 195   | 204   | 249   | 267   | 235   | 261   |
 | total 6 universités | 2 122 | 1 550 | 2 315 | 1 633 | 2 261 | 1 669 | 2 179 | 1 607 | 2 194 | 1 642 |
-| IST Antananarivo | 51 | 32 | 53 | 32 | 54 | 32 | 51 | 32 | 49 | 31 |
-| IST Diégo | 14 | 10 | 11 | 12 | 9 | 11 | 13 | 12 | 14 | 11 |
-| IST Ambositra | 23 | 29 | 26 | 34 | 26 | 37 | 25 | 37 | 23 | 37 |
-| total 3 IST | 88 | 71 | 90 | 78 | 89 | 80 | 89 | 81 | 86 | 79 |
-| CNTEMAD | 61 | 71 | 56 | 67 | 54 | 66 | 82 | 84 | 107 | 91 |
-| ENSEMBLE PUBLICS | 2 271 | 1 692 | 2 461 | 1 778 | 2 404 | 1 815 | 2 350 | 1 772 | 2 387 | 1 812 |
-| ENSEMBLE PRIVES | 1 022 | 904 | 1 092 | 913 | 1 174 | 877 | 1 072 | 905 | 958 | 847 |
-| PUB + PRIVES | 3 293 | 2 596 | 3 553 | 2 691 | 3 578 | 2 692 | 3 422 | 2 677 | 3 345 | 2 659 |
+| IST Antananarivo    | 51    | 32    | 53    | 32    | 54    | 32    | 51    | 32    | 49    | 31    |
+| IST Diégo           | 14    | 10    | 11    | 12    | 9     | 11    | 13    | 12    | 14    | 11    |
+| IST Ambositra       | 23    | 29    | 26    | 34    | 26    | 37    | 25    | 37    | 23    | 37    |
+| total 3 IST         | 88    | 71    | 90    | 78    | 89    | 80    | 89    | 81    | 86    | 79    |
+| CNTEMAD             | 61    | 71    | 56    | 67    | 54    | 66    | 82    | 84    | 107   | 91    |
+| ENSEMBLE PUBLICS    | 2 271 | 1 692 | 2 461 | 1 778 | 2 404 | 1 815 | 2 350 | 1 772 | 2 387 | 1 812 |
+| ENSEMBLE PRIVES     | 1 022 | 904   | 1 092 | 913   | 1 174 | 877   | 1 072 | 905   | 958   | 847   |
+| PUB + PRIVES        | 3 293 | 2 596 | 3 553 | 2 691 | 3 578 | 2 692 | 3 422 | 2 677 | 3 345 | 2 659 |
 
 
 Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
@@ -1656,21 +1647,21 @@ Tableau 25 : EFFECTIF DE PERSONNEL ADMINISTRATIF ET TECHNIQUE PAR CATEGORIE A
 L'IES PUBLIC - ANNEE 2022
 
 Tableau (format markdown):
-| CATEGORIE | X | IX | VIII | VII | VI | V | IV | III | II | I | EFA | ELD | ECD | total |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Antananarivo |  | 2 | 54 | 0 | 38 | 65 | 56 | 201 | 228 | 350 | 311 | 5 | 187 | 1 497 |
-| Diégo |  | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 4 | 15 | 116 | 0 | 123 | 259 |
-| Fianarantsoa |  | 0 | 3 | 0 | 12 | 12 | 5 | 24 | 15 | 19 | 184 | 0 | 163 | 437 |
-| Mahajanga |  | 0 | 17 | 0 | 8 | 12 | 7 | 40 | 39 | 111 | 216 | 0 | 121 | 571 |
-| Toamasina |  | 0 | 3 | 0 | 4 | 5 | 1 | 19 | 34 | 51 | 97 | 199 | 163 | 576 |
-| Toliara |  | 0 | 2 | 0 | 40 | 48 | 10 | 64 | 68 | 30 | 28 | 136 | 70 | 496 |
-| total universités |  | 2 | 80 | 0 | 102 | 142 | 79 | 348 | 388 | 576 | 952 | 340 | 827 | 3 836 |
-| IST TANA |  |  | 2 |  | 1 | 10 | 8 | 27 | 3 | 28 | 1 | 0 | 0 | 80 |
-| IST DIEGO |  |  | 1 |  | 1 |  | 1 | 5 | 1 | 7 | 6 | 3 | 0 | 25 |
-| IST AMBOSITRA |  |  |  |  | 2 |  | 1 |  |  |  | 37 | 18 | 2 | 60 |
-| total IST |  | 0 | 3 | 0 | 4 | 10 | 10 | 32 | 4 | 35 | 44 | 21 | 2 | 165 |
-| total CNTEMAD | 1 | 8 | 31 |  | 44 | 15 | 13 | 32 | 12 | 29 | 9 | 4 |  | 198 |
-| total public | 1 | 10 | 114 | 0 | 150 | 167 | 102 | 412 | 404 | 640 | 1005 | 365 | 829 | 4199 |
+| CATEGORIE         | X | IX | VIII | VII | VI  | V   | IV  | III | II  | I   | EFA  | ELD | ECD | total |
+| ----------------- | - | -- | ---- | --- | --- | --- | --- | --- | --- | --- | ---- | --- | --- | ----- |
+| Antananarivo      |   | 2  | 54   | 0   | 38  | 65  | 56  | 201 | 228 | 350 | 311  | 5   | 187 | 1 497 |
+| Diégo             |   | 0  | 1    | 0   | 0   | 0   | 0   | 0   | 4   | 15  | 116  | 0   | 123 | 259   |
+| Fianarantsoa      |   | 0  | 3    | 0   | 12  | 12  | 5   | 24  | 15  | 19  | 184  | 0   | 163 | 437   |
+| Mahajanga         |   | 0  | 17   | 0   | 8   | 12  | 7   | 40  | 39  | 111 | 216  | 0   | 121 | 571   |
+| Toamasina         |   | 0  | 3    | 0   | 4   | 5   | 1   | 19  | 34  | 51  | 97   | 199 | 163 | 576   |
+| Toliara           |   | 0  | 2    | 0   | 40  | 48  | 10  | 64  | 68  | 30  | 28   | 136 | 70  | 496   |
+| total universités |   | 2  | 80   | 0   | 102 | 142 | 79  | 348 | 388 | 576 | 952  | 340 | 827 | 3 836 |
+| IST TANA          |   |    | 2    |     | 1   | 10  | 8   | 27  | 3   | 28  | 1    | 0   | 0   | 80    |
+| IST DIEGO         |   |    | 1    |     | 1   |     | 1   | 5   | 1   | 7   | 6    | 3   | 0   | 25    |
+| IST AMBOSITRA     |   |    |      |     | 2   |     | 1   |     |     |     | 37   | 18  | 2   | 60    |
+| total IST         |   | 0  | 3    | 0   | 4   | 10  | 10  | 32  | 4   | 35  | 44   | 21  | 2   | 165   |
+| total CNTEMAD     | 1 | 8  | 31   |     | 44  | 15  | 13  | 32  | 12  | 29  | 9    | 4   |     | 198   |
+| total public      | 1 | 10 | 114  | 0   | 150 | 167 | 102 | 412 | 404 | 640 | 1005 | 365 | 829 | 4199  |
 
 
 Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
@@ -1688,7 +1679,7 @@ A D D
 
 Tableau (format markdown):
 | effectif | 1 | 10 | 114 | 0 | 150 | 167 | 102 | 412 | 404 | 640 | 1005 | 365 | 829 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| -------- | - | -- | --- | - | --- | --- | --- | --- | --- | --- | ---- | --- | --- |
 
 
 37
@@ -1713,10 +1704,10 @@ l'ESUP de 2016 à 2020
 0%
 
 Tableau (format markdown):
-|  | 2016 | 2017 | 2018 | 2019 | 2020 |
-|---|---|---|---|---|---|
-| TOTAL PUBLIC | 57% | 59% | 61% | 71% | 67% |
-| TOTAL PRIVE | 94% | 91% | 91% | 93% | 90% |
+|              | 2016 | 2017 | 2018 | 2019 | 2020 |
+| ------------ | ---- | ---- | ---- | ---- | ---- |
+| TOTAL PUBLIC | 57%  | 59%  | 61%  | 71%  | 67%  |
+| TOTAL PRIVE  | 94%  | 91%  | 91%  | 93%  | 90%  |
 
 
 Généralement, on a constaté une amélioration des résultats aux examens dans l'ensemble de
@@ -1740,22 +1731,22 @@ Tableau 26 : EVOLUTION DES RESULTATS DES EXAMENS PAR NIVEAU D’ETUDES DE 2016 A
 2020
 
 Tableau (format markdown):
-| IES | Niveau d'études |  |  | 2016 |  |  | 2017 |  |  | 2018 |  |  | 2019 |  |  | 2020 |  |  |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| PUBLIC | L1 |  |  | 42% |  |  | 42% |  |  | 45% |  |  | 49% |  |  | 53% |  |  |
-|  | L2 |  |  | 69% |  |  | 67% |  |  | 68% |  |  | 70% |  |  | 75% |  |  |
-|  | L3 |  |  | 73% |  |  | 75% |  |  | 75% |  |  | 76% |  |  | 79% |  |  |
-|  | M1 |  |  | 68% |  |  | 77% |  |  | 76% |  |  | 75% |  |  | 78% |  |  |
-|  | M2 |  |  | 64% |  |  | 72% |  |  | 72% |  |  | 72% |  |  | 74% |  |  |
-|  | Doctorat |  |  | 91% |  |  | 77% |  |  | 85% |  |  | 95% |  |  | 93% |  |  |
-|  |  | Ensemble |  |  | 58% |  |  | 59% |  |  | 60% |  |  | 64% |  |  | 67% |  |
-| PRIVE | L1 |  |  | 94% |  |  | 89% |  |  | 93% |  |  | 88% |  |  | 88% |  |  |
-|  | L2 |  |  | 95% |  |  | 91% |  |  | 93% |  |  | 93% |  |  | 95% |  |  |
-|  | L3 |  |  | 95% |  |  | 92% |  |  | 94% |  |  | 94% |  |  | 93% |  |  |
-|  | M1 |  |  | 93% |  |  | 90% |  |  | 90% |  |  | 93% |  |  | 92% |  |  |
-|  | M2 |  |  | 90% |  |  | 89% |  |  | 89% |  |  | 87% |  |  | 87% |  |  |
-|  | Doctorat |  |  | 100% |  |  |  |  |  | 70% |  |  | 100% |  |  | 100% |  |  |
-|  |  | ENSEMBLE |  |  | 94% |  |  | 90% |  |  | 93% |  |  | 91% |  |  | 91% |  |
+| IES    | Niveau d'études | Niveau d'études | Niveau d'études | 2016 | 2016 | 2016 | 2017 | 2017 | 2017 | 2018 | 2018 | 2018 | 2019 | 2019 | 2019 | 2020 | 2020 | 2020 |
+| ------ | --------------- | --------------- | --------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| PUBLIC | L1              | L1              | L1              | 42%  | 42%  | 42%  | 42%  | 42%  | 42%  | 45%  | 45%  | 45%  | 49%  | 49%  | 49%  | 53%  | 53%  | 53%  |
+| PUBLIC | L2              | L2              | L2              | 69%  | 69%  | 69%  | 67%  | 67%  | 67%  | 68%  | 68%  | 68%  | 70%  | 70%  | 70%  | 75%  | 75%  | 75%  |
+| PUBLIC | L3              | L3              | L3              | 73%  | 73%  | 73%  | 75%  | 75%  | 75%  | 75%  | 75%  | 75%  | 76%  | 76%  | 76%  | 79%  | 79%  | 79%  |
+| PUBLIC | M1              | M1              | M1              | 68%  | 68%  | 68%  | 77%  | 77%  | 77%  | 76%  | 76%  | 76%  | 75%  | 75%  | 75%  | 78%  | 78%  | 78%  |
+| PUBLIC | M2              | M2              | M2              | 64%  | 64%  | 64%  | 72%  | 72%  | 72%  | 72%  | 72%  | 72%  | 72%  | 72%  | 72%  | 74%  | 74%  | 74%  |
+| PUBLIC | Doctorat        | Doctorat        | Doctorat        | 91%  | 91%  | 91%  | 77%  | 77%  | 77%  | 85%  | 85%  | 85%  | 95%  | 95%  | 95%  | 93%  | 93%  | 93%  |
+| PUBLIC |                 | Ensemble        |                 |      | 58%  |      |      | 59%  |      |      | 60%  |      |      | 64%  |      |      | 67%  |      |
+| PRIVE  | L1              | L1              | L1              | 94%  | 94%  | 94%  | 89%  | 89%  | 89%  | 93%  | 93%  | 93%  | 88%  | 88%  | 88%  | 88%  | 88%  | 88%  |
+| PRIVE  | L2              | L2              | L2              | 95%  | 95%  | 95%  | 91%  | 91%  | 91%  | 93%  | 93%  | 93%  | 93%  | 93%  | 93%  | 95%  | 95%  | 95%  |
+| PRIVE  | L3              | L3              | L3              | 95%  | 95%  | 95%  | 92%  | 92%  | 92%  | 94%  | 94%  | 94%  | 94%  | 94%  | 94%  | 93%  | 93%  | 93%  |
+| PRIVE  | M1              | M1              | M1              | 93%  | 93%  | 93%  | 90%  | 90%  | 90%  | 90%  | 90%  | 90%  | 93%  | 93%  | 93%  | 92%  | 92%  | 92%  |
+| PRIVE  | M2              | M2              | M2              | 90%  | 90%  | 90%  | 89%  | 89%  | 89%  | 89%  | 89%  | 89%  | 87%  | 87%  | 87%  | 87%  | 87%  | 87%  |
+| PRIVE  | Doctorat        | Doctorat        | Doctorat        | 100% | 100% | 100% |      |      |      | 70%  | 70%  | 70%  | 100% | 100% | 100% | 100% | 100% | 100% |
+| PRIVE  |                 | ENSEMBLE        |                 |      | 94%  |      |      | 90%  |      |      | 93%  |      |      | 91%  |      |      | 91%  |      |
 
 
 Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES
@@ -1777,13 +1768,12 @@ examens à l'ESUP -année 2020
 0%
 
 Tableau (format markdown):
-|  | L1 | L2 | L3 | M1 | M2 | Doctor
-at |
-|---|---|---|---|---|---|---|
-| Universités | 52% | 76% | 81% | 79% | 73% | 97% |
-| IST | 82% | 90% | 91% | 88% | 79% |  |
-| CNTEMAD | 52% | 67% | 66% | 71% | 75% |  |
-| PRIVE | 88% | 95% | 93% | 92% | 87% | 100% |
+|             | L1  | L2  | L3  | M1  | M2  | Doctor at |
+| ----------- | --- | --- | --- | --- | --- | --------- |
+| Universités | 52% | 76% | 81% | 79% | 73% | 97%       |
+| IST         | 82% | 90% | 91% | 88% | 79% |           |
+| CNTEMAD     | 52% | 67% | 66% | 71% | 75% |           |
+| PRIVE       | 88% | 95% | 93% | 92% | 87% | 100%      |
 
 
 Les taux de réussite dans les universités s'étendent de 52% à 97%, couvrant la période de la
@@ -1798,41 +1788,29 @@ Tableau 27 : EVOLUTION PAR TYPE DE DIPLOME A L’ENSEIGNEMENT SUPERIEUR DE 2016 
 2020
 
 Tableau (format markdown):
-| Université | 2016 |  |  | 2017 |  |  | 2018 |  |  | 2019 |  |  | 2020 |  |  |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|  | L | M | D | L | M | D | L | M | D | L | M | D | L | M | D |
-| Antananarivo | 3 168 | 1 160 | 37 | 2 764 | 701 | 288 | 3 525 | 1 672 | 446 | 3 801 | 1 376 | 243 | 4 039 | 1 249 | 250 |
-| Diégo | 221 | 266 |  | 597 | 268 | 865 | 607 | 282 | 0 | 2 773 | 401 | 16 | 1 033 | 327 | 16 |
-| Fianarantsoa | 1 112 | 118 | 4 | 980 | 417 |  | 1 737 | 381 | 5 | 2 346 | 753 | 12 | 3 277 | 1 432 | 73 |
-| Mahajanga | 845 | 229 | 102 | 725 | 324 | 182 | 867 | 215 | 180 | 408 | 215 | 173 | 512 | 184 | 75 |
-| Toamasina | 1 737 | 3 166 | 2 | 2 023 | 9 | 1 | 523 | 0 | 21 | 494 | 11 | 20 | 988 | 62 | 13 |
-| Toliara | 737 | 78 | 3 | 710 | 296 | 2 | 612 | 511 | 20 | 662 | 511 | 18 | 729 | 383 | 17 |
-| TOTAL | 7 820 | 5 017 | 148 | 7 799 | 2 015 | 1 338 | 7 871 | 3 061 | 672 | 10 484 | 3 267 | 482 | 10 578 | 3 637 | 444 |
-| 3 IST | 339 | 107 |  | 377 | 154 |  | 403 | 181 |  | 379 | 107 |  | 476 | 114 |  |
-| CNTEMAD | 881 | 561 |  | 1452 | 753 |  | 1846 | 891 |  | 1255 | 748 |  | 1622 | 1012 |  |
-| total PUBLIC | 9 040 | 5 685 | 148 | 9 628 | 2 922 | 1 338 | 10 120 | 4 133 | 672 | 12 118 | 4 122 | 482 | 12 676 | 4 763 | 444 |
-| total PRIVE | 8 852 | 1 507 | 11 | 9 571 | 1 499 | 18 | 9 820 | 1 798 | 2 | 10 133 | 1 871 | 2 | 10 219 | 1 850 | 1 |
-| Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Université                                                                  | 2016                                                                        | 2016                                                                        | 2016                                                                        | 2017                                                                        | 2017                                                                        | 2017                                                                        | 2018                                                                        | 2018                                                                        | 2018                                                                        | 2019   | 2019  | 2019 | 2020   | 2020  | 2020 |
+| --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------ | ----- | ---- | ------ | ----- | ---- |
+| Université                                                                  | L                                                                           | M                                                                           | D                                                                           | L                                                                           | M                                                                           | D                                                                           | L                                                                           | M                                                                           | D                                                                           | L      | M     | D    | L      | M     | D    |
+| Antananarivo                                                                | 3 168                                                                       | 1 160                                                                       | 37                                                                          | 2 764                                                                       | 701                                                                         | 288                                                                         | 3 525                                                                       | 1 672                                                                       | 446                                                                         | 3 801  | 1 376 | 243  | 4 039  | 1 249 | 250  |
+| Diégo                                                                       | 221                                                                         | 266                                                                         |                                                                             | 597                                                                         | 268                                                                         | 865                                                                         | 607                                                                         | 282                                                                         | 0                                                                           | 2 773  | 401   | 16   | 1 033  | 327   | 16   |
+| Fianarantsoa                                                                | 1 112                                                                       | 118                                                                         | 4                                                                           | 980                                                                         | 417                                                                         |                                                                             | 1 737                                                                       | 381                                                                         | 5                                                                           | 2 346  | 753   | 12   | 3 277  | 1 432 | 73   |
+| Mahajanga                                                                   | 845                                                                         | 229                                                                         | 102                                                                         | 725                                                                         | 324                                                                         | 182                                                                         | 867                                                                         | 215                                                                         | 180                                                                         | 408    | 215   | 173  | 512    | 184   | 75   |
+| Toamasina                                                                   | 1 737                                                                       | 3 166                                                                       | 2                                                                           | 2 023                                                                       | 9                                                                           | 1                                                                           | 523                                                                         | 0                                                                           | 21                                                                          | 494    | 11    | 20   | 988    | 62    | 13   |
+| Toliara                                                                     | 737                                                                         | 78                                                                          | 3                                                                           | 710                                                                         | 296                                                                         | 2                                                                           | 612                                                                         | 511                                                                         | 20                                                                          | 662    | 511   | 18   | 729    | 383   | 17   |
+| TOTAL                                                                       | 7 820                                                                       | 5 017                                                                       | 148                                                                         | 7 799                                                                       | 2 015                                                                       | 1 338                                                                       | 7 871                                                                       | 3 061                                                                       | 672                                                                         | 10 484 | 3 267 | 482  | 10 578 | 3 637 | 444  |
+| 3 IST                                                                       | 339                                                                         | 107                                                                         |                                                                             | 377                                                                         | 154                                                                         |                                                                             | 403                                                                         | 181                                                                         |                                                                             | 379    | 107   |      | 476    | 114   |      |
+| CNTEMAD                                                                     | 881                                                                         | 561                                                                         |                                                                             | 1452                                                                        | 753                                                                         |                                                                             | 1846                                                                        | 891                                                                         |                                                                             | 1255   | 748   |      | 1622   | 1012  |      |
+| total PUBLIC                                                                | 9 040                                                                       | 5 685                                                                       | 148                                                                         | 9 628                                                                       | 2 922                                                                       | 1 338                                                                       | 10 120                                                                      | 4 133                                                                       | 672                                                                         | 12 118 | 4 122 | 482  | 12 676 | 4 763 | 444  |
+| total PRIVE                                                                 | 8 852                                                                       | 1 507                                                                       | 11                                                                          | 9 571                                                                       | 1 499                                                                       | 18                                                                          | 9 820                                                                       | 1 798                                                                       | 2                                                                           | 10 133 | 1 871 | 2    | 10 219 | 1 850 | 1    |
+| Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES | Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES | Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES | Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES | Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES | Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES | Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES | Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES | Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES | Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES |        |       |      |        |       |      |
 
 
 Tableau (format markdown):
-| Graphe 42 : Evolution des effectifs des diplômés à
-35 000
-l'ESUP
-30 000
-25 000
-20 000
-15 000
-10 000
-5 000
-0
-2016 2017 2018 2019 2020
-privé 10 370 11 088 11 620 12 006 12 070
-public 14 873 13 888 14 925 16 722 17 883 |  |  |  |  |  |  |
-|---|---|---|---|---|---|---|
-|  |  | 2016 | 2017 | 2018 | 2019 | 2020 |
-|  | privé | 10 370 | 11 088 | 11 620 | 12 006 | 12 070 |
-|  | public | 14 873 | 13 888 | 14 925 | 16 722 | 17 883 |
+| Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | 2016                                                                                                                                                                                                                    | 2017                                                                                                                                                                                                                    | 2018                                                                                                                                                                                                                    | 2019                                                                                                                                                                                                                    | 2020                                                                                                                                                                                                                    |
+| Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | privé                                                                                                                                                                                                                   | 10 370                                                                                                                                                                                                                  | 11 088                                                                                                                                                                                                                  | 11 620                                                                                                                                                                                                                  | 12 006                                                                                                                                                                                                                  | 12 070                                                                                                                                                                                                                  |
+| Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | public                                                                                                                                                                                                                  | 14 873                                                                                                                                                                                                                  | 13 888                                                                                                                                                                                                                  | 14 925                                                                                                                                                                                                                  | 16 722                                                                                                                                                                                                                  | 17 883                                                                                                                                                                                                                  |
 
 
 Le nombre des diplômés à l’ESUP passe de 25 243 à 29 982 de 2016 à 2020 avec un taux
@@ -1852,20 +1830,20 @@ Tableau 28 : EVOLUTION DE TAUX DE FLUX A L’INSTITUT SUPERIEUR PUBLIC DE 2016 A
 2020
 
 Tableau (format markdown):
-| institution | Taux |  |  | 2016 |  |  | 2017 |  |  | 2018 |  | 2019 |  |  | 2020 |  |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 6 Universités | Promotion |  |  | 57% |  | 58% |  |  | 57% |  | 61% |  |  | 61% |  |  |
-|  | Redoublement |  |  | 14% |  | 14% |  |  | 16% |  | 12% |  |  | 10% |  |  |
-|  | Abandon |  |  | 30% |  | 28% |  |  | 27% |  | 27% |  |  | 29% |  |  |
-| 3 IST | Promotion |  |  | 69% |  | 68% |  |  | 69% |  | 68% |  |  | 73% |  |  |
-|  | Redoublement |  |  | 1% |  | 3% |  |  | 6% |  | 1% |  |  | 3% |  |  |
-|  | Abandon |  |  | 31% |  | 29% |  |  | 25% |  | 31% |  |  | 25% |  |  |
-| CNTEMAD | Promotion |  |  | 35% |  | 48% |  |  | 50% |  | 49% |  |  | 38% |  |  |
-|  | Redoublement |  |  | 24% |  | 11% |  |  | 14% |  | 11% |  |  | 23% |  |  |
-|  | Abandon |  |  | 42% |  | 41% |  |  | 36% |  | 40% |  |  | 40% |  |  |
-| ENSEMBLE |  | Promotion |  | 53% |  |  | 58% |  |  | 59% |  | 59% |  |  | 57% |  |
-|  |  | Redoublement |  | 13% |  |  | 9% |  |  | 12% |  | 8% |  |  | 12% |  |
-|  |  | Abandon |  | 34% |  |  | 33% |  |  | 29% |  | 33% |  |  | 31% |  |
+| institution   | Taux         | Taux         | Taux         | 2016 |     |     | 2017 |     |     | 2018 |     | 2019 |     |     | 2020 |     |
+| ------------- | ------------ | ------------ | ------------ | ---- | --- | --- | ---- | --- | --- | ---- | --- | ---- | --- | --- | ---- | --- |
+| 6 Universités | Promotion    | Promotion    | Promotion    | 57%  | 57% | 58% | 58%  | 58% | 57% | 57%  | 61% | 61%  | 61% | 61% | 61%  | 61% |
+| 6 Universités | Redoublement | Redoublement | Redoublement | 14%  | 14% | 14% | 14%  | 14% | 16% | 16%  | 12% | 12%  | 12% | 10% | 10%  | 10% |
+| 6 Universités | Abandon      | Abandon      | Abandon      | 30%  | 30% | 28% | 28%  | 28% | 27% | 27%  | 27% | 27%  | 27% | 29% | 29%  | 29% |
+| 3 IST         | Promotion    | Promotion    | Promotion    | 69%  | 69% | 68% | 68%  | 68% | 69% | 69%  | 68% | 68%  | 68% | 73% | 73%  | 73% |
+| 3 IST         | Redoublement | Redoublement | Redoublement | 1%   | 1%  | 3%  | 3%   | 3%  | 6%  | 6%   | 1%  | 1%   | 1%  | 3%  | 3%   | 3%  |
+| 3 IST         | Abandon      | Abandon      | Abandon      | 31%  | 31% | 29% | 29%  | 29% | 25% | 25%  | 31% | 31%  | 31% | 25% | 25%  | 25% |
+| CNTEMAD       | Promotion    | Promotion    | Promotion    | 35%  | 35% | 48% | 48%  | 48% | 50% | 50%  | 49% | 49%  | 49% | 38% | 38%  | 38% |
+| CNTEMAD       | Redoublement | Redoublement | Redoublement | 24%  | 24% | 11% | 11%  | 11% | 14% | 14%  | 11% | 11%  | 11% | 23% | 23%  | 23% |
+| CNTEMAD       | Abandon      | Abandon      | Abandon      | 42%  | 42% | 41% | 41%  | 41% | 36% | 36%  | 40% | 40%  | 40% | 40% | 40%  | 40% |
+| ENSEMBLE      |              | Promotion    |              | 53%  |     |     | 58%  |     |     | 59%  |     | 59%  |     |     | 57%  |     |
+| ENSEMBLE      |              | Redoublement |              | 13%  |     |     | 9%   |     |     | 12%  |     | 8%   |     |     | 12%  |     |
+| ENSEMBLE      |              | Abandon      |              | 34%  |     |     | 33%  |     |     | 29%  |     | 33%  |     |     | 31%  |     |
 
 
 Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES
@@ -1924,13 +1902,11 @@ Tableau 29 : EVOLUTION DE TAUX DE SCOLARISATION A L’ENSEIGNEMENT SUPERIEUR DE
 2017 A 2022
 
 Tableau (format markdown):
-| Effectif | 2017 | 2018 | 2019 | 2020 | 2022 |
-|---|---|---|---|---|---|
-| étudiant à
-l'ESUP | 137 894 | 143 759 | 152 843 | 159 298 | 178 665 |
-| Population 18
-à 22 ans | 2 602 311 | 2 680 282 | 2 753 639 | 2 822 380 | 2 947 612 |
-| TBS | 5,3% | 5,4% | 5,6% | 5,6% | 6,1% |
+| Effectif               | 2017      | 2018      | 2019      | 2020      | 2022      |
+| ---------------------- | --------- | --------- | --------- | --------- | --------- |
+| étudiant à l'ESUP      | 137 894   | 143 759   | 152 843   | 159 298   | 178 665   |
+| Population 18 à 22 ans | 2 602 311 | 2 680 282 | 2 753 639 | 2 822 380 | 2 947 612 |
+| TBS                    | 5,3%      | 5,4%      | 5,6%      | 5,6%      | 6,1%      |
 
 
 Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES
@@ -1956,14 +1932,14 @@ Tableau 30 : EVOLUTION DE RATIOS ETUDIANTS / PE, PAT A L’ENSEIGNEMENT SUPERIEU
 DE 2017 A 2022
 
 Tableau (format markdown):
-| RATIO | 2 017 | 2 018 | 2 019 | 2 020 | 2 022 |
-|---|---|---|---|---|---|
-| étudiants / PE - Public | 57 | 57 | 60 | 69 | 74 |
-| étudiants / PAT - Public | 26 | 25 | 26 | 29 | 32 |
-| étudiants / PE - Privé | 32 | 39 | 46 | 38 | 47 |
-| étudiants / PAT - Privé | 19 | 20 | 21 | 20 | 24 |
-| étudiants / PE (Public + Privé) | 47 | 51 | 55 | 57 | 65 |
-| étudiants / PAT (Public + Privé) | 23 | 23 | 25 | 26 | 30 |
+| RATIO                            | 2 017 | 2 018 | 2 019 | 2 020 | 2 022 |
+| -------------------------------- | ----- | ----- | ----- | ----- | ----- |
+| étudiants / PE - Public          | 57    | 57    | 60    | 69    | 74    |
+| étudiants / PAT - Public         | 26    | 25    | 26    | 29    | 32    |
+| étudiants / PE - Privé           | 32    | 39    | 46    | 38    | 47    |
+| étudiants / PAT - Privé          | 19    | 20    | 21    | 20    | 24    |
+| étudiants / PE (Public + Privé)  | 47    | 51    | 55    | 57    | 65    |
+| étudiants / PAT (Public + Privé) | 23    | 23    | 25    | 26    | 30    |
 
 
 Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES
@@ -1993,14 +1969,14 @@ SUPERIEUR PUBLIC DE 2017 A 2022
 
 Tableau (format markdown):
 | RATIO ETU/PE | 2017 | 2018 | 2019 | 2020 | 2022 |
-|---|---|---|---|---|---|
-| ALSH | 48 | 54 | 62 | 72 | 79 |
-| SE | 39 | 45 | 49 | 46 | 46 |
-| SI | 26 | 25 | 25 | 28 | 32 |
-| SSANTE | 61 | 64 | 66 | 74 | 70 |
-| SSTE | 190 | 178 | 178 | 206 | 223 |
-| STECH | 26 | 27 | 31 | 41 | 43 |
-| ENSEMBLE | 57 | 57 | 60 | 69 | 74 |
+| ------------ | ---- | ---- | ---- | ---- | ---- |
+| ALSH         | 48   | 54   | 62   | 72   | 79   |
+| SE           | 39   | 45   | 49   | 46   | 46   |
+| SI           | 26   | 25   | 25   | 28   | 32   |
+| SSANTE       | 61   | 64   | 66   | 74   | 70   |
+| SSTE         | 190  | 178  | 178  | 206  | 223  |
+| STECH        | 26   | 27   | 31   | 41   | 43   |
+| ENSEMBLE     | 57   | 57   | 60   | 69   | 74   |
 
 
 Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES
@@ -2027,13 +2003,10 @@ Enseignants -année 2022
 40
 
 Tableau (format markdown):
-|  | CIDST | CNARP | CNRE | CNRIT | CNRO | FOFIFA | IMVAV
-ET | PBZT | INSTN | Admini
-stratio
-n |
-|---|---|---|---|---|---|---|---|---|---|---|
-| M | 5 | 15 | 38 | 42 | 10 | 42 | 7 | 27 | 20 | 13 |
-| F | 16 | 12 | 17 | 17 | 7 | 43 | 8 | 21 | 6 | 11 |
+|   | CIDST | CNARP | CNRE | CNRIT | CNRO | FOFIFA | IMVAV ET | PBZT | INSTN | Admini stratio n |
+| - | ----- | ----- | ---- | ----- | ---- | ------ | -------- | ---- | ----- | ---------------- |
+| M | 5     | 15    | 38   | 42    | 10   | 42     | 7        | 27   | 20    | 13               |
+| F | 16    | 12    | 17   | 17    | 7    | 43     | 8        | 21   | 6     | 11               |
 
 
 47
@@ -2069,12 +2042,12 @@ budget du MESUPRES
 0,0%
 
 Tableau (format markdown):
-|  | 2020 | 2021 | 2022 |
-|---|---|---|---|
+|     | 2020  | 2021  | 2022  |
+| --- | ----- | ----- | ----- |
 | 028 | 95,3% | 80,6% | 82,8% |
-| 310 | 3,5% | 18,3% | 5,2% |
-| 050 | 1,1% | 0,9% | 11,9% |
-| 311 | 0,2% | 0,1% | 0,1% |
+| 310 | 3,5%  | 18,3% | 5,2%  |
+| 050 | 1,1%  | 0,9%  | 11,9% |
+| 311 | 0,2%  | 0,1%  | 0,1%  |
 
 
 48
@@ -2094,7 +2067,7 @@ ITE SERVICE RT INTERNE EXTERNE
 
 Tableau (format markdown):
 | % | 0,1% | 2,1% | 27,9% | 3,8% | 0,8% | 65,3% |
-|---|---|---|---|---|---|---|
+| - | ---- | ---- | ----- | ---- | ---- | ----- |
 
 
 Le taux le plus élevé (65,3 %) est attribué aux dépenses de salaires ou Solde, suivi du Transfert
@@ -2137,103 +2110,67 @@ diminution de 11 points (de 99% en 2021 à 88% en 2022) a été constatée.
 ANNEXE : LISTE DES INSTITUTIONS SUPERIEURES PAR REGION
 
 Tableau (format markdown):
-| N° |  | INSTITUTIONS SUPÉRIEURES PUBLIQUES |  |  |
-|---|---|---|---|---|
-|  | REGIONS |  | Nom de l'Etablissement |  |
-| 1 | ALAOTRA MANGORO |  | ISTRALMA, CNTEMAD |  |
-| 2 | AMORON'I MANIA |  | ISTA, CNTEMAD |  |
-| 3 | ANALANJIROFO |  | ISTRCE, CNTEMAD |  |
-| 4 | ANALAMANGA |  | FEGS, FDSP, FLSH, ESSA, FAC SCIENCES, FAC MEDECINE, ENS, ESPA, IST
-ANTANARIVO, INSTN, CNTEMAD |  |
-| 5 | ANDROY |  | CURA, CNTEMAD |  |
-| 6 | ANOSY |  | IES ANOSY, CNTEMAD |  |
-| 7 | ATSIMO ANDREFANA |  | IHSM, FAC MEDECINE, ENS, FLSH, FAC SCIENCES, FLSH, DEGS, IES
-TOLIARA, CNTEMAD |  |
-| 8 | ATSIMO ATSINANANA |  | CUR FARAFANGANA, CNTEMAD |  |
-| 9 | ATSINANANA |  | FLSH, DEGMIA, FAC MEDECINE, ITPT, ISTRA, CONFUCIUS, ENS, ESP
-TOAMASINA, CNTEMAD |  |
-| 10 | BETSIBOKA |  | IUGM MAEVATANANA, IUTAM MAEVATANANA, CNTEMAD |  |
-| 11 | BOENY |  | FAC MEDECINE, ECOLE VETERINAIRE, ECOLE DE PHARMACIE, FSTE,
-ISSTM, ELCI, ILC, ECOLE DE TOURISME, EDSP MAHAJANGA, IUGM
-MAHAJANGA, IUTAM MAHAJANGA, EATP, IOSTM, CNTEMAD |  |
-| 12 | BONGOLAVA |  | CNTEMAD |  |
-| 13 | DIANA |  | DEGSP, FLSH, FAC SCIENCES, ISAE, ESAED, ENSET, ESP DIEGO, IST
-DIEGO, CNTEMAD |  |
-| 14 | HAUTE MATSIATRA |  | DEGSS, FAC SCIENCES, FLSH, FAC MEDECINE, ISTE, ISST, ENS, EMIT, ENI,
-CNTEMAD |  |
-| 15 | IHOROMBE |  | CNTEMAD |  |
-| 16 | ITASY |  | IES SI, CNTEMAD |  |
-| 17 | MELAKY |  | CNTEMAD |  |
-| 18 | MENABE |  | IES MENABE, CNTEMAD |  |
-| 19 | SAVA |  | CURSA, CNTEMAD |  |
-| 20 | SOFIA |  | IUGM ANTSOHIHY, IUTAM ANTSOHIHY, EDSP ANTSOHIHY, UFRSS
-MANDRITSARA, CNTEMAD |  |
-| 21 | VAKINANKARATRA |  | IES VA, CNTEMAD |  |
-| 22 | VATOVAVY FITOVINANY |  | ISTR MANAKARA, CNTEMAD |  |
+| N° |                     | INSTITUTIONS SUPÉRIEURES PUBLIQUES | INSTITUTIONS SUPÉRIEURES PUBLIQUES                                                                                                                                    |                                                                                                                                                                       |
+| -- | ------------------- | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| N° | REGIONS             | REGIONS                            | Nom de l'Etablissement                                                                                                                                                | Nom de l'Etablissement                                                                                                                                                |
+| 1  | ALAOTRA MANGORO     | ALAOTRA MANGORO                    | ISTRALMA, CNTEMAD                                                                                                                                                     | ISTRALMA, CNTEMAD                                                                                                                                                     |
+| 2  | AMORON'I MANIA      | AMORON'I MANIA                     | ISTA, CNTEMAD                                                                                                                                                         | ISTA, CNTEMAD                                                                                                                                                         |
+| 3  | ANALANJIROFO        | ANALANJIROFO                       | ISTRCE, CNTEMAD                                                                                                                                                       | ISTRCE, CNTEMAD                                                                                                                                                       |
+| 4  | ANALAMANGA          | ANALAMANGA                         | FEGS, FDSP, FLSH, ESSA, FAC SCIENCES, FAC MEDECINE, ENS, ESPA, IST ANTANARIVO, INSTN, CNTEMAD                                                                         | FEGS, FDSP, FLSH, ESSA, FAC SCIENCES, FAC MEDECINE, ENS, ESPA, IST ANTANARIVO, INSTN, CNTEMAD                                                                         |
+| 5  | ANDROY              | ANDROY                             | CURA, CNTEMAD                                                                                                                                                         | CURA, CNTEMAD                                                                                                                                                         |
+| 6  | ANOSY               | ANOSY                              | IES ANOSY, CNTEMAD                                                                                                                                                    | IES ANOSY, CNTEMAD                                                                                                                                                    |
+| 7  | ATSIMO ANDREFANA    | ATSIMO ANDREFANA                   | IHSM, FAC MEDECINE, ENS, FLSH, FAC SCIENCES, FLSH, DEGS, IES TOLIARA, CNTEMAD                                                                                         | IHSM, FAC MEDECINE, ENS, FLSH, FAC SCIENCES, FLSH, DEGS, IES TOLIARA, CNTEMAD                                                                                         |
+| 8  | ATSIMO ATSINANANA   | ATSIMO ATSINANANA                  | CUR FARAFANGANA, CNTEMAD                                                                                                                                              | CUR FARAFANGANA, CNTEMAD                                                                                                                                              |
+| 9  | ATSINANANA          | ATSINANANA                         | FLSH, DEGMIA, FAC MEDECINE, ITPT, ISTRA, CONFUCIUS, ENS, ESP TOAMASINA, CNTEMAD                                                                                       | FLSH, DEGMIA, FAC MEDECINE, ITPT, ISTRA, CONFUCIUS, ENS, ESP TOAMASINA, CNTEMAD                                                                                       |
+| 10 | BETSIBOKA           | BETSIBOKA                          | IUGM MAEVATANANA, IUTAM MAEVATANANA, CNTEMAD                                                                                                                          | IUGM MAEVATANANA, IUTAM MAEVATANANA, CNTEMAD                                                                                                                          |
+| 11 | BOENY               | BOENY                              | FAC MEDECINE, ECOLE VETERINAIRE, ECOLE DE PHARMACIE, FSTE, ISSTM, ELCI, ILC, ECOLE DE TOURISME, EDSP MAHAJANGA, IUGM MAHAJANGA, IUTAM MAHAJANGA, EATP, IOSTM, CNTEMAD | FAC MEDECINE, ECOLE VETERINAIRE, ECOLE DE PHARMACIE, FSTE, ISSTM, ELCI, ILC, ECOLE DE TOURISME, EDSP MAHAJANGA, IUGM MAHAJANGA, IUTAM MAHAJANGA, EATP, IOSTM, CNTEMAD |
+| 12 | BONGOLAVA           | BONGOLAVA                          | CNTEMAD                                                                                                                                                               | CNTEMAD                                                                                                                                                               |
+| 13 | DIANA               | DIANA                              | DEGSP, FLSH, FAC SCIENCES, ISAE, ESAED, ENSET, ESP DIEGO, IST DIEGO, CNTEMAD                                                                                          | DEGSP, FLSH, FAC SCIENCES, ISAE, ESAED, ENSET, ESP DIEGO, IST DIEGO, CNTEMAD                                                                                          |
+| 14 | HAUTE MATSIATRA     | HAUTE MATSIATRA                    | DEGSS, FAC SCIENCES, FLSH, FAC MEDECINE, ISTE, ISST, ENS, EMIT, ENI, CNTEMAD                                                                                          | DEGSS, FAC SCIENCES, FLSH, FAC MEDECINE, ISTE, ISST, ENS, EMIT, ENI, CNTEMAD                                                                                          |
+| 15 | IHOROMBE            | IHOROMBE                           | CNTEMAD                                                                                                                                                               | CNTEMAD                                                                                                                                                               |
+| 16 | ITASY               | ITASY                              | IES SI, CNTEMAD                                                                                                                                                       | IES SI, CNTEMAD                                                                                                                                                       |
+| 17 | MELAKY              | MELAKY                             | CNTEMAD                                                                                                                                                               | CNTEMAD                                                                                                                                                               |
+| 18 | MENABE              | MENABE                             | IES MENABE, CNTEMAD                                                                                                                                                   | IES MENABE, CNTEMAD                                                                                                                                                   |
+| 19 | SAVA                | SAVA                               | CURSA, CNTEMAD                                                                                                                                                        | CURSA, CNTEMAD                                                                                                                                                        |
+| 20 | SOFIA               | SOFIA                              | IUGM ANTSOHIHY, IUTAM ANTSOHIHY, EDSP ANTSOHIHY, UFRSS MANDRITSARA, CNTEMAD                                                                                           | IUGM ANTSOHIHY, IUTAM ANTSOHIHY, EDSP ANTSOHIHY, UFRSS MANDRITSARA, CNTEMAD                                                                                           |
+| 21 | VAKINANKARATRA      | VAKINANKARATRA                     | IES VA, CNTEMAD                                                                                                                                                       | IES VA, CNTEMAD                                                                                                                                                       |
+| 22 | VATOVAVY FITOVINANY | VATOVAVY FITOVINANY                | ISTR MANAKARA, CNTEMAD                                                                                                                                                | ISTR MANAKARA, CNTEMAD                                                                                                                                                |
 
 
 51
 ---
 Tableau (format markdown):
-| n° | INSTITUTIONS SUPERIEURES PRIVEES |  |
-|---|---|---|
-|  | REGIONS | Nom de l'Etablissement |
-| 1 | ALAOTRA MANGORO | ONIFRA, ESPA , IFISA , IFISA , INSPALM , ISPASM |
-| 2 | AMORON'I MANIA | IFISAM , INSPALMA , ISPRAITRA , PARAMA IF |
-| 3 | ANALANJIROFO | IFPA , IFPAMA, IFSM A, INSFPTA, ISPAM |
-| 4 | ANALAMANGA | ACEEM BUSINESS SCHOOL, CEITOP, CERF ARMI, CFRH, CNAM, EBM
-INSTITUTE, EEFPS CONDORCET, EPSA, EPESL, ESBTP, ESCAME, ESCM
-BUSINESS SCHOOL, ESCT, ESD, ESDES, ESMIA, ESPBIG, ESPIC, ESSCA,
-ESSED, EST, ESTI, ESTIIM, ESUM, ETEC, ETFPS RLG, ETS, EUROI, GUA,
-HECMMA, HEDM, IEFPA ACEEM, IEP, IESTIME, IFRP, IFT, IISS, ILC,
-IMAGE APPLI, IMGAM, IMT, INATA, INFOTOUR, INSIDE UNIVERSITY
-ROSSIGNOL, INSPNMAD, INTETLIAM, IPAE, IPAM, ISA, ISAE, ISAP, IS
-ATM, ISCAM, ISDE, ISECOM, ISETS, ISGEI, ISGIEM, IS IESI, ISIME, IS
-INFO, ISITM, IS2M, ISM ADVANCEA, ISNA, ISPA, ISPAG, ISPM, ISP
-MDF, ISPPM, ISSEG, ISSIG, ISSMI, ISSSG, ISSUP, ISTS, ITU, IUM, JAU,
-LMBU, MTC, MUST UNIVERSITY, PSP, SAMIS ESIC, TANA PREMIER,
-TOP INFO, TSI, UNIVERSITE ASCOM, UCM, U EMEDIA, U GSI, UNIVERS
-INFORMATIQUE, UIM, UOI, UP ALPHA SCHOOL, U P Am/trimo, UPHS,
-UPI, UTB, VATEL, AKAMASOA UNIVERSITE SAINT VINVENT DE PAUL,
-AHU, ESFPB, ESISFA, ESPM, IFAGI ET PARAMED, IFAS, IFELP, IFSI
-INTERMED, IFSM, IFSP, IFSPR, INFOSUP, INSPNMAD
-Ambohimanarina, INSPNMAD Manakambahiny, ISFP
-Andoharanofotsy, ISFP LEADER, ISFPS, ISMATEC, ISPARAMED
-Itaosy, ISPMD, ISPGI, ISPPS, ISST PARAMED, MU Mahitsy, ONIFRA,
-PARMI, UNIVERSITE ACEEM, U GSI BYPASS, UPA HPI MASCA, UPRIM |
-| 5 | ANDROY | ISFP Leader |
-| 6 | ANOSY | CEL , INSPAFORT , ISFPS Leader |
-| 7 | ATSIMO ANDREFANA | UTM , INSFP , INSPNMAD , IPLBS , ISFP, ISPPS T |
-| 8 | ATSIMO ANTSINANA | ISFPM , ISFPP |
-| 9 | ATSINANANA | BEATY UNIVERSITY , IFT , IFSP ATSINANANA, IFSPT, INSPALM,
-INSPNMAD, ISFSP, ISMATEC, ISPAVA, ISSPM |
-| 10 | BETSIBOKA | INSPNMAD |
-| 11 | BOENY | ESIGE, ESSGAM, ICND, IFT, INFOTOUR, ISMST, BIP, ESIJEANPAUL II,
-IFSPR Boeny, IFSTM, INSPAM, INSPNMAD, ISB, ISFSIM, ISAMATEC,
-ISPAM |
+| n° | INSTITUTIONS SUPERIEURES PRIVEES | INSTITUTIONS SUPERIEURES PRIVEES                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| -- | -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| n° | REGIONS                          | Nom de l'Etablissement                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| 1  | ALAOTRA MANGORO                  | ONIFRA, ESPA , IFISA , IFISA , INSPALM , ISPASM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| 2  | AMORON'I MANIA                   | IFISAM , INSPALMA , ISPRAITRA , PARAMA IF                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| 3  | ANALANJIROFO                     | IFPA , IFPAMA, IFSM A, INSFPTA, ISPAM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| 4  | ANALAMANGA                       | ACEEM BUSINESS SCHOOL, CEITOP, CERF ARMI, CFRH, CNAM, EBM INSTITUTE, EEFPS CONDORCET, EPSA, EPESL, ESBTP, ESCAME, ESCM BUSINESS SCHOOL, ESCT, ESD, ESDES, ESMIA, ESPBIG, ESPIC, ESSCA, ESSED, EST, ESTI, ESTIIM, ESUM, ETEC, ETFPS RLG, ETS, EUROI, GUA, HECMMA, HEDM, IEFPA ACEEM, IEP, IESTIME, IFRP, IFT, IISS, ILC, IMAGE APPLI, IMGAM, IMT, INATA, INFOTOUR, INSIDE UNIVERSITY ROSSIGNOL, INSPNMAD, INTETLIAM, IPAE, IPAM, ISA, ISAE, ISAP, IS ATM, ISCAM, ISDE, ISECOM, ISETS, ISGEI, ISGIEM, IS IESI, ISIME, IS INFO, ISITM, IS2M, ISM ADVANCEA, ISNA, ISPA, ISPAG, ISPM, ISP MDF, ISPPM, ISSEG, ISSIG, ISSMI, ISSSG, ISSUP, ISTS, ITU, IUM, JAU, LMBU, MTC, MUST UNIVERSITY, PSP, SAMIS ESIC, TANA PREMIER, TOP INFO, TSI, UNIVERSITE ASCOM, UCM, U EMEDIA, U GSI, UNIVERS INFORMATIQUE, UIM, UOI, UP ALPHA SCHOOL, U P Am/trimo, UPHS, UPI, UTB, VATEL, AKAMASOA UNIVERSITE SAINT VINVENT DE PAUL, AHU, ESFPB, ESISFA, ESPM, IFAGI ET PARAMED, IFAS, IFELP, IFSI INTERMED, IFSM, IFSP, IFSPR, INFOSUP, INSPNMAD Ambohimanarina, INSPNMAD Manakambahiny, ISFP Andoharanofotsy, ISFP LEADER, ISFPS, ISMATEC, ISPARAMED Itaosy, ISPMD, ISPGI, ISPPS, ISST PARAMED, MU Mahitsy, ONIFRA, PARMI, UNIVERSITE ACEEM, U GSI BYPASS, UPA HPI MASCA, UPRIM |
+| 5  | ANDROY                           | ISFP Leader                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| 6  | ANOSY                            | CEL , INSPAFORT , ISFPS Leader                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| 7  | ATSIMO ANDREFANA                 | UTM , INSFP , INSPNMAD , IPLBS , ISFP, ISPPS T                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| 8  | ATSIMO ANTSINANA                 | ISFPM , ISFPP                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| 9  | ATSINANANA                       | BEATY UNIVERSITY , IFT , IFSP ATSINANANA, IFSPT, INSPALM, INSPNMAD, ISFSP, ISMATEC, ISPAVA, ISSPM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| 10 | BETSIBOKA                        | INSPNMAD                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| 11 | BOENY                            | ESIGE, ESSGAM, ICND, IFT, INFOTOUR, ISMST, BIP, ESIJEANPAUL II, IFSPR Boeny, IFSTM, INSPAM, INSPNMAD, ISB, ISFSIM, ISAMATEC, ISPAM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 
 
 52
 ---
 Tableau (format markdown):
-| 12 | BONGOLAVA | IFPT, ISPE |
-|---|---|---|
-| 13 | DIANA | ISIA, ISMADA, ISTIME, IUP AESM Nosy Be Hell Ville, IFIMA, IFSPN, ISA
-, ISAPSP, ISISFA, ISNM , ISPNA, ISPRD , ISPS Sambirano, URM |
-| 14 | HAUTE MATSIATRA | ECAT TARATRA , FF MMM-IMD , ICTUS, IFT, ISMST, ISSD , ISSPS
-THOMAS D’AQUIN , ITSA , ITSFX, LIME, SALT, ESIF, IFPF, IFSPR,
-INSPNMAD , ISSFP |
-| 15 | IHOROMBE | IFSPR, IPPI |
-| 16 | ITASY | ISMR, ISPRI , ONIFRA , IFSM, INSPARI |
-| 17 | MELAKY | IFP |
-| 18 | MENABE | ISCAMEN Morondava |
-| 19 | SAVA | IFIMA, IFISA, IFISA , IFPSAVA, ISFP, ISPRSAVA |
-| 20 | SOFIA | IGS , ESFI , IFPM, IFPS , IFSI SJA , ISFPS |
-| 21 | VAKINANKARATRA | A S J A, CFAMA, CRAC ETUDIANT, ESSVA, GSSPA, IESTIME, IFP
-Raketamanga, IFT, IPSATTA, ONIFRA, IFP CRAC, INSPAM, INSPAMEN,
-INSPNMAD, ISSSD, PARAMA IF, SEFAM, UAZ |
-| 22 | VATOVAVY FITOVINANY | IST, ISTR V, IFSPR , ISFPP |
-|  |  |  |
+| 12 | BONGOLAVA           | IFPT, ISPE                                                                                                                                                      |
+| -- | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 13 | DIANA               | ISIA, ISMADA, ISTIME, IUP AESM Nosy Be Hell Ville, IFIMA, IFSPN, ISA , ISAPSP, ISISFA, ISNM , ISPNA, ISPRD , ISPS Sambirano, URM                                |
+| 14 | HAUTE MATSIATRA     | ECAT TARATRA , FF MMM-IMD , ICTUS, IFT, ISMST, ISSD , ISSPS THOMAS D’AQUIN , ITSA , ITSFX, LIME, SALT, ESIF, IFPF, IFSPR, INSPNMAD , ISSFP                      |
+| 15 | IHOROMBE            | IFSPR, IPPI                                                                                                                                                     |
+| 16 | ITASY               | ISMR, ISPRI , ONIFRA , IFSM, INSPARI                                                                                                                            |
+| 17 | MELAKY              | IFP                                                                                                                                                             |
+| 18 | MENABE              | ISCAMEN Morondava                                                                                                                                               |
+| 19 | SAVA                | IFIMA, IFISA, IFISA , IFPSAVA, ISFP, ISPRSAVA                                                                                                                   |
+| 20 | SOFIA               | IGS , ESFI , IFPM, IFPS , IFSI SJA , ISFPS                                                                                                                      |
+| 21 | VAKINANKARATRA      | A S J A, CFAMA, CRAC ETUDIANT, ESSVA, GSSPA, IESTIME, IFP Raketamanga, IFT, IPSATTA, ONIFRA, IFP CRAC, INSPAM, INSPAMEN, INSPNMAD, ISSSD, PARAMA IF, SEFAM, UAZ |
+| 22 | VATOVAVY FITOVINANY | IST, ISTR V, IFSPR , ISFPP                                                                                                                                      |
 
 
 53

@@ -6,16 +6,17 @@ import pytesseract
 from PIL import Image
 import cv2
 import numpy as np
+import re
 
 # ========================== CONFIGURATION ==========================
-fichier_pdf = os.path.abspath("./data/MESUPRES_en_chiffres_MAJ.pdf")
-dossier_sortie = os.path.abspath("./extracted_graphs")
+fichier_pdf = os.path.abspath("../data/MESUPRES_en_chiffres_MAJ.pdf")
+dossier_sortie = os.path.abspath("../extracted_graphs")
 os.makedirs(dossier_sortie, exist_ok=True)
 
 pytesseract.pytesseract.tesseract_cmd = r'C:\Programmes\tesseract-OCR\tesseract.exe'
 
 def extraire_graphs(pdf_path, output_dir):
-    graphs_info = []
+    graphs_dict = {}
     try:
         with pdfplumber.open(pdf_path) as pdf:
             for page_num in tqdm(range(len(pdf.pages))):
@@ -72,7 +73,6 @@ def extraire_graphs(pdf_path, output_dir):
                     # Sort candidates by position (top-to-bottom, left-to-right)
                     graph_candidates.sort(key=lambda bbox: (bbox[1], bbox[0]))  # by y, then x
 
-                    page_graphs = []
                     for idx, graph_bbox in enumerate(graph_candidates):
                         x, y, w, h = graph_bbox
                         cropped = img_cv[y:y+h, x:x+w]
@@ -89,29 +89,25 @@ def extraire_graphs(pdf_path, output_dir):
 
                         title = titles[idx] if idx < len(titles) else None
 
-                        page_graphs.append({
-                            "graph_index": idx,
-                            "title": title,
-                            "image": cropped_path,
-                            "ocr_result": ocr_text,
-                            "bbox": graph_bbox
-                        })
-
-                    if page_graphs:
-                        graphs_info.append({
-                            "page": page_num + 1,
-                            "text": text,
-                            "graphs": page_graphs
-                        })
+                        if title:
+                            match = re.search(r"Graphe (\d+)", title, re.IGNORECASE)
+                            if match:
+                                graph_num = match.group(1)
+                                key = f"graph {graph_num}"
+                                graphs_dict[key] = cropped_path
+                            else:
+                                os.remove(cropped_path)
+                        else:
+                            os.remove(cropped_path)
 
                     os.remove(temp_image_path)
 
     except Exception as e:
         print(f"Error processing PDF: {str(e)}")
 
-    json_path = os.path.join(output_dir, "graphs_info.json")
+    json_path = os.path.join(output_dir, "graphs_mapping.json")
     with open(json_path, "w", encoding="utf-8") as json_file:
-        json.dump(graphs_info, json_file, ensure_ascii=False, indent=4)
+        json.dump(graphs_dict, json_file, ensure_ascii=False, indent=4)
 
     print(f"Extraction terminée. Infos sauvegardées dans {json_path}")
 

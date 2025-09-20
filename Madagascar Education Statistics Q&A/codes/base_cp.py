@@ -119,27 +119,6 @@ def load_pdf(file_path: str) -> Tuple[List[str], List[Dict]]:
                     })
     return docs, meta
 
-# #============================Table to Text============================#
-# def table_to_text(tbl: List[List[str]]) -> str:
-#     """
-#     Converts a table to markdown text format.
-
-#     Args:
-#         tbl (List[List[str]]): Extracted table data.
-
-#     Returns:
-#         str: Markdown representation of the table.
-#     """
-#     if not tbl or all(all(not cell for cell in row) for row in tbl):
-#         return ""
-#     headers = tbl[0]
-#     md = "| " + " | ".join(str(cell or "") for cell in headers) + " |\n"
-#     md += "|---" * len(headers) + "|\n"
-#     for row in tbl[1:]:
-#         md += "| " + " | ".join(str(cell or "") for cell in row) + " |\n"
-#     return "Tableau (format markdown):\n" + md
-
-
 #============================Load Data============================#
 def load_data(documents: List[str], metadatas: List[Dict], collection_name: str):
     client = chromadb.EphemeralClient()
@@ -193,7 +172,9 @@ def get_relevant_passage(query: str, db, n_results=1):
                 try:
                     res = model.generate_content(rerank_prompt)
                     time.sleep(0.1)
-                    response_text = res.text.strip()
+                    response_text = res.text.strip() if res.text else ""
+                    if not response_text:
+                        raise ValueError("Empty response text")
                     json_match = regex.search(r'\{(?:[^{}]|(?R))*\}', response_text, regex.DOTALL)
                     if json_match:
                         json_str = json_match.group(0).replace(",}", "}").replace(",]", "]").replace("\n", "  ")
@@ -202,7 +183,7 @@ def get_relevant_passage(query: str, db, n_results=1):
                         if best_index >= len(candidates):
                             best_index = 0
                     break
-                except (google.api_core.exceptions.ResourceExhausted, json.JSONDecodeError) as e:
+                except (google.api_core.exceptions.ResourceExhausted, json.JSONDecodeError, ValueError) as e:
                     if attempt < max_retries - 1:
                         time.sleep(retry_delay)
                         retry_delay *= 1.1
@@ -232,10 +213,13 @@ def classify_q(q: str) -> str:
 #============================Extract Number============================#
 def extract_num(ans: str, q_type: str) -> str:
     # Assurer que ans est une string
-    ans = str(ans)
+    ans = str(ans) if ans is not None else ""
     ans_ = ans  # Copie originale
 
     ans = re.sub(r'\s+', '', ans)
+    
+    if not ans:
+        return "Aucune réponse claire"
     
     if q_type == "num" and ans.isnumeric():
         return ans
@@ -254,7 +238,7 @@ def extract_num(ans: str, q_type: str) -> str:
         return ans
     
     years = [num for num in numbers if len(num) == 4 and 1900 <= int(num) <= 2100]
-    non_years = [num for num in numbers if num not in years]
+    non_years = [num for num in numbers if num not in years and num!="0"]
     
     if non_years:
         if q_type == "num":
@@ -289,7 +273,7 @@ def make_rag_prompt(query: str, contexts: List[Tuple[str, Dict]]) -> str:
 #============================Gemini Response============================#
 def get_gemini_response(query: str, contexts: List[Tuple[str, Dict]]) -> Dict:
     prompt = make_rag_prompt(query, contexts)
-    model = genai.GenerativeModel("gemini-1.5-flash")  # Changé à gemini-1.5-flash pour la précision
+    model = genai.GenerativeModel("gemini-1.5-flash")  # Utiliser 1.5-flash pour cohérence
     max_retries = 3
     retry_delay = 5
     for key_index, api_key in enumerate(api_keys):
@@ -299,7 +283,9 @@ def get_gemini_response(query: str, contexts: List[Tuple[str, Dict]]) -> Dict:
                 try:
                     res = model.generate_content(prompt)
                     time.sleep(0.1)
-                    response_text = res.text.strip()
+                    response_text = res.text.strip() if res.text else ""
+                    if not response_text:
+                        raise ValueError("Empty response text")
                     json_match = regex.search(r'\{(?:[^{}]|(?R))*\}', response_text, regex.DOTALL)
                     if json_match:
                         json_str = json_match.group(0)
@@ -309,9 +295,9 @@ def get_gemini_response(query: str, contexts: List[Tuple[str, Dict]]) -> Dict:
                             response_data = json.loads(json_str)
                             # Convertir en strings pour éviter les erreurs d'attribut
                             if "answer" in response_data:
-                                response_data["answer"] = str(response_data["answer"])
+                                response_data["answer"] = str(response_data["answer"]) if response_data["answer"] is not None else "Aucune réponse claire"
                             if "doc_index" in response_data:
-                                response_data["doc_index"] = str(response_data["doc_index"])
+                                response_data["doc_index"] = str(response_data["doc_index"]) if response_data["doc_index"] is not None else "0"
                         except json.JSONDecodeError as e:
                             answer_match = re.search(r'answer:?\s*([^\n]+)', response_text, re.IGNORECASE)
                             context_match = re.search(r'"doc_index":?\s*([^\n]+)', response_text, re.IGNORECASE)
@@ -332,7 +318,7 @@ def get_gemini_response(query: str, contexts: List[Tuple[str, Dict]]) -> Dict:
                         if extracted_value:
                             response_data["answer"] = extracted_value
                     return response_data
-                except (google.api_core.exceptions.ResourceExhausted, json.JSONDecodeError) as e:
+                except (google.api_core.exceptions.ResourceExhausted, json.JSONDecodeError, ValueError) as e:
                     if attempt < max_retries - 1:
                         time.sleep(retry_delay)
                         retry_delay *= 1.1
@@ -341,7 +327,7 @@ def get_gemini_response(query: str, contexts: List[Tuple[str, Dict]]) -> Dict:
         except Exception as e:
             print(f"API configuration error: {str(e)}")
             continue
-    return {"answer": "Erreur : Toutes les clés API ont dépassé leur quota ou ont échoué", "relevant_context": None}
+    return {"answer": "Erreur : Toutes les clés API ont dépassé leur quota ou ont échoué", "doc_index": "0"}
 
 #============================Process CSV============================#
 def process_questions_from_csv(db, csv_path: str, output_csv: str = '../submissions/submission_file.csv'):
@@ -354,7 +340,7 @@ def process_questions_from_csv(db, csv_path: str, output_csv: str = '../submissi
         for idx, row in enumerate(tqdm(df.iterrows(), total=total_questions, desc="Traitement des questions", unit="question")):
             qid = row[1]["id"]
             question = row[1]["question"]
-            passages = get_relevant_passage(question, db, n_results=1)  # Changé à n_results=1 comme indiqué
+            passages = get_relevant_passage(question, db, n_results=1)
             if not passages:
                 ans = "Info non trouvée"
                 ctx = "Aucun contexte extrait"
@@ -363,7 +349,7 @@ def process_questions_from_csv(db, csv_path: str, output_csv: str = '../submissi
                 response = get_gemini_response(question, passages)
                 ans = response.get("answer", "Erreur de traitement")
                 doc_index = response.get("doc_index", "0")
-                doc_index = doc_index if str(doc_index).isnumeric() and int(doc_index)<len(passages) else 0
+                doc_index = doc_index if str(doc_index).isnumeric() and int(doc_index) < len(passages) else "0"
                 ctx = re.sub(r'[\r\n]+', '  ', passages[int(doc_index)][0])
                 meta = passages[int(doc_index)][1]
                 pg = meta.get("physical_page", 27)
@@ -377,9 +363,9 @@ def process_questions_from_csv(db, csv_path: str, output_csv: str = '../submissi
                 writer.writerow({
                     "id": qid,
                     "question": question,
-                    "answer": ans,
-                    "context": '["' + ctx.strip('"') + '"]',
-                    "ref_page": pg
+                    "answer": ans if ans else "Aucune réponse claire",
+                    "context": '["' + ctx.strip('"') + '"]' if ctx else '["Aucun contexte"]',
+                    "ref_page": pg if pg else "N/A"
                 })
     except Exception as e:
         print(f"Error in process_questions_from_csv: {str(e)}")
