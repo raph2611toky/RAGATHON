@@ -1,6 +1,6 @@
 #============================Imports============================#
 from dotenv import load_dotenv, find_dotenv
-from typing import List, Tuple, Dict
+from typing import List, Tuple, Dict, Optional
 import pdfplumber
 from tqdm import tqdm
 import google.generativeai as genai
@@ -32,19 +32,70 @@ if not api_keys:
 os.makedirs("../submissions", exist_ok=True)
 
 
-# ============================ Table to Text (ancien code) ============================ #
-def table_to_text(tbl: List[List[str]]) -> str:
+def fill_merged_cells(tbl: List[List[Optional[str]]]) -> List[List[Optional[str]]]:
     """
-    Convertit un tableau en markdown (ancienne version).
+    Fill merged cells by propagating values horizontally and vertically.
+    This handles common merged cell issues in PDF tables.
     """
-    if not tbl or all(all(not cell for cell in row) for row in tbl):
+    num_rows = len(tbl)
+    if num_rows == 0:
+        return []
+
+    num_cols = max(len(row) for row in tbl)
+
+    # Pad rows with None
+    for row in tbl:
+        row += [None] * (num_cols - len(row))
+
+    # Fill horizontal merges (left to right)
+    for r in range(num_rows):
+        for c in range(1, num_cols):
+            if tbl[r][c] is None and tbl[r][c - 1] is not None:
+                tbl[r][c] = tbl[r][c - 1]
+
+    # Fill vertical merges (top to bottom)
+    for c in range(num_cols):
+        for r in range(1, num_rows):
+            if tbl[r][c] is None and tbl[r - 1][c] is not None:
+                tbl[r][c] = tbl[r - 1][c]
+
+    return tbl
+
+
+# ============================ Table to Text ============================ #
+def table_to_text(tbl: List[List[Optional[str]]]) -> str:
+    """
+    Convertit un tableau en markdown, avec largeur uniforme par colonne.
+    Improved to remove empty rows and handle cleaned cells better.
+    """
+    if not tbl:
         return ""
-    headers = tbl[0]
-    md = "| " + " | ".join(str(cell or "").replace('\n',' ') for cell in headers) + " |\n"
-    md += "|---" * len(headers) + "|\n"
-    for row in tbl[1:]:
-        md += "| " + " | ".join(str(cell or "").replace('\n',' ') for cell in row) + " |\n"
-    return "Tableau (format markdown):\n" + md
+
+    # Clean cells: replace None with "", flatten newlines, strip whitespace
+    cleaned_tbl = [[str(cell or "").replace("\n", " ").strip() for cell in row] for row in tbl]
+
+    # Remove entirely empty rows
+    cleaned_tbl = [row for row in cleaned_tbl if any(cell for cell in row)]
+
+    if not cleaned_tbl:
+        return ""
+
+    num_cols = max(len(row) for row in cleaned_tbl)
+    col_widths = [0] * num_cols
+    for row in cleaned_tbl:
+        for i, cell in enumerate(row):
+            col_widths[i] = max(col_widths[i], len(cell))
+
+    # Assume first row is headers
+    headers = cleaned_tbl[0] + [""] * (num_cols - len(cleaned_tbl[0]))
+    md = "| " + " | ".join(headers[i].ljust(col_widths[i]) for i in range(num_cols)) + " |\n"
+    md += "| " + " | ".join("-" * col_widths[i] for i in range(num_cols)) + " |\n"
+
+    for row in cleaned_tbl[1:]:
+        padded_cells = [(row[i] if i < len(row) else "").ljust(col_widths[i]) for i in range(num_cols)]
+        md += "| " + " | ".join(padded_cells) + " |\n"
+
+    return md
 
 
 # ============================ Texte (nouvelle version) ============================ #
@@ -65,13 +116,24 @@ def load_pdf(file_path: str) -> Tuple[List[str], List[Dict]]:
 
     docs = []
     meta = []
+    # Improved table settings for better detection accuracy
+    # Changed 'keep_blank_chars' to 'text_keep_blank_chars' for compatibility with pdfplumber versions >= 0.8.0
+    table_settings = {
+        "vertical_strategy": "lines",
+        "horizontal_strategy": "lines",
+        "snap_tolerance": 3,
+        "join_tolerance": 3,
+        "intersection_tolerance": 3,
+        "text_keep_blank_chars": False,
+    }
+
     with pdfplumber.open(file_path) as pdf:
         for phys_num, page in enumerate(tqdm(pdf.pages, desc=f"Lecture de {os.path.basename(file_path)}"), start=1):
             width, height = page.width, page.height
             for half_num, bbox in enumerate([(0, 0, width / 2, height), (width / 2, 0, width, height)]):
                 crop = page.crop(bbox)
                 content = []
-                tables = crop.find_tables()
+                tables = crop.find_tables(table_settings=table_settings)
                 table_positions = sorted(tables, key=lambda t: t.bbox[1]) if tables else []
                 prev_bottom = 0  # relatif au crop
 
@@ -86,8 +148,9 @@ def load_pdf(file_path: str) -> Tuple[List[str], List[Dict]]:
                         if above_text:
                             content.append(above_text)
 
-                    # tableau
+                    # tableau with merged cells handled
                     table_data = table.extract()
+                    table_data = fill_merged_cells(table_data)
                     table_str = table_to_text(table_data)
                     if table_str:
                         content.append(table_str)
@@ -111,6 +174,10 @@ def load_pdf(file_path: str) -> Tuple[List[str], List[Dict]]:
 
                 combined = "\n\n".join(content).strip()
                 if combined:
+                    # Replace "Tableau xx :" with "Titre du Tableau xx :"
+                    combined = re.sub(r'Tableau (\d+)\s*:', r'Titre de la Tableau \1 :', combined)
+                    # Replace "Graphe xx :" with "Titre du Graphe xx :"
+                    combined = re.sub(r'Graphe (\d+)\s*:', r'Titre de la Graphe \1 :', combined)
                     docs.append(combined)
                     meta.append({
                         "filename": os.path.basename(file_path),
@@ -150,6 +217,7 @@ def get_relevant_passage(query: str, db, n_results=3):
     metas = res['metadatas'][0]
 
     if not candidates:
+        print("❗ No candidates passages...")
         return []
 
     # Utiliser Gemini 1.5-flash pour re-ranker et sélectionner les meilleurs indices
@@ -197,6 +265,7 @@ def get_relevant_passage(query: str, db, n_results=3):
 
     # Retourner les top n_results (ou moins si pas assez)
     top_ = [(candidates[idx], metas[idx]) for idx in best_indices[:n_results]]
+    print(top_)
     return top_
 
 #============================Classify Question============================#
@@ -392,6 +461,10 @@ try:
     data, metadata = load_pdf(file_path="../data/MESUPRES_en_chiffres_MAJ.pdf")
     coll_name = 'rag'
     db = load_data(documents=data, metadatas=metadata, collection_name=coll_name)
+    open("data.md", "w").write("\n\n---\n\n".join(data))
+    # question = "Quel était le nombre total d'étudiants féminins inscrits en ENSEMBLE en 2020 ?"
+    # passages = get_relevant_passage(question, db)
+    # print(get_gemini_response(question,passages))
     process_questions_from_csv(db, '../data/questions.csv')
 except Exception as e:
     print(f"Main execution error: {str(e)}")

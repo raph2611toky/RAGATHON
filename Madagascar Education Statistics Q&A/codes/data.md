@@ -1,10 +1,11 @@
-# ======================================= DOCUMENTS ======================================= #
-Avec lâ€™appui du FCE
-â€˜â€™Fonds Commun de lâ€™Educationâ€™â€™
+Avec l’appui du FCE
+‘’Fonds Commun de l’Education’’
 
-Avec lâ€™appui du FCE
-â€˜â€™Fonds Commun de lâ€™Educationâ€™â€™
+Avec l’appui du FCE
+‘’Fonds Commun de l’Education’’
+
 ---
+
 SOMMAIRE
 Page
 LISTE DES ABREVIATIONS 1
@@ -13,96 +14,98 @@ LISTE DES ABREVIATIONS 1
 |  | ------------------ |  |
 
 
-Titre du Tableau 01 : EVOLUTION DES INSCRITS ET ADMIS AU BACCALAUREAT DE 2018 A 2022 2
-Titre du Graphe 01 : Evolution des effectifs des inscrits et admis au baccalaurÃ©at de 2018 Ã  2022 2
-Titre du Tableau 02 : EVOLUTION DES INSCRITS ET ADMIS AU BACCALAUREAT PAR SERIE DE 2018
+Titre de la Tableau 01 : EVOLUTION DES INSCRITS ET ADMIS AU BACCALAUREAT DE 2018 A 2022 2
+Titre de la Graphe 01 : Evolution des effectifs des inscrits et admis au baccalauréat de 2018 à 2022 2
+Titre de la Tableau 02 : EVOLUTION DES INSCRITS ET ADMIS AU BACCALAUREAT PAR SERIE DE 2018
 3
 A 2022
-Titre du Graphe 02 : Taux de rÃ©partition des admis au baccalaurÃ©at par sÃ©rie en 2022 3
-Titre du Tableau 03 : EVOLUTION DE TAUX DES ADMIS AU BACCALAUREAT PAR SERIE DE 2018 A
+Titre de la Graphe 02 : Taux de répartition des admis au baccalauréat par série en 2022 3
+Titre de la Tableau 03 : EVOLUTION DE TAUX DES ADMIS AU BACCALAUREAT PAR SERIE DE 2018 A
 4
 2022
-Titre du Graphe 03 : Taux dâ€™Ã©volution des admis au baccalaurÃ©at par sÃ©rie de 2018 Ã  2022 4
-Titre du Tableau 04 : EVOLUTION DE TAUX DES ADMIS AU BACCALAUREAT PAR PROVINCE DE
+Titre de la Graphe 03 : Taux d’évolution des admis au baccalauréat par série de 2018 à 2022 4
+Titre de la Tableau 04 : EVOLUTION DE TAUX DES ADMIS AU BACCALAUREAT PAR PROVINCE DE
 5
 2018 A 2022
-Titre du Graphe 04 : RÃ©partition des inscrits et admis au BaccalaurÃ©at - annÃ©e 2022 5
+Titre de la Graphe 04 : Répartition des inscrits et admis au Baccalauréat - année 2022 5
 
-|  | 2 â€“ LA TRANSITION DE NOUVEAUX BACHELIERS |  |
+|  | 2 – LA TRANSITION DE NOUVEAUX BACHELIERS |  |
 |  | ---------------------------------------- |  |
 
 
-Titre du Tableau 05 : EVOLUTION DES TAUX DE TRANSITION DE NOUVEAUX BACHELIERS DE 2016
+Titre de la Tableau 05 : EVOLUTION DES TAUX DE TRANSITION DE NOUVEAUX BACHELIERS DE 2016
 6
 A 2020
-Titre du Graphe 05 : Evolution de taux des nouveaux bacheliers entrant en 1Ã¨re universitaire annÃ©e
+Titre de la Graphe 05 : Evolution de taux des nouveaux bacheliers entrant en 1ère universitaire année
 6
-de 2016 Ã  2020
+de 2016 à 2020
 
 |  | 3- LES ETUDIANTS |  |
 |  | ---------------- |  |
 
 
-Titre du Tableau 06 : EVOLUTION DES EFFECTIFS DES ETUDIANTS POUR 100 000 HABITANTS DE
+Titre de la Tableau 06 : EVOLUTION DES EFFECTIFS DES ETUDIANTS POUR 100 000 HABITANTS DE
 7
 2017 A 2022
-Titre du Graphe 06 : Evolution des Ã©tudiants pour 100 000 habitants Ã  l'ESUP de 2017 Ã  2022 8
-Titre du Tableau 07 : EVOLUTION DES EFFECTIFS DES ETUDIANTS INSCRITS DE 2017 A 2022 8
-Titre du Graphe 07 : Taux de RÃ©partition des inscrits Ã  l'ESUP de 2017 Ã  2022 9
-Titre du Graphe 08 : Taux de rÃ©partition des effectifs des Ã©tudiants inscrits : dans les 6 universitÃ©s -
+Titre de la Graphe 06 : Evolution des étudiants pour 100 000 habitants à l'ESUP de 2017 à 2022 8
+Titre de la Tableau 07 : EVOLUTION DES EFFECTIFS DES ETUDIANTS INSCRITS DE 2017 A 2022 8
+Titre de la Graphe 07 : Taux de Répartition des inscrits à l'ESUP de 2017 à 2022 9
+Titre de la Graphe 08 : Taux de répartition des effectifs des étudiants inscrits : dans les 6 universités -
 9
-annÃ©e 2022
-Titre du Tableau 08 : EVOLUTION DES EFFECTIFS DES ETUDIANTS DOCTORANTS DE 2017 A 2022 10
-Titre du Graphe 09 : Evolution des effectifs des doctorants aux 6 universitÃ©s de 2017 Ã  2022 10
-Titre du Graphe 10 : Taux de rÃ©partition des doctorants aux 6 universitÃ©s - annÃ©e 2022 11
-Titre du Tableau 09 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR DOMAINE DE 2017 A 2022 11
-Titre du Graphe 11 : Taux de rÃ©partition par domaine des Ã©tudiants dans les 6 universitÃ©s - annÃ©e
+année 2022
+Titre de la Tableau 08 : EVOLUTION DES EFFECTIFS DES ETUDIANTS DOCTORANTS DE 2017 A 2022 10
+Titre de la Graphe 09 : Evolution des effectifs des doctorants aux 6 universités de 2017 à 2022 10
+Titre de la Graphe 10 : Taux de répartition des doctorants aux 6 universités - année 2022 11
+Titre de la Tableau 09 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR DOMAINE DE 2017 A 2022 11
+Titre de la Graphe 11 : Taux de répartition par domaine des étudiants dans les 6 universités - année
 12
 2022
-Titre du Graphe 12 : Evolution des inscrits par domaine Ã  l'ESUP de 2017 Ã  2022 12
-Titre du Graphe 13 : Taux de rÃ©partition par domaine des Ã©tudiants annÃ©e 2022 13
-Titre du Tableau 10 : EVOLUTION ET REPARTITION PAR AGE DES ETUDIANTS A Lâ€™ENSEIGNEMENT
+Titre de la Graphe 12 : Evolution des inscrits par domaine à l'ESUP de 2017 à 2022 12
+Titre de la Graphe 13 : Taux de répartition par domaine des étudiants année 2022 13
+Titre de la Tableau 10 : EVOLUTION ET REPARTITION PAR AGE DES ETUDIANTS A L’ENSEIGNEMENT
 14
 SUPERIEUR DE 2017 A 2022
-Titre du Graphe 14 : RÃ©partition par Ã¢ge des Ã©tudiants Ã  l'ESUP â€“ annÃ©e 2021-2022 15
-Titre du Tableau 11 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR TYPE D'ETABLISSEMENT DE
+Titre de la Graphe 14 : Répartition par âge des étudiants à l'ESUP – année 2021-2022 15
+Titre de la Tableau 11 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR TYPE D'ETABLISSEMENT DE
 15
 2017 A 2022
-Titre du Graphe 15 : Evolution et rÃ©partition des Ã©tudiants par type d'Ã©tablissement Ã  l'ESUP 16
+Titre de la Graphe 15 : Evolution et répartition des étudiants par type d'établissement à l'ESUP 16
+
 ---
-Titre du Tableau 12 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR GENRE A Lâ€™ENSEIGNEMENT 16
+
+Titre de la Tableau 12 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR GENRE A L’ENSEIGNEMENT 16
 SUPERIEUR DE 2017 A 2022
-Titre du Graphe 16 : Taux de rÃ©partition par genre des Ã©tudiants dans les 6 universitÃ©s : annÃ©e 2022 17
-Titre du Tableau 13 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR NIVEAU Dâ€™ETUDES A
+Titre de la Graphe 16 : Taux de répartition par genre des étudiants dans les 6 universités : année 2022 17
+Titre de la Tableau 13 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR NIVEAU D’ETUDES A
 17
-Lâ€™ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
-Titre du Graphe 17 : Evolution de taux des effectifs des Ã©tudiants inscrits par niveau d'Ã©tudes de
+L’ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
+Titre de la Graphe 17 : Evolution de taux des effectifs des étudiants inscrits par niveau d'études de
 18
-2017 Ã  2022
-Titre du Graphe 18 : RÃ©partition des Ã©tudiants par annÃ©e d'Ã©tudes - annÃ©e 2022 18
-Titre du Tableau 14 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR REGION A Lâ€™ENSEIGNEMENT
+2017 à 2022
+Titre de la Graphe 18 : Répartition des étudiants par année d'études - année 2022 18
+Titre de la Tableau 14 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR REGION A L’ENSEIGNEMENT
 19
 SUPERIEUR DE 2017 A 2022
-Titre du Graphe 19 : RÃ©partition par rÃ©gion des Ã©tudiants inscrits - annÃ©e 2022 20
-Titre du Tableau 15 : EVOLUTION DES EFFECTIFS DES ETUDIANTS ETRANGERS A L'ENSEIGNEMENT
+Titre de la Graphe 19 : Répartition par région des étudiants inscrits - année 2022 20
+Titre de la Tableau 15 : EVOLUTION DES EFFECTIFS DES ETUDIANTS ETRANGERS A L'ENSEIGNEMENT
 20
 SUPERIEUR DE 2017 A 2022
-Titre du Graphe 20 : Evolution des effectifs des Ã©tudiants Ã©trangers Ã  l'ESUP de 2016 Ã  2022 21
-Titre du Tableau 16 : EVOLUTION DES ETUDIANTS ETRANGERS PAR NATIONALITE A
+Titre de la Graphe 20 : Evolution des effectifs des étudiants étrangers à l'ESUP de 2016 à 2022 21
+Titre de la Tableau 16 : EVOLUTION DES ETUDIANTS ETRANGERS PAR NATIONALITE A
 21
-Lâ€™ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
-Titre du Graphe 21 : Taux de rÃ©partition des Ã©tudiants Ã©trangers Ã  l'ESUP - annÃ©e 2021-2022 22
+L’ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
+Titre de la Graphe 21 : Taux de répartition des étudiants étrangers à l'ESUP - année 2021-2022 22
 
 |  | 4- LES BOURSIERS |  |
 |  | ---------------- |  |
 
 
-Titre du Tableau 17 : EVOLUTION DES EFFECTIFS DES ETUDIANTS BOURSIERS A Lâ€™ENSEIGNEMENT
+Titre de la Tableau 17 : EVOLUTION DES EFFECTIFS DES ETUDIANTS BOURSIERS A L’ENSEIGNEMENT
 22
 SUPERIEUR DE 2017 A 2022
-Titre du Graphe 22 : Taux de RÃ©partition des Ã©tudiants boursiers dans les 6 universitÃ©s - annÃ©e 2022 23
-Titre du Graphe 23 : Evolution des Ã©tudiants boursiers Ã  l'ESUP de 2017 Ã  2022 23
-Titre du Graphe 24 : RÃ©partition par genre des Ã©tudiants boursiers dans les 6 universitÃ©s - annÃ©e
+Titre de la Graphe 22 : Taux de Répartition des étudiants boursiers dans les 6 universités - année 2022 23
+Titre de la Graphe 23 : Evolution des étudiants boursiers à l'ESUP de 2017 à 2022 23
+Titre de la Graphe 24 : Répartition par genre des étudiants boursiers dans les 6 universités - année
 24
 2022
 
@@ -110,159 +113,165 @@ Titre du Graphe 24 : RÃ©partition par genre des Ã©tudiants boursiers dans les 6 
 |  | ----------------------------- |  |
 
 
-Titre du Tableau 18 : EVOLUTION DES EFFECTIFS DES ENSEIGNANTS PERMANENTS PAR DOMAINE
+Titre de la Tableau 18 : EVOLUTION DES EFFECTIFS DES ENSEIGNANTS PERMANENTS PAR DOMAINE
 24
 DE 2017 A 2022
-Titre du Graphe 25 : Evolution des effectifs des enseignants par domaine Ã  l'ESUP de 2017 Ã  2022 25
-Titre du Graphe 26 : RÃ©partition par genre et par domaine des enseignants - annÃ©e 2022 26
-Titre du Tableau 19 : EVOLUTION DES EFFECTIFS DES ENSEIGNANTS PERMANENTS PAR GRADE DE
+Titre de la Graphe 25 : Evolution des effectifs des enseignants par domaine à l'ESUP de 2017 à 2022 25
+Titre de la Graphe 26 : Répartition par genre et par domaine des enseignants - année 2022 26
+Titre de la Tableau 19 : EVOLUTION DES EFFECTIFS DES ENSEIGNANTS PERMANENTS PAR GRADE DE
 26
 2017 A 2022 (6 UNIVERSITES ET 3 IST)
-Titre du Graphe 27 : Evolution et rÃ©partition par grade des enseignants permanents de 2017 Ã  2022 27
-Titre du Graphe 28 : Taux de rÃ©partition des enseignants par grade - annÃ©e 2022 27
-Titre du Tableau 20 : EVOLUTION ET REPARTITION DES ENSEIGNANTS PAR AGE DE 2017 A 2022 28
-Titre du Graphe 29 : RÃ©partition par Ã¢ge des enseignants - annÃ©e 2022 29
-Titre du Graphe 30 : RÃ©partition par Ã¢ge et par genre des Enseignants permanents - annÃ©e 2022 29
-Titre du Tableau 21 : EVOLUTION DE NOMBRE Dâ€™ENSEIGNANTS A Lâ€™ENSEIGNEMENT SUPERIEUR
+Titre de la Graphe 27 : Evolution et répartition par grade des enseignants permanents de 2017 à 2022 27
+Titre de la Graphe 28 : Taux de répartition des enseignants par grade - année 2022 27
+Titre de la Tableau 20 : EVOLUTION ET REPARTITION DES ENSEIGNANTS PAR AGE DE 2017 A 2022 28
+Titre de la Graphe 29 : Répartition par âge des enseignants - année 2022 29
+Titre de la Graphe 30 : Répartition par âge et par genre des Enseignants permanents - année 2022 29
+Titre de la Tableau 21 : EVOLUTION DE NOMBRE D’ENSEIGNANTS A L’ENSEIGNEMENT SUPERIEUR
 30
 PUBLIC DE 2017 A 2022
-Titre du Graphe 31 : RÃ©partition des enseignants dans les 6 universitÃ©s - annÃ©e 2022 30
-Titre du Graphe 32 : Evolution de taux des effectifs des enseignants aux 3 IST de 2017 Ã  2022 31
+Titre de la Graphe 31 : Répartition des enseignants dans les 6 universités - année 2022 30
+Titre de la Graphe 32 : Evolution de taux des effectifs des enseignants aux 3 IST de 2017 à 2022 31
 
 |  | 6- LES ENSEIGNANTS VACATAIRES |  |
 |  | ----------------------------- |  |
 
 
-Titre du Tableau 22 : EVOLUTION DES EFFECTIFS DES ENSEIGNANTS VACATAIRES PAR GENRE A
+Titre de la Tableau 22 : EVOLUTION DES EFFECTIFS DES ENSEIGNANTS VACATAIRES PAR GENRE A
 32
-Lâ€™ENSEIGNEMENT SUPERIEUR DE 2019 A 2022
----
-Titre du Graphe 33 : Taux de rÃ©partition des enseignants vacataires aux 6 universitÃ©s - annÃ©e 2022 33
-Titre du Graphe 34 : RÃ©partition par genre des enseignants vacataires Ã  l'ESUP - annÃ©e 2022 33
+L’ENSEIGNEMENT SUPERIEUR DE 2019 A 2022
 
-|  | 7 â€“ LE PERSONNEL ADMINISTRATIF ET TECHNIQUE (PAT) |  |
+---
+
+Titre de la Graphe 33 : Taux de répartition des enseignants vacataires aux 6 universités - année 2022 33
+Titre de la Graphe 34 : Répartition par genre des enseignants vacataires à l'ESUP - année 2022 33
+
+|  | 7 – LE PERSONNEL ADMINISTRATIF ET TECHNIQUE (PAT) |  |
 |  | ------------------------------------------------- |  |
 
 
-Titre du Tableau 23 : EVOLUTION DES EFFECTIFS DE PERSONNEL ADMINISTRATIF ET TECHNIQUE A
+Titre de la Tableau 23 : EVOLUTION DES EFFECTIFS DE PERSONNEL ADMINISTRATIF ET TECHNIQUE A
 34
-Lâ€™ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
-Titre du Graphe 35 : Evolution des effectifs de PAT Ã  l'ESUP de 2017 Ã  2022 34
-Titre du Graphe 36 : Taux de rÃ©partition de PAT dans les 6 UniversitÃ©s - annÃ©e 2022 35
-Titre du Graphe 37 : Evolution des effectifs de PAT par genre Ã  l'ESUP de 2017 Ã  2022 36
-Titre du Tableau 24 : REPARTITION PAR GENRE DE PERSONNEL ADMINISTRATIF ET TECHNIQUE A
+L’ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
+Titre de la Graphe 35 : Evolution des effectifs de PAT à l'ESUP de 2017 à 2022 34
+Titre de la Graphe 36 : Taux de répartition de PAT dans les 6 Universités - année 2022 35
+Titre de la Graphe 37 : Evolution des effectifs de PAT par genre à l'ESUP de 2017 à 2022 36
+Titre de la Tableau 24 : REPARTITION PAR GENRE DE PERSONNEL ADMINISTRATIF ET TECHNIQUE A
 36
-Lâ€™ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
-Titre du Tableau 25 : EFFECTIF DE PERSONNEL ADMINISTRATIF ET TECHNIQUE PAR CATEGORIE A
+L’ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
+Titre de la Tableau 25 : EFFECTIF DE PERSONNEL ADMINISTRATIF ET TECHNIQUE PAR CATEGORIE A
 37
 L'IES PUBLIC - ANNEE 2022
-Titre du Graphe 38 : RÃ©partition par catÃ©gorie de PAT Ã  l'IES Public - annÃ©e 2022 37
+Titre de la Graphe 38 : Répartition par catégorie de PAT à l'IES Public - année 2022 37
 
-|  | 8- Lâ€™EFFICACITE INTERNE |  |
+|  | 8- L’EFFICACITE INTERNE |  |
 |  | ----------------------- |  |
 
 
 RESULTATS DES EXAMENS
-Titre du Graphe 39 : Evolution de taux de rÃ©ussite aux examens Ã  l'ESUP de 2016 Ã  2020 38
-Titre du Graphe 40 : RÃ©partition de taux de rÃ©ussite Ã  l'examen aux 6 universitÃ©s - annÃ©e 2020 39
-Titre du Tableau 26 : EVOLUTION DES RESULTATS DES EXAMENS PAR NIVEAU Dâ€™ETUDES DE 2016 A
+Titre de la Graphe 39 : Evolution de taux de réussite aux examens à l'ESUP de 2016 à 2020 38
+Titre de la Graphe 40 : Répartition de taux de réussite à l'examen aux 6 universités - année 2020 39
+Titre de la Tableau 26 : EVOLUTION DES RESULTATS DES EXAMENS PAR NIVEAU D’ETUDES DE 2016 A
 39
 2020
-Titre du Graphe 41 : Evolution de taux de rÃ©ussite aux examens Ã  l'ESUP - annÃ©e 2020 40
+Titre de la Graphe 41 : Evolution de taux de réussite aux examens à l'ESUP - année 2020 40
 DIPLOMES
-Titre du Tableau 27 : EVOLUTION PAR TYPE DE DIPLOMES A Lâ€™ENSEIGNEMENT SUPERIEUR DE 2016
+Titre de la Tableau 27 : EVOLUTION PAR TYPE DE DIPLOMES A L’ENSEIGNEMENT SUPERIEUR DE 2016
 41
 A 2020
-Titre du Graphe 42 : Evolution des effectifs des diplÃ´mÃ©s Ã  l'ESUP 41
-Titre du Graphe 43 : RÃ©partition des diplÃ´mÃ©s Ã  l'ESUP - annÃ©e 2020 42
+Titre de la Graphe 42 : Evolution des effectifs des diplômés à l'ESUP 41
+Titre de la Graphe 43 : Répartition des diplômés à l'ESUP - année 2020 42
 
-|  | 9 â€“ LES TAUX DE FLUX |  |
+|  | 9 – LES TAUX DE FLUX |  |
 |  | -------------------- |  |
 
 
-Titre du Tableau 28 : EVOLUTION DE TAUX DE FLUX A Lâ€™INSTITUT SUPERIEUR PUBLIC DE 2016 A
+Titre de la Tableau 28 : EVOLUTION DE TAUX DE FLUX A L’INSTITUT SUPERIEUR PUBLIC DE 2016 A
 42
 2020
-Titre du Graphe 44 : Evolution de taux de flux Ã  l'ESUP Public 43
-Titre du Graphe 45 : Taux de flux dans les 6 universitÃ©s - annÃ©e 2020 43
+Titre de la Graphe 44 : Evolution de taux de flux à l'ESUP Public 43
+Titre de la Graphe 45 : Taux de flux dans les 6 universités - année 2020 43
 10- LES TAUX DE SCOLARISATION
-Titre du Tableau 29 : EVOLUTION DE TAUX DE SCOLARISATION A Lâ€™ENSEIGNEMENT SUPERIEUR DE
+Titre de la Tableau 29 : EVOLUTION DE TAUX DE SCOLARISATION A L’ENSEIGNEMENT SUPERIEUR DE
 44
 2017 A 2022
-Titre du Graphe 46 : Evolution de taux brut de scolarisation de 2017 Ã  2022 44
+Titre de la Graphe 46 : Evolution de taux brut de scolarisation de 2017 à 2022 44
 
 |  | 11- LES RATIOS |  |
 |  | -------------- |  |
 
 
-Titre du Tableau 30 : EVOLUTION DE RATIOS ETUDIANTS / PE, PAT A Lâ€™ENSEIGNEMENT SUPERIEUR
+Titre de la Tableau 30 : EVOLUTION DE RATIOS ETUDIANTS / PE, PAT A L’ENSEIGNEMENT SUPERIEUR
 45
 DE 2017 A 2022
-Titre du Graphe 47 : Evolution de ratios Ã  l'Enseignement SupÃ©rieur : Public et PrivÃ© 45
-Titre du Graphe 48 : Evolution de ratio Ã  l'Enseignement SupÃ©rieur 46
-Titre du Tableau 31 : EVOLUTION DE RATIOS ETUDIANTS / PE PAR DOMAINE A Lâ€™ENSEIGNEMENT
+Titre de la Graphe 47 : Evolution de ratios à l'Enseignement Supérieur : Public et Privé 45
+Titre de la Graphe 48 : Evolution de ratio à l'Enseignement Supérieur 46
+Titre de la Tableau 31 : EVOLUTION DE RATIOS ETUDIANTS / PE PAR DOMAINE A L’ENSEIGNEMENT
 46
 SUPERIEUR PUBLIC DE 2017 A 2022
-Titre du Graphe 49 : RÃ©partition de ratio Ã©tudiants/enseignant par domaine Ã  l'IES Public - annÃ©e
+Titre de la Graphe 49 : Répartition de ratio étudiants/enseignant par domaine à l'IES Public - année
 47
 2022
----
-12 â€“ LES CHERCHEURS ENSEIGNANTS
-Titre du Graphe 50 : RÃ©partition par genre des Chercheurs Enseignants - annÃ©e 2022 47
-Titre du Graphe 51 : Taux de rÃ©partition des chercheurs enseignants - annÃ©e 2022 48
 
-|  | 13 â€“ LE BUDGET |  |
+---
+
+12 – LES CHERCHEURS ENSEIGNANTS
+Titre de la Graphe 50 : Répartition par genre des Chercheurs Enseignants - année 2022 47
+Titre de la Graphe 51 : Taux de répartition des chercheurs enseignants - année 2022 48
+
+|  | 13 – LE BUDGET |  |
 |  | -------------- |  |
 
 
-Titre du Graphe 52 : Taux d'Ã©volution par programme de budget du MESUPRES 48
-Titre du Graphe 53 : Taux de rÃ©partition de budget par rubrique Ã  l'ESUP - annÃ©e 2022 49
-Titre du Graphe 54 : Taux d'Ã©volution de budget par mission Ã  l'Enseignement SupÃ©rieur 49
+Titre de la Graphe 52 : Taux d'évolution par programme de budget du MESUPRES 48
+Titre de la Graphe 53 : Taux de répartition de budget par rubrique à l'ESUP - année 2022 49
+Titre de la Graphe 54 : Taux d'évolution de budget par mission à l'Enseignement Supérieur 49
 ANNEXE : LISTE DES ETABLISSEMENTS PUBLICS ET PRIVES 51 - 53
-CARTOGRAPHIE DES INSTITUTIONS Dâ€™ENSEIGNEMENT SUPERIEUR PUBLIQUES ET PRIVEES 54 - 55
+CARTOGRAPHIE DES INSTITUTIONS D’ENSEIGNEMENT SUPERIEUR PUBLIQUES ET PRIVEES 54 - 55
+
 ---
+
 LISTE DES ABREVIATIONS
 A : Assistant
 ALSH : Arts Lettres et Sciences Humaines
-CIDST : Centre dâ€™Information et de Documentation Scientifique et Technique
+CIDST : Centre d’Information et de Documentation Scientifique et Technique
 CNARP : Centre National d'Application de Recherches Pharmaceutiques
-CNRE : Centre National de Recherche sur lâ€™Environnement
+CNRE : Centre National de Recherche sur l’Environnement
 CNRIT : Centre National de Recherches Industrielle et Technologique
-CNRO : Centre National de Recherches OcÃ©anographiques
-CNTEMAD : Centre National du TÃ©lÃ© Enseignement de Madagascar
-ECD : EmployÃ© de Courte DurÃ©e
-EFA : EmployÃ© des Fonctionnaires AssimilÃ©s
-ELD : EmployÃ© de Longue DurÃ©e
-ESUP : Enseignement SupÃ©rieur
-F : FÃ©minin
+CNRO : Centre National de Recherches Océanographiques
+CNTEMAD : Centre National du Télé Enseignement de Madagascar
+ECD : Employé de Courte Durée
+EFA : Employé des Fonctionnaires Assimilés
+ELD : Employé de Longue Durée
+ESUP : Enseignement Supérieur
+F : Féminin
 FOFIFA : Foibem-pirenena momba ny Fikarohana ampiharina amin'ny Fampandrosoana ny eny
 Ambanivohitra
-IES : Institut dâ€™Enseignement SupÃ©rieur
-IMVAVET : Institut Malgache des Vaccins VÃ©tÃ©rinaires
-ISP : Instituts SupÃ©rieurs PrivÃ©s
-IST : Institut SupÃ©rieur de Technologie
-L1 : Licence PremiÃ¨re annÃ©e
-L2 : Licence deuxiÃ¨me annÃ©e
-L3 : Licence troisiÃ¨me annÃ©e
+IES : Institut d’Enseignement Supérieur
+IMVAVET : Institut Malgache des Vaccins Vétérinaires
+ISP : Instituts Supérieurs Privés
+IST : Institut Supérieur de Technologie
+L1 : Licence Première année
+L2 : Licence deuxième année
+L3 : Licence troisième année
 LMD : Licence, Master, Doctorat
 M : Masculin
-M1 : Master premiÃ¨re annÃ©e
-M2 : Master deuxiÃ¨me annÃ©e
-MC : MaÃ®tre de ConfÃ©rence
+M1 : Master première année
+M2 : Master deuxième année
+MC : Maître de Conférence
 P : Professeur
 PAT : : Personnel Administratif et Technique
 PBZT : Parc Bootanique et Zoologique de Tsimbazaza
 PE : Personnel Enseignant
-PIP : Programme dâ€™Investissement Public
+PIP : Programme d’Investissement Public
 PT : Professeur Titulaire
 PUB : Public
 S/T : Sous total
-SE : Sciences de lâ€™Education
-SI : Sciences de lâ€™IngÃ©nieur
-SSANTE : Sciences de la SantÃ©
-SSTE : Sciences de la SociÃ©tÃ©
+SE : Sciences de l’Education
+SI : Sciences de l’Ingénieur
+SSANTE : Sciences de la Santé
+SSTE : Sciences de la Société
 STECH : Sciences et Technologies
-TA : Taux dâ€™Abandon
+TA : Taux d’Abandon
 TP : Taux de Promotion
 TR : Taux de Redoublement
 1
@@ -270,53 +279,55 @@ TR : Taux de Redoublement
 LISTE DES ABREVIATIONS
 A : Assistant
 ALSH : Arts Lettres et Sciences Humaines
-CIDST : Centre dâ€™Information et de Documentation Scientifique et Technique
+CIDST : Centre d’Information et de Documentation Scientifique et Technique
 CNARP : Centre National d'Application de Recherches Pharmaceutiques
-CNRE : Centre National de Recherche sur lâ€™Environnement
+CNRE : Centre National de Recherche sur l’Environnement
 CNRIT : Centre National de Recherches Industrielle et Technologique
-CNRO : Centre National de Recherches OcÃ©anographiques
-CNTEMAD : Centre National du TÃ©lÃ© Enseignement de Madagascar
-ECD : EmployÃ© de Courte DurÃ©e
-EFA : EmployÃ© des Fonctionnaires AssimilÃ©s
-ELD : EmployÃ© de Longue DurÃ©e
-ESUP : Enseignement SupÃ©rieur
-F : FÃ©minin
+CNRO : Centre National de Recherches Océanographiques
+CNTEMAD : Centre National du Télé Enseignement de Madagascar
+ECD : Employé de Courte Durée
+EFA : Employé des Fonctionnaires Assimilés
+ELD : Employé de Longue Durée
+ESUP : Enseignement Supérieur
+F : Féminin
 FOFIFA : Foibem-pirenena momba ny Fikarohana ampiharina amin'ny Fampandrosoana ny eny
 Ambanivohitra
-IES : Institut dâ€™Enseignement SupÃ©rieur
-IMVAVET : Institut Malgache des Vaccins VÃ©tÃ©rinaires
-ISP : Instituts SupÃ©rieurs PrivÃ©s
-IST : Institut SupÃ©rieur de Technologie
-L1 : Licence PremiÃ¨re annÃ©e
-L2 : Licence deuxiÃ¨me annÃ©e
-L3 : Licence troisiÃ¨me annÃ©e
+IES : Institut d’Enseignement Supérieur
+IMVAVET : Institut Malgache des Vaccins Vétérinaires
+ISP : Instituts Supérieurs Privés
+IST : Institut Supérieur de Technologie
+L1 : Licence Première année
+L2 : Licence deuxième année
+L3 : Licence troisième année
 LMD : Licence, Master, Doctorat
 M : Masculin
-M1 : Master premiÃ¨re annÃ©e
-M2 : Master deuxiÃ¨me annÃ©e
-MC : MaÃ®tre de ConfÃ©rence
+M1 : Master première année
+M2 : Master deuxième année
+MC : Maître de Conférence
 P : Professeur
 PAT : : Personnel Administratif et Technique
 PBZT : Parc Bootanique et Zoologique de Tsimbazaza
 PE : Personnel Enseignant
-PIP : Programme dâ€™Investissement Public
+PIP : Programme d’Investissement Public
 PT : Professeur Titulaire
 PUB : Public
 S/T : Sous total
-SE : Sciences de lâ€™Education
-SI : Sciences de lâ€™IngÃ©nieur
-SSANTE : Sciences de la SantÃ©
-SSTE : Sciences de la SociÃ©tÃ©
+SE : Sciences de l’Education
+SI : Sciences de l’Ingénieur
+SSANTE : Sciences de la Santé
+SSTE : Sciences de la Société
 STECH : Sciences et Technologies
-TA : Taux dâ€™Abandon
+TA : Taux d’Abandon
 TP : Taux de Promotion
 TR : Taux de Redoublement
 1
+
 ---
+
 1 - LES BACHELIERS
-Titre du Tableau 01 : EVOLUTION DES INSCRITS ET ADMIS AU BACCALAUREAT DE 2018 A 2022
+Titre de la Tableau 01 : EVOLUTION DES INSCRITS ET ADMIS AU BACCALAUREAT DE 2018 A 2022
 
-| AnnÃ©e | INSCRITS | ADMIS   | %      |
+| Année | INSCRITS | ADMIS   | %      |
 | ----- | -------- | ------- | ------ |
 | 2018  | 184 807  | 84 005  | 45,46% |
 | 2019  | 174 822  | 91 745  | 52,48% |
@@ -325,9 +336,9 @@ Titre du Tableau 01 : EVOLUTION DES INSCRITS ET ADMIS AU BACCALAUREAT DE 2018 A 
 | 2022  | 192 444  | 93 733  | 48,71% |
 
 
-Source : Service du BaccalaurÃ©at / DES / MESUPRES
-Titre du Graphe 01 : Evolution des effectifs des inscrits
-et admis au baccalaurÃ©at de 2018 Ã  2022
+Source : Service du Baccalauréat / DES / MESUPRES
+Titre de la Graphe 01 : Evolution des effectifs des inscrits
+et admis au baccalauréat de 2018 à 2022
 350 000
 300 000
 250 000
@@ -341,18 +352,20 @@ INSCRITS
 50 000
 0
 2018 2019 2020 2021 2022
-annÃ©e
-Le nombre d'inscrits au baccalaurÃ©at a enregistrÃ© une baisse de 12% entre 2018 et 2020,
-passant de 184 807 Ã  162 953. ParallÃ¨lement, le nombre d'admis a connu une augmentation
-de 7% de 2018 Ã  2019, puis de 6% de 2019 Ã  2020.
+année
+Le nombre d'inscrits au baccalauréat a enregistré une baisse de 12% entre 2018 et 2020,
+passant de 184 807 à 162 953. Parallèlement, le nombre d'admis a connu une augmentation
+de 7% de 2018 à 2019, puis de 6% de 2019 à 2020.
 2
+
 ---
-Titre du Tableau 02 : EVOLUTION DES INSCRITS ET ADMIS AU BACCALAUREAT PAR SERIE DE 2018 A
+
+Titre de la Tableau 02 : EVOLUTION DES INSCRITS ET ADMIS AU BACCALAUREAT PAR SERIE DE 2018 A
 2022
 
-| sÃ©rie     | 2018     | 2018   | 2019     | 2019   | 2020     | 2020   | 2021     | 2021    | 2022     | 2022   |
+| série     | 2018     | 2018   | 2019     | 2019   | 2020     | 2020   | 2021     | 2021    | 2022     | 2022   |
 | --------- | -------- | ------ | -------- | ------ | -------- | ------ | -------- | ------- | -------- | ------ |
-| sÃ©rie     | Inscrits | Admis  | Inscrits | Admis  | Inscrits | Admis  | Inscrits | Admis   | Inscrits | Admis  |
+| série     | Inscrits | Admis  | Inscrits | Admis  | Inscrits | Admis  | Inscrits | Admis   | Inscrits | Admis  |
 | A         | 133 426  | 57 806 | 125 196  | 64 492 | 117 011  | 54 051 | 134 996  | 75 387  | 125 061  | 57 757 |
 | C         | 4 874    | 2 927  | 4 290    | 2 387  | 4 168    | 2 139  | 3 836    | 2 309   | 2 039    | 1 022  |
 | D         | 37 323   | 18 318 | 35 611   | 19 288 | 33 076   | 14 631 | 36 296   | 20 967  | 27 662   | 12 315 |
@@ -364,8 +377,8 @@ Titre du Tableau 02 : EVOLUTION DES INSCRITS ET ADMIS AU BACCALAUREAT PAR SERIE 
 | %         | 45%      | 45%    | 52%      | 52%    | 47%      | 47%    | 56%      | 56%     | 49%      | 49%    |
 
 
-Source : Annuaire Statistique â€“ SSP / DSSIP/ MESUPRES
-Titre du Graphe 02 : Tauxde rÃ©partition des admis au baccalaurÃ©at par sÃ©rie en 2022
+Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
+Titre de la Graphe 02 : Tauxde répartition des admis au baccalauréat par série en 2022
 technique
 OSE 9%
 S 4%
@@ -376,14 +389,16 @@ D A
 13% 62%
 C
 1%
-Entre 2018 et 2020, prÃ¨s de 90% des diplÃ´mÃ©s du baccalaurÃ©at proviennent des sÃ©ries
-gÃ©nÃ©rales (sÃ©ries A, C et D), tandis que les sÃ©ries techniques reprÃ©sentent environ 10%
+Entre 2018 et 2020, près de 90% des diplômés du baccalauréat proviennent des séries
+générales (séries A, C et D), tandis que les séries techniques représentent environ 10%
 3
+
 ---
-Titre du Tableau 03 : EVOLUTION DE TAUX DES ADMIS AU BACCALAUREAT PAR SERIE DE 2018 A
+
+Titre de la Tableau 03 : EVOLUTION DE TAUX DES ADMIS AU BACCALAUREAT PAR SERIE DE 2018 A
 2022
 
-| sÃ©rie     | 2018 | 2019 | 2020 | 2021 | 2022 |
+| série     | 2018 | 2019 | 2020 | 2021 | 2022 |
 | --------- | ---- | ---- | ---- | ---- | ---- |
 | A         | 69%  | 70%  | 70%  | 69%  | 62%  |
 | C         | 3%   | 3%   | 3%   | 2%   | 1%   |
@@ -396,8 +411,8 @@ Titre du Tableau 03 : EVOLUTION DE TAUX DES ADMIS AU BACCALAUREAT PAR SERIE DE 2
 
 Source : Annuaire Statistique - SSP / DSSIP /
 MESUPRES
-Titre du Graphe 03 : Taux d'Evolution des admis au
-baccalaurÃ©at par sÃ©rie
+Titre de la Graphe 03 : Taux d'Evolution des admis au
+baccalauréat par série
 80% A
 C
 60%
@@ -408,13 +423,15 @@ L
 OSE
 0%
 2018 2019 2020 2021 2022 technique
-Entre 2018 et 2022, la sÃ©rie A affiche un taux moyen d'admission au baccalaurÃ©at d'environ
-68%, suivie de la sÃ©rie D avec un taux de 18%. Les sÃ©ries C, L, S et OSE prÃ©sentent des taux
+Entre 2018 et 2022, la série A affiche un taux moyen d'admission au baccalauréat d'environ
+68%, suivie de la série D avec un taux de 18%. Les séries C, L, S et OSE présentent des taux
 4
+
 ---
-variant de 2% Ã  4%. Pendant cette pÃ©riode, la proportion des bacheliers issus des sÃ©ries
+
+variant de 2% à 4%. Pendant cette période, la proportion des bacheliers issus des séries
 techniques reste en moyenne autour de 7%
-Titre du Tableau 04 : EVOLUTION DE TAUX DES ADMIS AU BACCALAUREAT PAR PROVINCE DE 2018
+Titre de la Tableau 04 : EVOLUTION DE TAUX DES ADMIS AU BACCALAUREAT PAR PROVINCE DE 2018
 A 2022
 
 | PROVINCE     | 2018 | 2019 | 2020 | 2021 | 2022 |
@@ -427,34 +444,36 @@ A 2022
 | TOLIARA      | 9%   | 10%  | 9%   | 10%  | 12%  |
 
 
-Source : Annuaire Statistique â€“ SSP / DSSIP/
+Source : Annuaire Statistique – SSP / DSSIP/
 MESUPRES
-Titre du Graphe 04 : RÃ©partition des inscrits etadmis au
-BaccalaurÃ©at -annÃ©e 2022
+Titre de la Graphe 04 : Répartition des inscrits etadmis au
+Baccalauréat -année 2022
 80 000
 
 0
-Entre 2018 et 2022, la majoritÃ© des bacheliers, soit plus de 40% en moyenne, sont issus du
-Faritany dâ€™Antananarivo, tandis que les 60% restants proviennent des cinq autres Faritany.
+Entre 2018 et 2022, la majorité des bacheliers, soit plus de 40% en moyenne, sont issus du
+Faritany d’Antananarivo, tandis que les 60% restants proviennent des cinq autres Faritany.
 5
+
 ---
+
 2 - LA TRANSITION DES NOUVEAUX BACHELIERS
-Titre du Tableau 05 : EVOLUTION DES TAUX DE TRANSITION DE NOUVEAUX BACHELIERS DE 2016 A
+Titre de la Tableau 05 : EVOLUTION DES TAUX DE TRANSITION DE NOUVEAUX BACHELIERS DE 2016 A
 2020
 
-| DÃ©signation                                            | 2016   | 2017   | 2018   | 2019   | 2020   |
+| Désignation                                            | 2016   | 2017   | 2018   | 2019   | 2020   |
 | ------------------------------------------------------ | ------ | ------ | ------ | ------ | ------ |
-| Bacheliers annÃ©e n-1                                   | 57 071 | 79 910 | 84 005 | 91 771 | 75 856 |
-| Nouveaux Bacheliers entrant en premiÃ¨re annÃ©e publique | 31 783 | 30 873 | 33 053 | 31 403 | 42 954 |
-| UniversitÃ©s                                            | 26 534 | 26 063 | 28 890 | 27 831 | 37 494 |
+| Bacheliers année n-1                                   | 57 071 | 79 910 | 84 005 | 91 771 | 75 856 |
+| Nouveaux Bacheliers entrant en première année publique | 31 783 | 30 873 | 33 053 | 31 403 | 42 954 |
+| Universités                                            | 26 534 | 26 063 | 28 890 | 27 831 | 37 494 |
 | IST                                                    | 880    | 978    | 821    | 734    | 956    |
 | CNTEMAD                                                | 4 369  | 3 832  | 3 342  | 2 838  | 4 504  |
-| Nouveaux Bacheliers entrant en premiÃ¨re annÃ©e privÃ©e   | 11 204 | 10 657 | 13 308 | 11 373 | 10 385 |
+| Nouveaux Bacheliers entrant en première année privée   | 11 204 | 10 657 | 13 308 | 11 373 | 10 385 |
 
 
-Source : Annuaire Statistique â€“ SSP / DSSIP/ MESUPRES
-Titre du Graphe 05 : Evolution de taux des nouveaux
-bacheliers entrant en 1Ã¨re annÃ©e universitaire
+Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
+Titre de la Graphe 05 : Evolution de taux des nouveaux
+bacheliers entrant en 1ère année universitaire
 
 |  |     | 51% | 51% |
 |  | --- | --- | --- |
@@ -464,17 +483,19 @@ bacheliers entrant en 1Ã¨re annÃ©e universitaire
 |  |     |     | 56% |
 
 
-public privÃ© reste
-Entre 2016 et 2020, le taux de transition des nouveaux bacheliers vers la premiÃ¨re annÃ©e
-universitaire oscille entre 37% et 58% pour les institutions supÃ©rieures publiques, et entre
-13% et 19% pour les institutions supÃ©rieures privÃ©es. Pour ce qui est de l'Enseignement
+public privé reste
+Entre 2016 et 2020, le taux de transition des nouveaux bacheliers vers la première année
+universitaire oscille entre 37% et 58% pour les institutions supérieures publiques, et entre
+13% et 19% pour les institutions supérieures privées. Pour ce qui est de l'Enseignement
 6
+
 ---
-SupÃ©rieur, ce taux se situe entre 51% et 75% au cours de cette pÃ©riode. Il convient Ã©galement
-de noter qu'il existe des nouveaux bacheliers qui n'accÃ¨dent pas Ã  l'enseignement supÃ©rieur,
+
+Supérieur, ce taux se situe entre 51% et 75% au cours de cette période. Il convient également
+de noter qu'il existe des nouveaux bacheliers qui n'accèdent pas à l'enseignement supérieur,
 avec un taux variant entre 25% et 49%.
 3 - LES ETUDIANTS
-Titre du Tableau 06 : EVOLUTION DES EFFECTIFS DES ETUDIANTS POUR 100 000 HABITANTS DE
+Titre de la Tableau 06 : EVOLUTION DES EFFECTIFS DES ETUDIANTS POUR 100 000 HABITANTS DE
 2017 A 2022
 
 | UNIVERSITES   | UNIVERSITES       | UNIVERSITES       | 2017              | 2017              | 2017              | 2018              | 2018              | 2018              | 2019              | 2019              | 2019              | 2020              | 2020              | 2020              | 2022              | 2022              | 2022              |
@@ -492,27 +513,29 @@ Titre du Tableau 06 : EVOLUTION DES EFFECTIFS DES ETUDIANTS POUR 100 000 HABITAN
 |               | 100 000 HABITANTS | 100 000 HABITANTS | 100 000 HABITANTS | 100 000 HABITANTS | 100 000 HABITANTS | 100 000 HABITANTS | 100 000 HABITANTS | 100 000 HABITANTS | 100 000 HABITANTS | 100 000 HABITANTS | 100 000 HABITANTS | 100 000 HABITANTS | 100 000 HABITANTS | 100 000 HABITANTS | 100 000 HABITANTS | 100 000 HABITANTS | 100 000 HABITANTS |
 
 
-Source : Service de la Statistique et de la Planification â€“ DSSIP / MESUPRES
-Cet indicateur Ã©value le degrÃ© de participation Ã  l'enseignement supÃ©rieur en se basant sur la
-proportion (ou densitÃ©) d'Ã©tudiants par rapport Ã  la population d'un pays. Il montre une
-augmentation constante, passant de 539 Ã  612, bien que demeurant en deÃ§Ã  de la moyenne
-des pays africains prÃ©sentant un niveau de dÃ©veloppement similaire Ã  celui de Madagascar,
+Source : Service de la Statistique et de la Planification – DSSIP / MESUPRES
+Cet indicateur évalue le degré de participation à l'enseignement supérieur en se basant sur la
+proportion (ou densité) d'étudiants par rapport à la population d'un pays. Il montre une
+augmentation constante, passant de 539 à 612, bien que demeurant en deçà de la moyenne
+des pays africains présentant un niveau de développement similaire à celui de Madagascar,
 laquelle est de 642 pour 100 000 habitants.
 7
+
 ---
-Titre du Graphe 06 : Evolution des Ã©tudiants pour 100
-000 habitants Ã  l'ESUP de 2017 Ã  2022
+
+Titre de la Graphe 06 : Evolution des étudiants pour 100
+000 habitants à l'ESUP de 2017 à 2022
 200 000 700
 
 0 500
 2017 2018 2019 2020 2022
 PUBLIC PRIVE ETUDIANTS POUR 100 000 HAB
-Entre 2017 et 2022, le nombre d'Ã©tudiants ne cesse de croÃ®tre, passant de 137 894 Ã  178 665
-avec un taux d'augmentation de 5,3%. Cette croissance se rÃ©partit Ã  hauteur de 5,8% pour les
-institutions supÃ©rieures publiques et de 3,8% pour les institutions privÃ©es. Dans le secteur de
-l'enseignement supÃ©rieur, 75% des Ã©tudiants inscrits sont concentrÃ©s dans les institutions
-publiques et 25% se trouvent dans les institutions privÃ©es.
-Titre du Tableau 07 : EVOLUTION DES EFFECTIFS DES ETUDIANTS INSCRITS DE 2017 A 2022
+Entre 2017 et 2022, le nombre d'étudiants ne cesse de croître, passant de 137 894 à 178 665
+avec un taux d'augmentation de 5,3%. Cette croissance se répartit à hauteur de 5,8% pour les
+institutions supérieures publiques et de 3,8% pour les institutions privées. Dans le secteur de
+l'enseignement supérieur, 75% des étudiants inscrits sont concentrés dans les institutions
+publiques et 25% se trouvent dans les institutions privées.
+Titre de la Tableau 07 : EVOLUTION DES EFFECTIFS DES ETUDIANTS INSCRITS DE 2017 A 2022
 
 | UNIVERSITES         | 2017    | 2018    | 2019    | 2020    | 2022    |
 | ------------------- | ------- | ------- | ------- | ------- | ------- |
@@ -522,7 +545,7 @@ Titre du Tableau 07 : EVOLUTION DES EFFECTIFS DES ETUDIANTS INSCRITS DE 2017 A 2
 | Mahajanga           | 7 238   | 7 650   | 8 216   | 11 359  | 13 739  |
 | Toamasina           | 8 415   | 7 872   | 8 405   | 10 561  | 13 342  |
 | Toliara             | 7 246   | 7 714   | 8 567   | 9 146   | 11 829  |
-| Total 6 universitÃ©s | 80 767  | 83 384  | 91 479  | 100 362 | 115 466 |
+| Total 6 universités | 80 767  | 83 384  | 91 479  | 100 362 | 115 466 |
 | IST                 |         |         |         |         |         |
 | Antananarivo        | 1 443   | 1 473   | 1 448   | 1 561   | 1 538   |
 | Antsiranana         | 716     | 800     | 797     | 815     | 698     |
@@ -536,9 +559,11 @@ Titre du Tableau 07 : EVOLUTION DES EFFECTIFS DES ETUDIANTS INSCRITS DE 2017 A 2
 
 Source : Service de la Statistique et de la Planification / DSSIP/ ME SUPRES
 8
+
 ---
-Titre du Graphe 07 : Taux de RÃ©partition des inscrits Ã  l'ESUP
-de 2017 Ã  2022
+
+Titre de la Graphe 07 : Taux de Répartition des inscrits à l'ESUP
+de 2017 à 2022
 100%
 80%
 60%
@@ -554,29 +579,31 @@ PUBLIQUES
 | PUBLIQUES | 73% | 73% | 72% | 74% | 75% |
 
 
-De 2017 Ã  2022, le nombre des Ã©tudiants inscrits ne cesse dâ€™augmenter. Il varie de 137 894 Ã 
-178 665 avec un taux dâ€™accroissement de 5.3%.
-Les Ã©tudiants Ã  lâ€™IES Public atteignent les 75% des Ã©tudiants inscrits tandis que 25% sont
-inscrits Ã  lâ€™IES privÃ©.
-Titre du Graphe 08 : Tauxde rÃ©partition des effectifs des
-Ã©tudiants inscrits : dans les 6 universitÃ©s -annÃ©e2022
+De 2017 à 2022, le nombre des étudiants inscrits ne cesse d’augmenter. Il varie de 137 894 à
+178 665 avec un taux d’accroissement de 5.3%.
+Les étudiants à l’IES Public atteignent les 75% des étudiants inscrits tandis que 25% sont
+inscrits à l’IES privé.
+Titre de la Graphe 08 : Tauxde répartition des effectifs des
+étudiants inscrits : dans les 6 universités -année2022
 Toliara; 10%
 Toamasina;
-12% Antananarivâ€¦
+12% Antananariv…
 Fianarantsoa
 Mahajanga; ; 25%
 12%
 Antsiranana;
 9%
 9
----
-En 2022, la rÃ©partition des Ã©tudiants inscrits se prÃ©sente comme suit : 32% sont Ã  l'UniversitÃ©
-d'Antananarivo, suivis par 25% Ã  l'UniversitÃ© de Fianarantsoa. Les universitÃ©s de Toamasina et
-Mahajanga accueillent respectivement 12% chacune, tandis que les 19% restants se
-rÃ©partissent entre l'UniversitÃ© d'Antsiranana et celle de Toliara.
-Titre du Tableau 08 : EVOLUTION DES EFFECTIFS DES ETUDIANTS DOCTORANTS DE 2017 A 2022
 
-| UniversitÃ©s  | UniversitÃ©s  | UniversitÃ©s  | 2017        | 2018        | 2019        | 2020        | 2022        |
+---
+
+En 2022, la répartition des étudiants inscrits se présente comme suit : 32% sont à l'Université
+d'Antananarivo, suivis par 25% à l'Université de Fianarantsoa. Les universités de Toamasina et
+Mahajanga accueillent respectivement 12% chacune, tandis que les 19% restants se
+répartissent entre l'Université d'Antsiranana et celle de Toliara.
+Titre de la Tableau 08 : EVOLUTION DES EFFECTIFS DES ETUDIANTS DOCTORANTS DE 2017 A 2022
+
+| Universités  | Universités  | Universités  | 2017        | 2018        | 2019        | 2020        | 2022        |
 | ------------ | ------------ | ------------ | ----------- | ----------- | ----------- | ----------- | ----------- |
 | Antananarivo | Antananarivo | Antananarivo | 1 451       | 1 065       | 1 041       | 1 453       | 1 744       |
 | Antsiranana  | Antsiranana  | Antsiranana  | 23          | 46          | 50          | 37          | 22          |
@@ -585,12 +612,12 @@ Titre du Tableau 08 : EVOLUTION DES EFFECTIFS DES ETUDIANTS DOCTORANTS DE 2017 A
 | Toamasina    | Toamasina    | Toamasina    | 67          | 101         | 72          | 68          | 93          |
 | Toliara      | Toliara      | Toliara      | 92          | 52          | 95          | 52          | 113         |
 |              | Ensemble 6   |              | 1 673       | 1 381       | 1 396       | 1 816       | 2 275       |
-|              | universitÃ©s  | universitÃ©s  | universitÃ©s | universitÃ©s | universitÃ©s | universitÃ©s | universitÃ©s |
+|              | universités  | universités  | universités | universités | universités | universités | universités |
 
 
-Source : Service de la Statistique et de la Planification â€“ DSSIP / MESUPRES
-Titre du Graphe 09 : Evolution des effectifs des doctorants aux
-6 universitÃ©s de 2017 Ã  2022
+Source : Service de la Statistique et de la Planification – DSSIP / MESUPRES
+Titre de la Graphe 09 : Evolution des effectifs des doctorants aux
+6 universités de 2017 à 2022
 2 275
 2 500
 1 816
@@ -601,12 +628,14 @@ Titre du Graphe 09 : Evolution des effectifs des doctorants aux
 500
 0
 2017 2018 2019 2020 2022
-De 2017 Ã  2010, le nombre des doctorants diminue de 17% et commence Ã  augmenter de
-2019 Ã  2022, soit de 1396 Ã  2275.
+De 2017 à 2010, le nombre des doctorants diminue de 17% et commence à augmenter de
+2019 à 2022, soit de 1396 à 2275.
 10
+
 ---
-Titre du Graphe 10 : Taux de rÃ©partition des doctorants aux
-6 universitÃ©s -annÃ©e 2022
+
+Titre de la Graphe 10 : Taux de répartition des doctorants aux
+6 universités -année 2022
 4%
 5%
 2% 12%
@@ -614,12 +643,12 @@ Titre du Graphe 10 : Taux de rÃ©partition des doctorants aux
 77%
 Antananarivo Antsiranana Fianarantsoa
 Mahajanga Toamasina Toliara
-Plus de 75% des Ã©tudiants doctorants sont affiliÃ©s Ã  l'UniversitÃ© d'Antananarivo, qui abrite
-plusieurs Ã©coles doctorales. Les 25% restants se rÃ©partissent dans les cinq autres
-universitÃ©s, avec 12% Ã  l'UniversitÃ© de Mahajanga, 5% et 4% respectivement aux
-universitÃ©s de Toliara et Toamasina, et 2% et 1% respectivement aux universitÃ©s de
+Plus de 75% des étudiants doctorants sont affiliés à l'Université d'Antananarivo, qui abrite
+plusieurs écoles doctorales. Les 25% restants se répartissent dans les cinq autres
+universités, avec 12% à l'Université de Mahajanga, 5% et 4% respectivement aux
+universités de Toliara et Toamasina, et 2% et 1% respectivement aux universités de
 Fianarantsoa et d'Antsiranana.
-Titre du Tableau 09 : EVOLUTION DES EFFECTIFS DES ETUDIANTS A Lâ€™ENSEIGNEMENT SUPERIEUR,
+Titre de la Tableau 09 : EVOLUTION DES EFFECTIFS DES ETUDIANTS A L’ENSEIGNEMENT SUPERIEUR,
 PAR DOMAINE DE 2017 A 2022
 
 | DOMAINE | 2017    | 2018    | 2019    | 2020    | 2022    |
@@ -636,9 +665,11 @@ PAR DOMAINE DE 2017 A 2022
 Source : Service de la Statistique et de la Planification / DSSIP/
 MESUPRES
 11
+
 ---
-GRAPHE 11 : TAUX DE RÃ‰PARTITION PAR DOMAINE DES
-ETUDIANTS DANS LES UNIVERSITÃ‰S -ANNÃ‰E 2022
+
+GRAPHE 11 : TAUX DE RÉPARTITION PAR DOMAINE DES
+ETUDIANTS DANS LES UNIVERSITÉS -ANNÉE 2022
 SSANTE SE
 9% 5% ALSH
 SI 18%
@@ -647,25 +678,25 @@ STECH
 21%
 SSTE
 38%
-En 2022, la rÃ©partition des Ã©tudiants par domaine d'Ã©tudes Ã  travers les universitÃ©s se
-prÃ©sente comme suit : 38% dans le domaine de la science de la sociÃ©tÃ©, suivi par le domaine
+En 2022, la répartition des étudiants par domaine d'études à travers les universités se
+présente comme suit : 38% dans le domaine de la science de la société, suivi par le domaine
 des sciences et technologies avec 21%, 18% dans le domaine des Arts, Lettres, Sciences
-Humaines (ALSH), 9% respectivement dans les sciences de l'ingÃ©nieur et les sciences de la
-santÃ©. Le domaine des sciences de l'Ã©ducation affiche le taux le plus bas, ne reprÃ©sentant que
+Humaines (ALSH), 9% respectivement dans les sciences de l'ingénieur et les sciences de la
+santé. Le domaine des sciences de l'éducation affiche le taux le plus bas, ne représentant que
 5%.
-Titre du Graphe 12 : Evolution des inscrits par domaine Ã 
-l'ESUP de 2017 Ã  2022
+Titre de la Graphe 12 : Evolution des inscrits par domaine à
+l'ESUP de 2017 à 2022
 100 000
 50 000
 0
 2017 2018 2019 2020 2022
 SE ALSH SSTE STECH SI SSANTE
-Le nombre d'Ã©tudiants dans le domaine de la sociÃ©tÃ© s'accroÃ®t de plus de 60 000 en 2017 Ã 
-plus de 80 000 en 2022. En revanche, pour les autres domaines, le nombre d'Ã©tudiants varie
+Le nombre d'étudiants dans le domaine de la société s'accroît de plus de 60 000 en 2017 à
+plus de 80 000 en 2022. En revanche, pour les autres domaines, le nombre d'étudiants varie
 12
 
-GRAPHE 11 : TAUX DE RÃ‰PARTITION PAR DOMAINE DES
-ETUDIANTS DANS LES UNIVERSITÃ‰S -ANNÃ‰E 2022
+GRAPHE 11 : TAUX DE RÉPARTITION PAR DOMAINE DES
+ETUDIANTS DANS LES UNIVERSITÉS -ANNÉE 2022
 SSANTE SE
 9% 5% ALSH
 SI 18%
@@ -674,28 +705,30 @@ STECH
 21%
 SSTE
 38%
-En 2022, la rÃ©partition des Ã©tudiants par domaine d'Ã©tudes Ã  travers les universitÃ©s se
-prÃ©sente comme suit : 38% dans le domaine de la science de la sociÃ©tÃ©, suivi par le domaine
+En 2022, la répartition des étudiants par domaine d'études à travers les universités se
+présente comme suit : 38% dans le domaine de la science de la société, suivi par le domaine
 des sciences et technologies avec 21%, 18% dans le domaine des Arts, Lettres, Sciences
-Humaines (ALSH), 9% respectivement dans les sciences de l'ingÃ©nieur et les sciences de la
-santÃ©. Le domaine des sciences de l'Ã©ducation affiche le taux le plus bas, ne reprÃ©sentant que
+Humaines (ALSH), 9% respectivement dans les sciences de l'ingénieur et les sciences de la
+santé. Le domaine des sciences de l'éducation affiche le taux le plus bas, ne représentant que
 5%.
-Titre du Graphe 12 : Evolution des inscrits par domaine Ã 
-l'ESUP de 2017 Ã  2022
+Titre de la Graphe 12 : Evolution des inscrits par domaine à
+l'ESUP de 2017 à 2022
 100 000
 50 000
 0
 2017 2018 2019 2020 2022
 SE ALSH SSTE STECH SI SSANTE
-Le nombre d'Ã©tudiants dans le domaine de la sociÃ©tÃ© s'accroÃ®t de plus de 60 000 en 2017 Ã 
-plus de 80 000 en 2022. En revanche, pour les autres domaines, le nombre d'Ã©tudiants varie
+Le nombre d'étudiants dans le domaine de la société s'accroît de plus de 60 000 en 2017 à
+plus de 80 000 en 2022. En revanche, pour les autres domaines, le nombre d'étudiants varie
 12
+
 ---
-approximativement entre 13 000 et 30 000 au cours de cette pÃ©riode. Les Ã©tudiants dans le
-domaine de l'Ã©ducation enregistrent la plus faible augmentation, se situant entre 5 000 et un
+
+approximativement entre 13 000 et 30 000 au cours de cette période. Les étudiants dans le
+domaine de l'éducation enregistrent la plus faible augmentation, se situant entre 5 000 et un
 peu plus de 6 000 seulement.
-Titre du Graphe 13 : Taux de rÃ©partition par domaine des
-Ã©tudiants annÃ©e 2022
+Titre de la Graphe 13 : Taux de répartition par domaine des
+étudiants année 2022
 50%
 45%
 45%
@@ -705,66 +738,70 @@ Titre du Graphe 13 : Taux de rÃ©partition par domaine des
 | Pourcentage 2022 | 3% | 13%  | 45%  | 17%   | 9% | 13%    |
 
 
-En examinant la rÃ©partition des Ã©tudiants par domaine, on observe que les sciences de la
-sociÃ©tÃ© rassemblent le plus grand nombre, reprÃ©sentant jusqu'Ã  45% de tous les Ã©tudiants
-inscrits. Les 55% restants se divisent de la maniÃ¨re suivante : 17% pour les sciences et
+En examinant la répartition des étudiants par domaine, on observe que les sciences de la
+société rassemblent le plus grand nombre, représentant jusqu'à 45% de tous les étudiants
+inscrits. Les 55% restants se divisent de la manière suivante : 17% pour les sciences et
 technologies, tandis que les domaines des Arts, Lettres, Sciences Humaines (ALSH) et des
-sciences de la santÃ© comptent chacun 13%. Les sciences de l'ingÃ©nieur constituent 9%, et les
-sciences de l'Ã©ducation enregistrent le taux le plus bas, s'Ã©levant Ã  seulement 3%.
+sciences de la santé comptent chacun 13%. Les sciences de l'ingénieur constituent 9%, et les
+sciences de l'éducation enregistrent le taux le plus bas, s'élevant à seulement 3%.
 13
+
 ---
-Titre du Tableau 10 : EVOLUTION ET REPARTITION PAR AGE DES ETUDIANTS A Lâ€™ENSEIGNEMENT
+
+Titre de la Tableau 10 : EVOLUTION ET REPARTITION PAR AGE DES ETUDIANTS A L’ENSEIGNEMENT
 SUPERIEUR DE 2017 A 2022
 
-| Tranches d'Ã¢ge                                        | 2016-2017                                             | 2016-2017                                             | 2017-2018                                             | 2017-2018                                             | 2018-2019                                             | 2018-2019                                             | 2019-2020 | 2019-2020 | 2021-2022 | 2021-2022 |
+| Tranches d'âge                                        | 2016-2017                                             | 2016-2017                                             | 2017-2018                                             | 2017-2018                                             | 2018-2019                                             | 2018-2019                                             | 2019-2020 | 2019-2020 | 2021-2022 | 2021-2022 |
 | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | --------- | --------- | --------- | --------- |
-| Tranches d'Ã¢ge                                        | public                                                | privÃ©                                                 | public                                                | privÃ©                                                 | public                                                | privÃ©                                                 | public    | privÃ©     | public    | privÃ©     |
+| Tranches d'âge                                        | public                                                | privé                                                 | public                                                | privé                                                 | public                                                | privé                                                 | public    | privé     | public    | privé     |
 | Moins de 18 ans                                       | 3 069                                                 | 1 425                                                 | 2 755                                                 | 1 642                                                 | 3 015                                                 | 1 929                                                 | 2 567     | 1 502     | 1 626     | 1 404     |
-| 18 Ã  19 ans                                           | 16 816                                                | 7 286                                                 | 18 341                                                | 8 408                                                 | 20 767                                                | 8 751                                                 | 20 536    | 8 322     | 15 643    | 8 328     |
-| 20 Ã  21 ans                                           | 26 232                                                | 10 495                                                | 28 717                                                | 11 513                                                | 31 284                                                | 12 229                                                | 34 573    | 12 533    | 36 362    | 13 245    |
-| 22 Ã  23 ans                                           | 22 647                                                | 8 672                                                 | 23 537                                                | 8 812                                                 | 25 297                                                | 9 351                                                 | 28 185    | 9 637     | 36 424    | 10 428    |
-| 24 Ã  25 ans                                           | 14 977                                                | 4 580                                                 | 14 580                                                | 4 629                                                 | 15 102                                                | 5 130                                                 | 16 354    | 4 897     | 22 988    | 5 155     |
-| 26 Ã  27 ans                                           | 8 028                                                 | 2 016                                                 | 7 418                                                 | 2 114                                                 | 7 215                                                 | 2 395                                                 | 7 442     | 2 262     | 10 616    | 2 292     |
-| 28 Ã  29 ans                                           | 3 649                                                 | 883                                                   | 3 297                                                 | 850                                                   | 3 076                                                 | 978                                                   | 3 050     | 980       | 4 486     | 1 063     |
-| 30 Ã  31 ans                                           | 1 701                                                 | 448                                                   | 1 645                                                 | 482                                                   | 1 369                                                 | 491                                                   | 1 343     | 493       | 1 807     | 602       |
-| 32 Ã  33 ans                                           | 1 059                                                 | 237                                                   | 953                                                   | 294                                                   | 763                                                   | 320                                                   | 865       | 323       | 1 033     | 470       |
-| 34 Ã  35 ans                                           | 767                                                   | 186                                                   | 656                                                   | 235                                                   | 586                                                   | 261                                                   | 670       | 251       | 749       | 342       |
-| 36 Ã  39 ans                                           | 1 087                                                 | 199                                                   | 1 199                                                 | 195                                                   | 1 096                                                 | 224                                                   | 866       | 242       | 1 174     | 447       |
+| 18 à 19 ans                                           | 16 816                                                | 7 286                                                 | 18 341                                                | 8 408                                                 | 20 767                                                | 8 751                                                 | 20 536    | 8 322     | 15 643    | 8 328     |
+| 20 à 21 ans                                           | 26 232                                                | 10 495                                                | 28 717                                                | 11 513                                                | 31 284                                                | 12 229                                                | 34 573    | 12 533    | 36 362    | 13 245    |
+| 22 à 23 ans                                           | 22 647                                                | 8 672                                                 | 23 537                                                | 8 812                                                 | 25 297                                                | 9 351                                                 | 28 185    | 9 637     | 36 424    | 10 428    |
+| 24 à 25 ans                                           | 14 977                                                | 4 580                                                 | 14 580                                                | 4 629                                                 | 15 102                                                | 5 130                                                 | 16 354    | 4 897     | 22 988    | 5 155     |
+| 26 à 27 ans                                           | 8 028                                                 | 2 016                                                 | 7 418                                                 | 2 114                                                 | 7 215                                                 | 2 395                                                 | 7 442     | 2 262     | 10 616    | 2 292     |
+| 28 à 29 ans                                           | 3 649                                                 | 883                                                   | 3 297                                                 | 850                                                   | 3 076                                                 | 978                                                   | 3 050     | 980       | 4 486     | 1 063     |
+| 30 à 31 ans                                           | 1 701                                                 | 448                                                   | 1 645                                                 | 482                                                   | 1 369                                                 | 491                                                   | 1 343     | 493       | 1 807     | 602       |
+| 32 à 33 ans                                           | 1 059                                                 | 237                                                   | 953                                                   | 294                                                   | 763                                                   | 320                                                   | 865       | 323       | 1 033     | 470       |
+| 34 à 35 ans                                           | 767                                                   | 186                                                   | 656                                                   | 235                                                   | 586                                                   | 261                                                   | 670       | 251       | 749       | 342       |
+| 36 à 39 ans                                           | 1 087                                                 | 199                                                   | 1 199                                                 | 195                                                   | 1 096                                                 | 224                                                   | 866       | 242       | 1 174     | 447       |
 | 40 ans et plus                                        | 1 200                                                 | 235                                                   | 1 230                                                 | 257                                                   | 919                                                   | 295                                                   | 1 073     | 332       | 1 566     | 415       |
 | Ensemble                                              | 101 232                                               | 36 662                                                | 104 328                                               | 39 431                                                | 110 489                                               | 42 354                                                | 117 524   | 41 774    | 134 474   | 44 191    |
-| Source : Annuaire Statistique â€“ SSP / DSSIP/ MESUPRES | Source : Annuaire Statistique â€“ SSP / DSSIP/ MESUPRES | Source : Annuaire Statistique â€“ SSP / DSSIP/ MESUPRES | Source : Annuaire Statistique â€“ SSP / DSSIP/ MESUPRES | Source : Annuaire Statistique â€“ SSP / DSSIP/ MESUPRES | Source : Annuaire Statistique â€“ SSP / DSSIP/ MESUPRES | Source : Annuaire Statistique â€“ SSP / DSSIP/ MESUPRES |           |           |           |           |
+| Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES | Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES | Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES | Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES | Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES | Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES | Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES |           |           |           |           |
 
 
 14
+
 ---
-Titre du Graphe 14 : RÃ©partition par Ã¢ge des Ã©tudiants Ã 
-l'ESUP -annÃ©e 2021-2022
+
+Titre de la Graphe 14 : Répartition par âge des étudiants à
+l'ESUP -année 2021-2022
 40%
 20%
 0%
-public privÃ©
-Pour l'annÃ©e universitaire 2021-2022, la rÃ©partition des Ã©tudiants selon les tranches d'Ã¢ge
-suit les intervalles du tableau. Jusqu'Ã  l'Ã¢ge de 20 Ã  21 ans, la participation des Ã©tudiants
-Ã  l'Enseignement SupÃ©rieur PrivÃ© est supÃ©rieure Ã  celle de l'Enseignement SupÃ©rieur
-Public. Cependant, Ã  partir de l'Ã¢ge de 22 ans, on observe une diminution du nombre
-d'Ã©tudiants Ã  l'Enseignement SupÃ©rieur PrivÃ© par rapport Ã  l'Enseignement SupÃ©rieur
-Public pour la poursuite des Ã©tudes supÃ©rieures.
-Titre du Tableau 11 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR TYPE D'ETABLISSEMENT DE
+public privé
+Pour l'année universitaire 2021-2022, la répartition des étudiants selon les tranches d'âge
+suit les intervalles du tableau. Jusqu'à l'âge de 20 à 21 ans, la participation des étudiants
+à l'Enseignement Supérieur Privé est supérieure à celle de l'Enseignement Supérieur
+Public. Cependant, à partir de l'âge de 22 ans, on observe une diminution du nombre
+d'étudiants à l'Enseignement Supérieur Privé par rapport à l'Enseignement Supérieur
+Public pour la poursuite des études supérieures.
+Titre de la Tableau 11 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR TYPE D'ETABLISSEMENT DE
 2017 A 2022
 
 | type         | 2017    | 2018    | 2019    | 2020    | 2022    |
 | ------------ | ------- | ------- | ------- | ------- | ------- |
-| FacultÃ©s     | 61 075  | 60 713  | 65 058  | 69 383  | 76 102  |
+| Facultés     | 61 075  | 60 713  | 65 058  | 69 383  | 76 102  |
 | Ecoles       | 12 941  | 14 182  | 14 794  | 15 362  | 20 568  |
 | Instituts    | 9 703   | 11 466  | 14 091  | 17 691  | 20 412  |
 | Centre       | 17 513  | 17 967  | 16 546  | 15 088  | 17 392  |
 | total PUBLIC | 101 232 | 104 328 | 110 489 | 117 524 | 134 474 |
-| FacultÃ©s     |         |         |         |         |         |
+| Facultés     |         |         |         |         |         |
 | Ecoles       | 5 623   | 5 615   | 6 616   | 6 860   | 6 345   |
 | Instituts    | 30 495  | 33 273  | 35 106  | 33 998  | 36 103  |
 | Centre       | 544     | 543     | 632     | 916     | 1 743   |
 | total PRIVE  | 36 662  | 39 431  | 42 354  | 41 774  | 44 191  |
-| FacultÃ©s     | 61 075  | 60 713  | 65 058  | 69 383  | 76 102  |
+| Facultés     | 61 075  | 60 713  | 65 058  | 69 383  | 76 102  |
 | Ecoles       | 18 564  | 19 797  | 21 410  | 22 222  | 26 913  |
 | Instituts    | 40 198  | 44 739  | 49 197  | 51 689  | 56 515  |
 | Centre       | 18 057  | 18 510  | 17 178  | 16 004  | 19 135  |
@@ -773,40 +810,44 @@ Titre du Tableau 11 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR TYPE D'ETABLISSE
 
 Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES
 15
+
 ---
-Titre du Graphe 15 : Evolution et rÃ©partition des Ã©tudiants par
-type d'Ã©tablissement Ã  l'ESUP
+
+Titre de la Graphe 15 : Evolution et répartition des étudiants par
+type d'établissement à l'ESUP
 50%
-40% FacultÃ©s
+40% Facultés
 30% Ecoles
 20% Instituts
 10%
 Centre
 0%
 2017 2018 2019 2020 2022
-Dans l'enseignement supÃ©rieur, la majoritÃ© des Ã©tudiants intÃ¨grent les facultÃ©s de l'universitÃ©,
-reprÃ©sentant jusqu'Ã  44%. Ensuite, les Ã©tudiants admis dans les instituts se situent dans une
-fourchette de 29% Ã  32%, tandis que le taux d'Ã©tudiants intÃ©grant les Ã©coles et les centres
+Dans l'enseignement supérieur, la majorité des étudiants intègrent les facultés de l'université,
+représentant jusqu'à 44%. Ensuite, les étudiants admis dans les instituts se situent dans une
+fourchette de 29% à 32%, tandis que le taux d'étudiants intégrant les écoles et les centres
 varie entre 10% et 15%.
-Titre du Tableau 12 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR GENRE A Lâ€™ENSEIGNEMENT
+Titre de la Tableau 12 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR GENRE A L’ENSEIGNEMENT
 SUPERIEUR DE 2017 A 2022
 
 | ETABLISSE MENT | 2 017  | 2 017  | 2 018  | 2 018  | 2 019  | 2 019  | 2 020  | 2 020  | 2 022  | 2 022  |
 | -------------- | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 | ETABLISSE MENT | M      | F      | M      | F      | M      | F      | M      | F      | M      | F      |
-| universitÃ©s    | 44 508 | 36 259 | 45 511 | 37 873 | 49 379 | 42 100 | 54 210 | 46 152 | 61 003 | 54 463 |
+| universités    | 44 508 | 36 259 | 45 511 | 37 873 | 49 379 | 42 100 | 54 210 | 46 152 | 61 003 | 54 463 |
 | IST            | 1 820  | 1 132  | 1 857  | 1 120  | 1 581  | 1 017  | 1 686  | 1 044  | 1 757  | 1 206  |
 | CNTEMAD        | 8 399  | 9 114  | 8 325  | 9 642  | 7 329  | 9 083  | 6 168  | 8 264  | 7 114  | 8 931  |
 | S/T public     | 54 727 | 46 505 | 55 693 | 48 635 | 58 289 | 52 200 | 62 064 | 55 460 | 69 874 | 64 600 |
-| S/T privÃ©      | 16 516 | 20 146 | 17 881 | 21 550 | 19 304 | 23 050 | 18 742 | 23 032 | 19 154 | 25 037 |
+| S/T privé      | 16 516 | 20 146 | 17 881 | 21 550 | 19 304 | 23 050 | 18 742 | 23 032 | 19 154 | 25 037 |
 | ENSEMBLE       | 71 243 | 66 651 | 73 574 | 70 185 | 77 593 | 75 250 | 80 806 | 78 492 | 89 028 | 89 637 |
 
 
-Source : Annuaire Statistique â€“ SSP / DSSIP/ MESUPRES
+Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
 16
+
 ---
-Titre du Graphe 16 : Taux de rÃ©partition par genre des
-Ã©tudiants dans les 6 universitÃ©s : annÃ©e 2022
+
+Titre de la Graphe 16 : Taux de répartition par genre des
+étudiants dans les 6 universités : année 2022
 60%
 50%
 40%
@@ -824,13 +865,13 @@ narivo nana ntsoa anga sina
 | F | 50% | 40% | 48% | 45% | 48% | 44% |
 
 
-Au sein des universitÃ©s, la proportion d'Ã©tudiants de genre masculin est plus Ã©levÃ©e que celle
-du sexe fÃ©minin, se situant entre 50% et 60%. Par contre, Ã  l'UniversitÃ© d'Antananarivo, cette
-rÃ©partition est Ã©quivalente, avec un taux de 50% pour chaque genre.
-Titre du Tableau 13 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR NIVEAU Dâ€™ETUDES A
-Lâ€™ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
+Au sein des universités, la proportion d'étudiants de genre masculin est plus élevée que celle
+du sexe féminin, se situant entre 50% et 60%. Par contre, à l'Université d'Antananarivo, cette
+répartition est équivalente, avec un taux de 50% pour chaque genre.
+Titre de la Tableau 13 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR NIVEAU D’ETUDES A
+L’ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
 
-| Niveau d'Ã©tudes | 2017    | 2018    | 2019    | 2020    | 2022    |
+| Niveau d'études | 2017    | 2018    | 2019    | 2020    | 2022    |
 | --------------- | ------- | ------- | ------- | ------- | ------- |
 | L1              | 56 842  | 58 605  | 60 777  | 60 869  | 73 118  |
 | L2              | 31 300  | 33 441  | 35 442  | 38 673  | 40 737  |
@@ -844,11 +885,13 @@ Lâ€™ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
 | total           | 137 894 | 143 759 | 152 843 | 159 298 | 178 665 |
 
 
-Source : Annuaire Statistique â€“ SSP / DSSIP/ MESUPRES
+Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
 17
+
 ---
-Titre du Graphe 17 : Evolution de taux des effectifs des Ã©tudiants
-inscrits par niveau d'Ã©tudes de 2017 Ã  2022
+
+Titre de la Graphe 17 : Evolution de taux des effectifs des étudiants
+inscrits par niveau d'études de 2017 à 2022
 45%
 40%
 35%
@@ -861,11 +904,11 @@ inscrits par niveau d'Ã©tudes de 2017 Ã  2022
 0%
 2017 2018 2019 2020 2022
 L1 L2 L3 M1 M2 6 et plus
-En moyenne, plus de 60% des Ã©tudiants inscrits Ã  l'Enseignement SupÃ©rieur se trouvent au
+En moyenne, plus de 60% des étudiants inscrits à l'Enseignement Supérieur se trouvent au
 premier cycle universitaire, tandis que 35% sont au second cycle, et le reste est inscrit au
-troisiÃ¨me cycle.
-Titre du Graphe 18 : RÃ©partition des Ã©tudiants par annÃ©e d'Ã©tudes
--annÃ©e 2022
+troisième cycle.
+Titre de la Graphe 18 : Répartition des étudiants par année d'études
+-année 2022
 6 et plus
 M2
 2%
@@ -880,8 +923,8 @@ L2
 23%
 18
 
-Titre du Graphe 17 : Evolution de taux des effectifs des Ã©tudiants
-inscrits par niveau d'Ã©tudes de 2017 Ã  2022
+Titre de la Graphe 17 : Evolution de taux des effectifs des étudiants
+inscrits par niveau d'études de 2017 à 2022
 45%
 40%
 35%
@@ -894,11 +937,11 @@ inscrits par niveau d'Ã©tudes de 2017 Ã  2022
 0%
 2017 2018 2019 2020 2022
 L1 L2 L3 M1 M2 6 et plus
-En moyenne, plus de 60% des Ã©tudiants inscrits Ã  l'Enseignement SupÃ©rieur se trouvent au
+En moyenne, plus de 60% des étudiants inscrits à l'Enseignement Supérieur se trouvent au
 premier cycle universitaire, tandis que 35% sont au second cycle, et le reste est inscrit au
-troisiÃ¨me cycle.
-Titre du Graphe 18 : RÃ©partition des Ã©tudiants par annÃ©e d'Ã©tudes
--annÃ©e 2022
+troisième cycle.
+Titre de la Graphe 18 : Répartition des étudiants par année d'études
+-année 2022
 6 et plus
 M2
 2%
@@ -912,11 +955,13 @@ L3
 L2
 23%
 18
+
 ---
-Pour lâ€™annÃ©e universitaire 2021-2022, 41% des Ã©tudiants inscrits sont en L1, 23% en L2, 18%
-en L3, 9% en M1, 7% en M2 et 2% pour les plus de 6Ã¨me annÃ©e. On constate que plus le niveau
-dâ€™Ã©tude est Ã©levÃ©, le nombre des inscrits devient de plus en plus faible.
-Titre du Tableau 14 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR REGION A Lâ€™ENSEIGNEMENT
+
+Pour l’année universitaire 2021-2022, 41% des étudiants inscrits sont en L1, 23% en L2, 18%
+en L3, 9% en M1, 7% en M2 et 2% pour les plus de 6ème année. On constate que plus le niveau
+d’étude est élevé, le nombre des inscrits devient de plus en plus faible.
+Titre de la Tableau 14 : EVOLUTION DES EFFECTIFS DES ETUDIANTS PAR REGION A L’ENSEIGNEMENT
 SUPERIEUR DE 2017 A 2022
 
 | REGIONS             | 2017    | 2017   | 2018    | 2018   | 2019    | 2019   | 2020    | 2020   | 2022    | 2022    |         |
@@ -947,16 +992,18 @@ SUPERIEUR DE 2017 A 2022
 | TOTAL               | 101 232 | 36 662 | 104 328 | 39 431 | 110 489 | 42 354 | 117 485 | 41 774 | 134 474 | 44 191  |         |
 
 
-Source : Annuaire Statistique â€“ SSP / DSSIP/ MESUPRES
+Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
 19
+
 ---
-Les 22 rÃ©gions de Madagascar ont toutes des Ã©tudiants inscrits dans l'enseignement
-supÃ©rieur. En revanche, au niveau des rÃ©gions de Betsiboka et Melaky, les Ã©tudiants inscrits
-dans l'enseignement supÃ©rieur privÃ© ne sont pas recensÃ©s.
-Titre du Tableau 15 : EVOLUTION DES EFFECTIFS DES ETUDIANTS ETRANGERS A L'ENSEIGNEMENT
+
+Les 22 régions de Madagascar ont toutes des étudiants inscrits dans l'enseignement
+supérieur. En revanche, au niveau des régions de Betsiboka et Melaky, les étudiants inscrits
+dans l'enseignement supérieur privé ne sont pas recensés.
+Titre de la Tableau 15 : EVOLUTION DES EFFECTIFS DES ETUDIANTS ETRANGERS A L'ENSEIGNEMENT
 SUPERIEUR DE 2017 A 2022
 
-| UniversitÃ©s         | UniversitÃ©s         | UniversitÃ©s         | 2017 | 2017  | 2017 | 2018 | 2018  | 2018 | 2019 | 2019  | 2019 | 2020 | 2020  | 2020 | 2022 | 2022 | 2022 |
+| Universités         | Universités         | Universités         | 2017 | 2017  | 2017 | 2018 | 2018  | 2018 | 2019 | 2019  | 2019 | 2020 | 2020  | 2020 | 2022 | 2022 | 2022 |
 | ------------------- | ------------------- | ------------------- | ---- | ----- | ---- | ---- | ----- | ---- | ---- | ----- | ---- | ---- | ----- | ---- | ---- | ---- | ---- |
 | Antananarivo        | Antananarivo        | Antananarivo        | 372  | 372   | 372  | 194  | 194   | 194  | 297  | 297   | 297  | 138  | 138   | 138  | 243  | 243  | 243  |
 | Antsiranana         | Antsiranana         | Antsiranana         | 48   | 48    | 48   | 52   | 52    | 52   | 48   | 48    | 48   | 43   | 43    | 43   | 42   | 42   | 42   |
@@ -964,7 +1011,7 @@ SUPERIEUR DE 2017 A 2022
 | Mahajanga           | Mahajanga           | Mahajanga           | 161  | 161   | 161  | 134  | 134   | 134  | 116  | 116   | 116  | 113  | 113   | 113  | 105  | 105  | 105  |
 | Toamasina           | Toamasina           | Toamasina           | 94   | 94    | 94   | 51   | 51    | 51   | 50   | 50    | 50   | 27   | 27    | 27   | 32   | 32   | 32   |
 | Toliara             | Toliara             | Toliara             | 149  | 149   | 149  | 123  | 123   | 123  | 124  | 124   | 124  | 56   | 56    | 56   | 16   | 16   | 16   |
-| TOTAL 6 UniversitÃ©s | TOTAL 6 UniversitÃ©s | TOTAL 6 UniversitÃ©s | 880  | 880   | 880  | 620  | 620   | 620  | 687  | 687   | 687  | 415  | 415   | 415  | 474  | 474  | 474  |
+| TOTAL 6 Universités | TOTAL 6 Universités | TOTAL 6 Universités | 880  | 880   | 880  | 620  | 620   | 620  | 687  | 687   | 687  | 415  | 415   | 415  | 474  | 474  | 474  |
 | 3 IST               | 3 IST               | 3 IST               |      |       |      | 2    | 2     | 2    |      |       |      | 3    | 3     | 3    | 3    | 3    | 3    |
 | CNTEMAD             | CNTEMAD             | CNTEMAD             | 25   | 25    | 25   | 30   | 30    | 30   | 16   | 16    | 16   | 11   | 11    | 11   | 8    | 8    | 8    |
 |                     | Total PUBLIC        |                     |      | 905   |      |      | 652   |      |      | 703   |      |      | 429   |      |      | 485  |      |
@@ -972,51 +1019,55 @@ SUPERIEUR DE 2017 A 2022
 |                     | ENSEMBLE            |                     |      | 2 436 |      |      | 1 977 |      |      | 2 917 |      |      | 1 397 |      |      | 988  |      |
 
 
-Source : Annuaire Statistique â€“ SSP / DSSIP/ MESUPRES
+Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
 20
+
 ---
-Titre du Graphe 20 : Evolution des effectifs des Ã©tudiants
-Ã©trangers Ã  l'ESUP de 2017 Ã  2022
+
+Titre de la Graphe 20 : Evolution des effectifs des étudiants
+étrangers à l'ESUP de 2017 à 2022
 2 500
 
 0
 2016 2017 2018 2019 2020 2021 2022 2023
 PUBLIC PRIVE
-L'Enseignement SupÃ©rieur Ã  Madagascar a accueilli des Ã©tudiants Ã©trangers de diverses
-nationalitÃ©s, reprÃ©sentant de 0,6% Ã  1,9% des Ã©tudiants inscrits. Globalement, le nombre
-d'Ã©tudiants Ã©trangers a connu une baisse continue de 2 436 Ã  988 au cours de la pÃ©riode 2017-
-2022. Cette diminution est plus prononcÃ©e dans l'Enseignement SupÃ©rieur Public que dans le
-secteur privÃ©.
-Titre du Tableau 16 : EVOLUTION DES EFFECTIFS DES ETUDIANTS ETRANGERS PAR NATIONALITE A
-Lâ€™ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
+L'Enseignement Supérieur à Madagascar a accueilli des étudiants étrangers de diverses
+nationalités, représentant de 0,6% à 1,9% des étudiants inscrits. Globalement, le nombre
+d'étudiants étrangers a connu une baisse continue de 2 436 à 988 au cours de la période 2017-
+2022. Cette diminution est plus prononcée dans l'Enseignement Supérieur Public que dans le
+secteur privé.
+Titre de la Tableau 16 : EVOLUTION DES EFFECTIFS DES ETUDIANTS ETRANGERS PAR NATIONALITE A
+L’ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
 
-| NationalitÃ© | 2017  | 2018  | 2019  | 2020  | 2022 |
+| Nationalité | 2017  | 2018  | 2019  | 2020  | 2022 |
 | ----------- | ----- | ----- | ----- | ----- | ---- |
 | Africains   | 128   | 323   | 1 307 | 129   | 120  |
 | Asiatiques  | 6     | 0     | 0     | 3     | 8    |
 | Comoriens   | 2 254 | 1 601 | 1 560 | 1 149 | 761  |
-| EuropÃ©ens   | 16    | 9     | 10    | 20    | 34   |
+| Européens   | 16    | 9     | 10    | 20    | 34   |
 | Autres      | 27    | 44    | 40    | 93    | 65   |
 | total       | 2 431 | 1 977 | 2 917 | 1 394 | 988  |
 
 
 Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES
 21
+
 ---
-Titre du Graphe 21 : Taux de rÃ©partition des Ã©tudiants
-Ã©trangers Ã  l'ESUP -annÃ©e 2021-2022
+
+Titre de la Graphe 21 : Taux de répartition des étudiants
+étrangers à l'ESUP -année 2021-2022
 3% 7%
 1%
 12%
-7â€¦
-Africains Asiatiques Comoriens EuropÃ©ens Autres
-Lâ€™annÃ©e 2022, plus de 70 % des Ã©tudiants Ã©trangers sont des comoriens, 12% des africains,
-4% des europÃ©ens et asiatiques. Il reste les 7% pour les Ã©tudiants Ã©trangers non identifiÃ©s.
+7…
+Africains Asiatiques Comoriens Européens Autres
+L’année 2022, plus de 70 % des étudiants étrangers sont des comoriens, 12% des africains,
+4% des européens et asiatiques. Il reste les 7% pour les étudiants étrangers non identifiés.
 4 - LES BOURSIERS
-Titre du Tableau 17 : EVOLUTION DES EFFECTIFS DES ETUDIANTS BOURSIERS A Lâ€™ENSEIGNEMENT
+Titre de la Tableau 17 : EVOLUTION DES EFFECTIFS DES ETUDIANTS BOURSIERS A L’ENSEIGNEMENT
 SUPERIEUR DE 2017 A 2022
 
-| UniversitÃ©s  | UniversitÃ©s  | UniversitÃ©s  | 2017   | 2017   | 2017   | 2018   | 2018   | 2018   | 2019   | 2019   | 2019   | 2020   | 2020   | 2020   | 2022   | 2022    | 2022   |
+| Universités  | Universités  | Universités  | 2017   | 2017   | 2017   | 2018   | 2018   | 2018   | 2019   | 2019   | 2019   | 2020   | 2020   | 2020   | 2022   | 2022    | 2022   |
 | ------------ | ------------ | ------------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------- | ------ |
 | Antananarivo | Antananarivo | Antananarivo | 29 114 | 29 114 | 29 114 | 28 514 | 28 514 | 28 514 | 33 755 | 33 755 | 33 755 | 29 507 | 29 507 | 29 507 | 32 178 | 32 178  | 32 178 |
 | Antsiranana  | Antsiranana  | Antsiranana  | 5 352  | 5 352  | 5 352  | 5 952  | 5 952  | 5 952  | 7 799  | 7 799  | 7 799  | 8 153  | 8 153  | 8 153  | 9 994  | 9 994   | 9 994  |
@@ -1032,11 +1083,13 @@ SUPERIEUR DE 2017 A 2022
 |              | ENSEMBLE     |              |        | 64 794 |        |        | 67 242 |        |        | 77 923 |        |        | 86 767 |        |        | 102 481 |        |
 
 
-Source : Annuaire Statistique â€“ SSP / DSSIP/ MESUPRES
+Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
 22
+
 ---
-Titre du Graphe 22 : Taux de RÃ©partition des Ã©tudiants
-boursiers dans les 6 universitÃ©s -annÃ©e 2022
+
+Titre de la Graphe 22 : Taux de Répartition des étudiants
+boursiers dans les 6 universités -année 2022
 13% 8%
 12%
 32%
@@ -1044,8 +1097,8 @@ boursiers dans les 6 universitÃ©s -annÃ©e 2022
 10%
 Antananarivo Antsiranana Fianarantsoa
 Mahajanga Toamasina Toliara
-Titre du Graphe 23 : Evolution des effectifs des Ã©tudiants boursiers
-Ã  l'ESUP de 2017 Ã  2022
+Titre de la Graphe 23 : Evolution des effectifs des étudiants boursiers
+à l'ESUP de 2017 à 2022
 150000
 
 |           | 2017   | 2018   | 2019   | 2020   | 2022   |
@@ -1055,14 +1108,16 @@ Titre du Graphe 23 : Evolution des effectifs des Ã©tudiants boursiers
 
 
 ETUDIANTS BOURSIERS
-En gÃ©nÃ©ral, le nombre d'Ã©tudiants bÃ©nÃ©ficiant de bourses augmente en parallÃ¨le avec
-l'Ã©volution du nombre total d'Ã©tudiants inscrits. Alors que le taux d'augmentation des
-Ã©tudiants Ã  l'Enseignement SupÃ©rieur Public est de 5,8%, le taux d'augmentation des
-Ã©tudiants bÃ©nÃ©ficiaires de bourses atteint environ 10,1%.
+En général, le nombre d'étudiants bénéficiant de bourses augmente en parallèle avec
+l'évolution du nombre total d'étudiants inscrits. Alors que le taux d'augmentation des
+étudiants à l'Enseignement Supérieur Public est de 5,8%, le taux d'augmentation des
+étudiants bénéficiaires de bourses atteint environ 10,1%.
 23
+
 ---
-Titre du Graphe 24 : RÃ©partition par genre des Ã©tudiants
-boursiers dans les 6 universitÃ©s -annÃ©e 2022
+
+Titre de la Graphe 24 : Répartition par genre des étudiants
+boursiers dans les 6 universités -année 2022
 18 000
 16 000
 14 000
@@ -1074,7 +1129,7 @@ M
 4 000
 2 000
 0
-antanan diÃ©go fianaran mahaja toamasi toliara
+antanan diégo fianaran mahaja toamasi toliara
 arivo tsoa nga na
 
 | M | 16 101 | 5 973 | 13 377 | 6 617 | 6 552 | 4 406 |
@@ -1082,12 +1137,12 @@ arivo tsoa nga na
 | F | 16 077 | 4 021 | 12 322 | 5 262 | 6 163 | 3 259 |
 
 
-Parmi les cinq universitÃ©s autres que l'UniversitÃ© d'Antananarivo, la proportion
-d'Ã©tudiants boursiers est plus Ã©levÃ©e chez les hommes que chez les femmes. En
-revanche, Ã  l'UniversitÃ© d'Antananarivo, on observe une rÃ©partition Ã©gale entre
-hommes et femmes bÃ©nÃ©ficiant de bourses
+Parmi les cinq universités autres que l'Université d'Antananarivo, la proportion
+d'étudiants boursiers est plus élevée chez les hommes que chez les femmes. En
+revanche, à l'Université d'Antananarivo, on observe une répartition égale entre
+hommes et femmes bénéficiant de bourses
 5 - LES ENSEIGNANTS PERMANENTS
-Titre du Tableau 18 : EVOLUTION DES EFFECTIFS DES ENSEGNANTS PERMANENTS PAR DOMAINE
+Titre de la Tableau 18 : EVOLUTION DES EFFECTIFS DES ENSEGNANTS PERMANENTS PAR DOMAINE
 DE 2017 A 2022
 
 | Domaine | 2017 | 2018 | 2019 | 2020 | 2022 |
@@ -1103,16 +1158,18 @@ DE 2017 A 2022
 
 Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES
 24
+
 ---
-Entre 2017 et 2022, le nombre d'enseignants permanents Ã  l'Enseignement SupÃ©rieur Public
-varie de 1702 Ã  1831, rÃ©partis selon les six domaines du systÃ¨me LMD. Les proportions les
-plus Ã©levÃ©es d'enseignants sont enregistrÃ©es dans le domaine des sciences et technologies
-(32%), suivi du domaine des sciences de l'ingÃ©nieur (24%). Les domaines des sciences de la
-sociÃ©tÃ©, des Arts, Lettres et Sciences Humaines concentrent respectivement 15% et 14%,
-tandis que le domaine des sciences de l'Ã©ducation affiche le taux le plus bas, avec seulement
+
+Entre 2017 et 2022, le nombre d'enseignants permanents à l'Enseignement Supérieur Public
+varie de 1702 à 1831, répartis selon les six domaines du système LMD. Les proportions les
+plus élevées d'enseignants sont enregistrées dans le domaine des sciences et technologies
+(32%), suivi du domaine des sciences de l'ingénieur (24%). Les domaines des sciences de la
+société, des Arts, Lettres et Sciences Humaines concentrent respectivement 15% et 14%,
+tandis que le domaine des sciences de l'éducation affiche le taux le plus bas, avec seulement
 6%.
-Titre du Graphe 25 : Evolution des effectifs des enseignants par
-domaine Ã  l'ESUP de 2017 Ã  2022
+Titre de la Graphe 25 : Evolution des effectifs des enseignants par
+domaine à l'ESUP de 2017 à 2022
 2000
 1800
 1600
@@ -1130,15 +1187,15 @@ ALSH
 2017 2018 2019 2020 2022
 25
 
-Entre 2017 et 2022, le nombre d'enseignants permanents Ã  l'Enseignement SupÃ©rieur Public
-varie de 1702 Ã  1831, rÃ©partis selon les six domaines du systÃ¨me LMD. Les proportions les
-plus Ã©levÃ©es d'enseignants sont enregistrÃ©es dans le domaine des sciences et technologies
-(32%), suivi du domaine des sciences de l'ingÃ©nieur (24%). Les domaines des sciences de la
-sociÃ©tÃ©, des Arts, Lettres et Sciences Humaines concentrent respectivement 15% et 14%,
-tandis que le domaine des sciences de l'Ã©ducation affiche le taux le plus bas, avec seulement
+Entre 2017 et 2022, le nombre d'enseignants permanents à l'Enseignement Supérieur Public
+varie de 1702 à 1831, répartis selon les six domaines du système LMD. Les proportions les
+plus élevées d'enseignants sont enregistrées dans le domaine des sciences et technologies
+(32%), suivi du domaine des sciences de l'ingénieur (24%). Les domaines des sciences de la
+société, des Arts, Lettres et Sciences Humaines concentrent respectivement 15% et 14%,
+tandis que le domaine des sciences de l'éducation affiche le taux le plus bas, avec seulement
 6%.
-Titre du Graphe 25 : Evolution des effectifs des enseignants par
-domaine Ã  l'ESUP de 2017 Ã  2022
+Titre de la Graphe 25 : Evolution des effectifs des enseignants par
+domaine à l'ESUP de 2017 à 2022
 2000
 1800
 1600
@@ -1155,9 +1212,11 @@ ALSH
 0
 2017 2018 2019 2020 2022
 25
+
 ---
-Titre du Graphe 26 : RÃ©partition par genre et par domaine des
-enseignants -annÃ©e 2022
+
+Titre de la Graphe 26 : Répartition par genre et par domaine des
+enseignants -année 2022
 80%
 70%
 60%
@@ -1176,10 +1235,10 @@ E
 | F | 36% | 45% | 28% | 35% | 27% | 33% |
 
 
-Plus de la moitiÃ© des enseignants sont de genre masculin dans tous les domaines, Ã  savoir
-les taux plus Ã©levÃ©s se trouve dans les domaines de sciences de lâ€™ingÃ©nieur et sciences de la
-technologie (respectivement 72% et 73%). La participation fÃ©minine est de 27% Ã  45%.
-Titre du Tableau 19 : EVOLUTION DES EFFECTIFS DES ENSEIGNANTS PERMANENTS PAR GRADE DE
+Plus de la moitié des enseignants sont de genre masculin dans tous les domaines, à savoir
+les taux plus élevés se trouve dans les domaines de sciences de l’ingénieur et sciences de la
+technologie (respectivement 72% et 73%). La participation féminine est de 27% à 45%.
+Titre de la Tableau 19 : EVOLUTION DES EFFECTIFS DES ENSEIGNANTS PERMANENTS PAR GRADE DE
 2017 A 2022 (6 UNIVERSITES ET 3 IST)
 
 | Grade | 2017  | 2018  | 2019  | 2020  | 2022  |
@@ -1191,11 +1250,13 @@ Titre du Tableau 19 : EVOLUTION DES EFFECTIFS DES ENSEIGNANTS PERMANENTS PAR GRA
 | total | 1 782 | 1 828 | 1 831 | 1 702 | 1 810 |
 
 
-Source : Annuaire Statistique â€“ SSP / DSSIP/ MESUPRES
+Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
 26
+
 ---
-Titre du Graphe 27 : Evolution et rÃ©partition par grade des
-enseignants permanents de 2017 Ã  2022
+
+Titre de la Graphe 27 : Evolution et répartition par grade des
+enseignants permanents de 2017 à 2022
 900
 800
 700
@@ -1215,10 +1276,10 @@ enseignants permanents de 2017 Ã  2022
 | A  | 678 | 708 | 686 | 577 | 647 |
 
 
-De 2017 Ã  2022, 16% Ã  19% des enseignants permanents sont des Professeurs, 45% Ã  47%
-sont des MaÃ®tres de ConfÃ©rence et 34% Ã  39% sont des Assistants.
-Titre du Graphe 28 : Taux de rÃ©partition des enseignants par grade -
-annÃ©e 2022
+De 2017 à 2022, 16% à 19% des enseignants permanents sont des Professeurs, 45% à 47%
+sont des Maîtres de Conférence et 34% à 39% sont des Assistants.
+Titre de la Graphe 28 : Taux de répartition des enseignants par grade -
+année 2022
 9%
 PT
 8%
@@ -1228,11 +1289,13 @@ MC
 47%
 A
 27
+
 ---
-Titre du Tableau 20 : EVOLUTION ET REPARTITION DES EFFECTIFS DES ENSEIGNANTS PAR AGE DE
+
+Titre de la Tableau 20 : EVOLUTION ET REPARTITION DES EFFECTIFS DES ENSEIGNANTS PAR AGE DE
 2017 A 2022
 
-| Tranche d'Ã¢ge   | 2017  | 2018  | 2019  | 2020  | 2022  |
+| Tranche d'âge   | 2017  | 2018  | 2019  | 2020  | 2022  |
 | --------------- | ----- | ----- | ----- | ----- | ----- |
 | Moins de 30 ans | 25    | 18    | 15    | 13    | 18    |
 | [30 - 35[       | 120   | 100   | 102   | 71    | 69    |
@@ -1246,14 +1309,16 @@ Titre du Tableau 20 : EVOLUTION ET REPARTITION DES EFFECTIFS DES ENSEIGNANTS PAR
 
 
 Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES
-La proportion d'enseignants Ã¢gÃ©s de 60 ans et plus dans les universitÃ©s et les IST
-atteint les 32% Ã  35 %. Ensuite, l'Ã¢ge moyen se situe entre 40 et 45 ans, reprÃ©sentant
-environ 11% Ã  16 % des enseignants. Les enseignants de moins de 30 ans affichent le
+La proportion d'enseignants âgés de 60 ans et plus dans les universités et les IST
+atteint les 32% à 35 %. Ensuite, l'âge moyen se situe entre 40 et 45 ans, représentant
+environ 11% à 16 % des enseignants. Les enseignants de moins de 30 ans affichent le
 taux le plus bas, soit environ 1 % seulement.
 28
+
 ---
-Titre du Graphe 29 : RÃ©partition par Ã¢ge des enseignants -
-annÃ©e 2022
+
+Titre de la Graphe 29 : Répartition par âge des enseignants -
+année 2022
 4%
 1%
 Moins de 30 ans
@@ -1268,8 +1333,8 @@ Moins de 30 ans
 [45 - 50[
 [50 - 55[
 [55 - 60[
-Titre du Graphe 30 : RÃ©partition par Ã¢ge et par genre des
-Enseignants permanents -annÃ©e 2022
+Titre de la Graphe 30 : Répartition par âge et par genre des
+Enseignants permanents -année 2022
 450 M
 400
 350
@@ -1284,14 +1349,14 @@ F
 Moins [30 - [35- [40 - [45 - [50 - [55 - Plus
 de 30 35[ 40[ 45[ 50[ 55[ 60[ de 60
 ans ans
-En 2022, une part significative des enseignants, Ã¢gÃ©s de plus de 60 ans, reprÃ©sente jusqu'Ã 
-32%. Pour la tranche d'Ã¢ge entre 35 et 55 ans, le taux varie entre 10% et 16%, tandis que les
-taux les plus bas concernent les enseignants Ã¢gÃ©s de moins de 35 ans, oscillant entre 1% et
+En 2022, une part significative des enseignants, âgés de plus de 60 ans, représente jusqu'à
+32%. Pour la tranche d'âge entre 35 et 55 ans, le taux varie entre 10% et 16%, tandis que les
+taux les plus bas concernent les enseignants âgés de moins de 35 ans, oscillant entre 1% et
 4%.
 29
 
-Titre du Graphe 29 : RÃ©partition par Ã¢ge des enseignants -
-annÃ©e 2022
+Titre de la Graphe 29 : Répartition par âge des enseignants -
+année 2022
 4%
 1%
 Moins de 30 ans
@@ -1306,8 +1371,8 @@ Moins de 30 ans
 [45 - 50[
 [50 - 55[
 [55 - 60[
-Titre du Graphe 30 : RÃ©partition par Ã¢ge et par genre des
-Enseignants permanents -annÃ©e 2022
+Titre de la Graphe 30 : Répartition par âge et par genre des
+Enseignants permanents -année 2022
 450 M
 400
 350
@@ -1322,16 +1387,18 @@ F
 Moins [30 - [35- [40 - [45 - [50 - [55 - Plus
 de 30 35[ 40[ 45[ 50[ 55[ 60[ de 60
 ans ans
-En 2022, une part significative des enseignants, Ã¢gÃ©s de plus de 60 ans, reprÃ©sente jusqu'Ã 
-32%. Pour la tranche d'Ã¢ge entre 35 et 55 ans, le taux varie entre 10% et 16%, tandis que les
-taux les plus bas concernent les enseignants Ã¢gÃ©s de moins de 35 ans, oscillant entre 1% et
+En 2022, une part significative des enseignants, âgés de plus de 60 ans, représente jusqu'à
+32%. Pour la tranche d'âge entre 35 et 55 ans, le taux varie entre 10% et 16%, tandis que les
+taux les plus bas concernent les enseignants âgés de moins de 35 ans, oscillant entre 1% et
 4%.
 29
+
 ---
-Titre du Tableau 21 : EVOLUTION DE NOMBRE Dâ€™ENSEIGNANTS A Lâ€™ENSEIGNEMENT SUPERIEUR
+
+Titre de la Tableau 21 : EVOLUTION DE NOMBRE D’ENSEIGNANTS A L’ENSEIGNEMENT SUPERIEUR
 PUBLIC DE 2017 A 2022
 
-| UniversitÃ©s   | UniversitÃ©s   | 2017  | 2018  | 2018 | 2019 | 2019  | 2019 | 2020 | 2020  | 2020 | 2022 | 2022  |
+| Universités   | Universités   | 2017  | 2018  | 2018 | 2019 | 2019  | 2019 | 2020 | 2020  | 2020 | 2022 | 2022  |
 | ------------- | ------------- | ----- | ----- | ---- | ---- | ----- | ---- | ---- | ----- | ---- | ---- | ----- |
 | Antananarivo  | Antananarivo  | 912   | 915   | 915  |      | 890   |      |      | 854   |      | 870  | 870   |
 | Antsiranana   | Antsiranana   | 135   | 145   | 145  |      | 142   |      |      | 130   |      | 151  | 151   |
@@ -1347,9 +1414,9 @@ PUBLIC DE 2017 A 2022
 | ENSEMBLE      |               | 1 782 | 1 828 |      |      | 1 831 |      |      | 1 702 |      |      | 1 810 |
 
 
-Source : Annuaire Statistique â€“ SSP / DSSIP/ MESUPRES
-Titre du Graphe 31 : RÃ©partition des enseignants dans les 6
-universitÃ©s -annÃ©e 2022
+Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
+Titre de la Graphe 31 : Répartition des enseignants dans les 6
+universités -année 2022
 12%
 Antananarivo
 5%
@@ -1362,12 +1429,14 @@ Fianarantsoa
 Toamasina
 Toliara
 30
+
 ---
-En 2022, plus de la moitiÃ© des enseignants universitaires se trouvent Ã  l'UniversitÃ©
-d'Antananarivo, reprÃ©sentant 52% de l'ensemble. Les autres enseignants sont rÃ©partis entre
-les universitÃ©s de Toliara, Mahajanga, Fianarantsoa, Antsiranana et Toamasina.
-Titre du Graphe 32 : Evolution de taux des effectifs des
-enseignants aux 3 IST de 2017 Ã  2022
+
+En 2022, plus de la moitié des enseignants universitaires se trouvent à l'Université
+d'Antananarivo, représentant 52% de l'ensemble. Les autres enseignants sont répartis entre
+les universités de Toliara, Mahajanga, Fianarantsoa, Antsiranana et Toamasina.
+Titre de la Graphe 32 : Evolution de taux des effectifs des
+enseignants aux 3 IST de 2017 à 2022
 60%
 50%
 40%
@@ -1383,23 +1452,25 @@ enseignants aux 3 IST de 2017 Ã  2022
 | IST AMBOSITRA | 30%  | 30%  | 30%  | 20%  | 28%  |
 
 
-L'IST d'Antananarivo compte gÃ©nÃ©ralement plus de la moitiÃ© des enseignants, tandis que l'IST
-d'Ambositra reprÃ©sente entre 20% et 30%, et l'IST de DiÃ©go affiche une proportion de 18% Ã 
+L'IST d'Antananarivo compte généralement plus de la moitié des enseignants, tandis que l'IST
+d'Ambositra représente entre 20% et 30%, et l'IST de Diégo affiche une proportion de 18% à
 24% des enseignants.
-En 2020, une diminution du nombre d'enseignants a Ã©tÃ© observÃ©e, mais une augmentation
-de 6% a Ã©tÃ© enregistrÃ©e Ã  l'IST d'Antananarivo pour cette annÃ©e. On a Ã©galement notÃ© une
-lÃ©gÃ¨re augmentation du nombre d'enseignants Ã  l'IST de DiÃ©go.
+En 2020, une diminution du nombre d'enseignants a été observée, mais une augmentation
+de 6% a été enregistrée à l'IST d'Antananarivo pour cette année. On a également noté une
+légère augmentation du nombre d'enseignants à l'IST de Diégo.
 31
+
 ---
+
 6 - LES ENSEIGNANTS VACATAIRES
-Titre du Tableau 22 : EVOLUTION DES EFFECTIFS DES ENSEIGNANTS VACATAIRES PAR GENRE A
-Lâ€™ENSEIGNEMENT SUPERIEUR DE 2019 A 2022
+Titre de la Tableau 22 : EVOLUTION DES EFFECTIFS DES ENSEIGNANTS VACATAIRES PAR GENRE A
+L’ENSEIGNEMENT SUPERIEUR DE 2019 A 2022
 
 | UNIVERSITE   | UNIVERSITE      | UNIVERSITE   | 2019        | 2019        | 2019        | 2019        | 2019        | 2019        | 2019        | 2019        | 2019        | 2020        | 2020        | 2020        | 2020        | 2020        | 2020        | 2020        | 2020        | 2020        | 2022        | 2022        | 2022        | 2022        | 2022        | 2022        | 2022        | 2022        | 2022        |
 | ------------ | --------------- | ------------ | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | UNIVERSITE   | UNIVERSITE      | UNIVERSITE   | M           | M           | M           | F           | F           | F           | S/T         | S/T         | S/T         | M           | M           | M           | F           | F           | F           | S/T         | S/T         | S/T         | M           | M           | M           | F           | F           | F           | S/T         | S/T         | S/T         |
 | Antananarivo | Antananarivo    | Antananarivo | 930         | 930         | 930         | 597         | 597         | 597         | 1 527       | 1 527       | 1 527       | 905         | 905         | 905         | 593         | 593         | 593         | 1 498       | 1 498       | 1 498       | 904         | 904         | 904         | 593         | 593         | 593         | 1 497       | 1 497       | 1 497       |
-| DiÃ©go        | DiÃ©go           | DiÃ©go        | 345         | 345         | 345         | 124         | 124         | 124         | 469         | 469         | 469         | 344         | 344         | 344         | 149         | 149         | 149         | 493         | 493         | 493         | 332         | 332         | 332         | 150         | 150         | 150         | 482         | 482         | 482         |
+| Diégo        | Diégo           | Diégo        | 345         | 345         | 345         | 124         | 124         | 124         | 469         | 469         | 469         | 344         | 344         | 344         | 149         | 149         | 149         | 493         | 493         | 493         | 332         | 332         | 332         | 150         | 150         | 150         | 482         | 482         | 482         |
 | Fianarantsoa | Fianarantsoa    | Fianarantsoa | 297         | 297         | 297         | 154         | 154         | 154         | 451         | 451         | 451         | 235         | 235         | 235         | 133         | 133         | 133         | 368         | 368         | 368         | 301         | 301         | 301         | 156         | 156         | 156         | 457         | 457         | 457         |
 | Mahajanga    | Mahajanga       | Mahajanga    | 446         | 446         | 446         | 200         | 200         | 200         | 646         | 646         | 646         | 520         | 520         | 520         | 247         | 247         | 247         | 767         | 767         | 767         | 538         | 538         | 538         | 257         | 257         | 257         | 795         | 795         | 795         |
 | Toamasina    | Toamasina       | Toamasina    | 293         | 293         | 293         | 100         | 100         | 100         | 393         | 393         | 393         | 246         | 246         | 246         | 110         | 110         | 110         | 356         | 356         | 356         | 296         | 296         | 296         | 114         | 114         | 114         | 410         | 410         | 410         |
@@ -1415,25 +1486,27 @@ Lâ€™ENSEIGNEMENT SUPERIEUR DE 2019 A 2022
 | ENSEMBLE     | ENSEMBLE        | ENSEMBLE     | 6 373       | 6 373       | 6 373       | 3 181       | 3 181       | 3 181       | 9 554       | 9 554       | 9 554       | 6 027       | 6 027       | 6 027       | 3 246       | 3 246       | 3 246       | 9 273       | 9 273       | 9 273       | 6 340       | 6 340       | 6 340       | 3 361       | 3 361       | 3 361       | 9 701       | 9 701       | 9 701       |
 
 
-Le taux le plus Ã©levÃ© d'enseignants vacataires se trouve Source : Annuaire Statistique â€“ SSP /
+Le taux le plus élevé d'enseignants vacataires se trouve Source : Annuaire Statistique – SSP /
 DSSIP/ MESUPRES
-Ã  l'UniversitÃ© d'Antananarivo, atteignant 36%, suivi de prÃ¨s par l'UniversitÃ© de Mahajanga
-avec 19%. Les universitÃ©s de Mahajanga et Toliara affichent un taux identique de 12%, tandis
-que les universitÃ©s de Toamasina et de Fianarantsoa prÃ©sentent des taux compris entre 10%
+à l'Université d'Antananarivo, atteignant 36%, suivi de près par l'Université de Mahajanga
+avec 19%. Les universités de Mahajanga et Toliara affichent un taux identique de 12%, tandis
+que les universités de Toamasina et de Fianarantsoa présentent des taux compris entre 10%
 et 11%.
 32
+
 ---
-Titre du Graphe 33 : Taux de rÃ©partition des enseignants
-vacataires aux 6 universitÃ©s -annÃ©e 2022
+
+Titre de la Graphe 33 : Taux de répartition des enseignants
+vacataires aux 6 universités -année 2022
 12%
 10% 36%
 19%
 12%
 11%
-Antananarivo DiÃ©go Fianarantsoa
+Antananarivo Diégo Fianarantsoa
 Mahajanga Toamasina Toliara
-Titre du Graphe 34 : RÃ©partition par genre des enseignants
-vacataires Ã  l'ESUP -annÃ©e 2022
+Titre de la Graphe 34 : Répartition par genre des enseignants
+vacataires à l'ESUP -année 2022
 3 500
 M
 3 000
@@ -1445,22 +1518,22 @@ F
 500
 0
 UNIVERSITE IST CNTEMAD ISP PRIVE
-A lâ€™Enseignement SupÃ©rieur, les enseignants vacataires de genre masculin sont les plus
-nombreux que les fÃ©minins. On constate quâ€™Ã  lâ€™IES PrivÃ©, plus de 52% sont des hommes, alors
+A l’Enseignement Supérieur, les enseignants vacataires de genre masculin sont les plus
+nombreux que les féminins. On constate qu’à l’IES Privé, plus de 52% sont des hommes, alors
 que plus de 43% pour les IES Publics.
 33
 
-Titre du Graphe 33 : Taux de rÃ©partition des enseignants
-vacataires aux 6 universitÃ©s -annÃ©e 2022
+Titre de la Graphe 33 : Taux de répartition des enseignants
+vacataires aux 6 universités -année 2022
 12%
 10% 36%
 19%
 12%
 11%
-Antananarivo DiÃ©go Fianarantsoa
+Antananarivo Diégo Fianarantsoa
 Mahajanga Toamasina Toliara
-Titre du Graphe 34 : RÃ©partition par genre des enseignants
-vacataires Ã  l'ESUP -annÃ©e 2022
+Titre de la Graphe 34 : Répartition par genre des enseignants
+vacataires à l'ESUP -année 2022
 3 500
 M
 3 000
@@ -1472,16 +1545,18 @@ F
 500
 0
 UNIVERSITE IST CNTEMAD ISP PRIVE
-A lâ€™Enseignement SupÃ©rieur, les enseignants vacataires de genre masculin sont les plus
-nombreux que les fÃ©minins. On constate quâ€™Ã  lâ€™IES PrivÃ©, plus de 52% sont des hommes, alors
+A l’Enseignement Supérieur, les enseignants vacataires de genre masculin sont les plus
+nombreux que les féminins. On constate qu’à l’IES Privé, plus de 52% sont des hommes, alors
 que plus de 43% pour les IES Publics.
 33
+
 ---
+
 7 - LE PERSONNEL ADMINISTRATIF ET TECHNIQUE (PAT)
-Titre du Tableau 23 : EVOLUTION DES EFFECTIFS DE PERSONNEL ADMINISTRATIF ET TECHNIQUE A
-Lâ€™ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
+Titre de la Tableau 23 : EVOLUTION DES EFFECTIFS DE PERSONNEL ADMINISTRATIF ET TECHNIQUE A
+L’ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
 
-| UniversitÃ©s     | UniversitÃ©s      | 2017  | 2017  | 2018  | 2018  | 2018  | 2019  | 2019  | 2020  | 2020  | 2020  | 2022  | 2022  | 2022  |
+| Universités     | Universités      | 2017  | 2017  | 2018  | 2018  | 2018  | 2019  | 2019  | 2020  | 2020  | 2020  | 2022  | 2022  | 2022  |
 | --------------- | ---------------- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | Antananarivo    | Antananarivo     |       | 1 749 | 1 701 | 1 701 | 1 701 | 1 585 |       |       | 1 501 |       | 1 497 | 1 497 | 1 497 |
 | Antsiranana     | Antsiranana      |       | 285   | 288   | 288   | 288   | 297   |       |       | 260   |       | 259   | 259   | 259   |
@@ -1497,9 +1572,9 @@ Lâ€™ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
 |                 | PUB + PRIVES     |       | 5 889 |       | 6 244 |       | 6 270 |       |       | 6 099 |       |       | 6 004 |       |
 
 
-Source : Annuaire Statistique â€“ SSP / DSSIP/ MESUPRES
-Titre du Graphe 35 : Evolution des effectifs de PAT Ã 
-l'ESUP de 2017 Ã  2022
+Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
+Titre de la Graphe 35 : Evolution des effectifs de PAT à
+l'ESUP de 2017 à 2022
 5 000
 4 000
 3 000
@@ -1514,13 +1589,15 @@ l'ESUP de 2017 Ã  2022
 
 
 34
+
 ---
+
 Les effectifs du personnel administratif et technique (PAT) dans l'Enseignement Public
-montrent une tendance Ã  la hausse de 2017 Ã  2018, mais connaissent une lÃ©gÃ¨re diminution
-de 2019 Ã  2020. En revanche, dans l'Enseignement PrivÃ©, le taux d'effectifs du PAT tend Ã 
-diminuer de 2019 Ã  2022.
-Titre du Graphe 36 : Tauxde rÃ©partition de PAT dans les 6
-UniversitÃ©s -annÃ©e 2022
+montrent une tendance à la hausse de 2017 à 2018, mais connaissent une légère diminution
+de 2019 à 2020. En revanche, dans l'Enseignement Privé, le taux d'effectifs du PAT tend à
+diminuer de 2019 à 2022.
+Titre de la Graphe 36 : Tauxde répartition de PAT dans les 6
+Universités -année 2022
 1 Antananarivo
 13%
 2 Antsiranana
@@ -1531,18 +1608,18 @@ UniversitÃ©s -annÃ©e 2022
 7% 5 Toamasina
 11%
 6 Toliara
-Lâ€™UniversitÃ© d'Antananarivo affiche le taux le plus Ã©levÃ© de personnel administratif et
-technique (PAT), atteignant 39%, surpassant ainsi les autres universitÃ©s. Ã€ l'opposÃ©,
-l'UniversitÃ© dâ€™Antsiranana prÃ©sente le taux le plus bas, avec seulement 7%. Les autres
-universitÃ©s affichent des taux situÃ©s autour de 11% Ã  15%.
+L’Université d'Antananarivo affiche le taux le plus élevé de personnel administratif et
+technique (PAT), atteignant 39%, surpassant ainsi les autres universités. À l'opposé,
+l'Université d’Antsiranana présente le taux le plus bas, avec seulement 7%. Les autres
+universités affichent des taux situés autour de 11% à 15%.
 35
 
 Les effectifs du personnel administratif et technique (PAT) dans l'Enseignement Public
-montrent une tendance Ã  la hausse de 2017 Ã  2018, mais connaissent une lÃ©gÃ¨re diminution
-de 2019 Ã  2020. En revanche, dans l'Enseignement PrivÃ©, le taux d'effectifs du PAT tend Ã 
-diminuer de 2019 Ã  2022.
-Titre du Graphe 36 : Tauxde rÃ©partition de PAT dans les 6
-UniversitÃ©s -annÃ©e 2022
+montrent une tendance à la hausse de 2017 à 2018, mais connaissent une légère diminution
+de 2019 à 2020. En revanche, dans l'Enseignement Privé, le taux d'effectifs du PAT tend à
+diminuer de 2019 à 2022.
+Titre de la Graphe 36 : Tauxde répartition de PAT dans les 6
+Universités -année 2022
 1 Antananarivo
 13%
 2 Antsiranana
@@ -1553,37 +1630,39 @@ UniversitÃ©s -annÃ©e 2022
 7% 5 Toamasina
 11%
 6 Toliara
-Lâ€™UniversitÃ© d'Antananarivo affiche le taux le plus Ã©levÃ© de personnel administratif et
-technique (PAT), atteignant 39%, surpassant ainsi les autres universitÃ©s. Ã€ l'opposÃ©,
-l'UniversitÃ© dâ€™Antsiranana prÃ©sente le taux le plus bas, avec seulement 7%. Les autres
-universitÃ©s affichent des taux situÃ©s autour de 11% Ã  15%.
+L’Université d'Antananarivo affiche le taux le plus élevé de personnel administratif et
+technique (PAT), atteignant 39%, surpassant ainsi les autres universités. À l'opposé,
+l'Université d’Antsiranana présente le taux le plus bas, avec seulement 7%. Les autres
+universités affichent des taux situés autour de 11% à 15%.
 35
+
 ---
-Titre du Graphe 37 : Evolution des effectifs de PAT par genre Ã  l'ESUP
-de 2017 Ã  2022
+
+Titre de la Graphe 37 : Evolution des effectifs de PAT par genre à l'ESUP
+de 2017 à 2022
 2500
 2000 public
 1500
 1000
-500 privÃ©
+500 privé
 0
 M F M F M F M F M F
 2017 2018 2019 2020 2022
-Titre du Tableau 24 : REPARTITION PAR GENRE DE PERSONNEL ADMINISTRATIF ET
-TECHNIQUE A Lâ€™ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
+Titre de la Tableau 24 : REPARTITION PAR GENRE DE PERSONNEL ADMINISTRATIF ET
+TECHNIQUE A L’ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
 
-| UniversitÃ©s         | 2017  | 2017  | 2018  | 2018  | 2019  | 2019  | 2020  | 2020  | 2022  | 2022  |
+| Universités         | 2017  | 2017  | 2018  | 2018  | 2019  | 2019  | 2020  | 2020  | 2022  | 2022  |
 | ------------------- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| UniversitÃ©s         | M     | F     | M     | F     | M     | F     | M     | F     | M     | F     |
+| Universités         | M     | F     | M     | F     | M     | F     | M     | F     | M     | F     |
 | Antananarivo        | 1 116 | 633   | 1 080 | 621   | 1 008 | 577   | 943   | 558   | 943   | 554   |
 | Antsiranana         | 166   | 119   | 171   | 117   | 167   | 130   | 153   | 107   | 151   | 108   |
 | Fianarantsoa        | 259   | 196   | 259   | 186   | 262   | 201   | 274   | 195   | 248   | 189   |
 | Mahajanga           | 235   | 263   | 275   | 318   | 276   | 317   | 275   | 313   | 265   | 306   |
 | Toamasina           | 154   | 145   | 335   | 185   | 353   | 240   | 285   | 167   | 352   | 224   |
 | Toliara             | 192   | 194   | 195   | 206   | 195   | 204   | 249   | 267   | 235   | 261   |
-| total 6 universitÃ©s | 2 122 | 1 550 | 2 315 | 1 633 | 2 261 | 1 669 | 2 179 | 1 607 | 2 194 | 1 642 |
+| total 6 universités | 2 122 | 1 550 | 2 315 | 1 633 | 2 261 | 1 669 | 2 179 | 1 607 | 2 194 | 1 642 |
 | IST Antananarivo    | 51    | 32    | 53    | 32    | 54    | 32    | 51    | 32    | 49    | 31    |
-| IST DiÃ©go           | 14    | 10    | 11    | 12    | 9     | 11    | 13    | 12    | 14    | 11    |
+| IST Diégo           | 14    | 10    | 11    | 12    | 9     | 11    | 13    | 12    | 14    | 11    |
 | IST Ambositra       | 23    | 29    | 26    | 34    | 26    | 37    | 25    | 37    | 23    | 37    |
 | total 3 IST         | 88    | 71    | 90    | 78    | 89    | 80    | 89    | 81    | 86    | 79    |
 | CNTEMAD             | 61    | 71    | 56    | 67    | 54    | 66    | 82    | 84    | 107   | 91    |
@@ -1592,24 +1671,26 @@ TECHNIQUE A Lâ€™ENSEIGNEMENT SUPERIEUR DE 2017 A 2022
 | PUB + PRIVES        | 3 293 | 2 596 | 3 553 | 2 691 | 3 578 | 2 692 | 3 422 | 2 677 | 3 345 | 2 659 |
 
 
-Source : Annuaire Statistique â€“ SSP / DSSIP/ MESUPRES
+Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
 36
+
 ---
-De maniÃ¨re gÃ©nÃ©rale, le personnel administratif et technique (PAT) de genre masculin est plus
-reprÃ©sentÃ© que celui de genre fÃ©minin dans l'enseignement supÃ©rieur. Le taux masculin atteint
-jusqu'Ã  56%, tandis que celui des femmes s'Ã©lÃ¨ve Ã  44%.
-Titre du Tableau 25 : EFFECTIF DE PERSONNEL ADMINISTRATIF ET TECHNIQUE PAR CATEGORIE A
+
+De manière générale, le personnel administratif et technique (PAT) de genre masculin est plus
+représenté que celui de genre féminin dans l'enseignement supérieur. Le taux masculin atteint
+jusqu'à 56%, tandis que celui des femmes s'élève à 44%.
+Titre de la Tableau 25 : EFFECTIF DE PERSONNEL ADMINISTRATIF ET TECHNIQUE PAR CATEGORIE A
 L'IES PUBLIC - ANNEE 2022
 
 | CATEGORIE         | X | IX | VIII | VII | VI  | V   | IV  | III | II  | I   | EFA  | ELD | ECD | total |
 | ----------------- | - | -- | ---- | --- | --- | --- | --- | --- | --- | --- | ---- | --- | --- | ----- |
 | Antananarivo      |   | 2  | 54   | 0   | 38  | 65  | 56  | 201 | 228 | 350 | 311  | 5   | 187 | 1 497 |
-| DiÃ©go             |   | 0  | 1    | 0   | 0   | 0   | 0   | 0   | 4   | 15  | 116  | 0   | 123 | 259   |
+| Diégo             |   | 0  | 1    | 0   | 0   | 0   | 0   | 0   | 4   | 15  | 116  | 0   | 123 | 259   |
 | Fianarantsoa      |   | 0  | 3    | 0   | 12  | 12  | 5   | 24  | 15  | 19  | 184  | 0   | 163 | 437   |
 | Mahajanga         |   | 0  | 17   | 0   | 8   | 12  | 7   | 40  | 39  | 111 | 216  | 0   | 121 | 571   |
 | Toamasina         |   | 0  | 3    | 0   | 4   | 5   | 1   | 19  | 34  | 51  | 97   | 199 | 163 | 576   |
 | Toliara           |   | 0  | 2    | 0   | 40  | 48  | 10  | 64  | 68  | 30  | 28   | 136 | 70  | 496   |
-| total universitÃ©s |   | 2  | 80   | 0   | 102 | 142 | 79  | 348 | 388 | 576 | 952  | 340 | 827 | 3 836 |
+| total universités |   | 2  | 80   | 0   | 102 | 142 | 79  | 348 | 388 | 576 | 952  | 340 | 827 | 3 836 |
 | IST TANA          |   |    | 2    |     | 1   | 10  | 8   | 27  | 3   | 28  | 1    | 0   | 0   | 80    |
 | IST DIEGO         |   |    | 1    |     | 1   |     | 1   | 5   | 1   | 7   | 6    | 3   | 0   | 25    |
 | IST AMBOSITRA     |   |    |      |     | 2   |     | 1   |     |     |     | 37   | 18  | 2   | 60    |
@@ -1618,9 +1699,9 @@ L'IES PUBLIC - ANNEE 2022
 | total public      | 1 | 10 | 114  | 0   | 150 | 167 | 102 | 412 | 404 | 640 | 1005 | 365 | 829 | 4199  |
 
 
-Source : Annuaire Statistique â€“ SSP / DSSIP/ MESUPRES
-Titre du Graphe 38 : RÃ©partition par catÃ©gorie de PAT Ã  l'IES Public -
-annÃ©e 2022
+Source : Annuaire Statistique – SSP / DSSIP/ MESUPRES
+Titre de la Graphe 38 : Répartition par catégorie de PAT à l'IES Public -
+année 2022
 1200
 1000
 800
@@ -1636,14 +1717,16 @@ A D D
 
 
 37
+
 ---
-52% du personnel administratif et technique (PAT) Ã  l'Enseignement SupÃ©rieur Public est
-constituÃ© des catÃ©gories EFA, ELD et ECD. Les 48% restants sont attribuÃ©s au personnel des
-catÃ©gories I Ã  X. On observe que plus la catÃ©gorie est Ã©levÃ©e, plus il y a moins de PAT.
-8 - Lâ€™EFFICACITE INTERNE
+
+52% du personnel administratif et technique (PAT) à l'Enseignement Supérieur Public est
+constitué des catégories EFA, ELD et ECD. Les 48% restants sont attribués au personnel des
+catégories I à X. On observe que plus la catégorie est élevée, plus il y a moins de PAT.
+8 - L’EFFICACITE INTERNE
 RESULTAT DES EXAMENS :
-Titre du Graphe 39 : Evolution de taux de rÃ©ussite aux examens Ã 
-l'ESUP de 2016 Ã  2020
+Titre de la Graphe 39 : Evolution de taux de réussite aux examens à
+l'ESUP de 2016 à 2020
 100%
 90%
 80%
@@ -1662,27 +1745,29 @@ l'ESUP de 2016 Ã  2020
 | TOTAL PRIVE  | 94%  | 91%  | 91%  | 93%  | 90%  |
 
 
-GÃ©nÃ©ralement, on a constatÃ© une amÃ©lioration des rÃ©sultats aux examens dans l'ensemble de
-l'enseignement supÃ©rieur. Pour les institutions d'enseignement supÃ©rieur (IES) publics, le taux
-de rÃ©ussite se situe entre 57% et 67%, tandis qu'il dÃ©passe les 90% pour les IES privÃ©s, malgrÃ©
-une lÃ©gÃ¨re diminution de 2019 Ã  2020.
+Généralement, on a constaté une amélioration des résultats aux examens dans l'ensemble de
+l'enseignement supérieur. Pour les institutions d'enseignement supérieur (IES) publics, le taux
+de réussite se situe entre 57% et 67%, tandis qu'il dépasse les 90% pour les IES privés, malgré
+une légère diminution de 2019 à 2020.
 38
+
 ---
-Titre du Graphe 40 : RÃ©partition de taux de rÃ©ussite Ã 
-l'examen aux 6 universitÃ©s -annÃ©e 2020
+
+Titre de la Graphe 40 : Répartition de taux de réussite à
+l'examen aux 6 universités -année 2020
 75%
 70%
 65% 75% 70% 73%
 67%
 60% 64% 63%
 55%
-En 2020, le taux de rÃ©ussite aux examens pour les universitÃ©s d'Antsiranana, Fianarantsoa et
-Toamasina dÃ©passe les 70%. Pour les universitÃ©s de Toliara, Antananarivo et Mahajanga, ce
+En 2020, le taux de réussite aux examens pour les universités d'Antsiranana, Fianarantsoa et
+Toamasina dépasse les 70%. Pour les universités de Toliara, Antananarivo et Mahajanga, ce
 taux se situe entre 63% et 67%.
-Titre du Tableau 26 : EVOLUTION DES RESULTATS DES EXAMENS PAR NIVEAU Dâ€™ETUDES DE 2016 A
+Titre de la Tableau 26 : EVOLUTION DES RESULTATS DES EXAMENS PAR NIVEAU D’ETUDES DE 2016 A
 2020
 
-| IES    | Niveau d'Ã©tudes | Niveau d'Ã©tudes | Niveau d'Ã©tudes | 2016 | 2016 | 2016 | 2017 | 2017 | 2017 | 2018 | 2018 | 2018 | 2019 | 2019 | 2019 | 2020 | 2020 | 2020 |
+| IES    | Niveau d'études | Niveau d'études | Niveau d'études | 2016 | 2016 | 2016 | 2017 | 2017 | 2017 | 2018 | 2018 | 2018 | 2019 | 2019 | 2019 | 2020 | 2020 | 2020 |
 | ------ | --------------- | --------------- | --------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | PUBLIC | L1              | L1              | L1              | 42%  | 42%  | 42%  | 42%  | 42%  | 42%  | 45%  | 45%  | 45%  | 49%  | 49%  | 49%  | 53%  | 53%  | 53%  |
 | PUBLIC | L2              | L2              | L2              | 69%  | 69%  | 69%  | 67%  | 67%  | 67%  | 68%  | 68%  | 68%  | 70%  | 70%  | 70%  | 75%  | 75%  | 75%  |
@@ -1702,14 +1787,16 @@ Titre du Tableau 26 : EVOLUTION DES RESULTATS DES EXAMENS PAR NIVEAU Dâ€™ETUDES 
 
 Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES
 39
+
 ---
-Entre 2016 et 2020, on observe une augmentation du taux de rÃ©ussite aux examens Ã  mesure
-que le niveau d'Ã©tudes s'Ã©lÃ¨ve. Pour les institutions d'enseignement supÃ©rieur (IES) publics,
-le taux de rÃ©ussite en premiÃ¨re annÃ©e (L1) varie entre environ 42% et 53%, atteignant jusqu'Ã 
-95% pour les rÃ©sultats aux doctorats. Quant aux IES privÃ©es, le taux de rÃ©ussite en premiÃ¨re
-annÃ©e (L1) se situe autour de 88% Ã  94%, atteignant 100% aux doctorats.
-Titre du Graphe 41 : Evolution de taux de rÃ©ussite aux
-examens Ã  l'ESUP -annÃ©e 2020
+
+Entre 2016 et 2020, on observe une augmentation du taux de réussite aux examens à mesure
+que le niveau d'études s'élève. Pour les institutions d'enseignement supérieur (IES) publics,
+le taux de réussite en première année (L1) varie entre environ 42% et 53%, atteignant jusqu'à
+95% pour les résultats aux doctorats. Quant aux IES privées, le taux de réussite en première
+année (L1) se situe autour de 88% à 94%, atteignant 100% aux doctorats.
+Titre de la Graphe 41 : Evolution de taux de réussite aux
+examens à l'ESUP -année 2020
 120%
 100%
 80%
@@ -1720,28 +1807,30 @@ examens Ã  l'ESUP -annÃ©e 2020
 
 |             | L1  | L2  | L3  | M1  | M2  | Doctor at |
 | ----------- | --- | --- | --- | --- | --- | --------- |
-| UniversitÃ©s | 52% | 76% | 81% | 79% | 73% | 97%       |
+| Universités | 52% | 76% | 81% | 79% | 73% | 97%       |
 | IST         | 82% | 90% | 91% | 88% | 79% |           |
 | CNTEMAD     | 52% | 67% | 66% | 71% | 75% |           |
 | PRIVE       | 88% | 95% | 93% | 92% | 87% | 100%      |
 
 
-Les taux de rÃ©ussite dans les universitÃ©s s'Ã©tendent de 52% Ã  97%, couvrant la pÃ©riode de la
-premiÃ¨re annÃ©e (L1) au doctorat. Pour les Instituts SupÃ©rieurs de Technologie (IST), le taux de
-rÃ©ussite varie entre 79% et 91%, tandis qu'au Centre National de TÃ©lÃ©-Enseignement de
+Les taux de réussite dans les universités s'étendent de 52% à 97%, couvrant la période de la
+première année (L1) au doctorat. Pour les Instituts Supérieurs de Technologie (IST), le taux de
+réussite varie entre 79% et 91%, tandis qu'au Centre National de Télé-Enseignement de
 Madagascar (CNTEMAD), il se situe entre 52% et 75%. En ce qui concerne les institutions
-d'enseignement supÃ©rieur (IES) privÃ©es, le taux de rÃ©ussite oscille entre 88% et 100%.
+d'enseignement supérieur (IES) privées, le taux de réussite oscille entre 88% et 100%.
 40
+
 ---
+
 DIPLOMES
-Titre du Tableau 27 : EVOLUTION PAR TYPE DE DIPLOME A Lâ€™ENSEIGNEMENT SUPERIEUR DE 2016 A
+Titre de la Tableau 27 : EVOLUTION PAR TYPE DE DIPLOME A L’ENSEIGNEMENT SUPERIEUR DE 2016 A
 2020
 
-| UniversitÃ©                                                                  | 2016                                                                        | 2016                                                                        | 2016                                                                        | 2017                                                                        | 2017                                                                        | 2017                                                                        | 2018                                                                        | 2018                                                                        | 2018                                                                        | 2019   | 2019  | 2019 | 2020   | 2020  | 2020 |
+| Université                                                                  | 2016                                                                        | 2016                                                                        | 2016                                                                        | 2017                                                                        | 2017                                                                        | 2017                                                                        | 2018                                                                        | 2018                                                                        | 2018                                                                        | 2019   | 2019  | 2019 | 2020   | 2020  | 2020 |
 | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------ | ----- | ---- | ------ | ----- | ---- |
-| UniversitÃ©                                                                  | L                                                                           | M                                                                           | D                                                                           | L                                                                           | M                                                                           | D                                                                           | L                                                                           | M                                                                           | D                                                                           | L      | M     | D    | L      | M     | D    |
+| Université                                                                  | L                                                                           | M                                                                           | D                                                                           | L                                                                           | M                                                                           | D                                                                           | L                                                                           | M                                                                           | D                                                                           | L      | M     | D    | L      | M     | D    |
 | Antananarivo                                                                | 3 168                                                                       | 1 160                                                                       | 37                                                                          | 2 764                                                                       | 701                                                                         | 288                                                                         | 3 525                                                                       | 1 672                                                                       | 446                                                                         | 3 801  | 1 376 | 243  | 4 039  | 1 249 | 250  |
-| DiÃ©go                                                                       | 221                                                                         | 266                                                                         |                                                                             | 597                                                                         | 268                                                                         | 865                                                                         | 607                                                                         | 282                                                                         | 0                                                                           | 2 773  | 401   | 16   | 1 033  | 327   | 16   |
+| Diégo                                                                       | 221                                                                         | 266                                                                         |                                                                             | 597                                                                         | 268                                                                         | 865                                                                         | 607                                                                         | 282                                                                         | 0                                                                           | 2 773  | 401   | 16   | 1 033  | 327   | 16   |
 | Fianarantsoa                                                                | 1 112                                                                       | 118                                                                         | 4                                                                           | 980                                                                         | 417                                                                         |                                                                             | 1 737                                                                       | 381                                                                         | 5                                                                           | 2 346  | 753   | 12   | 3 277  | 1 432 | 73   |
 | Mahajanga                                                                   | 845                                                                         | 229                                                                         | 102                                                                         | 725                                                                         | 324                                                                         | 182                                                                         | 867                                                                         | 215                                                                         | 180                                                                         | 408    | 215   | 173  | 512    | 184   | 75   |
 | Toamasina                                                                   | 1 737                                                                       | 3 166                                                                       | 2                                                                           | 2 023                                                                       | 9                                                                           | 1                                                                           | 523                                                                         | 0                                                                           | 21                                                                          | 494    | 11    | 20   | 988    | 62    | 13   |
@@ -1754,34 +1843,36 @@ Titre du Tableau 27 : EVOLUTION PAR TYPE DE DIPLOME A Lâ€™ENSEIGNEMENT SUPERIEUR
 | Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES | Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES | Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES | Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES | Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES | Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES | Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES | Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES | Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES | Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES |        |       |      |        |       |      |
 
 
-| Titre du Graphe 42 : Evolution des effectifs des diplÃ´mÃ©s Ã  35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privÃ© 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Titre du Graphe 42 : Evolution des effectifs des diplÃ´mÃ©s Ã  35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privÃ© 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Titre du Graphe 42 : Evolution des effectifs des diplÃ´mÃ©s Ã  35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privÃ© 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Titre du Graphe 42 : Evolution des effectifs des diplÃ´mÃ©s Ã  35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privÃ© 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Titre du Graphe 42 : Evolution des effectifs des diplÃ´mÃ©s Ã  35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privÃ© 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Titre du Graphe 42 : Evolution des effectifs des diplÃ´mÃ©s Ã  35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privÃ© 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Titre du Graphe 42 : Evolution des effectifs des diplÃ´mÃ©s Ã  35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privÃ© 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 |
+| Titre de la Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Titre de la Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Titre de la Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Titre de la Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Titre de la Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Titre de la Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Titre de la Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Titre du Graphe 42 : Evolution des effectifs des diplÃ´mÃ©s Ã  35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privÃ© 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Titre du Graphe 42 : Evolution des effectifs des diplÃ´mÃ©s Ã  35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privÃ© 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | 2016                                                                                                                                                                                                                    | 2017                                                                                                                                                                                                                    | 2018                                                                                                                                                                                                                    | 2019                                                                                                                                                                                                                    | 2020                                                                                                                                                                                                                    |
-| Titre du Graphe 42 : Evolution des effectifs des diplÃ´mÃ©s Ã  35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privÃ© 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | privÃ©                                                                                                                                                                                                                   | 10 370                                                                                                                                                                                                                  | 11 088                                                                                                                                                                                                                  | 11 620                                                                                                                                                                                                                  | 12 006                                                                                                                                                                                                                  | 12 070                                                                                                                                                                                                                  |
-| Titre du Graphe 42 : Evolution des effectifs des diplÃ´mÃ©s Ã  35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privÃ© 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | public                                                                                                                                                                                                                  | 14 873                                                                                                                                                                                                                  | 13 888                                                                                                                                                                                                                  | 14 925                                                                                                                                                                                                                  | 16 722                                                                                                                                                                                                                  | 17 883                                                                                                                                                                                                                  |
+| Titre de la Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | Titre de la Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | 2016                                                                                                                                                                                                                    | 2017                                                                                                                                                                                                                    | 2018                                                                                                                                                                                                                    | 2019                                                                                                                                                                                                                    | 2020                                                                                                                                                                                                                    |
+| Titre de la Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | privé                                                                                                                                                                                                                   | 10 370                                                                                                                                                                                                                  | 11 088                                                                                                                                                                                                                  | 11 620                                                                                                                                                                                                                  | 12 006                                                                                                                                                                                                                  | 12 070                                                                                                                                                                                                                  |
+| Titre de la Graphe 42 : Evolution des effectifs des diplômés à 35 000 l'ESUP 30 000 25 000 20 000 15 000 10 000 5 000 0 2016 2017 2018 2019 2020 privé 10 370 11 088 11 620 12 006 12 070 public 14 873 13 888 14 925 16 722 17 883 | public                                                                                                                                                                                                                  | 14 873                                                                                                                                                                                                                  | 13 888                                                                                                                                                                                                                  | 14 925                                                                                                                                                                                                                  | 16 722                                                                                                                                                                                                                  | 17 883                                                                                                                                                                                                                  |
 
 
-Le nombre des diplÃ´mÃ©s Ã  lâ€™ESUP passe de 25 243 Ã  29 982 de 2016 Ã  2020 avec un taux
-dâ€™accroissement de 3,5%. A lâ€™IES Public, il passe de 13 888 Ã  17 883. Cet effectif passe de
-10 370 Ã  12 099 Ã  lâ€™IES PrivÃ©.
+Le nombre des diplômés à l’ESUP passe de 25 243 à 29 982 de 2016 à 2020 avec un taux
+d’accroissement de 3,5%. A l’IES Public, il passe de 13 888 à 17 883. Cet effectif passe de
+10 370 à 12 099 à l’IES Privé.
 41
+
 ---
-Titre du Graphe 43 : RÃ©partition des diplÃ´mÃ©s Ã  l'ESUP -
-annÃ©e 2020
+
+Titre de la Graphe 43 : Répartition des diplômés à l'ESUP -
+année 2020
 D; 1%
 M; 22%
 L; 76%
-Pour lâ€™annÃ©e 2020, le diplÃ´me de grade Licence occupe la plus grande proportion avec un
+Pour l’année 2020, le diplôme de grade Licence occupe la plus grande proportion avec un
 taux de 76%, 22% de grade Master et le 1% restant est de grade de Doctorat.
-9 â€“ LES TAUX DE FLUX
-Titre du Tableau 28 : EVOLUTION DE TAUX DE FLUX A Lâ€™INSTITUT SUPERIEUR PUBLIC DE 2016 A
+9 – LES TAUX DE FLUX
+Titre de la Tableau 28 : EVOLUTION DE TAUX DE FLUX A L’INSTITUT SUPERIEUR PUBLIC DE 2016 A
 2020
 
 | institution   | Taux         | Taux         | Taux         | 2016 |     |     | 2017 |     |     | 2018 |     | 2019 |     |     | 2020 |     |
 | ------------- | ------------ | ------------ | ------------ | ---- | --- | --- | ---- | --- | --- | ---- | --- | ---- | --- | --- | ---- | --- |
-| 6 UniversitÃ©s | Promotion    | Promotion    | Promotion    | 57%  | 57% | 58% | 58%  | 58% | 57% | 57%  | 61% | 61%  | 61% | 61% | 61%  | 61% |
-| 6 UniversitÃ©s | Redoublement | Redoublement | Redoublement | 14%  | 14% | 14% | 14%  | 14% | 16% | 16%  | 12% | 12%  | 12% | 10% | 10%  | 10% |
-| 6 UniversitÃ©s | Abandon      | Abandon      | Abandon      | 30%  | 30% | 28% | 28%  | 28% | 27% | 27%  | 27% | 27%  | 27% | 29% | 29%  | 29% |
+| 6 Universités | Promotion    | Promotion    | Promotion    | 57%  | 57% | 58% | 58%  | 58% | 57% | 57%  | 61% | 61%  | 61% | 61% | 61%  | 61% |
+| 6 Universités | Redoublement | Redoublement | Redoublement | 14%  | 14% | 14% | 14%  | 14% | 16% | 16%  | 12% | 12%  | 12% | 10% | 10%  | 10% |
+| 6 Universités | Abandon      | Abandon      | Abandon      | 30%  | 30% | 28% | 28%  | 28% | 27% | 27%  | 27% | 27%  | 27% | 29% | 29%  | 29% |
 | 3 IST         | Promotion    | Promotion    | Promotion    | 69%  | 69% | 68% | 68%  | 68% | 69% | 69%  | 68% | 68%  | 68% | 73% | 73%  | 73% |
 | 3 IST         | Redoublement | Redoublement | Redoublement | 1%   | 1%  | 3%  | 3%   | 3%  | 6%  | 6%   | 1%  | 1%   | 1%  | 3%  | 3%   | 3%  |
 | 3 IST         | Abandon      | Abandon      | Abandon      | 31%  | 31% | 29% | 29%  | 29% | 25% | 25%  | 31% | 31%  | 31% | 25% | 25%  | 25% |
@@ -1795,8 +1886,10 @@ Titre du Tableau 28 : EVOLUTION DE TAUX DE FLUX A Lâ€™INSTITUT SUPERIEUR PUBLIC 
 
 Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES
 42
+
 ---
-Titre du Graphe 44 : Evolution de taux de flux Ã  l'ESUP
+
+Titre de la Graphe 44 : Evolution de taux de flux à l'ESUP
 Public
 80%
 60%
@@ -1804,22 +1897,22 @@ P
 40% R
 20% A
 0%
-En gÃ©nÃ©ral, le taux de rÃ©ussite Ã  l'Institut d'Enseignement SupÃ©rieur Public oscille entre 53%
-et 59%. Cela signifie que, sur 100 Ã©tudiants inscrits, entre 53 et 59 obtiennent leur promotion,
-8 Ã  13 doivent redoubler, et 29 Ã  34 abandonnent leurs Ã©tudes. Les Instituts SupÃ©rieurs de
-Technologie affichent un taux de rÃ©ussite plus Ã©levÃ©, avec 68 Ã  73 Ã©tudiants promus pour 100
+En général, le taux de réussite à l'Institut d'Enseignement Supérieur Public oscille entre 53%
+et 59%. Cela signifie que, sur 100 étudiants inscrits, entre 53 et 59 obtiennent leur promotion,
+8 à 13 doivent redoubler, et 29 à 34 abandonnent leurs études. Les Instituts Supérieurs de
+Technologie affichent un taux de réussite plus élevé, avec 68 à 73 étudiants promus pour 100
 inscrits, tandis que le taux de redoublement se situe entre 1% et 6%. Au niveau du CNTEMAD,
-les taux de rÃ©ussite et d'abandon sont assez similaires, variant respectivement de 35% Ã  50%
-et de 36% Ã  42%.
-Titre du Graphe 45 : Taux de flux dans les 6 universitÃ©s -
-annÃ©e 2020
+les taux de réussite et d'abandon sont assez similaires, variant respectivement de 35% à 50%
+et de 36% à 42%.
+Titre de la Graphe 45 : Taux de flux dans les 6 universités -
+année 2020
 29%
 61%
 10%
 TP TR TA
 43
 
-Titre du Graphe 44 : Evolution de taux de flux Ã  l'ESUP
+Titre de la Graphe 44 : Evolution de taux de flux à l'ESUP
 Public
 80%
 60%
@@ -1827,37 +1920,39 @@ P
 40% R
 20% A
 0%
-En gÃ©nÃ©ral, le taux de rÃ©ussite Ã  l'Institut d'Enseignement SupÃ©rieur Public oscille entre 53%
-et 59%. Cela signifie que, sur 100 Ã©tudiants inscrits, entre 53 et 59 obtiennent leur promotion,
-8 Ã  13 doivent redoubler, et 29 Ã  34 abandonnent leurs Ã©tudes. Les Instituts SupÃ©rieurs de
-Technologie affichent un taux de rÃ©ussite plus Ã©levÃ©, avec 68 Ã  73 Ã©tudiants promus pour 100
+En général, le taux de réussite à l'Institut d'Enseignement Supérieur Public oscille entre 53%
+et 59%. Cela signifie que, sur 100 étudiants inscrits, entre 53 et 59 obtiennent leur promotion,
+8 à 13 doivent redoubler, et 29 à 34 abandonnent leurs études. Les Instituts Supérieurs de
+Technologie affichent un taux de réussite plus élevé, avec 68 à 73 étudiants promus pour 100
 inscrits, tandis que le taux de redoublement se situe entre 1% et 6%. Au niveau du CNTEMAD,
-les taux de rÃ©ussite et d'abandon sont assez similaires, variant respectivement de 35% Ã  50%
-et de 36% Ã  42%.
-Titre du Graphe 45 : Taux de flux dans les 6 universitÃ©s -
-annÃ©e 2020
+les taux de réussite et d'abandon sont assez similaires, variant respectivement de 35% à 50%
+et de 36% à 42%.
+Titre de la Graphe 45 : Taux de flux dans les 6 universités -
+année 2020
 29%
 61%
 10%
 TP TR TA
 43
+
 ---
-En 2020 dans les 6 universitÃ©s, 61% sont des promus, 10% des redoublants et les 29% sont
+
+En 2020 dans les 6 universités, 61% sont des promus, 10% des redoublants et les 29% sont
 ceux qui abandonnent.
-10 â€“ LES TAUX DE SCOLARISATION
-Titre du Tableau 29 : EVOLUTION DE TAUX DE SCOLARISATION A Lâ€™ENSEIGNEMENT SUPERIEUR DE
+10 – LES TAUX DE SCOLARISATION
+Titre de la Tableau 29 : EVOLUTION DE TAUX DE SCOLARISATION A L’ENSEIGNEMENT SUPERIEUR DE
 2017 A 2022
 
 | Effectif               | 2017      | 2018      | 2019      | 2020      | 2022      |
 | ---------------------- | --------- | --------- | --------- | --------- | --------- |
-| Ã©tudiant Ã  l'ESUP      | 137 894   | 143 759   | 152 843   | 159 298   | 178 665   |
-| Population 18 Ã  22 ans | 2 602 311 | 2 680 282 | 2 753 639 | 2 822 380 | 2 947 612 |
+| étudiant à l'ESUP      | 137 894   | 143 759   | 152 843   | 159 298   | 178 665   |
+| Population 18 à 22 ans | 2 602 311 | 2 680 282 | 2 753 639 | 2 822 380 | 2 947 612 |
 | TBS                    | 5,3%      | 5,4%      | 5,6%      | 5,6%      | 6,1%      |
 
 
 Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES
-Titre du Graphe 46 : Evolution de taux brut de
-scolarisation de 2017 Ã  2022
+Titre de la Graphe 46 : Evolution de taux brut de
+scolarisation de 2017 à 2022
 6,2%
 6,0%
 5,8%
@@ -1868,48 +1963,52 @@ scolarisation de 2017 Ã  2022
 4,8%
 2017 2018 2019 2020 2022
 44
+
 ---
-Le taux brut de scolarisation dans l'enseignement supÃ©rieur reprÃ©sente le pourcentage total
-d'inscrits par rapport Ã  la population officiellement scolarisable, gÃ©nÃ©ralement dÃ©finie comme
-la tranche d'Ã¢ge de 18 Ã  22 ans, pour une annÃ©e universitaire donnÃ©e. Ce taux a variÃ© de 5,3%
-Ã  6,1% au cours de la pÃ©riode allant de 2016 Ã  2022.
-11 â€“ LES RATIOS
-Titre du Tableau 30 : EVOLUTION DE RATIOS ETUDIANTS / PE, PAT A Lâ€™ENSEIGNEMENT SUPERIEUR
+
+Le taux brut de scolarisation dans l'enseignement supérieur représente le pourcentage total
+d'inscrits par rapport à la population officiellement scolarisable, généralement définie comme
+la tranche d'âge de 18 à 22 ans, pour une année universitaire donnée. Ce taux a varié de 5,3%
+à 6,1% au cours de la période allant de 2016 à 2022.
+11 – LES RATIOS
+Titre de la Tableau 30 : EVOLUTION DE RATIOS ETUDIANTS / PE, PAT A L’ENSEIGNEMENT SUPERIEUR
 DE 2017 A 2022
 
 | RATIO                            | 2 017 | 2 018 | 2 019 | 2 020 | 2 022 |
 | -------------------------------- | ----- | ----- | ----- | ----- | ----- |
-| Ã©tudiants / PE - Public          | 57    | 57    | 60    | 69    | 74    |
-| Ã©tudiants / PAT - Public         | 26    | 25    | 26    | 29    | 32    |
-| Ã©tudiants / PE - PrivÃ©           | 32    | 39    | 46    | 38    | 47    |
-| Ã©tudiants / PAT - PrivÃ©          | 19    | 20    | 21    | 20    | 24    |
-| Ã©tudiants / PE (Public + PrivÃ©)  | 47    | 51    | 55    | 57    | 65    |
-| Ã©tudiants / PAT (Public + PrivÃ©) | 23    | 23    | 25    | 26    | 30    |
+| étudiants / PE - Public          | 57    | 57    | 60    | 69    | 74    |
+| étudiants / PAT - Public         | 26    | 25    | 26    | 29    | 32    |
+| étudiants / PE - Privé           | 32    | 39    | 46    | 38    | 47    |
+| étudiants / PAT - Privé          | 19    | 20    | 21    | 20    | 24    |
+| étudiants / PE (Public + Privé)  | 47    | 51    | 55    | 57    | 65    |
+| étudiants / PAT (Public + Privé) | 23    | 23    | 25    | 26    | 30    |
 
 
 Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES
-Titre du Graphe 47 : Evolution de ratios Ã  l'Enseignement
-SupÃ©rieur : Public et PrivÃ©
+Titre de la Graphe 47 : Evolution de ratios à l'Enseignement
+Supérieur : Public et Privé
 80
 
-0 Ã©tudiants / PAT - PrivÃ©
+0 étudiants / PAT - Privé
 2 016 2 018 2 020 2 022 2 024
-annÃ©e
+année
 45
+
 ---
-Le rapport Etudiants/Personnel Enseignant Ã  l'Enseignement SupÃ©rieur (ESUP) oscille entre
-47 et 65 Ã©tudiants par enseignant, tandis que le rapport Ã©tudiants/Personnel Administratif et
-Technique (PAT) se situe entre 23 et 30 Ã©tudiants par personnel administratif et technique.
-Notons que ces deux ratios sont plus Ã©levÃ©s dans les institutions d'enseignement supÃ©rieur
-public que dans celles du secteur privÃ©.
-Titre du Graphe 48 : Evolution de ratio Ã  l'Enseignement
-SupÃ©rieur
+
+Le rapport Etudiants/Personnel Enseignant à l'Enseignement Supérieur (ESUP) oscille entre
+47 et 65 étudiants par enseignant, tandis que le rapport étudiants/Personnel Administratif et
+Technique (PAT) se situe entre 23 et 30 étudiants par personnel administratif et technique.
+Notons que ces deux ratios sont plus élevés dans les institutions d'enseignement supérieur
+public que dans celles du secteur privé.
+Titre de la Graphe 48 : Evolution de ratio à l'Enseignement
+Supérieur
 70
 
 0
 2 016 2 018 2 020 2 022 2 024
-annÃ©e
-Titre du Tableau 31 : EVOLUTION DE RATIOS ETUDIANTS / PE PAR DOMAINE A Lâ€™ENSEIGNEMENT
+année
+Titre de la Tableau 31 : EVOLUTION DE RATIOS ETUDIANTS / PE PAR DOMAINE A L’ENSEIGNEMENT
 SUPERIEUR PUBLIC DE 2017 A 2022
 
 | RATIO ETU/PE | 2017 | 2018 | 2019 | 2020 | 2022 |
@@ -1924,24 +2023,26 @@ SUPERIEUR PUBLIC DE 2017 A 2022
 
 
 Source : Service de la Statistique et de la Planification / DSSIP/ MESUPRES
-223 Ã©tudiants sont encadrÃ©s par un enseignant dans le domaine des Sciences de la SociÃ©tÃ©.
-Ce ratio est suivi du domaine Arts, Lettres et Sciences Humaines avec 79 Ã©tudiants pour un
-enseignant et les sciences de la santÃ© avec 70 Ã©tudiants pour un enseignant.
+223 étudiants sont encadrés par un enseignant dans le domaine des Sciences de la Société.
+Ce ratio est suivi du domaine Arts, Lettres et Sciences Humaines avec 79 étudiants pour un
+enseignant et les sciences de la santé avec 70 étudiants pour un enseignant.
 46
+
 ---
-Le domaine de Sciences de lâ€™IngÃ©nieur a un ratio de 32 Ã©tudiants par enseignant, et dans le
-domaine des Sciences et Technologies ainsi que les Sciences de lâ€™Education, 43 Ã  46 Ã©tudiants
-sont encadrÃ©s par un enseignant.
-Titre du Graphe 49 : RÃ©partition de ratio
-Ã©tudiants/enseignant par domaine Ã  l'IES
-Public -annÃ©e 2022
+
+Le domaine de Sciences de l’Ingénieur a un ratio de 32 étudiants par enseignant, et dans le
+domaine des Sciences et Technologies ainsi que les Sciences de l’Education, 43 à 46 étudiants
+sont encadrés par un enseignant.
+Titre de la Graphe 49 : Répartition de ratio
+étudiants/enseignant par domaine à l'IES
+Public -année 2022
 43 79 46
 223
 70 32
 ALSH SE SI SSANTE SSTE STECH
 12 - LES CHERCHEURS ENSEIGNANTS
-Grahe 50 : RÃ©partition par genre des Chercheurs
-Enseignants -annÃ©e 2022
+Grahe 50 : Répartition par genre des Chercheurs
+Enseignants -année 2022
 50
 45
 40
@@ -1953,12 +2054,14 @@ Enseignants -annÃ©e 2022
 
 
 47
+
 ---
-Pour le CNARP, le CNRE, le CNRIT, le CNRO, PBZT, INSTN et lâ€™Administration, il y a plus de
-chercheurs masculins que de fÃ©minins. Les femmes sont majoritaires au CIDST, au FOFIFA et
+
+Pour le CNARP, le CNRE, le CNRIT, le CNRO, PBZT, INSTN et l’Administration, il y a plus de
+chercheurs masculins que de féminins. Les femmes sont majoritaires au CIDST, au FOFIFA et
 IMVAVET.
-Titre du Graphe 51 : Taux de rÃ©partition des chercheurs
-enseignants -annÃ©e 2022
+Titre de la Graphe 51 : Taux de répartition des chercheurs
+enseignants -année 2022
 INSTN Administr CIDST CNARP
 7% ation 7%
 PBZT CNRE
@@ -1970,11 +2073,11 @@ CNRIT
 FOFIFA CNRO
 22% 4%
 Le groupe de chercheurs le plus important se trouve au PBZT, au CNRE, au CNRIT et au FOFIFA,
-reprÃ©sentant un pourcentage allant de 13 Ã  23 %. En revanche, pour les chercheurs de l'IMVAVET, du
-CNRO, du CIDST, du CNARP, de lâ€™INSTN et de l'administration, leur proportion est plus modeste, ne
-reprÃ©sentant que 4% Ã  7% du total des chercheurs.
+représentant un pourcentage allant de 13 à 23 %. En revanche, pour les chercheurs de l'IMVAVET, du
+CNRO, du CIDST, du CNARP, de l’INSTN et de l'administration, leur proportion est plus modeste, ne
+représentant que 4% à 7% du total des chercheurs.
 13 - LE BUDGET
-Titre du Graphe 52 : Taux d'Ã©volution par programme de
+Titre de la Graphe 52 : Taux d'évolution par programme de
 budget du MESUPRES
 120,0%
 100,0%
@@ -1993,12 +2096,14 @@ budget du MESUPRES
 
 
 48
+
 ---
-Le Programme 028 est le plus remarquable avec un taux plus Ã©levÃ©, jusquâ€™Ã  95,3% et diminue
-Ã  82,8% en 2022. Le Programme 311 a un taux le plus faible de lâ€™ordre de 0.1 et 0.2%
+
+Le Programme 028 est le plus remarquable avec un taux plus élevé, jusqu’à 95,3% et diminue
+à 82,8% en 2022. Le Programme 311 a un taux le plus faible de l’ordre de 0.1 et 0.2%
 seulement.
-Titre du Graphe 53 : Taux de rÃ©partititon de budget par rubrique Ã 
-l'ESUP -annÃ©e 2022
+Titre de la Graphe 53 : Taux de répartititon de budget par rubrique à
+l'ESUP -année 2022
 80,0%
 60,0%
 40,0%
@@ -2011,11 +2116,11 @@ ITE SERVICE RT INTERNE EXTERNE
 | - | ---- | ---- | ----- | ---- | ---- | ----- |
 
 
-Le taux le plus Ã©levÃ© (65,3 %) est attribuÃ© aux dÃ©penses de salaires ou Solde, suivi du Transfert
-qui est de 27,9% ; le reste qui sâ€™Ã©lÃ¨ve Ã  6,8% est rÃ©parti dans les 3 autres rubriques,
-notamment les PIP (interne et externe) 4,6%, Biens et Services 2,1% et IndemnitÃ© 0,1%.
-Titre du Graphe 54 : Taux d'Ã©volution de budget par mission Ã 
-l'Enseignement SupÃ©rieur
+Le taux le plus élevé (65,3 %) est attribué aux dépenses de salaires ou Solde, suivi du Transfert
+qui est de 27,9% ; le reste qui s’élève à 6,8% est réparti dans les 3 autres rubriques,
+notamment les PIP (interne et externe) 4,6%, Biens et Services 2,1% et Indemnité 0,1%.
+Titre de la Graphe 54 : Taux d'évolution de budget par mission à
+l'Enseignement Supérieur
 99% 99%
 100% 88%
 84%
@@ -2031,28 +2136,32 @@ l'Enseignement SupÃ©rieur
 0%
 2020 2021 2022 2023
 49
+
 ---
-Au cours de 2 premiÃ¨res annÃ©es (2020 et 2021), la mission 840-Enseignement SupÃ©rieur
-bÃ©nÃ©ficie 99% du total du budget du MESUPRES alors que la part de Mission 850-Recherche
-Scientifique est trÃ¨s faible, soit 1%.
-A partir de 2022, cette situation sâ€™est amÃ©liorÃ©e, dâ€™oÃ¹ lâ€™augmentation jusqu'Ã  12% de la part
-de la recherche scientifique au dÃ©triment de celle de lâ€™Enseignement SupÃ©rieur oÃ¹ une
-diminution de 11 points (de 99% en 2021 Ã  88% en 2022) a Ã©tÃ© constatÃ©e.
+
+Au cours de 2 premières années (2020 et 2021), la mission 840-Enseignement Supérieur
+bénéficie 99% du total du budget du MESUPRES alors que la part de Mission 850-Recherche
+Scientifique est très faible, soit 1%.
+A partir de 2022, cette situation s’est améliorée, d’où l’augmentation jusqu'à 12% de la part
+de la recherche scientifique au détriment de celle de l’Enseignement Supérieur où une
+diminution de 11 points (de 99% en 2021 à 88% en 2022) a été constatée.
 50
 
-Au cours de 2 premiÃ¨res annÃ©es (2020 et 2021), la mission 840-Enseignement SupÃ©rieur
-bÃ©nÃ©ficie 99% du total du budget du MESUPRES alors que la part de Mission 850-Recherche
-Scientifique est trÃ¨s faible, soit 1%.
-A partir de 2022, cette situation sâ€™est amÃ©liorÃ©e, dâ€™oÃ¹ lâ€™augmentation jusqu'Ã  12% de la part
-de la recherche scientifique au dÃ©triment de celle de lâ€™Enseignement SupÃ©rieur oÃ¹ une
-diminution de 11 points (de 99% en 2021 Ã  88% en 2022) a Ã©tÃ© constatÃ©e.
+Au cours de 2 premières années (2020 et 2021), la mission 840-Enseignement Supérieur
+bénéficie 99% du total du budget du MESUPRES alors que la part de Mission 850-Recherche
+Scientifique est très faible, soit 1%.
+A partir de 2022, cette situation s’est améliorée, d’où l’augmentation jusqu'à 12% de la part
+de la recherche scientifique au détriment de celle de l’Enseignement Supérieur où une
+diminution de 11 points (de 99% en 2021 à 88% en 2022) a été constatée.
 50
+
 ---
+
 ANNEXE : LISTE DES INSTITUTIONS SUPERIEURES PAR REGION
 
-| NÂ° |                     | INSTITUTIONS SUPÃ‰RIEURES PUBLIQUES | INSTITUTIONS SUPÃ‰RIEURES PUBLIQUES                                                                                                                                    |                                                                                                                                                                       |
+| N° |                     | INSTITUTIONS SUPÉRIEURES PUBLIQUES | INSTITUTIONS SUPÉRIEURES PUBLIQUES                                                                                                                                    |                                                                                                                                                                       |
 | -- | ------------------- | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| NÂ° | REGIONS             | REGIONS                            | Nom de l'Etablissement                                                                                                                                                | Nom de l'Etablissement                                                                                                                                                |
+| N° | REGIONS             | REGIONS                            | Nom de l'Etablissement                                                                                                                                                | Nom de l'Etablissement                                                                                                                                                |
 | 1  | ALAOTRA MANGORO     | ALAOTRA MANGORO                    | ISTRALMA, CNTEMAD                                                                                                                                                     | ISTRALMA, CNTEMAD                                                                                                                                                     |
 | 2  | AMORON'I MANIA      | AMORON'I MANIA                     | ISTA, CNTEMAD                                                                                                                                                         | ISTA, CNTEMAD                                                                                                                                                         |
 | 3  | ANALANJIROFO        | ANALANJIROFO                       | ISTRCE, CNTEMAD                                                                                                                                                       | ISTRCE, CNTEMAD                                                                                                                                                       |
@@ -2078,10 +2187,12 @@ ANNEXE : LISTE DES INSTITUTIONS SUPERIEURES PAR REGION
 
 
 51
+
 ---
-| nÂ° | INSTITUTIONS SUPERIEURES PRIVEES | INSTITUTIONS SUPERIEURES PRIVEES                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+
+| n° | INSTITUTIONS SUPERIEURES PRIVEES | INSTITUTIONS SUPERIEURES PRIVEES                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | -- | -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| nÂ° | REGIONS                          | Nom de l'Etablissement                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| n° | REGIONS                          | Nom de l'Etablissement                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | 1  | ALAOTRA MANGORO                  | ONIFRA, ESPA , IFISA , IFISA , INSPALM , ISPASM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | 2  | AMORON'I MANIA                   | IFISAM , INSPALMA , ISPRAITRA , PARAMA IF                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | 3  | ANALANJIROFO                     | IFPA , IFPAMA, IFSM A, INSFPTA, ISPAM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -2096,11 +2207,13 @@ ANNEXE : LISTE DES INSTITUTIONS SUPERIEURES PAR REGION
 
 
 52
+
 ---
+
 | 12 | BONGOLAVA           | IFPT, ISPE                                                                                                                                                      |
 | -- | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 13 | DIANA               | ISIA, ISMADA, ISTIME, IUP AESM Nosy Be Hell Ville, IFIMA, IFSPN, ISA , ISAPSP, ISISFA, ISNM , ISPNA, ISPRD , ISPS Sambirano, URM                                |
-| 14 | HAUTE MATSIATRA     | ECAT TARATRA , FF MMM-IMD , ICTUS, IFT, ISMST, ISSD , ISSPS THOMAS Dâ€™AQUIN , ITSA , ITSFX, LIME, SALT, ESIF, IFPF, IFSPR, INSPNMAD , ISSFP                      |
+| 14 | HAUTE MATSIATRA     | ECAT TARATRA , FF MMM-IMD , ICTUS, IFT, ISMST, ISSD , ISSPS THOMAS D’AQUIN , ITSA , ITSFX, LIME, SALT, ESIF, IFPF, IFSPR, INSPNMAD , ISSFP                      |
 | 15 | IHOROMBE            | IFSPR, IPPI                                                                                                                                                     |
 | 16 | ITASY               | ISMR, ISPRI , ONIFRA , IFSM, INSPARI                                                                                                                            |
 | 17 | MELAKY              | IFP                                                                                                                                                             |
@@ -2112,132 +2225,17 @@ ANNEXE : LISTE DES INSTITUTIONS SUPERIEURES PAR REGION
 
 
 53
+
 ---
-CARTOGRAPHIE DES INSTITUTIONS Dâ€™ENSEIGNEMENT SUPERIEUR PUBLICS ET PRIVES
+
+CARTOGRAPHIE DES INSTITUTIONS D’ENSEIGNEMENT SUPERIEUR PUBLICS ET PRIVES
 54
 
-CARTOGRAPHIE DES INSTITUTIONS Dâ€™ENSEIGNEMENT SUPERIEUR PUBLICS ET PRIVES
+CARTOGRAPHIE DES INSTITUTIONS D’ENSEIGNEMENT SUPERIEUR PUBLICS ET PRIVES
 54
+
 ---
+
 55
 
 55
-# ======================================= META ======================================= #{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 1, "half": "right"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 2, "half": "right"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 3, "half": "left"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 3, "half": "right"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 4, "half": "left"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 4, "half": "right"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 5, "half": "left"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 5, "half": "right"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 6, "half": "left"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 6, "half": "right"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 7, "half": "left"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 7, "half": "right"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 8, "half": "left"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 8, "half": "right"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 9, "half": "left"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 9, "half": "right"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 10, "half": "left"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 10, "half": "right"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 11, "half": "left"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 11, "half": "right"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 12, "half": "left"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 12, "half": "right"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 13, "half": "left"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 13, "half": "right"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 14, "half": "left"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 14, "half": "right"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 15, "half": "left"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 15, "half": "right"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 16, "half": "left"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 16, "half": "right"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 17, "half": "left"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 17, "half": "right"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 18, "half": "left"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 18, "half": "right"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 19, "half": "left"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 19, "half": "right"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 20, "half": "left"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 20, "half": "right"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 21, "half": "left"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 21, "half": "right"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 22, "half": "left"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 22, "half": "right"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 23, "half": "left"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 23, "half": "right"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 24, "half": "left"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 24, "half": "right"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 25, "half": "left"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 25, "half": "right"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 26, "half": "left"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 26, "half": "right"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 27, "half": "left"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 27, "half": "right"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 28, "half": "left"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 28, "half": "right"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 29, "half": "left"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 29, "half": "right"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 30, "half": "left"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 30, "half": "right"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 31, "half": "left"}
----
-{"filename": "MESUPRES_en_chiffres_MAJ.pdf", "physical_page": 31, "half": "right"}
