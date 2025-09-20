@@ -15,6 +15,12 @@ os.makedirs(dossier_sortie, exist_ok=True)
 
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
+def extract_texte(img):
+    h, w = img.shape[:2]
+    crop = img[0:int(h*0.3), :]
+    text = pytesseract.image_to_string(crop, lang="fra+eng", config="--oem 1 --psm 6")
+    return text
+
 def extraire_graphs(pdf_path, output_dir):
     graphs_dict = {}
     try:
@@ -23,7 +29,7 @@ def extraire_graphs(pdf_path, output_dir):
                 page = pdf.pages[page_num]
                 text = page.extract_text() or ""
 
-                # Extract potential graph titles
+                # Extract potential graph titles from page text as fallback
                 titles = []
                 if "Graphe" in text:
                     lines = text.split('\n')
@@ -116,21 +122,21 @@ def extraire_graphs(pdf_path, output_dir):
                     cropped_path = os.path.join(output_dir, cropped_filename)
                     cv2.imwrite(cropped_path, cropped)
 
-                    try:
-                        img_pil = Image.open(cropped_path)
-                        ocr_text = pytesseract.image_to_string(img_pil, lang='fra')
-                    except Exception as e:
-                        ocr_text = f"OCR Error: {str(e)}"
+                    # Extract text from top crop for title
+                    ocr_title_text = extract_texte(cropped)
 
-                    # Associate graph with title or generate default
-                    title = titles[idx] if idx < len(titles) else f"Graphe {page_num+1}_{idx}"
-                    match = re.search(r"Graphe (\d+)", title, re.IGNORECASE)
+                    # Check if "Graphe xx" is in OCR text
+                    match = re.search(r"Graphe (\d+)", ocr_title_text, re.IGNORECASE)
                     if match:
                         graph_num = match.group(1)
                         key = f"graph {graph_num}"
+                        # Ensure no duplicate keys; append page and idx if key exists
+                        if key in graphs_dict:
+                            key = f"{key}_page{page_num+1}_{idx}"
+                        graphs_dict[key] = cropped_path
                     else:
-                        key = title.lower().replace(" ", "_")
-                    graphs_dict[key] = cropped_path
+                        # Delete the image if no match
+                        os.remove(cropped_path)
 
                 os.remove(temp_image_path)
 

@@ -23,7 +23,7 @@ def extraire_graphs(pdf_path, output_dir):
                 page = pdf.pages[page_num]
                 text = page.extract_text() or ""
 
-                # Extract potential graph titles from page text as fallback
+                # Extract potential graph titles
                 titles = []
                 if "Graphe" in text:
                     lines = text.split('\n')
@@ -122,24 +122,14 @@ def extraire_graphs(pdf_path, output_dir):
                     except Exception as e:
                         ocr_text = f"OCR Error: {str(e)}"
 
-                    # Try to extract title from OCR text using regex
-                    match = re.search(r"Graphe (\d+)", ocr_text, re.IGNORECASE)
+                    # Associate graph with title or generate default
+                    title = titles[idx] if idx < len(titles) else f"Graphe {page_num+1}_{idx}"
+                    match = re.search(r"Graphe (\d+)", title, re.IGNORECASE)
                     if match:
                         graph_num = match.group(1)
                         key = f"graph {graph_num}"
                     else:
-                        # Fallback to page text title or default
-                        title = titles[idx] if idx < len(titles) else f"Graphe {page_num+1}_{idx}"
-                        match_fallback = re.search(r"Graphe (\d+)", title, re.IGNORECASE)
-                        if match_fallback:
-                            graph_num = match_fallback.group(1)
-                            key = f"graph {graph_num}"
-                        else:
-                            key = title.lower().replace(" ", "_")
-
-                    # Ensure no duplicate keys; append page and idx if key exists
-                    if key in graphs_dict:
-                        key = f"{key}_page{page_num+1}_{idx}"
+                        key = title.lower().replace(" ", "_")
                     graphs_dict[key] = cropped_path
 
                 os.remove(temp_image_path)

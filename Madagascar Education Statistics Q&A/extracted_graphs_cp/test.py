@@ -1,15 +1,15 @@
-import re
+import cv2
+import pytesseract
+from pathlib import Path
 
-def strings(filename, min_length=4):
-    with open(filename, "rb") as f:
-        data = f.read()
-    # On cherche les suites de caractères imprimables ASCII
-    return re.findall(rb"[ -~]{%d,}" % min_length, data)
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
-if __name__ == "__main__":
-    fichier = "page28_graph3.png"
-    for s in strings(fichier):
-        try:
-            print(s.decode("utf-8"))
-        except UnicodeDecodeError:
-            print(s.decode("latin-1"))
+img_path = Path("page28_graph3.png")
+img = cv2.imread(str(img_path))
+
+h, w = img.shape[:2]
+crop = img[0:int(h*0.3), :]
+
+text = pytesseract.image_to_string(crop, lang="fra+eng", config="--oem 1 --psm 6")
+print("Texte OCR détecté :")
+print(text)
